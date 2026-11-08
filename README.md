@@ -29,13 +29,13 @@ New to the terminal? Read the [terminal guide](https://code.claude.com/docs/en/t
 ## Step 2. Add Chaky (once)
 Type `claude` and press Enter. Log in the first time. Then type these two lines inside Claude:
 ```
-/plugin marketplace add chaklam-silpasuwanchai/ask-chaky
+/plugin marketplace add chaklam-silpasuwanchai/research_skill
 /plugin install chaky@ask-chaky
 ```
 Quit Claude and start it again with `claude`.
 
 **Lazy way:** paste this into Claude instead:
-> Read https://raw.githubusercontent.com/chaklam-silpasuwanchai/ask-chaky/main/WELCOME.md and follow it.
+> Read https://raw.githubusercontent.com/chaklam-silpasuwanchai/research_skill/main/WELCOME.md and follow it.
 
 ## Step 3. Start your paper
 In your Terminal or PowerShell:

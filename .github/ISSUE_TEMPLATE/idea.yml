@@ -1,0 +1,16 @@
+name: Idea or new skill
+description: Suggest a new skill or a change in behavior.
+labels: ["idea"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+      description: What should Chaky do, and when?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it helps
+      description: The situation where you needed it.

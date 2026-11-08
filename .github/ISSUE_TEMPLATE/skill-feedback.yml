@@ -1,0 +1,29 @@
+name: Skill feedback
+description: A skill did something unhelpful, or could do better. (teach-chaky drafts this for you.)
+labels: ["skill-feedback"]
+body:
+  - type: dropdown
+    id: skill
+    attributes:
+      label: Skill
+      options: [ask-chaky, start-paper, plan-tickets, shape-idea, grill-me, run-study, write-paper, review-paper, find-papers, polish-prose, analyze-results, write-code, use-llms, teach-chaky, not sure]
+    validations:
+      required: true
+  - type: textarea
+    id: happened
+    attributes:
+      label: What happened
+      description: What you said, and what Chaky did. Never paste participant data, API keys, or confidential text.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: wording
+    attributes:
+      label: Proposed wording (optional)
+      description: A line or two you would add or change in the skill.

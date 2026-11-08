@@ -1,0 +1,28 @@
+name: Something broke
+description: Install problems, errors, or a skill that does not start.
+labels: ["bug"]
+body:
+  - type: textarea
+    id: steps
+    attributes:
+      label: What you did
+      description: The commands or phrases you used, step by step.
+    validations:
+      required: true
+  - type: textarea
+    id: error
+    attributes:
+      label: What went wrong
+      description: The error message or what you saw. Never paste API keys or participant data.
+    validations:
+      required: true
+  - type: input
+    id: setup
+    attributes:
+      label: Your setup
+      description: "OS, Claude Code version (claude --version), Chaky version"
+  - type: dropdown
+    id: install
+    attributes:
+      label: How you installed Chaky
+      options: ["/plugin install", "copied skills folder (fallback)", "not sure"]
