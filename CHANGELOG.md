@@ -14,3 +14,4 @@ Bump to 0.2.0 only after students have installed 0.1.0.
 - **Repo:** CI validation (`scripts/validate.py`), scenario tests, trigger phrases, student walkthroughs (`tests/`), a filled-in example project, docs, issue forms, MIT license, `CITATION.cff`.
 - **Student safety and fit:** lab defaults file, optional pre-commit leak guard, explanation-language setting, CHI ethics tracker.
 - 14 skills: merged from an earlier 20 to keep the suite lean.
+- **Voice:** Chaky talks in everyday words and uses the researcher's own terms (`terms.md` and the chat) in conversation, not just in the paper. Internal words (ticket, done-when, fog, IV/DV, modes) stay in the files. `ask-chaky` offers to update the voice rules in older projects.
