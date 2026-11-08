@@ -1,6 +1,6 @@
 # Terms
 
-One concept, one term. Use the same term in the paper, the code, and the notes. Prefer the term the academic community already uses; if your own word differs, pick one and write the other under "Do not use".
+Your words. One concept, one term, used everywhere: when Chaky talks to you, and in the paper, code, and notes. If your word differs from the one the field uses, you pick which to use (Chaky can tell you which reviewers expect) and the other goes under "Do not use".
 
 | Preferred term | Meaning (one sentence) | Do not use | Notes |
 |---|---|---|---|
