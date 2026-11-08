@@ -1,0 +1,12 @@
+{
+  "name": "chaky",
+  "version": "0.1.0",
+  "description": "Chaky, your AI research partner: from a rough idea to a submitted paper (CHI, ACL, NeurIPS style). Say \"ask Chaky\" to start.",
+  "author": {
+    "name": "Chaklam Silpasuwanchai"
+  },
+  "homepage": "https://github.com/chaklam-silpasuwanchai/research_skill",
+  "repository": "https://github.com/chaklam-silpasuwanchai/research_skill",
+  "license": "MIT",
+  "keywords": ["research", "academic-writing", "paper", "chi", "acl", "neurips", "literature-review", "students"]
+}

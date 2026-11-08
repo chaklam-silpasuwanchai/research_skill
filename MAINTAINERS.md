@@ -2,7 +2,7 @@
 
 ## Publish (once)
 1. Replace `Chaklam Silpasuwanchai` and `chaklam-silpasuwanchai` in `README.md`, `WELCOME.md`, `plugins/chaky/.claude-plugin/plugin.json`, and `.claude-plugin/marketplace.json`.
-2. Create a **public** GitHub repo named `ask-chaky` and push this folder.
+2. Make the GitHub repo **public** (it is `chaklam-silpasuwanchai/research_skill`; the marketplace inside is named `ask-chaky`, so install commands use `@ask-chaky`). If you rename the repo, update `README.md`, `WELCOME.md`, `CITATION.cff`, and both JSON files.
 3. On a clean machine, follow the README exactly. Fix anything that confuses you first.
 4. Run one real paper through `ask-chaky` (start, idea, a pilot, a review).
 
