@@ -55,7 +55,7 @@ Copy the templates from `assets/` into `components/` (CHI or NLP variant) and fi
 ## 4. Finish
 1. Learn the voice from past papers, if given.
 2. Show the tree, commit (`init: repo structure for <venue>`), and set the stage map (existing work counts as 🟡/✅).
-3. Seed the board with `plan-tickets` (about 7 tickets), ask the researcher to rate each 1-5, and **show it**. Tip: open `components/tickets.md` in your editor beside the terminal as a side panel.
+3. Seed the board with `plan-tickets` (about 7 tickets), ask the researcher to rate each 1-5, and **show it**. Then offer the board side panel once (see `plan-tickets`): a mod they ask Claude Code to build, or `components/tickets.md` open in an editor.
 4. Add a first `log.md` entry (venue, paper type, mode). Point to the top ticket (usually `refine-idea`) and mention "ask Chaky".
 
 ## Adopt mode

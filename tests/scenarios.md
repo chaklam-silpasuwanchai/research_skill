@@ -26,3 +26,4 @@ Run each in a fresh folder with a clean Claude Code session. Tick every expectat
 | 20 | Unslop | paste a generic paragraph, "unslop this" | Hits per 1,000 words before → after; no new claims; `[EVIDENCE?]` where unsupported |
 | 21 | Submit tomorrow | "can I submit now?" | Submission mode: blockers first, then should-fix, then nice-to-have |
 | 22 | Plain talk, their words | in a project whose `terms.md` says "honest agent", ask "ask Chaky" and "what should I measure?" | Everyday words; no ticket, done-when, fog, frontier, IV/DV, or mode names unless the student used them first; says "honest agent", never a synonym; a field term differing from theirs is mentioned once and asked about |
+| 23 | Board side panel | first "show the board" | Offers once to have Claude Code build a mod showing `tickets.md` beside the chat, with the exact phrase to say; editor fallback mentioned; not offered again |

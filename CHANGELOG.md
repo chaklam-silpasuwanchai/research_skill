@@ -15,3 +15,4 @@ Bump to 0.2.0 only after students have installed 0.1.0.
 - **Student safety and fit:** lab defaults file, optional pre-commit leak guard, explanation-language setting, CHI ethics tracker.
 - 14 skills: merged from an earlier 20 to keep the suite lean.
 - **Voice:** Chaky talks in everyday words and uses the researcher's own terms (`terms.md` and the chat) in conversation, not just in the paper. Internal words (ticket, done-when, fog, IV/DV, modes) stay in the files. `ask-chaky` offers to update the voice rules in older projects.
+- **Board side panel:** `plan-tickets` and `start-paper` offer once to have Claude Code build a mod that shows `tickets.md` beside the chat (editor side panel as the fallback).
