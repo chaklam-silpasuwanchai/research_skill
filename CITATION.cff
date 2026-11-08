@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use Chaky in your research workflow, please cite it as below."
+title: "Chaky: research-to-paper skills for AI coding agents"
+version: 0.1.0
+authors:
+  - family-names: Silpasuwanchai
+    given-names: Chaklam
+repository-code: "https://github.com/chaklam-silpasuwanchai/ask-chaky"
+license: MIT

@@ -1,0 +1,7 @@
+
+# CHI: protected participant data (keep identifiable or raw data OUT of git)
+src/data/raw/
+src/data/identifiable/
+*.consent.pdf
+*recording*.mp4
+*recording*.wav

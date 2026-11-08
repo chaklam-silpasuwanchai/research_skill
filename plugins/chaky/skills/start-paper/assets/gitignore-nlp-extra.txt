@@ -1,0 +1,5 @@
+
+# ACL/NeurIPS: protected or very large data (keep licensed / private data OUT of git)
+src/data/raw_licensed/
+src/data/*.zip
+src/experiment_logs/**/*.large.*
