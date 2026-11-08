@@ -13,7 +13,7 @@ Plan, don't do: the board decides *what* to work on; the work happens inside tic
 - **Tickets** table: name · type · pri (1-5) · size (S/M/L) · status (open, doing, blocked by `<ticket>`, done, parked) · done when.
 - **Done:** one-line outcome each.
 
-Tip for students: open `tickets.md` in your editor beside the terminal. That is your side panel.
+**See the board beside the chat.** Offer once, when the board is first shown: "Want your board always visible next to our chat? Claude Code can build you a small add-on (a *mod*) for it. Just say: *make me a mod that shows my board from components/tickets.md in a side panel, refreshed after each turn.*" If they say yes, hand over to Claude Code's own mod-building; don't write the mod inside this skill. No mods in their tool (Codex, older Claude Code)? Open `tickets.md` in an editor beside the terminal instead. Keep the board's headings and table columns as they are, so the panel can read them.
 
 ## Six ticket types and who does the work
 | Type | What it is | Skill |
