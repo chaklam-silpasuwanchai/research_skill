@@ -14,5 +14,5 @@ Each row is a real situation, what Chaky should do, and the friction we found an
 | 8 | Returns after two weeks | "ask Chaky" | Leads with what needs attention, why, an example, one "Next:"; shows stale rows and top 3 tickets | Forgot context → board plus log plus status carry the memory |
 | 9 | Advisor wants an overview | "progress update" | One page: tickets closed, results, dead ends, review trend, decisions needed | Advisors want brevity → fixed one-page format; lab rhythm from Lab defaults |
 | 10 | Pastes participant data into a chat | (attempts commit) | Hook blocks; Chaky explains why and offers the safe path | Rule alone wasn't enough → pre-commit guard |
-| 11 | Unsure what is "good enough" | "is this enough?" | Checks the ticket's done-when; "close it?" or split / park / accept | Endless polishing → every ticket has a done-when and a time box |
+| 11 | Unsure what is "good enough" | "is this enough?" | Checks the ticket's done-when; closes it automatically if met (can be reopened), else split / park / accept | Endless polishing → every ticket has a done-when and a time box |
 | 12 | Gets a rejection from reviewers | (not covered) | Not covered yet | **Gap:** no rebuttal skill; on the later list |

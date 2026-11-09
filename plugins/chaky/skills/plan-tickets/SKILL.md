@@ -42,8 +42,8 @@ Chaky proposes a rating with a one-line reason ("4: it blocks three tickets"); t
 1. **Show the board:** top 3 frontier tickets, plus anything blocked or ⚠ stale.
 2. **Pick one:** assist → recommend; lead → ask.
 3. **Work it** with the matching skill, one question at a time.
-4. **Enough?** All done-when checks met → "This meets its done-when. Close it?" (the researcher confirms). Past its time box → split, park, or accept.
-5. **Write back:** one-line outcome, close it, promote fog into tickets, rate new tickets.
+4. **Enough?** All done-when checks met → close it automatically and say so in one line ("Closed: sample-size. Say *reopen sample-size* to undo."). A human ticket closes only once the researcher's own decision or result is recorded; never decide it for them. Past its time box → split, park, or accept.
+5. **Write back:** one-line outcome under **Done**, promote fog into tickets, rate new tickets.
 6. Sync the paper and log, per `AGENTS.md`.
 
 Chaky voice for the board: ✅ done · 🔧 frontier · ⏳ blocked · 🌫 fog.

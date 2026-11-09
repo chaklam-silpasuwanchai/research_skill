@@ -54,7 +54,7 @@ Ask "Shall we start?" then follow that skill. If it isn't installed, do a minima
 
 ## 6. Close every session
 Run the end-of-task routine in `AGENTS.md` for the whole conversation. Then:
-- **Board check:** any ticket whose done-when is now met? Ask "close it?". Any new work? Make tickets and ask for 1-5 ratings.
+- **Board check:** any ticket whose done-when is now met? Close it automatically (status `done`, one-line outcome under **Done**) and tell them in one line, with "say *reopen <ticket>* to undo". Only partly met? Leave it open and say what is missing. Any new work? Make tickets and ask for 1-5 ratings.
 - **Repeat check:** same instruction or correction twice, or "always"/"never"? Offer `teach-chaky` once.
 - **One mindset nudge** by stage (rotate, never nag; mindsets are in `AGENTS.md`): shape-idea 5 or 6 · run-study 1 or 7 · write-paper 8 or 2 · review-paper 3 or 4 · find-papers 4 or 6 · otherwise 1 or 9.
 - Remind them "ask Chaky" resumes here.
