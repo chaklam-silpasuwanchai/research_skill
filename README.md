@@ -74,7 +74,7 @@ Say **"ask Chaky"** and it picks the skill. You can also name one yourself. (Ful
 | `use-llms` | Which models to use; free-chat labeling and outside reviews |
 | `teach-chaky` | Makes repeated instructions permanent; adds skills |
 
-**How you work:** Chaky keeps a **board** (`components/tickets.md`) of tickets, each with a priority you rate 1-5 and a "done when". Say **"let me lead"** to steer yourself, or **"you drive"** to let Chaky recommend each next step. Not a waterfall: new ideas, papers, and review fixes become tickets any time.
+**How you work:** Chaky keeps a **board** (`components/tickets.md`) of tickets, each with a 1-5 priority (Chaky sets it; you can change it) and a "done when". Say **"let me lead"** to steer yourself, or **"you drive"** to let Chaky recommend each next step. Not a waterfall: new ideas, papers, and review fixes become tickets any time.
 
 ## New to Chaky? See an example
 Look at [`examples/honest-sales-agent`](examples/honest-sales-agent) to see a project a few rounds in, and print the [cheat sheet](docs/cheatsheet.md). [How it works](docs/how-it-works.md) shows how the skills connect.

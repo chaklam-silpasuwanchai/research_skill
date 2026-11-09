@@ -13,7 +13,7 @@ Show `references/mindsets.md` as a checklist; ask for an "ok" (or which to discu
 
 ## 1. Interview (one question at a time, rough answers welcome)
 **Needs first:** what do you want to make or find out (one line)? Who is it for, and what is the deadline? What exists already? Then **clarify the domain terms**: pick the 3-5 words your idea depends on and agree on one meaning and one example each (these go in `terms.md`). Then:
-1. CHI-style or ACL/NeurIPS-style? 2. Which conference or journal? 3. GitHub or local only? 4. **Which language should Chaky explain in?** (default English; the paper, code, citations, and file names stay English unless they say otherwise) 5. **Which mode do you prefer?** `assist` (Chaky recommends the next step and proposes ratings; good for beginners) or `lead` (you steer; Chaky answers and shows the board). Default assist; switch any time. 6. **Do you have past papers of your own?** (file paths or links; they stay outside the repo, and only short style notes are saved). If none, a few of your own paragraphs will do, or skip and learn the voice from drafts later. Run `git init` either way. For GitHub use `gh` or give the one remote command; ask before the first push.
+1. CHI-style or ACL/NeurIPS-style? 2. Which conference or journal? 3. GitHub or local only? 4. **Which language should Chaky explain in?** (default English; the paper, code, citations, and file names stay English unless they say otherwise) 5. **Which mode do you prefer?** `assist` (Chaky recommends the next step; good for beginners) or `lead` (you steer; Chaky answers and shows the board). Default assist; switch any time. 6. **Do you have past papers of your own?** (file paths or links; they stay outside the repo, and only short style notes are saved). If none, a few of your own paragraphs will do, or skip and learn the voice from drafts later. Run `git init` either way. For GitHub use `gh` or give the one remote command; ask before the first push.
 
 ## 2. Create only these folders
 Extras only if the user asks.
@@ -55,7 +55,7 @@ Copy the templates from `assets/` into `components/` (CHI or NLP variant) and fi
 ## 4. Finish
 1. Learn the voice from past papers, if given.
 2. Show the tree, commit (`init: repo structure for <venue>`), and set the stage map (existing work counts as 🟡/✅).
-3. Seed the board with `plan-tickets` (about 7 tickets), ask the researcher to rate each 1-5, and **show it**. Then offer the board side panel once (see `plan-tickets`): a mod they ask Claude Code to build, or `components/tickets.md` open in an editor.
+3. Seed the board with `plan-tickets` (about 7 tickets), assign each a 1-5 priority with a one-line reason, and **show it** (they can change any number). Then offer the board side panel once (see `plan-tickets`): a mod they ask Claude Code to build, or `components/tickets.md` open in an editor.
 4. Add a first `log.md` entry (venue, paper type, mode). Point to the top ticket (usually `refine-idea`) and mention "ask Chaky".
 
 ## Adopt mode

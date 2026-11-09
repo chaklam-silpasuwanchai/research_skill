@@ -18,7 +18,7 @@
 | "organize my messy project" | `start-paper` |
 | "show the board" | `plan-tickets` |
 | "what should I do first?" | `plan-tickets` |
-| "rate my priorities" | `plan-tickets` |
+| "change my priorities" | `plan-tickets` |
 | "let me lead" | `plan-tickets` |
 | "you drive" | `plan-tickets` |
 | "this project is too big to plan" | `plan-tickets` |

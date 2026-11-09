@@ -1,6 +1,6 @@
 # How Chaky works
 
-Chaky (`ask-chaky`) is the front door. It reads your project and **board**, tells you what needs attention, and routes you to a skill. Work happens in **tickets**; each has a priority you rate 1-5 and a "done when" so you know when it is enough. The paper is a living draft: every skill ends by syncing it, and `review-paper` checks it often.
+Chaky (`ask-chaky`) is the front door. It reads your project and **board**, tells you what needs attention, and routes you to a skill. Work happens in **tickets**; each has a 1-5 priority Chaky sets (you can change it) and a "done when" so you know when it is enough. The paper is a living draft: every skill ends by syncing it, and `review-paper` checks it often.
 
 ```mermaid
 flowchart TD
@@ -26,7 +26,7 @@ flowchart TD
   end
 ```
 
-**Two modes:** `assist` (Chaky recommends the top ticket and proposes ratings) and `lead` (you steer; Chaky shows the board and answers). Switch any time: "you drive" / "let me lead".
+**Two modes:** `assist` (Chaky recommends the top ticket) and `lead` (you steer; Chaky shows the board and answers). Switch any time: "you drive" / "let me lead".
 
 **Where things live in your project**
 - `components/tickets.md`: the board (destination, fog, tickets)

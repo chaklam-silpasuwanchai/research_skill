@@ -10,7 +10,7 @@
 | find or sharpen an idea | help me find a research question |
 | see my board of tickets | show the board |
 | keep my board visible beside the chat | make me a mod that shows my board |
-| rate or re-rate my priorities | rate my priorities |
+| change a priority | make <task> a 5 |
 | steer myself / let Chaky steer | let me lead / you drive |
 | look back on the week | retro |
 | be challenged on my idea or plan | grill me |

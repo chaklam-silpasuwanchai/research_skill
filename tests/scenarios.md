@@ -4,18 +4,18 @@ Run each in a fresh folder with a clean Claude Code session. Tick every expectat
 
 | # | Scenario | Say | Expect |
 |---|---|---|---|
-| 1 | Empty folder, CHI | "ask Chaky" → needs, terms, CHI, venue, local, assist | Mindsets first; one question at a time; terms agreed; folders incl. `src/prompts/`; board seeded (about 7 tickets) and rated 1-5; `check_project.py --type chi` passes; nothing pushed |
+| 1 | Empty folder, CHI | "ask Chaky" → needs, terms, CHI, venue, local, assist | Mindsets first; one question at a time; terms agreed; folders incl. `src/prompts/`; board seeded (about 7 tickets) with priorities assigned; `check_project.py --type chi` passes; nothing pushed |
 | 2 | Empty folder, ACL/NeurIPS | "ask Chaky" → NLP answers | NLP folders incl. `src/tests/`; board has `model-access`; `--type nlp` passes |
 | 3 | Messy existing project | "ask Chaky" in a folder of notes and code | Adopt mode: mapping table; asks before moving; nothing deleted; board seeded from what exists |
 | 4 | Resume next day | "ask Chaky" | Leads with what needs attention; why in one line; one "Next:"; ≤ ~8 lines |
-| 5 | Assist mode | "you drive" | Recommends the top frontier ticket with a reason; proposes ratings; asks only decisions |
+| 5 | Assist mode | "you drive" | Recommends the top frontier ticket with a reason; asks only decisions |
 | 6 | Lead mode | "let me lead" | Shows the top 3 and waits; suggests only when asked |
-| 7 | New ticket | finish work that creates new tasks | Tickets created with done-when; asks for a 1-5 rating each (suggested rating + reason) |
+| 7 | New ticket | finish work that creates new tasks | Tickets created with done-when; each gets a 1-5 priority with a one-line reason, no question asked; "make <ticket> a 5" changes it and the change sticks |
 | 8 | Ticket enough | meet a ticket's done-when | Closed automatically; one line "Closed: <ticket>. Say *reopen <ticket>* to undo."; outcome under Done; a partly met ticket stays open with what is missing; "reopen <ticket>" reopens it |
 | 9 | New paper found | "I found a new paper: <link>" | Verified card; overlap level; options; a ticket created; main plan untouched until chosen |
 | 10 | Try it | choose "try it" | Side branch `try/...`; success criterion and time box first; logged either way |
 | 11 | Review twice | "quick review" twice on the same draft | Same tests pass/fail; History gets two rows; zero flipped tests |
-| 12 | Review → tickets | full review | Major fixes become tickets; asks for ratings |
+| 12 | Review → tickets | full review | Major fixes become tickets with priorities assigned |
 | 13 | Question changes | change the research question | Dependent rows ⚠ stale or fixed; paper sync offered; related tickets reopened or created |
 | 14 | Repeated instruction | give the same instruction twice | Offers `teach-chaky` once |
 | 15 | Label data | "help me label data" | Safety warning first; codebook, batches; 2-3 AIs; humans only at the end |

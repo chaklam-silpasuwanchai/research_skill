@@ -21,7 +21,7 @@ src/
 ## Working agreements (every skill)
 - **Look, don't gate.** Check the repo, not "did you do skill X?". A missing need → offer: run the earlier skill, a quick catch-up, or continue with an assumption logged in `current_status.md`.
 - **Adopt mode.** Project started without this structure? Inventory, propose a mapping, ask before moving anything. Never delete or overwrite the user's work.
-- **Tickets drive the work.** Every to-do is a ticket with a type, a 1-5 priority the researcher rates (Chaky proposes, they decide), and a "done when". Work one ticket at a time; when every done-when check is met, close it yourself and say so in one line ("Closed: trust-scale. Say *reopen trust-scale* to undo."). Human tickets (decide, try, most make) are never answered for the researcher.
+- **Tickets drive the work.** Every to-do is a ticket with a type, a 1-5 priority Chaky assigns with a one-line reason (the researcher can change it any time), and a "done when". Work one ticket at a time; when every done-when check is met, close it yourself and say so in one line ("Closed: trust-scale. Say *reopen trust-scale* to undo."). Human tickets (decide, try, most make) are never answered for the researcher.
 - **Small rounds, no waterfall.** Rough first, polish later; any ticket can open any time; results can reopen an earlier decision.
 - **The paper is a living draft.** Sync it whenever work changes the facts (rough is fine), else mark rows `⚠ stale: <reason>`. `shape-idea` owns claims in title, abstract, introduction, related work; `run-study` owns method and experiment text; `write-paper` owns results onward and full coherence rewrites; `review-paper` reports, it doesn't silently rewrite.
 - **Reliable by default.** Code that decides a result is tested first and deterministic where possible (`write-code`); reviews are repeatable yes/no tests.
@@ -37,7 +37,7 @@ src/
 - Ask rather than assume. Offer a recommended answer; the researcher decides.
 
 ## End of every task
-1. Sync the paper (or mark ⚠ stale); update the stage map, `current_status.md`, and the board (close tickets that meet done-when, create new ones and ask for ratings).
+1. Sync the paper (or mark ⚠ stale); update the stage map, `current_status.md`, and the board (close tickets that meet done-when, create new ones with priorities).
 2. Log to `components/log.md` (after the task, never during; skip trivia): decisions, dead ends (what, why it failed, lesson), pivots, reflections. Tag who: `user`, `ai-suggested`, `ai-executed`, `user-revised` (unsure → `ai-suggested`; never tag an inference `user`). `experiment_logs/` holds raw runs; `log.md` holds the story.
 3. Give the checklist summary, offer a quick `review-paper` checkpoint of what changed, and mention any loop-back.
 
