@@ -11,7 +11,7 @@ Run each in a fresh folder with a clean Claude Code session. Tick every expectat
 | 5 | Assist mode | "you drive" | Recommends the top frontier ticket with a reason; proposes ratings; asks only decisions |
 | 6 | Lead mode | "let me lead" | Shows the top 3 and waits; suggests only when asked |
 | 7 | New ticket | finish work that creates new tasks | Tickets created with done-when; asks for a 1-5 rating each (suggested rating + reason) |
-| 8 | Ticket enough | meet a ticket's done-when | "This meets its done-when. Close it?"; closes only after confirmation |
+| 8 | Ticket enough | meet a ticket's done-when | Closed automatically; one line "Closed: <ticket>. Say *reopen <ticket>* to undo."; outcome under Done; a partly met ticket stays open with what is missing; "reopen <ticket>" reopens it |
 | 9 | New paper found | "I found a new paper: <link>" | Verified card; overlap level; options; a ticket created; main plan untouched until chosen |
 | 10 | Try it | choose "try it" | Side branch `try/...`; success criterion and time box first; logged either way |
 | 11 | Review twice | "quick review" twice on the same draft | Same tests pass/fail; History gets two rows; zero flipped tests |
