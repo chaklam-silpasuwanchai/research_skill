@@ -1,6 +1,6 @@
 # Seed board (created at the end of onboarding)
 
-Rate each ticket 1-5 with the researcher. Edit names to match their topic.
+Chaky assigns each priority (rules in `plan-tickets`); the researcher can change any. Edit names to match their topic.
 
 | Ticket | Type | Pri | Blocked by | Done when |
 |---|---|---|---|---|

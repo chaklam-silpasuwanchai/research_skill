@@ -4,7 +4,7 @@ Each row is a real situation, what Chaky should do, and the friction we found an
 
 | # | Student | Says | Chaky does | Friction found → fix |
 |---|---|---|---|---|
-| 1 | Master's, vague topic, nothing yet | "ask Chaky" | Interview (one question at a time) → agree 3-5 terms → repo → seeded board rated 1-5; assist mode | Too many setup questions → needs and terms first, repo details defaulted, mode asked once |
+| 1 | Master's, vague topic, nothing yet | "ask Chaky" | Interview (one question at a time) → agree 3-5 terms → repo → seeded board with priorities assigned; assist mode | Too many setup questions → needs and terms first, repo details defaulted, mode asked once |
 | 2 | PhD, data and notes, no repo | "ask Chaky" | Adopt mode: mapping table, asks before moving; board seeded from what exists | Fear of being restructured → nothing moves without a yes; existing work marked 🟡/✅ |
 | 3 | PhD who knows what they are doing | "let me lead" | Shows the board and waits; suggests only when asked | Chaky felt pushy → lead mode is quiet by design |
 | 4 | Week 6: finds a very close paper | "I found a new paper" | Verified card, overlap level, 6 options, a ticket; main plan untouched until chosen | Panic → overlap is a level, not a verdict; "differentiate" is a ticket with a done-when |
