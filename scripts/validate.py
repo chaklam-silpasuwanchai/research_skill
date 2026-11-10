@@ -10,14 +10,14 @@ except ImportError:
 
 ROOT = Path(__file__).resolve().parent.parent
 SKILLS = ROOT / "plugins" / "chaky" / "skills"
-CORE = {"guide-me", "update-repo", "brain-dump", "check-board", "validate-idea", "plan-method",
+CORE = {"guide-me", "update-repo", "brain-dump", "update-board", "validate-idea", "plan-method",
         "write", "review"}
 OLD_NAMES = ["research-guide", "research-start", "research-ideation", "research-implementation",
              "research-storytelling", "chaky-reviewer", "pre-submission-check", "literature-snowballing",
              "elegant-writing", "paper-statistics", "find-related-work", "write-elegantly", "run-stats",
              "plan-llm-access", "ask-outside-ai", "code-reproducibly"]
 OLD_BARE = ["setup", "ideate", "implement", "storytell"]
-OLD_NAMES += ["setup-repo", "start-paper", "plan-tickets", "tidy-board", "shape-idea", "run-study", "write-paper", "review-paper", "polish-prose", "analyze-results", "use-llms", "teach-chaky", "grill-me", "write-code"]
+OLD_NAMES += ["check-board", "setup-repo", "start-paper", "plan-tickets", "tidy-board", "shape-idea", "run-study", "write-paper", "review-paper", "polish-prose", "analyze-results", "use-llms", "teach-chaky", "grill-me", "write-code"]
 OLD_NAMES += ["ask-chaky", "map-research", "watch-scoops", "triage-paper", "unslop-prose", "pick-models", "ask-chatbots", "analyze-data", "make-figures", "check-submission"]
 errors, warns = [], []
 def err(m): errors.append(m)
@@ -39,7 +39,7 @@ for d in sorted(p for p in SKILLS.iterdir() if p.is_dir()):
     name, desc = fm.get("name"), fm.get("description", "")
     names.append(d.name)
     if name != d.name: err(f"{d.name}: name '{name}' != folder")
-    if not re.fullmatch(r"[a-z]+(-[a-z]+){0,2}", d.name): err(f"{d.name}: name must be a lowercase verb, optionally with one or two hyphenated words (write, check-board, setup-writing-style)")
+    if not re.fullmatch(r"[a-z]+(-[a-z]+){0,2}", d.name): err(f"{d.name}: name must be a lowercase verb, optionally with one or two hyphenated words (write, update-board, setup-writing-style)")
     if not desc or len(desc) > 1024: err(f"{d.name}: description missing or over 1024 chars")
     if "Use " not in desc: warn(f"{d.name}: description has no 'Use ...' trigger phrase")
     words = len(text.split())

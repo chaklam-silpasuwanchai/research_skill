@@ -14,7 +14,7 @@ Which one, or something else?
 ```
 
 ## 1. Look
-- No project → suggest `update-repo`. No board → `check-board`.
+- No project → suggest `update-repo`. No board → `update-board`.
 - Read `current_status.md`, the board, latest `log.md` and `review.md`, `terms.md`.
 - Older `AGENTS.md` without "Change, then tell", or the paper behind the latest results? Suggest `update-repo`.
 - First time or "what can you do?" → show `references/skills.md`.
@@ -30,7 +30,7 @@ Which one, or something else?
 | What to change and measure, participants, pilots, runs | `plan-method` |
 | A section, stats, a figure, robotic text | `write` |
 | Draft changed; citations; "can I submit?" | `review` |
-| Recap, forgotten or messy tasks | `check-board` |
+| Recap, forgotten or messy tasks | `update-board` |
 | Files or paper behind the latest work | `update-repo` |
 | Not happy with what was proposed; wants other paths | `think-deeply` |
 | Too technical, needs context or an example / still lost | `clarify` / `teach-me` |

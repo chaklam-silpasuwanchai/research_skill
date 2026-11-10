@@ -4,6 +4,9 @@
 
 **Names:** a lowercase verb, optionally with one or two hyphenated words (`write`, `check-board`, `setup-writing-style`). `guide-me` is the front door.
 
+## 0.4.0
+- **`check-board` is now `update-board`**, matching `update-repo`. Same behavior: recap, add forgotten tickets, drop or merge unneeded ones, re-prioritize, rename in plain words, close finished ones. "Check the board" still reaches it.
+
 ## 0.3.0
 - **`setup-repo` is now `update-repo`.** No project yet → sets it up as before. Existing project → brings it up to date: adds missing folders and files (never overwrites), refreshes `AGENTS.md` from the template (keeping venue, mode, language, lab defaults, and preferences), aligns the working files and the board with the latest log, runs, and results, and updates the paper (method, numbers, results, citations), marking what can't be updated yet as ⚠ stale. Shows an "Updated / Stale" summary with undo. `guide-me` suggests it when files or the paper fall behind.
 

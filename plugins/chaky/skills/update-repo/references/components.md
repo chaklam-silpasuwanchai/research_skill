@@ -1,7 +1,7 @@
 # Component files (copy from `assets/`, CHI or NLP variant)
 | File | Holds |
 |---|---|
-| `tickets.md` | The board: destination, mode, fog, tickets with type, 1-5 priority, size, status, done-when. Seeded by `check-board` and rated with the researcher. |
+| `tickets.md` | The board: destination, mode, fog, tickets with type, 1-5 priority, size, status, done-when. Seeded by `update-board` and rated with the researcher. |
 | `terms.md` | One preferred term per concept, in the researcher's own words (they choose when the field's word differs). No synonyms. Chaky uses these in chat as well as in the paper and code. |
 | `experimental_design.md` | 3-5 RQs, hypotheses, IVs (baselines), DVs, apparatus. NLP adds extra analyses (error, feature importance, robustness, transfer, feature, what-if). CHI adds participants, task and procedure, design rationale. |
 | `implementation.md` | What to build or prepare and status (planned/implemented/tested/dropped), linked to `src/`. CHI: sampling, apparatus, IV, DV instruments. |

@@ -10,7 +10,7 @@
 | teach Chaky my writing style | learn my writing style |
 | set up models, a local LLM, or free AI chats | /setup-llms |
 | get my thoughts out | /brain-dump (or: interview me) |
-| recap and fix my task list | /check-board |
+| recap and fix my task list | /update-board |
 | change a priority | make <task> a 5 |
 | keep my board visible beside the chat | make me a mod that shows my board |
 | check if my idea is novel and valid | /validate-idea <my idea> |
