@@ -23,4 +23,4 @@ Pull out what the researcher knows but hasn't written. Focus: any topic (`/brain
 Every ~4 questions, show **So far** in 3-5 bullets. Stop at a clear one-sentence version, "enough", or ~12 questions.
 
 ## Save
-Write answers into `terms.md`, `ideas.md`, `experimental_design.md`, or the board; log decisions in `log.md`. Give the one-sentence version, one line on what was saved, and a suggested next skill.
+Write answers into `terms.md`, `ideas.md`, `experimental_design.md`, or the board; log decisions in `log.md`. Give the one-sentence version and a suggested next skill. End with the quick sync in `AGENTS.md`.

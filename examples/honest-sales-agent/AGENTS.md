@@ -33,8 +33,14 @@ src/
 - **Our words stay in the files.** Say "task" not ticket, "finished when" not done-when, "still unclear" not fog, "what you change / measure" not IV/DV.
 - Checklists: ✅ ok · ❌ not ok · 🔧 to do · ⚠ stale · 🌟 very good · ➖ not yet.
 
-## End of every task
-Update the paper (or mark ⚠), `current_status.md`, and the board. Log decisions and dead ends in `log.md`, tagged `user`, `ai-suggested`, `ai-executed`, or `user-revised`. Say what changed in one or two lines and suggest a next skill.
+## Quick sync (end of every task; never skip)
+1. **Board:** close tickets whose done-when is met; add new work as tickets with priorities.
+2. **Paper facts:** fix numbers, counts, method details, and citations the task changed; mark sections whose story changed `⚠ stale`.
+3. **Status and log:** update `current_status.md`; log decisions and dead ends in `log.md`, tagged `user`, `ai-suggested`, `ai-executed`, or `user-revised`.
+4. **Commit** with a short message.
+Then one line, e.g. `Synced: closed pilot-1 · method now 3 conditions · intro ⚠ stale`, and suggest a next skill.
+
+**Full update** (`update-repo`): weekly, after a milestone (pilot done, main study done, reviews back), or when `guide-me` sees things have fallen behind.
 
 ## Lab defaults
 - Advisor meeting every two weeks; send a one-page progress update the day before.

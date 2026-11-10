@@ -26,4 +26,4 @@ Changed on your board:
 ✓ close  ethics-approval
 Say "undo <ticket>" to reverse any line.
 ```
-Dropped tickets go under Done as `dropped: <name> (why)`. Log it. Show the top 3 and suggest the skill for the first.
+Dropped tickets go under Done as `dropped: <name> (why)`. Log and commit. Show the top 3 and suggest the skill for the first.
