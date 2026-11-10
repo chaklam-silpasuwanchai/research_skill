@@ -16,5 +16,5 @@ done
 if git diff --cached -U0 | grep -E '^\+' | grep -E -q 'sk-[A-Za-z0-9]{20,}|AKIA[0-9A-Z]{16}|-----BEGIN (RSA |EC |OPENSSH )?PRIVATE KEY-----|[Aa][Pp][Ii][_-]?[Kk][Ee][Yy][[:space:]]*[:=][[:space:]]*[A-Za-z0-9_-]{16,}'; then
   echo "BLOCKED: staged changes look like they contain an API key or private key"; bad=1
 fi
-if [ "$bad" -eq 1 ]; then echo "Commit stopped. Remove the item, add it to .gitignore, or ask Chaky."; exit 1; fi
+if [ "$bad" -eq 1 ]; then echo "Commit stopped. Remove the item, add it to .gitignore, or say "guide me"."; exit 1; fi
 exit 0

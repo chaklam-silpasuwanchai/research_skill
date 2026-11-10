@@ -56,7 +56,7 @@ Copy the templates from `assets/` into `components/` (CHI or NLP variant) and fi
 1. Learn the voice from past papers, if given.
 2. Show the tree, commit (`init: repo structure for <venue>`), and set the stage map (existing work counts as 🟡/✅).
 3. Seed the board with `plan-tickets` (about 7 tickets), assign each a 1-5 priority with a one-line reason, and **show it** (they can change any number). Then offer the board side panel once (see `plan-tickets`): a mod they ask Claude Code to build, or `components/tickets.md` open in an editor.
-4. Add a first `log.md` entry (venue, paper type, mode). Point to the top ticket (usually `refine-idea`) and mention "ask Chaky".
+4. Add a first `log.md` entry (venue, paper type, mode). Point to the top ticket (usually `refine-idea`) and mention "guide me".
 
 ## Adopt mode
 Inventory first, show a mapping ("`notes.txt` → `ideas.md`, `exp/` → `src/scripts/`"), get approval, then move or copy and fill the components from existing material. Don't impose the structure.

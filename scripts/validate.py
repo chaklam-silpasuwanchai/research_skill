@@ -10,14 +10,14 @@ except ImportError:
 
 ROOT = Path(__file__).resolve().parent.parent
 SKILLS = ROOT / "plugins" / "chaky" / "skills"
-CORE = {"ask-chaky", "start-paper", "plan-tickets", "shape-idea", "run-study", "write-paper",
+CORE = {"guide-me", "start-paper", "plan-tickets", "shape-idea", "run-study", "write-paper",
         "review-paper", "teach-chaky"}
 OLD_NAMES = ["research-guide", "research-start", "research-ideation", "research-implementation",
              "research-storytelling", "chaky-reviewer", "pre-submission-check", "literature-snowballing",
              "elegant-writing", "paper-statistics", "find-related-work", "write-elegantly", "run-stats",
              "plan-llm-access", "ask-outside-ai", "code-reproducibly"]
 OLD_BARE = ["setup", "ideate", "implement", "storytell", "review"]
-OLD_NAMES += ["map-research", "watch-scoops", "triage-paper", "unslop-prose", "pick-models", "ask-chatbots", "analyze-data", "make-figures", "check-submission"]
+OLD_NAMES += ["ask-chaky", "map-research", "watch-scoops", "triage-paper", "unslop-prose", "pick-models", "ask-chatbots", "analyze-data", "make-figures", "check-submission"]
 errors, warns = [], []
 def err(m): errors.append(m)
 def warn(m): warns.append(m)
@@ -38,7 +38,7 @@ for d in sorted(p for p in SKILLS.iterdir() if p.is_dir()):
     name, desc = fm.get("name"), fm.get("description", "")
     names.append(d.name)
     if name != d.name: err(f"{d.name}: name '{name}' != folder")
-    if not re.fullmatch(r"[a-z]+-[a-z]+", d.name): err(f"{d.name}: name must be two hyphenated lowercase words (verb-noun)")
+    if not re.fullmatch(r"[a-z]+(-[a-z]+)?", d.name): err(f"{d.name}: name must be one lowercase verb or two hyphenated words (verb-noun)")
     if not desc or len(desc) > 1024: err(f"{d.name}: description missing or over 1024 chars")
     if "Use " not in desc: warn(f"{d.name}: description has no 'Use ...' trigger phrase")
     words = len(text.split())

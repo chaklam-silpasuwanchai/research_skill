@@ -40,6 +40,8 @@ Chaky **assigns** the priority itself when a ticket is created, in both modes, a
 Re-check priorities at milestones and when a ticket closes (a ticket that something waited on unblocks others); mention any change in one line.
 **Order (fixed):** frontier tickets (open, unblocked, unclaimed) by priority ↓, then tickets unblocked ↓, then smaller size, then oldest.
 
+Messy, stale, or confusing board? Suggest `tidy-board`.
+
 ## Two modes (say "let me lead" or "you drive")
 - **assist:** Chaky recommends the top ticket and why, proposes done-whens, drafts, and asks only the decisions.
 - **lead:** the researcher picks what to work on; Chaky shows the board, answers, and suggests only when asked.

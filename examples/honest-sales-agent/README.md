@@ -19,7 +19,7 @@ src/
 ```
 
 ## How to work in this repo
-Use Claude Code (or Codex) in this folder, on a paid plan. Not sure what to do next? Say **"ask Chaky"** and it will read your repo and tell you. Or say which stage you are in, for example:
+Use Claude Code (or Codex) in this folder, on a paid plan. Not sure what to do next? Say **"guide me"** and it will read your repo and tell you. Or say which stage you are in, for example:
 - "Let's start generating ideas" -> `shape-idea`
 - "Let's plan and run the study" -> `run-study`
 - "Let's write the paper" -> `write-paper`

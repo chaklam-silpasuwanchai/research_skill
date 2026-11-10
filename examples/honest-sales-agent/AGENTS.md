@@ -5,7 +5,7 @@ One research paper. Venue: CHI (main conference) (CHI style). Mode: assist (the 
 ## Start
 1. Read `components/tickets.md` (the board: destination, fog, tickets with 1-5 priorities) and `components/current_status.md` (stage map: ⬜ empty, 🟡 rough, ✅ solid, 🌟 very good, ⚠ stale).
 2. Read the other `components/*.md`. `terms.md` is the vocabulary; `voice.md` is the researcher's writing style (match it in prose).
-3. Skim `paper/`. Lost? Use `ask-chaky`.
+3. Skim `paper/`. Lost? Use `guide-me`.
 
 ## Structure
 ```
@@ -19,6 +19,7 @@ src/
 ```
 
 ## Working agreements (every skill)
+- **The human leads.** Suggest which skill could help and why; the researcher chooses. Never start another skill, or make a big change, on your own.
 - **Look, don't gate.** Check the repo, not "did you do skill X?". A missing need → offer: run the earlier skill, a quick catch-up, or continue with an assumption logged in `current_status.md`.
 - **Adopt mode.** Project started without this structure? Inventory, propose a mapping, ask before moving anything. Never delete or overwrite the user's work.
 - **Tickets drive the work.** Every to-do is a ticket with a type, a 1-5 priority Chaky assigns with a one-line reason (the researcher can change it any time), and a "done when". Work one ticket at a time; when every done-when check is met, close it yourself and say so in one line ("Closed: trust-scale. Say *reopen trust-scale* to undo."). Human tickets (decide, try, most make) are never answered for the researcher.
@@ -46,13 +47,16 @@ src/
 - Participant data stays on the lab server, never in git.
 - AI help is allowed for drafting and labeling; disclose it in the paper.
 
-## Supporting skills (core skills call a matching one)
+## Supporting skills (suggest a matching one; the researcher chooses)
 - `grill-me`: stress-test an idea, plan, or argument
 - `find-papers`: find and verify papers; scoop watch; triage a new paper
 - `polish-prose`: clear writing in the researcher's voice; unslop
 - `analyze-results`: statistics and figures
 - `write-code`: tested, reproducible research code
 - `use-llms`: model access; free-chat labeling and outside reviews
+- `tidy-board`: re-prioritize, drop or merge, and rename tickets in plain words
+- `think-deeply`: is there a better solution? first principles, assumptions, depth, systems
+- `clarify`: rewrite a hard-to-read AI answer in plain words
 <!-- `teach-chaky` adds new supporting skills here -->
 
 ## The nine mindsets (one nudge at the end of a session; never nag)

@@ -1,10 +1,13 @@
 # Chaky cheat sheet (print me)
 
-**Start:** open the terminal → `cd my-paper` → `claude` → say **ask Chaky**.
+**Start:** open the terminal → `cd my-paper` → `claude` → say **guide me** (or *ask Chaky*).
 
 | I want to... | Say |
 |---|---|
-| know what to do next | ask Chaky |
+| know what to do next | guide me |
+| understand a confusing answer | clarify |
+| check if there's a better way | think deeply |
+| clean up my task list | clean up my tickets |
 | see what Chaky can do | what can you do? |
 | start a paper | set up my paper |
 | find or sharpen an idea | help me find a research question |
