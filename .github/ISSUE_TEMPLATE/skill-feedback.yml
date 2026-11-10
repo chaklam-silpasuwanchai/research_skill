@@ -6,7 +6,7 @@ body:
     id: skill
     attributes:
       label: Skill
-      options: [guide-me, update-repo, setup-writing-style, setup-llms, brain-dump, check-board, validate-idea, find-papers, plan-method, write, review, think-deeply, clarify, teach-me, remember-this, not sure]
+      options: [guide-me, update-repo, setup-writing-style, setup-llms, brain-dump, update-board, validate-idea, find-papers, plan-method, write, review, think-deeply, clarify, teach-me, remember-this, not sure]
     validations:
       required: true
   - type: textarea

@@ -6,7 +6,7 @@ Work happens in **tickets**; each has a 1-5 priority Chaky sets (you can change 
 
 ```mermaid
 flowchart TD
-  G([guide-me]) -->|suggests, you choose| B[check-board: recap, tasks, priorities]
+  G([guide-me]) -->|suggests, you choose| B[update-board: recap, tasks, priorities]
   S[update-repo · setup-writing-style · setup-llms] --> B
   B --> D[brain-dump: get it out of your head]
   B --> V[validate-idea: novel? valid?]

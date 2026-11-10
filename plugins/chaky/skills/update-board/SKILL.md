@@ -1,9 +1,9 @@
 ---
-name: check-board
-description: Recaps the project and fixes the board - adds forgotten tickets, drops, merges, or splits ones you don't need, re-prioritizes, renames in plain words, and closes finished ones. Use for "check the board", "recap", "what did we forget", "re-prioritize", "is this task needed", "show the board", or /check-board.
+name: update-board
+description: Recaps the project and fixes the board - adds forgotten tickets, drops, merges, or splits ones you don't need, re-prioritizes, renames in plain words, and closes finished ones. Use for "update the board", "check the board", "recap", "what did we forget", "re-prioritize", "is this task needed", "show the board", or /update-board.
 ---
 
-# Check Board
+# Update Board
 
 The board is `components/tickets.md`: header (Destination, Mode, Out of scope), Fog, a Tickets table (Ticket · Type · Pri · Size · Status · Done when), and Done. Keep this format. New project → seed from `references/seed-board.md`; done-when defaults in `references/done-when.md`.
 

@@ -1,6 +1,6 @@
 # Seed board (created at the end of onboarding)
 
-Chaky assigns each priority (rules in `check-board`); the researcher can change any. Edit names to match their topic.
+Chaky assigns each priority (rules in `update-board`); the researcher can change any. Edit names to match their topic.
 
 | Ticket | Type | Pri | Blocked by | Done when |
 |---|---|---|---|---|

@@ -1,4 +1,4 @@
-# Chaky: your AI research partner (v0.3.0)
+# Chaky: your AI research partner (v0.4.0)
 
 Chaky helps you go from a rough idea to a submitted paper (CHI, ACL, NeurIPS style). **You lead. Chaky suggests, keeps you organized, and does the busy work.**
 
@@ -87,7 +87,7 @@ Before the deadline: `/review submit`.
 → `/update-repo`. Chaky adds anything missing, refreshes `AGENTS.md`, brings the working files and the board in line, and updates the paper (method, numbers, results, citations). What it can't update yet is marked ⚠ stale.
 
 **"I've lost track of what to do."**
-→ `/check-board`. A short recap, then your to-do list fixed up: forgotten tasks added, unneeded ones dropped, priorities set, names made plain.
+→ `/update-board`. A short recap, then your to-do list fixed up: forgotten tasks added, unneeded ones dropped, priorities set, names made plain.
 
 **"I'm not happy with what the AI proposed."**
 → `/think-deeply`. Chaky looks from every side (reviewer, participant, advisor, skeptic), explores 2-3 different paths, and tells you which looks best.
@@ -107,7 +107,7 @@ Before the deadline: `/review submit`.
 | `setup-writing-style` | you want drafts to sound like you, not like an AI | "learn my writing style" |
 | `setup-llms` | your study needs AI models: OpenRouter, a local model, or free AI chats for labeling | /setup-llms local |
 | `brain-dump` | the idea is in your head but not on paper yet, at any stage | /brain-dump |
-| `check-board` | you've lost track of tasks, or the to-do list feels wrong or messy | /check-board |
+| `update-board` | you've lost track of tasks, or the to-do list feels wrong or messy | /update-board |
 | `validate-idea` | you have an idea (or a draft) and want to know if it's novel, valid, and worth a paper | /validate-idea <idea> |
 | `find-papers` | you need the closest work, want to double-check novelty, or want a method to borrow | /find-papers <topic> |
 | `plan-method` | you need to decide what to change and measure, who takes part, how many, and how to run it | /plan-method IV |
@@ -143,4 +143,4 @@ Printable list: [cheat sheet](docs/cheatsheet.md). How the skills connect: [how 
 ## More
 Changes: `CHANGELOG.md` · Labs and maintainers: `MAINTAINERS.md` · Problems or ideas: open an issue · License: MIT · Cite: `CITATION.cff`.
 
-`brain-dump`, `check-board`, and the retro mode are inspired by [Matt Pocock's grill-me, wayfinder, and retro](https://github.com/mattpocock/skills) (MIT). Some ideas come from [Orchestra Research's AI-Research-SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs) (MIT), rewritten in our own words.
+`brain-dump`, `update-board`, and the retro mode are inspired by [Matt Pocock's grill-me, wayfinder, and retro](https://github.com/mattpocock/skills) (MIT). Some ideas come from [Orchestra Research's AI-Research-SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs) (MIT), rewritten in our own words.

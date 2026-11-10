@@ -2,7 +2,7 @@
 
 `scripts/validate.py` checks every skill named here exists. Read this list when two skills seem to overlap.
 
-**Disambiguation:** a *specific paper in hand* → `find-papers` (triage). *Unknown new papers or scoop fear* → `find-papers` (watch). *Related-work search* → `find-papers` (search). *Recap, missing tasks, priorities* → `check-board`. *Get what's in my head out* → `brain-dump`. *Is it novel or valid* → `validate-idea`; *harder 360° look* → `think-deeply`. *Answer hard to read* → `clarify`; *still lost* → `teach-me`. *Text sounds robotic, stats, figures* → `write`.
+**Disambiguation:** a *specific paper in hand* → `find-papers` (triage). *Unknown new papers or scoop fear* → `find-papers` (watch). *Related-work search* → `find-papers` (search). *Recap, missing tasks, priorities* → `update-board`. *Get what's in my head out* → `brain-dump`. *Is it novel or valid* → `validate-idea`; *harder 360° look* → `think-deeply`. *Answer hard to read* → `clarify`; *still lost* → `teach-me`. *Text sounds robotic, stats, figures* → `write`.
 
 | Phrase | Skill |
 |---|---|
@@ -20,13 +20,13 @@
 | "update my repo" | `update-repo` |
 | "sync everything with my latest results" | `update-repo` |
 | "is my paper up to date?" | `update-repo` |
-| "show the board" | `check-board` |
-| "what should I do first?" | `check-board` |
-| "change my priorities" | `check-board` |
-| "let me lead" | `check-board` |
-| "you drive" | `check-board` |
-| "this project is too big to plan" | `check-board` |
-| "is this ticket enough?" | `check-board` |
+| "show the board" | `update-board` |
+| "what should I do first?" | `update-board` |
+| "change my priorities" | `update-board` |
+| "let me lead" | `update-board` |
+| "you drive" | `update-board` |
+| "this project is too big to plan" | `update-board` |
+| "is this ticket enough?" | `update-board` |
 | "validate my idea" | `validate-idea` |
 | "is this idea novel?" | `validate-idea` |
 | "is this publishable at CHI?" | `validate-idea` |
@@ -80,7 +80,8 @@
 | "learn my writing style" | `setup-writing-style` |
 | "here are my past papers" | `setup-writing-style` |
 | "remember this" | `remember-this` |
-| "clean up my tickets" | `check-board` |
-| "recap" | `check-board` |
-| "did we forget any tasks?" | `check-board` |
-| "is this task still needed?" | `check-board` |
+| "clean up my tickets" | `update-board` |
+| "update the board" | `update-board` |
+| "recap" | `update-board` |
+| "did we forget any tasks?" | `update-board` |
+| "is this task still needed?" | `update-board` |

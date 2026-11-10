@@ -15,7 +15,7 @@ Use Claude Code (or Codex) in this folder, on a paid plan. Not sure what to do n
 - "Plan the method" -> `/plan-method`
 - "Write the abstract" -> `/write abstract`
 - "Review my paper like a tough reviewer" -> `/review`
-- "Recap and fix the board" -> `/check-board`
+- "Recap and fix the board" -> `/update-board`
 
 The order is flexible. Things you can say at any time: **"I found a new paper"**, **"think deeply"**, **"clarify"**, **"teach me"**, **"undo"**, **"progress update"**, **"fast mode"** (draft the whole paper in one pass). Chaky keeps the paper and reviews up to date as you go. The AI reads `components/current_status.md` to see where you are.
 

@@ -9,7 +9,7 @@ Say "guide me" and Chaky suggests a skill; you choose. Or type `/<skill> <focus>
 | `setup-writing-style` | you want drafts to sound like you, not like an AI | "learn my writing style" |
 | `setup-llms` | your study needs AI models: OpenRouter, a local model, or free AI chats for labeling | /setup-llms local |
 | `brain-dump` | the idea is in your head but not on paper yet, at any stage | /brain-dump |
-| `check-board` | you've lost track of tasks, or the to-do list feels wrong or messy | /check-board |
+| `update-board` | you've lost track of tasks, or the to-do list feels wrong or messy | /update-board |
 | `validate-idea` | you have an idea (or a draft) and want to know if it's novel, valid, and worth a paper | /validate-idea <idea> |
 | `find-papers` | you need the closest work, want to double-check novelty, or want a method to borrow | /find-papers <topic> |
 | `plan-method` | you need to decide what to change and measure, who takes part, how many, and how to run it | /plan-method IV |
