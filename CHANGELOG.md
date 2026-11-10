@@ -21,4 +21,6 @@ Bump to 0.2.0 only after students have installed 0.1.0.
 - **Voice:** everyday words and the researcher's own terms (`terms.md` and the chat); internal words (ticket, done-when, fog, IV/DV, modes) stay in the files. `guide-me` offers to update older projects' `AGENTS.md`.
 - **Board:** Chaky assigns every ticket's 1-5 priority with a one-line reason (the researcher can change any); tickets whose done-when is fully met close automatically with "say *reopen*"; human tickets close only once the researcher's own decision or result is recorded. Offers once to have Claude Code build a mod showing `tickets.md` beside the chat.
 
+**Lean:** every SKILL.md is under 400 words (validator limit 500; detail lives in `references/`), and the `AGENTS.md` template is about half its earlier size. The README teaches skills by situation.
+
 **Repo:** plugin manifests, CI validation (`scripts/validate.py`), scenario tests, trigger phrases, student walkthroughs (`tests/`), a filled-in example project, docs, issue forms, MIT license, `CITATION.cff`. Student safety: lab defaults file, pre-commit leak guard, explanation-language setting, CHI ethics tracker.
