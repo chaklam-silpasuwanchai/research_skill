@@ -1,6 +1,6 @@
 ---
 name: clarify
-description: Rewrites an AI answer you found hard to follow - too technical, no example, missing context, too long - in plain words - what was done, what it means for you, what needs your attention, with an example - without changing the facts. Use for "clarify", "say that simply", "I don't understand", "too technical", "give me an example", or /clarify.
+description: For when the AI spoke too technically and you want more context or an example. Rewrites the answer in plain words - what was done, what it means for you, what needs your attention, with an example - without changing the facts. Use for "clarify", "say that simply", "I don't understand", "too technical", "give me an example", or /clarify.
 ---
 
 # Clarify

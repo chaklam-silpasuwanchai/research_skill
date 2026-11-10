@@ -31,8 +31,8 @@ Which one, or something else?
 | A section, stats, a figure, robotic text | `write` |
 | Draft changed; citations; "can I submit?" | `review` |
 | Recap, forgotten or messy tasks | `check-board` |
-| Answer felt one-sided | `think-deeply` |
-| Answer too technical / still lost | `clarify` / `teach-me` |
+| Not happy with what was proposed; wants other paths | `think-deeply` |
+| Too technical, needs context or an example / still lost | `clarify` / `teach-me` |
 | Voice, models, keys, free AI chats | `setup-writing-style`, `setup-llms` |
 | Same instruction twice | `remember-this` |
 | Anything ⚠ stale | fix it first |
