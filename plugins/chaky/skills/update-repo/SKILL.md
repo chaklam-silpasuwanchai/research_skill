@@ -17,12 +17,12 @@ Focus: `chi`/`nlp` (new), or `paper`, `files`, `agents`. No `AGENTS.md` or `comp
 1. **Structure:** add any missing folder, working file, or root file from the templates. Never overwrite their content.
 2. **AGENTS.md:** refresh from `assets/AGENTS.template.md`, keeping their venue, mode, language, lab defaults, and *My preferences*.
 3. **Working files:** read `log.md`, `review.md`, `experiment_logs/`, and `results/` since the last update; bring `current_status.md`, `experimental_design.md`, `implementation.md`, `related_work.md`, `terms.md`, and the board in line (`update-board` rules).
-4. **The paper:** update every section the new facts touch: question, method, numbers, results, citations. Can't update a part yet → mark it `⚠ stale: <why>`. Never invent results (`[TODO]`).
+4. **The paper: facts only.** Fix numbers, counts, method details, table values, and citations the new work changed. Don't rewrite prose: mark sections whose story changed `⚠ stale: <why>` and suggest `/write <section>`. Never invent results (`[TODO]`).
 5. **Venue:** flag a newer template or changed page limit.
 6. Commit and show what changed:
 ```
-Updated: AGENTS.md (new rules) · method section (now 3 conditions) · results table (pilot 2)
-Stale: discussion (waits for main study)
+Updated: AGENTS.md (new rules) · method: 3 conditions · results table (pilot 2)
+Stale: intro story, discussion → /write intro, /write discussion
 Say "undo" to reverse any line.
 ```
 Log it in `log.md`.

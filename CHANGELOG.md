@@ -4,6 +4,11 @@
 
 **Names:** a lowercase verb, optionally with one or two hyphenated words (`write`, `check-board`, `setup-writing-style`). `guide-me` is the front door.
 
+## 0.5.0
+- **`review` simulates a panel:** after the checks, three short reviews (methods expert, domain expert, skeptic) and a meta-review with the likely decision and the 2-3 changes that would most move it. Quick mode gives one combined view.
+- **`update-repo` updates facts, not prose:** numbers, counts, method details, tables, and citations; sections whose story changed are marked ⚠ stale with a suggested `/write <section>`.
+- **`write` adds `/write limitations`** (real threats from the log, deviations, and reviews; no filler) **and `/write response`** (reply to reviewers: changed, clarified, disagree, out of scope, within the limit).
+
 ## 0.4.0
 - **`check-board` is now `update-board`**, matching `update-repo`. Same behavior: recap, add forgotten tickets, drop or merge unneeded ones, re-prioritize, rename in plain words, close finished ones. "Check the board" still reaches it.
 

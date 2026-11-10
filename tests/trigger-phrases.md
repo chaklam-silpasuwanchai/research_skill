@@ -46,6 +46,8 @@
 | "quick review" | `review` |
 | "would this pass at CHI?" | `review` |
 | "check my citations" | `review` |
+| "write my limitations" | `write` |
+| "reply to the reviewers" | `write` |
 | "how am I doing?" | `review` |
 | "can I submit now?" | `review` |
 | "camera-ready checklist" | `review` |
