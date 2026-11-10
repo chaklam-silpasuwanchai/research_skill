@@ -15,7 +15,7 @@ Say "guide me" and Chaky suggests a skill; you choose. Or type `/<skill> <focus>
 | `plan-method` | you need to decide what to change and measure, who takes part, how many, and how to run it | /plan-method IV |
 | `write` | you need a section written or rewritten, a stats test, a figure, or less AI-sounding text | /write abstract |
 | `review` | you want a tough reviewer's opinion and every citation checked before you share or submit | /review |
-| `think-deeply` | you're not satisfied with what the AI proposed and want it to explore different possible paths | /think-deeply |
+| `think-deeply` | you're not satisfied with what the AI proposed and want it to explore other paths and propose the most sensible one | /think-deeply |
 | `clarify` | the AI spoke too technically, or you want more context or an example | /clarify |
 | `teach-me` | clarify wasn't enough and you want to be walked through it step by step | /teach-me <topic> |
 | `remember-this` | you keep telling Chaky the same thing and want it to stick | "always do X" |

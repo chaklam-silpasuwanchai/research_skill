@@ -4,6 +4,9 @@
 
 **Names:** a lowercase verb, optionally with one or two hyphenated words (`write`, `check-board`, `setup-writing-style`). `guide-me` is the front door.
 
+## 0.7.0
+- **`think-deeply` proposes the most sensible approach.** After the 360° look, it compares 2-3 paths on the real goal, evidence, validity risk, time and cost, and deadline fit, then ends with one clear recommendation: why it's most sensible, the steps, the first step now (with the skill to use), and what evidence would change its mind.
+
 ## 0.6.0
 - **Regular syncing.** The `AGENTS.md` end-of-task step is now a **quick sync** that every skill runs: close finished tickets and add new ones, fix facts in the paper (mark changed stories ⚠ stale), update status and log, commit, and report it in one line. Each relevant skill now ends with it explicitly.
 - **Full updates on a rhythm:** `guide-me` suggests `/update-repo` first when there's been no full update for 7+ days, results or reviews are newer than the paper, rows are ⚠ stale, or `AGENTS.md` is older. `plan-method` suggests one after a pilot or the main study; `update-repo` logs each run as `full update`.
