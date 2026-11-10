@@ -1,4 +1,4 @@
-# Chaky: your AI research partner (v0.4.0)
+# Chaky: your AI research partner (v0.5.0)
 
 Chaky helps you go from a rough idea to a submitted paper (CHI, ACL, NeurIPS style). **You lead. Chaky suggests, keeps you organized, and does the busy work.**
 
@@ -75,13 +75,13 @@ Next: /plan-method DV
 → `/write abstract`, `/write intro`, `/write results`, and so on. It writes in your voice, adds honest stats and figures, and removes AI-sounding phrases. Want the whole draft at once? Say **fast mode**.
 
 **"Is my paper ready?"**
-→ `/review`. Chaky reviews like a tough reviewer at your venue and checks every citation.
+→ `/review`. Chaky reviews like a real panel at your venue (three reviewers and a meta-review) and checks every citation.
 ```
 Novelty   3.5/5  ✅ closest work named   ❌ why it matters unclear
 Citations        ✅ 41 ok  ❌ 2 not found  🔧 1 wrong year
 Fix first: why it matters → /write intro
 ```
-Before the deadline: `/review submit`.
+Before the deadline: `/review submit`. Got reviews back? `/write response` drafts your reply, and `/write limitations` writes honest limitations.
 
 **"My files and paper are behind my latest work."**
 → `/update-repo`. Chaky adds anything missing, refreshes `AGENTS.md`, brings the working files and the board in line, and updates the paper (method, numbers, results, citations). What it can't update yet is marked ⚠ stale.

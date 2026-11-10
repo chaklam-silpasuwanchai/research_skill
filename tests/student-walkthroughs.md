@@ -15,4 +15,4 @@ Each row is a real situation, what Chaky should do, and the friction we found an
 | 9 | Advisor wants an overview | "progress update" | One page: tickets closed, results, dead ends, review trend, decisions needed | Advisors want brevity → fixed one-page format; lab rhythm from Lab defaults |
 | 10 | Pastes participant data into a chat | (attempts commit) | Hook blocks; Chaky explains why and offers the safe path | Rule alone wasn't enough → pre-commit guard |
 | 11 | Unsure what is "good enough" | "is this enough?" | Checks the ticket's done-when; closes it automatically if met (can be reopened), else split / park / accept | Endless polishing → every ticket has a done-when and a time box |
-| 12 | Gets a rejection from reviewers | (not covered) | Not covered yet | **Gap:** no rebuttal skill; on the later list |
+| 12 | Gets reviews back | pastes reviews, "/write response" | Groups the points; answers each as changed / clarified / disagree / out of scope with locations; fixes become tickets | Rebuttal felt overwhelming → one point at a time, most important first |
