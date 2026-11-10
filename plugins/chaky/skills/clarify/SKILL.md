@@ -1,26 +1,22 @@
 ---
 name: clarify
-description: Rewrites a hard-to-read AI answer (the last message, or text you paste) in plain words - what it means for you, what needs your attention, what to do next - without adding or dropping facts. Use for "clarify", "say that simply", "I don't understand", "too technical", or "what does this mean for me".
+description: Rewrites an AI answer you found hard to follow - too technical, no examples, missing context, or too long - in plain words - what was done, what it means for you, what needs your attention, with a concrete example - without adding or dropping facts. Use for "clarify", "say that simply", "I don't understand", "too technical", "give me an example", "what does this mean for me", or /clarify.
 ---
 
 # Clarify
 
-The researcher got an answer that is too long, too technical, or full of code talk. Turn it into something they can read in under a minute. Works with or without a paper project.
+The last answer was too technical, had no example, assumed context the researcher doesn't have, or was too long. Make it readable in under a minute. Works with or without a paper project. Optional focus: `/clarify <the part, or pasted text>`; default is your last message.
 
-## What to clarify
-- Default: **your last message** in this conversation.
-- Text they paste or name ("clarify the review", "clarify that error") → that.
-- Unsure which → ask once.
-
-## How to write it
-1. **What it means for you** (one or two sentences). The bottom line first.
-2. **Needs your attention** (only if something does): decisions, blockers, risks. At most three, each one line. Nothing needed → say "Nothing needs you right now."
-3. **What happened, in short**: at most five bullets in everyday words. Code changes become one plain sentence each ("the test set no longer leaks into training"), never diffs, file lists, or code.
-4. **Next:** one step, as a suggestion they can take or ignore.
+## Write it in this shape
+1. **In short:** what it means for you, in one or two sentences. Bottom line first.
+2. **What was done:** at most five plain bullets. Code changes become one sentence each ("the test set no longer leaks into training"), never diffs, file lists, or code.
+3. **Needs your attention:** decisions, blockers, risks; at most three, one line each. Nothing → "Nothing needs you right now."
+4. **Example:** one concrete example from their own project for the hardest idea ("Like this: if participant 7 sees the honest agent first, ...").
+5. **Context you may be missing:** one or two lines on why it matters or how it connects (only if the original assumed it).
+6. **Next:** one step, as a suggestion.
 
 ## Rules
-- **Same facts, fewer words.** Don't add claims, numbers, or advice the original didn't have; don't drop a warning or a decision. If the original was wrong or unclear, say so instead of smoothing it over.
-- **Their words.** Use the terms in `components/terms.md` (if it exists) and the words they use in chat. Swap jargon for everyday words; if a technical word must stay, explain it in one line with an example.
-- **Short sentences**, no headings longer than the content, no tables unless comparing options.
-- Explain in the language they chose (`AGENTS.md`); keep file names and code identifiers as they are.
-- End with "Want more detail on any part?" Only expand the part they ask about.
+- **Same facts, fewer words.** Don't add claims, numbers, or advice the original lacked; don't drop a warning or a decision. If the original was wrong or unclear, say so.
+- **Their words.** Use `terms.md` and the words they use in chat. Swap jargon for everyday words; if a technical word must stay, explain it in one line.
+- Short sentences. Tables only to compare options. Their explanation language from `AGENTS.md`; file names and code identifiers as they are.
+- End with "Want more on any part?" Still lost after that → suggest `teach-me`.

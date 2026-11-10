@@ -11,12 +11,12 @@
 - Bump in `plugin.json` and `marketplace.json`, add a `CHANGELOG.md` entry, push. Students run `/plugin marketplace update ask-chaky`.
 
 ## Add or improve skills
-- Students can say "add a skill" or "always do X" to Chaky (`teach-chaky`). Choosing "improve Chaky for everyone" produces a short note for you.
-- New skills: a verb-noun name (two hyphenated words; a single verb like `clarify` is allowed), lean `SKILL.md`, register under *Supporting skills* in `start-paper/assets/AGENTS.template.md`, update the README table and changelog.
+- Students can say "add a skill" or "always do X" to Chaky (`remember-this`). Choosing "improve Chaky for everyone" produces a short note for you.
+- New skills: a verb-noun name (two hyphenated words; a single verb like `clarify` is allowed), lean `SKILL.md`, register under *Supporting skills* in `setup-repo/assets/AGENTS.template.md`, update the README table and changelog.
 - Plugin skills are overwritten on update. Per-student preferences live in each project's `AGENTS.md`, not in the skills.
 
 ## Customize for your lab (once)
-Edit `plugins/chaky/skills/start-paper/assets/lab-defaults.md` (preferred venues, meeting rhythm, sign-off, data and AI-use policy). `start-paper` copies it into each student's `AGENTS.md`.
+Edit `plugins/chaky/skills/setup-repo/assets/lab-defaults.md` (preferred venues, meeting rhythm, sign-off, data and AI-use policy). `setup-repo` copies it into each student's `AGENTS.md`.
 
 ## Checks
 - `python scripts/validate.py` (needs `pip install pyyaml`): headers, names, README and AGENTS lists, versions, stale names. GitHub Actions runs it on every push.
@@ -28,5 +28,5 @@ Edit `plugins/chaky/skills/start-paper/assets/lab-defaults.md` (preferred venues
 - [ ] All 15 scenarios in `tests/scenarios.md` pass
 - [ ] Install works on macOS and Windows
 - [ ] "guide me" in an empty folder creates the CHI and ACL/NeurIPS layouts correctly
-- [ ] A quick `review-paper` run gives the same results twice on the same draft
+- [ ] A quick `review` run gives the same results twice on the same draft
 - [ ] No secrets or participant data end up in git

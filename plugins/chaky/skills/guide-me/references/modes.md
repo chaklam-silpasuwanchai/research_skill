@@ -19,6 +19,6 @@ Inspired by Matt Pocock's `retro`. Five questions, one at a time, each with Chak
 1. What moved the paper forward most?
 2. What wasted time or surprised you?
 3. Were any ticket sizes or priorities off? (change them; resize)
-4. What did you have to repeat to Chaky? (offer `teach-chaky`)
+4. What did you have to repeat to Chaky? (offer `remember-this`)
 5. One change for the next stretch.
 Log it as a `reflection` entry in `log.md` (who: `user`). Update the board.

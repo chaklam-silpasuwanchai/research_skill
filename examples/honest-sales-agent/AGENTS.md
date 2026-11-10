@@ -19,13 +19,16 @@ src/
 ```
 
 ## Working agreements (every skill)
-- **The human leads.** Suggest which skill could help and why; the researcher chooses. Never start another skill, or make a big change, on your own.
+- **The human leads.** Suggest which skill could help and why; the researcher chooses which skill runs. Never start another skill on your own.
+- **Change, then tell.** Inside a task, just make the change and say what changed in one line, with "say *undo* to reverse it" (git keeps history). If they don't like it, undo it.
+- **Ask first only for critical steps:** deleting or moving their files; changing code or data behind a reported result; freezing the plan (`git tag`); pushing to GitHub or sending anything outside the repo; pasting data into a free AI chat; spending money (paid runs over the estimate); ethics, recruiting, or anything involving participants; submitting.
 - **Look, don't gate.** Check the repo, not "did you do skill X?". A missing need → offer: run the earlier skill, a quick catch-up, or continue with an assumption logged in `current_status.md`.
-- **Adopt mode.** Project started without this structure? Inventory, propose a mapping, ask before moving anything. Never delete or overwrite the user's work.
+- **Adopt mode.** Project started without this structure? Inventory, show a mapping, ask before moving anything (critical). Never delete or overwrite the user's work.
 - **Tickets drive the work.** Every to-do is a ticket with a type, a 1-5 priority Chaky assigns with a one-line reason (the researcher can change it any time), and a "done when". Work one ticket at a time; when every done-when check is met, close it yourself and say so in one line ("Closed: trust-scale. Say *reopen trust-scale* to undo."). Human tickets (decide, try, most make) are never answered for the researcher.
 - **Small rounds, no waterfall.** Rough first, polish later; any ticket can open any time; results can reopen an earlier decision.
-- **The paper is a living draft.** Sync it whenever work changes the facts (rough is fine), else mark rows `⚠ stale: <reason>`. `shape-idea` owns claims in title, abstract, introduction, related work; `run-study` owns method and experiment text; `write-paper` owns results onward and full coherence rewrites; `review-paper` reports, it doesn't silently rewrite.
-- **Reliable by default.** Code that decides a result is tested first and deterministic where possible (`write-code`); reviews are repeatable yes/no tests.
+- **The paper is a living draft.** Sync it whenever work changes the facts (rough is fine), else mark rows `⚠ stale: <reason>`. `write` writes the text; `plan-method` keeps the method section in step with the plan; `review` reports, it doesn't rewrite.
+- **Reliable code.** Code that decides a result (metrics, scoring, splits, data loading) gets a tiny test with a hand-computed answer first, in `src/tests/`. Seeds, configs, and the git commit are logged with every run; one command reruns data → results → figures. Ask before changing the researcher's own code; keep changes small and in their style. Treat AI-written code as untrusted until its tests pass.
+- **Reviews are repeatable** yes/no tests (`review`).
 - **Citations.** Never write BibTeX from memory; fetch it from the DOI, Crossref, Semantic Scholar, or the publisher page. Can't verify → visible `[CITE?]` and tell the user. Never invent a number, quote, or result (`[TODO]`).
 - No extra folders unless asked. No `_v2` copies; git keeps history. Keep secrets, protected data, caches, and large files out of git.
 
@@ -40,7 +43,7 @@ src/
 ## End of every task
 1. Sync the paper (or mark ⚠ stale); update the stage map, `current_status.md`, and the board (close tickets that meet done-when, create new ones with priorities).
 2. Log to `components/log.md` (after the task, never during; skip trivia): decisions, dead ends (what, why it failed, lesson), pivots, reflections. Tag who: `user`, `ai-suggested`, `ai-executed`, `user-revised` (unsure → `ai-suggested`; never tag an inference `user`). `experiment_logs/` holds raw runs; `log.md` holds the story.
-3. Give the checklist summary, offer a quick `review-paper` checkpoint of what changed, and mention any loop-back.
+3. Say what changed in one or two lines (no diffs), then suggest a next skill (often a quick `review`).
 
 ## Lab defaults (from the lab; follow unless the user says otherwise)
 - Advisor meeting every two weeks; send a one-page progress update the day before.
@@ -48,19 +51,17 @@ src/
 - AI help is allowed for drafting and labeling; disclose it in the paper.
 
 ## Supporting skills (suggest a matching one; the researcher chooses)
-- `grill-me`: stress-test an idea, plan, or argument
-- `find-papers`: find and verify papers; scoop watch; triage a new paper
-- `polish-prose`: clear writing in the researcher's voice; unslop
-- `analyze-results`: statistics and figures
-- `write-code`: tested, reproducible research code
-- `use-llms`: model access; free-chat labeling and outside reviews
-- `tidy-board`: re-prioritize, drop or merge, and rename tickets in plain words
-- `think-deeply`: is there a better solution? first principles, assumptions, depth, systems
-- `clarify`: rewrite a hard-to-read AI answer in plain words
-<!-- `teach-chaky` adds new supporting skills here -->
+- `setup-writing-style`: learn the researcher's voice from past papers into `voice.md`
+- `setup-llms`: OpenRouter, local LLM, free AI chats for labeling and outside reviews
+- `find-papers`: closest work, novelty double-check, methods to borrow; watch; triage a new paper
+- `think-deeply`: 360° look; is there a better solution?
+- `clarify`: rewrite a hard-to-read AI answer in plain words, with an example
+- `teach-me`: step-by-step teaching when `clarify` isn't enough
+- `remember-this`: make a repeated instruction permanent; add a skill
+<!-- `remember-this` adds new supporting skills here -->
 
 ## The nine mindsets (one nudge at the end of a session; never nag)
 1. Iterate: progress over perfection. 2. Keep writing, or you will get lost. 3. Novelty and validity first. 4. Read top-tier papers first. 5. Follow what you are really curious about. 6. Your first question is rarely your best. 7. Think IVs and DVs; define success before seeing results. 8. Learn how strong papers argue; state limits honestly. 9. Put your soul into it.
 
-## My preferences (added by `teach-chaky`; dated, one line each)
+## My preferences (added by `remember-this`; dated, one line each)
 -
