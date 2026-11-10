@@ -25,4 +25,4 @@ Small runs (2-3 people or a small sample): runs end to end? DV moves? Bugs, leak
 Final hypotheses, success criteria, analysis, stopping rule → commit and `git tag plan-freeze-1`. Later changes are logged **deviations**; analyses added after seeing results are **exploratory**.
 
 ## 4. Run and reflect
-One record per run or session in `experiment_logs/`; participant data in `src/data/`, never in git. Every ~5 runs: what worked, what surprised, why? Suggest deepen, broaden, pivot (`validate-idea`), or conclude (`write`); they choose. Log dead ends with the lesson.
+One record per run or session in `experiment_logs/`; participant data in `src/data/`, never in git. Every ~5 runs: what worked, what surprised, why? Suggest deepen, broaden, pivot (`validate-idea`), or conclude (`write`); they choose. Log dead ends with the lesson. End with the quick sync in `AGENTS.md`. After a pilot or the main study, suggest a full `/update-repo`.

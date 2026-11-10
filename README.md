@@ -1,4 +1,4 @@
-# Chaky: your AI research partner (v0.5.0)
+# Chaky: your AI research partner (v0.6.0)
 
 Chaky helps you go from a rough idea to a submitted paper (CHI, ACL, NeurIPS style). **You lead. Chaky suggests, keeps you organized, and does the busy work.**
 
@@ -45,6 +45,7 @@ Which one, or something else?
 - **You pick the skill.** Chaky never jumps into one on its own.
 - **Small changes just happen.** Chaky makes the change, tells you in one line, and you can say **undo**.
 - **Big things wait for your yes:** deleting or moving files, freezing your study plan, pushing to GitHub, anything with participants or ethics, spending money, pasting data into free AI chats, submitting.
+- **Everything stays in sync.** After every task Chaky closes finished tasks, adds new ones, fixes facts in the paper, and commits, then tells you in one line. About once a week, or after a pilot or reviews, it suggests a full `/update-repo`.
 - **You can aim any skill:** add a focus after the name, like `/write abstract` or `/plan-method IV`.
 
 ## Which skill when? (by situation)

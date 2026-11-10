@@ -30,4 +30,4 @@ Citations        ✅ 41 ok  ❌ 2 not found  🔧 1 wrong year
 Panel            methods 3 · domain 4 · skeptic 2 → borderline
 Fix first: why it matters (Major) → /write intro
 ```
-Full report and a History row go in `components/review.md`. Major fixes become tickets. Don't rewrite the paper here; suggest the skill for each fix.
+Full report and a History row go in `components/review.md`. Major fixes become tickets. Don't rewrite the paper here; suggest the skill for each fix. End with the quick sync in `AGENTS.md`.

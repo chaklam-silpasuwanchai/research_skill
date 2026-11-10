@@ -16,4 +16,4 @@ Ask about the computer and memory; suggest a model that fits and a runner (Ollam
 ## Free AI chats
 **Never paste participant, confidential, or unpublished data (critical).** Labeling: codebook, batches of 20-50, 2-3 different AIs, merge, check agreement, humans only at the end for disagreements. Outside review: prompts for novelty, validity, writing; verify every paper they name.
 
-Test it once end to end, then log the setup.
+Test it once end to end. End with the quick sync in `AGENTS.md`.

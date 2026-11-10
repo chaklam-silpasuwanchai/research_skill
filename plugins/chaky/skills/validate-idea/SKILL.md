@@ -22,4 +22,4 @@ Novel ✅ closest: Smith 2024 tested trust, not disclosure
 Valid ❓ trust scale not chosen
 Next: choose the scale (/plan-method DV)
 ```
-Save to `ideas.md` and `related_work.md`; open ❌/❓ become tickets; log the verdict.
+Save to `ideas.md` and `related_work.md`; open ❌/❓ become tickets. End with the quick sync in `AGENTS.md`.

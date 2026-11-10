@@ -19,4 +19,4 @@ Focus: a topic. A paper in hand → **triage** (`references/triage.md`). Worried
 ## Verify every paper
 It exists (DOI, publisher, ACL Anthology, arXiv, OpenReview); title, authors, year, venue match; preprints marked. Can't verify → leave it out and say so. BibTeX is fetched, never typed from memory.
 
-Record in `components/related_work.md`: group, citation, link, venue and year, what they change and measure, why it matters to us, verified. Mark the key papers.
+Record in `components/related_work.md`: group, citation, link, venue and year, what they change and measure, why it matters to us, verified. Mark the key papers; a close overlap becomes a ticket. End with the quick sync in `AGENTS.md`.

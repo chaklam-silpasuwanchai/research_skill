@@ -23,4 +23,4 @@ Details: `references/sections.md`.
 - One message per figure; honest axes, n, intervals; script in `src/scripts/` (`references/figures.md`).
 
 ## Finish
-Terms, numbers, and claims agree across sections; the intro's promises are delivered. Citations fetched, never invented (`[CITE?]`). Say what changed in one line; suggest `review`.
+Terms, numbers, and claims agree across sections; the intro's promises are delivered. Citations fetched, never invented (`[CITE?]`). Clear the section's `⚠ stale` mark. End with the quick sync in `AGENTS.md`. Suggest `review`.
