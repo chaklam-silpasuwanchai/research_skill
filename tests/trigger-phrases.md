@@ -14,9 +14,12 @@
 | "show my progress" | `guide-me` |
 | "progress update for my advisor" | `guide-me` |
 | "retro" | `guide-me` |
-| "set up my paper repo" | `setup-repo` |
-| "I want to start a new paper" | `setup-repo` |
-| "organize my messy project" | `setup-repo` |
+| "set up my paper repo" | `update-repo` |
+| "I want to start a new paper" | `update-repo` |
+| "organize my messy project" | `update-repo` |
+| "update my repo" | `update-repo` |
+| "sync everything with my latest results" | `update-repo` |
+| "is my paper up to date?" | `update-repo` |
 | "show the board" | `check-board` |
 | "what should I do first?" | `check-board` |
 | "change my priorities" | `check-board` |

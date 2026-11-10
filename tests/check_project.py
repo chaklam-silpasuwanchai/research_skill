@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Check a student project folder created by setup-repo. Usage: python tests/check_project.py <dir> --type chi|nlp"""
+"""Check a student project folder created by update-repo. Usage: python tests/check_project.py <dir> --type chi|nlp"""
 import re, sys
 from pathlib import Path
 

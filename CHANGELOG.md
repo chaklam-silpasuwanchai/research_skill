@@ -4,6 +4,9 @@
 
 **Names:** a lowercase verb, optionally with one or two hyphenated words (`write`, `check-board`, `setup-writing-style`). `guide-me` is the front door.
 
+## 0.3.0
+- **`setup-repo` is now `update-repo`.** No project yet → sets it up as before. Existing project → brings it up to date: adds missing folders and files (never overwrites), refreshes `AGENTS.md` from the template (keeping venue, mode, language, lab defaults, and preferences), aligns the working files and the board with the latest log, runs, and results, and updates the paper (method, numbers, results, citations), marking what can't be updated yet as ⚠ stale. Shows an "Updated / Stale" summary with undo. `guide-me` suggests it when files or the paper fall behind.
+
 ## 0.2.0
 
 **Idea:** the human leads. Chaky suggests which skill could help; the researcher chooses. Inside a task, Chaky makes the change and says so ("say *undo*"); it asks first only for critical steps (deleting or moving files, changing code or data behind a reported result, freezing the plan, pushing, free-chat data, spending money, participants and ethics, submitting).

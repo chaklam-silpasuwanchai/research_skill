@@ -12,11 +12,11 @@
 
 ## Add or improve skills
 - Students can say "add a skill" or "always do X" to Chaky (`remember-this`). Choosing "improve Chaky for everyone" produces a short note for you.
-- New skills: a verb-noun name (two hyphenated words; a single verb like `clarify` is allowed), lean `SKILL.md`, register under *Supporting skills* in `setup-repo/assets/AGENTS.template.md`, update the README table and changelog.
+- New skills: a verb-noun name (two hyphenated words; a single verb like `clarify` is allowed), lean `SKILL.md`, register under *Supporting skills* in `update-repo/assets/AGENTS.template.md`, update the README table and changelog.
 - Plugin skills are overwritten on update. Per-student preferences live in each project's `AGENTS.md`, not in the skills.
 
 ## Customize for your lab (once)
-Edit `plugins/chaky/skills/setup-repo/assets/lab-defaults.md` (preferred venues, meeting rhythm, sign-off, data and AI-use policy). `setup-repo` copies it into each student's `AGENTS.md`.
+Edit `plugins/chaky/skills/update-repo/assets/lab-defaults.md` (preferred venues, meeting rhythm, sign-off, data and AI-use policy). `update-repo` copies it into each student's `AGENTS.md`.
 
 ## Checks
 - `python scripts/validate.py` (needs `pip install pyyaml`): headers, names, README and AGENTS lists, versions, stale names. GitHub Actions runs it on every push.

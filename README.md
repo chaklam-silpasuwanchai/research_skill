@@ -1,4 +1,4 @@
-# Chaky: your AI research partner (v0.2.0)
+# Chaky: your AI research partner (v0.3.0)
 
 Chaky helps you go from a rough idea to a submitted paper (CHI, ACL, NeurIPS style). **You lead. Chaky suggests, keeps you organized, and does the busy work.**
 
@@ -50,7 +50,7 @@ Which one, or something else?
 ## Which skill when? (by situation)
 
 **"I'm starting a new paper."**
-→ `/setup-repo chi` (or `nlp`). Folders, git, the venue's LaTeX template, and a to-do board.
+→ `/update-repo chi` (or `nlp`). Folders, git, the venue's LaTeX template, and a to-do board.
 → Then `/brain-dump`. Chaky asks one question at a time and writes down your idea.
 → Have past papers? `/setup-writing-style` so drafts sound like you.
 
@@ -83,6 +83,9 @@ Fix first: why it matters → /write intro
 ```
 Before the deadline: `/review submit`.
 
+**"My files and paper are behind my latest work."**
+→ `/update-repo`. Chaky adds anything missing, refreshes `AGENTS.md`, brings the working files and the board in line, and updates the paper (method, numbers, results, citations). What it can't update yet is marked ⚠ stale.
+
 **"I've lost track of what to do."**
 → `/check-board`. A short recap, then your to-do list fixed up: forgotten tasks added, unneeded ones dropped, priorities set, names made plain.
 
@@ -100,7 +103,7 @@ Before the deadline: `/review submit`.
 | Skill | Use it when... | Try |
 |---|---|---|
 | `guide-me` | you feel lost and want to know which skill is useful right now | "guide me" |
-| `setup-repo` | you are at the very beginning, or your project folder is a mess | /setup-repo chi |
+| `update-repo` | you're at the very beginning, or your project or paper is out of date with your latest work | /update-repo |
 | `setup-writing-style` | you want drafts to sound like you, not like an AI | "learn my writing style" |
 | `setup-llms` | your study needs AI models: OpenRouter, a local model, or free AI chats for labeling | /setup-llms local |
 | `brain-dump` | the idea is in your head but not on paper yet, at any stage | /brain-dump |
