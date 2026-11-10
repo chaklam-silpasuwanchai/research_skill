@@ -63,8 +63,12 @@ for n in names:
 pv = json.loads((ROOT / "plugins/chaky/.claude-plugin/plugin.json").read_text())["version"]
 mv = json.loads((ROOT / ".claude-plugin/marketplace.json").read_text())["plugins"][0]["version"]
 cl = re.search(r"^## (\d+\.\d+\.\d+)", (ROOT / "CHANGELOG.md").read_text(), re.M)
-if not (pv == mv == (cl.group(1) if cl else None)):
-    err(f"version mismatch: plugin {pv}, marketplace {mv}, changelog {cl.group(1) if cl else None}")
+cv = re.search(r"^version:\s*(\S+)", (ROOT / "CITATION.cff").read_text(), re.M)
+rv = re.search(r"\(v(\d+\.\d+\.\d+)\)", (ROOT / "README.md").read_text())
+found = {"plugin": pv, "marketplace": mv, "changelog": cl.group(1) if cl else None,
+         "CITATION.cff": cv.group(1) if cv else None, "README title": rv.group(1) if rv else None}
+if len(set(found.values())) != 1:
+    err("version mismatch: " + ", ".join(f"{k} {v}" for k, v in found.items()))
 
 # trigger phrases point at real skills
 tp = ROOT / "tests" / "trigger-phrases.md"
@@ -73,7 +77,7 @@ if tp.exists():
         m = re.match(r"\|\s*\"[^\"]+\"\s*\|\s*`([a-z\-]+)`\s*\|", line)
         if m and m.group(1) not in names: err(f"trigger-phrases.md: unknown skill {m.group(1)}")
 
-print(f"{len(names)} skills checked, {pv} (plugin = marketplace = changelog)" if not errors else "")
+print(f"{len(names)} skills checked, version {pv} (plugin = marketplace = changelog = CITATION = README)" if not errors else "")
 for w in warns: print("warn:", w)
 for e in errors: print("ERROR:", e)
 sys.exit(1 if errors else 0)

@@ -7,8 +7,8 @@
 4. Run one real paper through `guide-me` (start, idea, a pilot, a review).
 
 ## Release
-- Versions: `0.MINOR.PATCH` until tested with real students, then `1.0.0`. MINOR = new skill or changed behavior. PATCH = wording or bug fixes.
-- Bump in `plugin.json` and `marketplace.json`, add a `CHANGELOG.md` entry, push. Students run `/plugin marketplace update ask-chaky`.
+- **Every update bumps the version.** `0.MINOR.PATCH` until tested with real students, then `1.0.0`. MINOR = new skill or changed behavior. PATCH = wording or bug fixes.
+- Bump in `plugin.json`, `marketplace.json`, `CITATION.cff`, and the README title; add a `CHANGELOG.md` entry; push. `scripts/validate.py` checks they match, and CI fails a pull request without a bump. Students run `/plugin marketplace update ask-chaky` and `/plugin update chaky@ask-chaky`.
 
 ## Add or improve skills
 - Students can say "add a skill" or "always do X" to Chaky (`remember-this`). Choosing "improve Chaky for everyone" produces a short note for you.
