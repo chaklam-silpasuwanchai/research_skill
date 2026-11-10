@@ -2,7 +2,7 @@
 
 `scripts/validate.py` checks every skill named here exists. Read this list when two skills seem to overlap.
 
-**Disambiguation:** a *specific paper in hand* → `find-papers` (triage). *Unknown new papers or scoop fear* → `find-papers` (watch). *Related-work search* → `find-papers` (search). *Whole project too big or priorities unclear* → `plan-tickets`. *One idea, plan, or argument feels fuzzy* → `grill-me`. *Text sounds robotic* → `polish-prose` (unslop). *Stats or figures* → `analyze-results`.
+**Disambiguation:** a *specific paper in hand* → `find-papers` (triage). *Unknown new papers or scoop fear* → `find-papers` (watch). *Related-work search* → `find-papers` (search). *Recap, missing tasks, priorities* → `check-board`. *Get what's in my head out* → `brain-dump`. *Is it novel or valid* → `validate-idea`; *harder 360° look* → `think-deeply`. *Answer hard to read* → `clarify`; *still lost* → `teach-me`. *Text sounds robotic, stats, figures* → `write`.
 
 | Phrase | Skill |
 |---|---|
@@ -14,53 +14,70 @@
 | "show my progress" | `guide-me` |
 | "progress update for my advisor" | `guide-me` |
 | "retro" | `guide-me` |
-| "set up my paper repo" | `start-paper` |
-| "I want to start a new paper" | `start-paper` |
-| "organize my messy project" | `start-paper` |
-| "show the board" | `plan-tickets` |
-| "what should I do first?" | `plan-tickets` |
-| "change my priorities" | `plan-tickets` |
-| "let me lead" | `plan-tickets` |
-| "you drive" | `plan-tickets` |
-| "this project is too big to plan" | `plan-tickets` |
-| "is this ticket enough?" | `plan-tickets` |
-| "help me find a research question" | `shape-idea` |
-| "is this idea novel?" | `shape-idea` |
-| "sharpen my hypotheses" | `shape-idea` |
-| "grill me" | `grill-me` |
-| "stress-test my plan" | `grill-me` |
-| "plan my experiments" | `run-study` |
-| "run a pilot" | `run-study` |
-| "freeze my plan" | `run-study` |
-| "write my introduction" | `write-paper` |
-| "draft the whole paper" | `write-paper` |
-| "plan Figure 1" | `analyze-results` |
-| "quick review" | `review-paper` |
-| "would this pass at CHI?" | `review-paper` |
-| "how am I doing?" | `review-paper` |
-| "can I submit now?" | `review-paper` |
-| "camera-ready checklist" | `review-paper` |
-| "anonymize my paper" | `review-paper` |
+| "set up my paper repo" | `setup-repo` |
+| "I want to start a new paper" | `setup-repo` |
+| "organize my messy project" | `setup-repo` |
+| "show the board" | `check-board` |
+| "what should I do first?" | `check-board` |
+| "change my priorities" | `check-board` |
+| "let me lead" | `check-board` |
+| "you drive" | `check-board` |
+| "this project is too big to plan" | `check-board` |
+| "is this ticket enough?" | `check-board` |
+| "validate my idea" | `validate-idea` |
+| "is this idea novel?" | `validate-idea` |
+| "is this publishable at CHI?" | `validate-idea` |
+| "interview me" | `brain-dump` |
+| "grill me" | `brain-dump` |
+| "brain dump my study design" | `brain-dump` |
+| "help me find a research question" | `brain-dump` |
+| "stress-test my plan" | `brain-dump` |
+| "plan my experiments" | `plan-method` |
+| "what is my IV and DV?" | `plan-method` |
+| "how many participants do I need?" | `plan-method` |
+| "run a pilot" | `plan-method` |
+| "freeze my plan" | `plan-method` |
+| "write my introduction" | `write` |
+| "draft the whole paper" | `write` |
+| "plan Figure 1" | `write` |
+| "quick review" | `review` |
+| "would this pass at CHI?" | `review` |
+| "check my citations" | `review` |
+| "how am I doing?" | `review` |
+| "can I submit now?" | `review` |
+| "camera-ready checklist" | `review` |
+| "anonymize my paper" | `review` |
 | "I found a new paper" | `find-papers` |
 | "someone already did this" | `find-papers` |
 | "any new papers on my topic?" | `find-papers` |
 | "am I being scooped?" | `find-papers` |
 | "find related work on X" | `find-papers` |
-| "make this sound human" | `polish-prose` |
-| "remove AI slop" | `polish-prose` |
-| "polish this paragraph" | `polish-prose` |
-| "which statistical test?" | `analyze-results` |
-| "make a figure" | `analyze-results` |
-| "what model can I use?" | `use-llms` |
-| "help me label data" | `use-llms` |
-| "get a second opinion from Gemini" | `use-llms` |
-| "help me code this reliably" | `write-code` |
-| "my results look suspicious" | `write-code` |
-| "always do X" | `teach-chaky` |
-| "add a skill for DSPy" | `teach-chaky` |
+| "what is the closest work to my idea?" | `find-papers` |
+| "what method can I borrow?" | `find-papers` |
+| "make this sound human" | `write` |
+| "remove AI slop" | `write` |
+| "polish this paragraph" | `write` |
+| "which statistical test?" | `write` |
+| "make a figure" | `write` |
+| "what model can I use?" | `setup-llms` |
+| "set up OpenRouter" | `setup-llms` |
+| "run a local LLM" | `setup-llms` |
+| "help me label data" | `setup-llms` |
+| "get a second opinion from Gemini" | `setup-llms` |
+| "always do X" | `remember-this` |
+| "add a skill for DSPy" | `remember-this` |
 | "clarify" | `clarify` |
 | "that was too technical, say it simply" | `clarify` |
 | "think deeply about this" | `think-deeply` |
 | "is there a better way to do this?" | `think-deeply` |
-| "clean up my tickets" | `tidy-board` |
-| "is this task still needed?" | `tidy-board` |
+| "think 360 about this" | `think-deeply` |
+| "give me an example" | `clarify` |
+| "teach me power analysis" | `teach-me` |
+| "I still do not get it, walk me through it" | `teach-me` |
+| "learn my writing style" | `setup-writing-style` |
+| "here are my past papers" | `setup-writing-style` |
+| "remember this" | `remember-this` |
+| "clean up my tickets" | `check-board` |
+| "recap" | `check-board` |
+| "did we forget any tasks?" | `check-board` |
+| "is this task still needed?" | `check-board` |

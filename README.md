@@ -53,31 +53,29 @@ Chaky asks a few short questions (paper style, venue, GitHub or local, your past
 Open the terminal, `cd my-paper`, run `claude`, and say **"guide me"**. Chaky reads your project, tells you where you are, and suggests what could come next; you choose.
 
 ## Things you can say
-*guide me* · *what can you do?* · *show my progress* · *I found a new paper* · *I want to try X* · *quick review* · *help me label data* · *any new papers on my topic?* · *help me code this reliably* · *show the board* · *let me lead* · *you drive* · *retro* · *grill me* · *think deeply* · *clarify* · *clean up my tickets* · *unslop this* · *progress update* (for your advisor) · *fast mode* · *always do X* · *I'm lost*
+*guide me* · *what can you do?* · *interview me* · *recap* · *is this novel?* · */write abstract* · */plan-method IV* · *quick review* · *check my citations* · *I found a new paper* · *think deeply* · *clarify* · *teach me* · *undo* · *let me lead* · *you drive* · *retro* · *progress update* (for your advisor) · *fast mode* · *always do X* · *I'm lost*
 
 ## What Chaky helps with
 Say **"guide me"** and Chaky suggests a skill; you pick. You can also name one yourself. (Full list with example phrases: [`guide-me/references/skills.md`](plugins/chaky/skills/guide-me/references/skills.md).)
 | Skill | In plain English |
 |---|---|
 | `guide-me` | Start here: what needs attention, which skill could help next (you choose), progress, advisor update, retro |
-| `start-paper` | Interviews you, sets up your project, learns your voice, makes your board |
-| `plan-tickets` | Your board: tickets, 1-5 priorities, "done when", assist or lead mode |
-| `shape-idea` | Finds and sharpens a publishable idea |
-| `tidy-board` | Cleans up the board: re-checks priorities, drops or merges tasks, renames them in plain words |
-| `grill-me` | Asks one question at a time to stress-test an idea, plan, or argument |
-| `run-study` | Plans and runs your study; freezes the plan; reflects |
-| `write-paper` | Writes the paper with you |
-| `review-paper` | Tough reviewer (quick or full) and the submission check |
-| `find-papers` | Finds papers, watches for overlaps, handles a new paper you found |
-| `polish-prose` | Clear writing in your voice; removes robotic AI phrasing |
-| `analyze-results` | Statistics and honest figures |
-| `write-code` | Tested, reproducible research code |
-| `use-llms` | Which models to use; free-chat labeling and outside reviews |
-| `think-deeply` | Is there a better solution? Challenges the latest idea with first principles, assumptions, depth, systems thinking |
-| `clarify` | Rewrites a hard-to-read AI answer in plain words: what it means, what needs your attention |
-| `teach-chaky` | Makes repeated instructions permanent; adds skills |
+| `setup-repo` | Sets up the project: folders, git, LaTeX template, working files, first board |
+| `setup-writing-style` | Learns your writing voice from your past papers |
+| `setup-llms` | OpenRouter, local LLM, free AI chats for labeling and outside reviews |
+| `brain-dump` | Interviews you one question at a time, any phase, and saves what it learns |
+| `check-board` | Recap; tasks we need, forgot, or can drop; priorities; plain names; auto-close |
+| `validate-idea` | Is the idea (or the paper so far) novel, valid, significant? How to sharpen it |
+| `find-papers` | Closest work, novelty double-check, methods to borrow; watch; a paper you found |
+| `plan-method` | What you change and measure, participants, sample size, pilots, freeze, runs |
+| `write` | Writes the paper section by section in your voice; stats, figures, unslop |
+| `review` | Rigorous reviewer for your venue: novelty, validity, writing, every citation; a checklist back |
+| `think-deeply` | 360° look at the latest idea or answer: is there a better solution? |
+| `clarify` | Rewrites a too-technical answer in plain words, with an example and what needs you |
+| `teach-me` | Teaches a concept or step one small step at a time, on your own project |
+| `remember-this` | Makes a repeated instruction permanent; adds a skill |
 
-**How you work:** Chaky keeps a **board** (`components/tickets.md`) of tickets, each with a 1-5 priority (Chaky sets it; you can change it) and a "done when". You always choose what happens next. Say **"let me lead"** to see your top tasks and pick, or **"you drive"** to have Chaky suggest one each time. Not a waterfall: new ideas, papers, and review fixes become tickets any time.
+**How you work:** Chaky keeps a **board** (`components/tickets.md`) of tickets, each with a 1-5 priority (Chaky sets it; you can change it) and a "done when". You always choose which skill runs: say **"let me lead"** to see your top tasks and pick, or **"you drive"** to have Chaky suggest one each time. Inside a task Chaky just makes the change and tells you (say **"undo"** to reverse it); it asks first only for critical steps like deleting files, freezing the plan, pushing, or anything with participants. Not a waterfall: new ideas, papers, and review fixes become tickets any time.
 
 ## New to Chaky? See an example
 Look at [`examples/honest-sales-agent`](examples/honest-sales-agent) to see a project a few rounds in, and print the [cheat sheet](docs/cheatsheet.md). [How it works](docs/how-it-works.md) shows how the skills connect.
@@ -112,4 +110,4 @@ Using Codex instead? Same idea; check the Codex docs for its plugin commands, or
 ## More
 Version history: `CHANGELOG.md`. Labs and maintainers: `MAINTAINERS.md`. Found a problem or have an idea? Open an issue (the forms guide you). License: MIT. To cite Chaky, see `CITATION.cff`.
 
-`grill-me`, `plan-tickets`, and the retro mode are inspired by [Matt Pocock's grill-me, wayfinder, and retro](https://github.com/mattpocock/skills) (MIT). Some ideas were inspired by [Orchestra Research's AI-Research-SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs) (MIT license) and rewritten in our own words.
+`brain-dump`, `check-board`, and the retro mode are inspired by [Matt Pocock's grill-me, wayfinder, and retro](https://github.com/mattpocock/skills) (MIT). Some ideas were inspired by [Orchestra Research's AI-Research-SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs) (MIT license) and rewritten in our own words.

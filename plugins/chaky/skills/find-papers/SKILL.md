@@ -1,14 +1,17 @@
 ---
 name: find-papers
-description: Finds and verifies related papers, watches for papers that overlap your idea, and triages a new paper you found (cite, borrow, differentiate, pivot, park, or try it). Use for literature search, "what has been done on X", "any new papers", "I found a paper", or "someone already did this".
+description: Finds the closest work to your idea, double-checks novelty against it, and pulls out methods, measures, and analyses you can borrow - verified papers only. Also watches for new overlapping papers and handles a paper you just found. Use for "find closest work", "what has been done on X", "is anyone doing this", "what method can I copy", "I found a paper", or /find-papers [topic].
 ---
 
 # Find Papers
 
-Three modes: **search** (below), **watch** (`references/watch.md`: periodic scoop check, log the date), **triage** (`references/triage.md`: a new paper in hand; compare, decide, or try it on a side branch). Ask which mode if unclear. A specific paper in hand → triage. Unknown new papers → watch.
+Optional focus: `/find-papers <topic>`. Three jobs, in order of use: **closest work**, a **novelty double-check**, and **methods to borrow** (all in search mode, below). Two more modes: **watch** (`references/watch.md`: periodic scoop check, log the date), **triage** (`references/triage.md`: a new paper in hand; compare, decide, or try it on a side branch). Ask which mode if unclear. A specific paper in hand → triage. Unknown new papers → watch.
 
 ## Search mode
-Builds a map of the field: what is key, what is supporting, where the gap is.
+Builds a map of the field: what is key, what is supporting, where the gap is. Report three things:
+- **Closest work:** the 3-5 papers nearest to ours, each with what it did and what it left open.
+- **Novelty double-check:** for each closest paper, one line on how we differ (problem, what we change, what we measure, or method). Overlap is close or direct → say so plainly and suggest `validate-idea`.
+- **Methods to borrow:** measures, scales, baselines, datasets, procedures, and analyses from those papers that fit our study, with where to find them; feed these to `plan-method`.
 
 1. **State of the art.** Start with top venues for the area (e.g. CHI, ACL, NeurIPS, ICML); recent papers (about 3-4 years); several positioning angles.
 2. **Snowball and backtrack.** For each paper note (a) what it commonly **cites** (backward) and (b) what **cites it** (forward). ACM, IEEE, Semantic Scholar, and Google Scholar show both.

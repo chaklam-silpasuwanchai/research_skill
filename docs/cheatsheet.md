@@ -1,34 +1,30 @@
 # Chaky cheat sheet (print me)
 
-**Start:** open the terminal → `cd my-paper` → `claude` → say **guide me** (or *ask Chaky*).
+**Start:** open the terminal → `cd my-paper` → `claude` → say **guide me** (or *ask Chaky*). You lead; Chaky suggests.
 
 | I want to... | Say |
 |---|---|
 | know what to do next | guide me |
-| understand a confusing answer | clarify |
-| check if there's a better way | think deeply |
-| clean up my task list | clean up my tickets |
-| see what Chaky can do | what can you do? |
-| start a paper | set up my paper |
-| find or sharpen an idea | help me find a research question |
-| see my board of tickets | show the board |
-| keep my board visible beside the chat | make me a mod that shows my board |
+| start a paper | /setup-repo chi (or nlp) |
+| teach Chaky my writing style | learn my writing style |
+| set up models, a local LLM, or free AI chats | /setup-llms |
+| get my thoughts out | /brain-dump (or: interview me) |
+| recap and fix my task list | /check-board |
 | change a priority | make <task> a 5 |
-| steer myself / let Chaky steer | let me lead / you drive |
-| look back on the week | retro |
-| be challenged on my idea or plan | grill me |
-| plan or run my study | plan my experiments |
-| write a section | write my introduction |
-| make writing sound human | unslop this |
-| get a tough review | quick review |
-| handle a new paper I found | I found a new paper |
-| check for overlapping papers | any new papers on my topic? |
-| label data for free | help me label data |
-| make a figure | make a figure |
-| check before submitting | can I submit now? |
+| keep my board visible beside the chat | make me a mod that shows my board |
+| check if my idea is novel and valid | /validate-idea <my idea> |
+| find the closest papers and methods to borrow | /find-papers <topic> |
+| plan what I change and measure | /plan-method IV (or DV, sample size, pilot) |
+| write a section | /write abstract (or intro, method, results...) |
+| make writing sound human | /write polish |
+| get a rigorous review | /review (or /review citations, /review submit) |
+| look at it from every angle | /think-deeply |
+| understand a confusing answer | /clarify |
+| be taught step by step | /teach-me <topic> |
+| make a rule permanent | always do X |
 | see my progress | show my progress |
 | prepare for my advisor | progress update |
-| make a rule permanent | always do X |
+| undo the last change | undo |
 
 **Symbols:** ✅ ok · ❌ not ok · 🔧 to do · ⚠ stale · 🌟 very good · ⬜ empty · 🟡 rough
 
