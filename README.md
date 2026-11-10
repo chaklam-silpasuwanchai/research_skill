@@ -86,34 +86,34 @@ Before the deadline: `/review submit`.
 **"I've lost track of what to do."**
 → `/check-board`. A short recap, then your to-do list fixed up: forgotten tasks added, unneeded ones dropped, priorities set, names made plain.
 
-**"That answer felt one-sided."**
-→ `/think-deeply`. Chaky looks from every side (reviewer, participant, advisor, skeptic) and asks: is there a better way?
+**"I'm not happy with what the AI proposed."**
+→ `/think-deeply`. Chaky looks from every side (reviewer, participant, advisor, skeptic), explores 2-3 different paths, and tells you which looks best.
 
-**"I don't understand what the AI just said."**
+**"The AI is too technical. I need context or an example."**
 → `/clarify`. You get the bottom line, what needs you, and one example from your project.
 → Still lost? `/teach-me power analysis`. One small step at a time, with a quick check after each.
 
 **"I keep telling Chaky the same thing."**
 → Say **always do X**. `remember-this` makes it a permanent rule.
 
-## All skills
-| Skill | Use it to... |
-|---|---|
-| `guide-me` | see what needs attention and get a suggestion (start here) |
-| `setup-repo` | set up or tidy your project |
-| `setup-writing-style` | teach Chaky your writing voice |
-| `setup-llms` | set up OpenRouter, a local model, or free AI chats |
-| `brain-dump` | get your thoughts out, one question at a time |
-| `check-board` | recap and fix your to-do list |
-| `validate-idea` | check if an idea is novel, valid, and worth a paper |
-| `find-papers` | find closest work and methods to borrow |
-| `plan-method` | plan and run your study |
-| `write` | write any section, with stats and figures |
-| `review` | get a tough review and a citation check |
-| `think-deeply` | look from every angle; find a better way |
-| `clarify` | turn a confusing answer into plain words |
-| `teach-me` | learn something step by step |
-| `remember-this` | make a rule permanent |
+## All skills: use it when...
+| Skill | Use it when... | Try |
+|---|---|---|
+| `guide-me` | you feel lost and want to know which skill is useful right now | "guide me" |
+| `setup-repo` | you are at the very beginning, or your project folder is a mess | /setup-repo chi |
+| `setup-writing-style` | you want drafts to sound like you, not like an AI | "learn my writing style" |
+| `setup-llms` | your study needs AI models: OpenRouter, a local model, or free AI chats for labeling | /setup-llms local |
+| `brain-dump` | the idea is in your head but not on paper yet, at any stage | /brain-dump |
+| `check-board` | you've lost track of tasks, or the to-do list feels wrong or messy | /check-board |
+| `validate-idea` | you have an idea (or a draft) and want to know if it's novel, valid, and worth a paper | /validate-idea <idea> |
+| `find-papers` | you need the closest work, want to double-check novelty, or want a method to borrow | /find-papers <topic> |
+| `plan-method` | you need to decide what to change and measure, who takes part, how many, and how to run it | /plan-method IV |
+| `write` | you need a section written or rewritten, a stats test, a figure, or less AI-sounding text | /write abstract |
+| `review` | you want a tough reviewer's opinion and every citation checked before you share or submit | /review |
+| `think-deeply` | you're not satisfied with what the AI proposed and want it to explore different possible paths | /think-deeply |
+| `clarify` | the AI spoke too technically, or you want more context or an example | /clarify |
+| `teach-me` | clarify wasn't enough and you want to be walked through it step by step | /teach-me <topic> |
+| `remember-this` | you keep telling Chaky the same thing and want it to stick | "always do X" |
 
 Printable list: [cheat sheet](docs/cheatsheet.md). How the skills connect: [how it works](docs/how-it-works.md). A project a few weeks in: [`examples/honest-sales-agent`](examples/honest-sales-agent).
 

@@ -4,8 +4,8 @@
 
 | I want to... | Say |
 |---|---|
-| know what to do next | guide me |
-| start a paper | /setup-repo chi (or nlp) |
+| I'm lost; which skill helps now? | guide me |
+| I'm at the very beginning | /setup-repo chi (or nlp) |
 | teach Chaky my writing style | learn my writing style |
 | set up models, a local LLM, or free AI chats | /setup-llms |
 | get my thoughts out | /brain-dump (or: interview me) |
@@ -18,8 +18,8 @@
 | write a section | /write abstract (or intro, method, results...) |
 | make writing sound human | /write polish |
 | get a rigorous review | /review (or /review citations, /review submit) |
-| look at it from every angle | /think-deeply |
-| understand a confusing answer | /clarify |
+| not happy with what the AI proposed; explore other paths | /think-deeply |
+| the AI was too technical; I need context or an example | /clarify |
 | be taught step by step | /teach-me <topic> |
 | make a rule permanent | always do X |
 | see my progress | show my progress |

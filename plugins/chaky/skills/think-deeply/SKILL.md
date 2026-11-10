@@ -1,11 +1,11 @@
 ---
 name: think-deeply
-description: Looks at the current message, idea, plan, or claim from every angle and asks whether there is a better solution - different perspectives, first principles, hidden assumptions, one key thread in depth, and knock-on effects. Use when an answer feels shallow or one-sided, for "think deeply", "think 360", "is there a better way", "challenge this", or /think-deeply [topic].
+description: For when you're not satisfied with what the AI proposed. Looks at it from every angle and explores different possible paths - perspectives, first principles, hidden assumptions, one key thread in depth, knock-on effects - then says which path looks best. Use for "think deeply", "think 360", "is there a better way", "other options", "challenge this", or /think-deeply [topic].
 ---
 
 # Think Deeply
 
-One question: **is there a better solution than this?** "This" = the latest message, or what they name.
+Use when the researcher isn't satisfied with what was proposed. One question: **is there a better path than this?** "This" = the latest message, or what they name.
 
 1. **Restate** the problem and the solution in one sentence each.
 2. **360° views** (a line each): reviewer at the venue · participant or data · advisor · skeptic (boring explanation, strongest counterexample) · practitioner · ethics and risk.
@@ -20,7 +20,8 @@ Goal underneath: ...
 Worried views: reviewer (...), skeptic (...)
 Weakest assumption: ... → checked: ...
 Knock-on effects: ...
-Better option?: keep it / switch to ... because ...
+Paths: A (current) ... · B ... · C ...
+Best path: ... because ...
 Your call: <one question>
 ```
-At most two alternatives with gains and costs. If the plan survives, say so. Never present a guess as a finding.
+Show 2-3 genuinely different paths (not small tweaks), each with what it gains and costs, then recommend one. If the current plan is best, say so. Never present a guess as a finding.
