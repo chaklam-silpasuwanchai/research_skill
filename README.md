@@ -1,4 +1,4 @@
-# Chaky: your AI research partner (v0.6.0)
+# Chaky: your AI research partner (v0.7.0)
 
 Chaky helps you go from a rough idea to a submitted paper (CHI, ACL, NeurIPS style). **You lead. Chaky suggests, keeps you organized, and does the busy work.**
 
@@ -91,7 +91,7 @@ Before the deadline: `/review submit`. Got reviews back? `/write response` draft
 → `/update-board`. A short recap, then your to-do list fixed up: forgotten tasks added, unneeded ones dropped, priorities set, names made plain.
 
 **"I'm not happy with what the AI proposed."**
-→ `/think-deeply`. Chaky looks from every side (reviewer, participant, advisor, skeptic), explores 2-3 different paths, and tells you which looks best.
+→ `/think-deeply`. Chaky looks from every side (reviewer, participant, advisor, skeptic), explores 2-3 different paths, then proposes the most sensible approach with clear first steps.
 
 **"The AI is too technical. I need context or an example."**
 → `/clarify`. You get the bottom line, what needs you, and one example from your project.
@@ -114,7 +114,7 @@ Before the deadline: `/review submit`. Got reviews back? `/write response` draft
 | `plan-method` | you need to decide what to change and measure, who takes part, how many, and how to run it | /plan-method IV |
 | `write` | you need a section written or rewritten, a stats test, a figure, or less AI-sounding text | /write abstract |
 | `review` | you want a tough reviewer's opinion and every citation checked before you share or submit | /review |
-| `think-deeply` | you're not satisfied with what the AI proposed and want it to explore different possible paths | /think-deeply |
+| `think-deeply` | you're not satisfied with what the AI proposed and want it to explore other paths and propose the most sensible one | /think-deeply |
 | `clarify` | the AI spoke too technically, or you want more context or an example | /clarify |
 | `teach-me` | clarify wasn't enough and you want to be walked through it step by step | /teach-me <topic> |
 | `remember-this` | you keep telling Chaky the same thing and want it to stick | "always do X" |
