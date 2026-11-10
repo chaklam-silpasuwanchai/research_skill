@@ -7,8 +7,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - run: pip install pyyaml
       - run: python scripts/validate.py
+      - name: Version was bumped
+        if: github.event_name == 'pull_request'
+        run: |
+          old=$(git show "origin/${{ github.base_ref }}:plugins/chaky/.claude-plugin/plugin.json" | python -c "import json,sys; print(json.load(sys.stdin)['version'])")
+          new=$(python -c "import json; print(json.load(open('plugins/chaky/.claude-plugin/plugin.json'))['version'])")
+          echo "base $old -> this PR $new"
+          if [ "$old" = "$new" ]; then echo "::error::Bump the version (see CHANGELOG.md)"; exit 1; fi
