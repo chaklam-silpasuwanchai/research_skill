@@ -13,3 +13,26 @@
 
 `AGENTS.md` (repo root, where tools look) is the AI entry point and holds the working agreements; `README.md` explains the skill set and says order is flexible.
 
+
+## Folder trees (create only these)
+**ACL/NeurIPS**
+```
+paper/              manuscript, references, figures, official template
+components/         working notes
+src/
+  prompts/          prompts used
+  scripts/          experiments, analysis, tests
+  data/             train/ and heldout/ clearly separate
+  tests/            code, scoring, data-integrity checks
+  experiment_logs/  one record per run: config, outputs, failures, cost
+  results/          analysis and figures linked to run IDs
+```
+**CHI** (add `src/prompts/` only if the study uses AI prompts)
+```
+paper/  components/
+src/
+  scripts/          study, analysis, tests
+  data/             participant data: ID, when, where, configuration
+  experiment_logs/  which session, which participant
+  results/          statistics and figures linked to session IDs
+```

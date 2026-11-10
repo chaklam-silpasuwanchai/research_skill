@@ -43,8 +43,8 @@ for d in sorted(p for p in SKILLS.iterdir() if p.is_dir()):
     if not desc or len(desc) > 1024: err(f"{d.name}: description missing or over 1024 chars")
     if "Use " not in desc: warn(f"{d.name}: description has no 'Use ...' trigger phrase")
     words = len(text.split())
-    if words > 900: err(f"{d.name}: {words} words (limit 900)")
-    elif words > 800: warn(f"{d.name}: {words} words (getting long)")
+    if words > 500: err(f"{d.name}: {words} words (limit 500; move detail to references/)")
+    elif words > 400: warn(f"{d.name}: {words} words (getting long)")
     for ref in re.findall(r"references/[\w\-]+\.md", text):
         if not (d / ref).exists(): err(f"{d.name}: mentions missing file {ref}")
     for old in OLD_NAMES:
