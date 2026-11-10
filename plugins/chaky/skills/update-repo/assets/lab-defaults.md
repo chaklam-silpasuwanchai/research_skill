@@ -1,6 +1,6 @@
 # Lab defaults
 
-The lab maintainer edits this file once. `setup-repo` copies it into each student's `AGENTS.md` under *Lab defaults*. Leave a line blank to skip it.
+The lab maintainer edits this file once. `update-repo` copies it into each student's `AGENTS.md` under *Lab defaults*. Leave a line blank to skip it.
 
 - **Preferred venues (offered as options):**
 - **Advisor meeting rhythm and update format:**

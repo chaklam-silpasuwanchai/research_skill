@@ -5,7 +5,7 @@ Say "guide me" and Chaky suggests a skill; you choose. Or type `/<skill> <focus>
 | Skill | Use it when... | Try |
 |---|---|---|
 | `guide-me` | you feel lost and want to know which skill is useful right now | "guide me" |
-| `setup-repo` | you are at the very beginning, or your project folder is a mess | /setup-repo chi |
+| `update-repo` | you're at the very beginning, or your project or paper is out of date with your latest work | /update-repo |
 | `setup-writing-style` | you want drafts to sound like you, not like an AI | "learn my writing style" |
 | `setup-llms` | your study needs AI models: OpenRouter, a local model, or free AI chats for labeling | /setup-llms local |
 | `brain-dump` | the idea is in your head but not on paper yet, at any stage | /brain-dump |

@@ -10,14 +10,14 @@ except ImportError:
 
 ROOT = Path(__file__).resolve().parent.parent
 SKILLS = ROOT / "plugins" / "chaky" / "skills"
-CORE = {"guide-me", "setup-repo", "brain-dump", "check-board", "validate-idea", "plan-method",
+CORE = {"guide-me", "update-repo", "brain-dump", "check-board", "validate-idea", "plan-method",
         "write", "review"}
 OLD_NAMES = ["research-guide", "research-start", "research-ideation", "research-implementation",
              "research-storytelling", "chaky-reviewer", "pre-submission-check", "literature-snowballing",
              "elegant-writing", "paper-statistics", "find-related-work", "write-elegantly", "run-stats",
              "plan-llm-access", "ask-outside-ai", "code-reproducibly"]
 OLD_BARE = ["setup", "ideate", "implement", "storytell"]
-OLD_NAMES += ["start-paper", "plan-tickets", "tidy-board", "shape-idea", "run-study", "write-paper", "review-paper", "polish-prose", "analyze-results", "use-llms", "teach-chaky", "grill-me", "write-code"]
+OLD_NAMES += ["setup-repo", "start-paper", "plan-tickets", "tidy-board", "shape-idea", "run-study", "write-paper", "review-paper", "polish-prose", "analyze-results", "use-llms", "teach-chaky", "grill-me", "write-code"]
 OLD_NAMES += ["ask-chaky", "map-research", "watch-scoops", "triage-paper", "unslop-prose", "pick-models", "ask-chatbots", "analyze-data", "make-figures", "check-submission"]
 errors, warns = [], []
 def err(m): errors.append(m)
@@ -54,7 +54,7 @@ for d in sorted(p for p in SKILLS.iterdir() if p.is_dir()):
 
 # README and AGENTS template list every skill
 readme = (ROOT / "README.md").read_text()
-agents = (SKILLS / "setup-repo" / "assets" / "AGENTS.template.md").read_text()
+agents = (SKILLS / "update-repo" / "assets" / "AGENTS.template.md").read_text()
 for n in names:
     if f"`{n}`" not in readme: err(f"README.md does not list `{n}`")
     if n not in CORE and f"`{n}`" not in agents: err(f"AGENTS template Supporting skills does not list `{n}`")

@@ -4,7 +4,7 @@ Run each in a fresh folder with a clean Claude Code session. Tick every expectat
 
 | # | Scenario | Say | Expect |
 |---|---|---|---|
-| 1 | Empty folder, CHI | "guide me" → suggests `setup-repo`; pick it; answer CHI, venue, local | A few setup questions one at a time; mindsets shown once; folders incl. `src/prompts/` if AI prompts; board seeded (about 7 tickets) with priorities; suggests `brain-dump` next; `check_project.py --type chi` passes; nothing pushed |
+| 1 | Empty folder, CHI | "guide me" → suggests `update-repo`; pick it; answer CHI, venue, local | A few setup questions one at a time; mindsets shown once; folders incl. `src/prompts/` if AI prompts; board seeded (about 7 tickets) with priorities; suggests `brain-dump` next; `check_project.py --type chi` passes; nothing pushed |
 | 2 | Empty folder, ACL/NeurIPS | "guide me" → NLP answers | NLP folders incl. `src/tests/`; board has `model-access`; `--type nlp` passes |
 | 3 | Messy existing project | "guide me" in a folder of notes and code | Adopt mode: mapping table; asks before moving; nothing deleted; board seeded from what exists |
 | 4 | Resume next day | "guide me" | Leads with what needs attention; why in one line; one "Next:"; ≤ ~8 lines |
@@ -41,3 +41,4 @@ Run each in a fresh folder with a clean Claude Code session. Tick every expectat
 | 35 | Critical step asks | ask to delete an old folder, or to start the main runs | Asks first (delete or move files; freeze the plan) and does nothing until confirmed |
 | 36 | Writing style | "learn my writing style" with two past papers | Papers stay outside the repo; about 25 lines in `voice.md` with examples from their text; one sample paragraph in their voice; saved and said so |
 | 37 | Local LLM | "/setup-llms local" | Asks about the computer and memory; suggests a model size and runner; tests one call through `call_model()`; logs the exact model |
+| 38 | Update an existing project | a project with an old `AGENTS.md`, two new pilot runs, and a method section that says 2 conditions (now 3) | Doesn't re-run setup; adds missing files without overwriting; refreshes `AGENTS.md` keeping venue, mode, lab defaults, and preferences; updates working files and board; method and results updated, unfinished parts marked ⚠ stale; no invented numbers; shows an "Updated / Stale" summary with undo; logged |

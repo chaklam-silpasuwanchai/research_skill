@@ -14,9 +14,9 @@ Which one, or something else?
 ```
 
 ## 1. Look
-- No project → suggest `setup-repo`. No board → `check-board`.
+- No project → suggest `update-repo`. No board → `check-board`.
 - Read `current_status.md`, the board, latest `log.md` and `review.md`, `terms.md`.
-- Older `AGENTS.md` without "Change, then tell"? Offer once to update it from the `setup-repo` template.
+- Older `AGENTS.md` without "Change, then tell", or the paper behind the latest results? Suggest `update-repo`.
 - First time or "what can you do?" → show `references/skills.md`.
 
 ## 2. Suggest (one skill + up to two others, then wait)
@@ -31,6 +31,7 @@ Which one, or something else?
 | A section, stats, a figure, robotic text | `write` |
 | Draft changed; citations; "can I submit?" | `review` |
 | Recap, forgotten or messy tasks | `check-board` |
+| Files or paper behind the latest work | `update-repo` |
 | Not happy with what was proposed; wants other paths | `think-deeply` |
 | Too technical, needs context or an example / still lost | `clarify` / `teach-me` |
 | Voice, models, keys, free AI chats | `setup-writing-style`, `setup-llms` |
