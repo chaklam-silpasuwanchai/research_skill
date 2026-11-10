@@ -1,10 +1,10 @@
 # How Chaky works
 
-Chaky (`ask-chaky`) is the front door. It reads your project and **board**, tells you what needs attention, and routes you to a skill. Work happens in **tickets**; each has a 1-5 priority Chaky sets (you can change it) and a "done when" so you know when it is enough. The paper is a living draft: every skill ends by syncing it, and `review-paper` checks it often.
+Chaky (`guide-me`) is the front door. It reads your project and **board**, tells you what needs attention, and **suggests** which skill could help; you choose. Humans lead. Work happens in **tickets**; each has a 1-5 priority Chaky sets (you can change it) and a "done when" so you know when it is enough. The paper is a living draft: every skill ends by syncing it, and `review-paper` checks it often.
 
 ```mermaid
 flowchart TD
-  C([ask-chaky]) --> B[plan-tickets: the board]
+  C([guide-me]) -->|suggests| B[plan-tickets: the board]
   B -->|read| F[find-papers]
   B -->|decide| G[grill-me / shape-idea]
   B -->|try| R[run-study]
@@ -23,6 +23,9 @@ flowchart TD
     P[polish-prose]
     A[analyze-results]
     U[use-llms]
+    T[tidy-board]
+    D[think-deeply]
+    L[clarify]
   end
 ```
 

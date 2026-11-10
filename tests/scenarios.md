@@ -4,10 +4,10 @@ Run each in a fresh folder with a clean Claude Code session. Tick every expectat
 
 | # | Scenario | Say | Expect |
 |---|---|---|---|
-| 1 | Empty folder, CHI | "ask Chaky" → needs, terms, CHI, venue, local, assist | Mindsets first; one question at a time; terms agreed; folders incl. `src/prompts/`; board seeded (about 7 tickets) with priorities assigned; `check_project.py --type chi` passes; nothing pushed |
-| 2 | Empty folder, ACL/NeurIPS | "ask Chaky" → NLP answers | NLP folders incl. `src/tests/`; board has `model-access`; `--type nlp` passes |
-| 3 | Messy existing project | "ask Chaky" in a folder of notes and code | Adopt mode: mapping table; asks before moving; nothing deleted; board seeded from what exists |
-| 4 | Resume next day | "ask Chaky" | Leads with what needs attention; why in one line; one "Next:"; ≤ ~8 lines |
+| 1 | Empty folder, CHI | "guide me" → needs, terms, CHI, venue, local, assist | Mindsets first; one question at a time; terms agreed; folders incl. `src/prompts/`; board seeded (about 7 tickets) with priorities assigned; `check_project.py --type chi` passes; nothing pushed |
+| 2 | Empty folder, ACL/NeurIPS | "guide me" → NLP answers | NLP folders incl. `src/tests/`; board has `model-access`; `--type nlp` passes |
+| 3 | Messy existing project | "guide me" in a folder of notes and code | Adopt mode: mapping table; asks before moving; nothing deleted; board seeded from what exists |
+| 4 | Resume next day | "guide me" | Leads with what needs attention; why in one line; one "Next:"; ≤ ~8 lines |
 | 5 | Assist mode | "you drive" | Recommends the top frontier ticket with a reason; asks only decisions |
 | 6 | Lead mode | "let me lead" | Shows the top 3 and waits; suggests only when asked |
 | 7 | New ticket | finish work that creates new tasks | Tickets created with done-when; each gets a 1-5 priority with a one-line reason, no question asked; "make <ticket> a 5" changes it and the change sticks |
@@ -25,5 +25,9 @@ Run each in a fresh folder with a clean Claude Code session. Tick every expectat
 | 19 | Progress and retro | "show my progress", then "retro" | Bars from the stage map; tickets done of total; retro asks 5 questions one at a time and logs a reflection |
 | 20 | Unslop | paste a generic paragraph, "unslop this" | Hits per 1,000 words before → after; no new claims; `[EVIDENCE?]` where unsupported |
 | 21 | Submit tomorrow | "can I submit now?" | Submission mode: blockers first, then should-fix, then nice-to-have |
-| 22 | Plain talk, their words | in a project whose `terms.md` says "honest agent", ask "ask Chaky" and "what should I measure?" | Everyday words; no ticket, done-when, fog, frontier, IV/DV, or mode names unless the student used them first; says "honest agent", never a synonym; a field term differing from theirs is mentioned once and asked about |
+| 22 | Plain talk, their words | in a project whose `terms.md` says "honest agent", ask "guide me" and "what should I measure?" | Everyday words; no ticket, done-when, fog, frontier, IV/DV, or mode names unless the student used them first; says "honest agent", never a synonym; a field term differing from theirs is mentioned once and asked about |
 | 23 | Board side panel | first "show the board" | Offers once to have Claude Code build a mod showing `tickets.md` beside the chat, with the exact phrase to say; editor fallback mentioned; not offered again |
+| 24 | Human leads | "guide me" in a project with open tickets | Suggests one skill with why plus up to two alternatives; asks "Which one?"; starts nothing until the student picks |
+| 25 | Clarify | after a long technical answer, "clarify" | Bottom line first; what needs attention (≤ 3); ≤ 5 plain bullets; no diffs or code; no new facts; their terms |
+| 26 | Think deeply | propose a plan, then "is there a better way?" | Restates goal; names the weakest assumption and digs into it; knock-on effects; keeps the plan or offers ≤ 2 alternatives; ends with one question; changes no files |
+| 27 | Tidy board | a board with a duplicate, a stale ticket, and a cryptic name | One proposal table (merge, drop or park, rename, priority); applies only what the student approves; `blocked by` names updated; dropped tickets listed under Done; logged |

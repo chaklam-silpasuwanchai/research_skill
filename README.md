@@ -2,7 +2,7 @@
 
 Chaky guides you from a rough idea to a submitted paper (CHI, ACL, NeurIPS style). It sets up your project, helps you find a real research gap, plans your study, writes with you, reviews like a tough reviewer, and checks everything before you submit. **You stay in charge. Chaky keeps you organized.**
 
-You only ever need one phrase: **"ask Chaky"**.
+You only ever need one phrase: **"guide me"** ("ask Chaky" works too). You lead; Chaky suggests.
 
 ## Before you start (5 checks)
 - [ ] A paid Claude plan (Pro or higher)
@@ -45,24 +45,25 @@ cd my-paper
 claude
 ```
 Then say:
-> **ask Chaky**
+> **guide me**
 
 Chaky asks a few short questions (paper style, venue, GitHub or local, your past papers), then sets up your project folder. Answer roughly; you can fix things later.
 
 ## Every time you come back
-Open the terminal, `cd my-paper`, run `claude`, and say **"ask Chaky"**. Chaky reads your project and tells you where you are and what to do next.
+Open the terminal, `cd my-paper`, run `claude`, and say **"guide me"**. Chaky reads your project, tells you where you are, and suggests what could come next; you choose.
 
 ## Things you can say
-*ask Chaky* · *what can you do?* · *show my progress* · *I found a new paper* · *I want to try X* · *quick review* · *help me label data* · *any new papers on my topic?* · *help me code this reliably* · *show the board* · *let me lead* · *you drive* · *retro* · *grill me* · *unslop this* · *progress update* (for your advisor) · *fast mode* · *always do X* · *I'm lost*
+*guide me* · *what can you do?* · *show my progress* · *I found a new paper* · *I want to try X* · *quick review* · *help me label data* · *any new papers on my topic?* · *help me code this reliably* · *show the board* · *let me lead* · *you drive* · *retro* · *grill me* · *think deeply* · *clarify* · *clean up my tickets* · *unslop this* · *progress update* (for your advisor) · *fast mode* · *always do X* · *I'm lost*
 
 ## What Chaky helps with
-Say **"ask Chaky"** and it picks the skill. You can also name one yourself. (Full list with example phrases: [`ask-chaky/references/skills.md`](plugins/chaky/skills/ask-chaky/references/skills.md).)
+Say **"guide me"** and Chaky suggests a skill; you pick. You can also name one yourself. (Full list with example phrases: [`guide-me/references/skills.md`](plugins/chaky/skills/guide-me/references/skills.md).)
 | Skill | In plain English |
 |---|---|
-| `ask-chaky` | Start here: what needs attention, the next step, progress, advisor update, retro |
+| `guide-me` | Start here: what needs attention, which skill could help next (you choose), progress, advisor update, retro |
 | `start-paper` | Interviews you, sets up your project, learns your voice, makes your board |
 | `plan-tickets` | Your board: tickets, 1-5 priorities, "done when", assist or lead mode |
 | `shape-idea` | Finds and sharpens a publishable idea |
+| `tidy-board` | Cleans up the board: re-checks priorities, drops or merges tasks, renames them in plain words |
 | `grill-me` | Asks one question at a time to stress-test an idea, plan, or argument |
 | `run-study` | Plans and runs your study; freezes the plan; reflects |
 | `write-paper` | Writes the paper with you |
@@ -72,9 +73,11 @@ Say **"ask Chaky"** and it picks the skill. You can also name one yourself. (Ful
 | `analyze-results` | Statistics and honest figures |
 | `write-code` | Tested, reproducible research code |
 | `use-llms` | Which models to use; free-chat labeling and outside reviews |
+| `think-deeply` | Is there a better solution? Challenges the latest idea with first principles, assumptions, depth, systems thinking |
+| `clarify` | Rewrites a hard-to-read AI answer in plain words: what it means, what needs your attention |
 | `teach-chaky` | Makes repeated instructions permanent; adds skills |
 
-**How you work:** Chaky keeps a **board** (`components/tickets.md`) of tickets, each with a 1-5 priority (Chaky sets it; you can change it) and a "done when". Say **"let me lead"** to steer yourself, or **"you drive"** to let Chaky recommend each next step. Not a waterfall: new ideas, papers, and review fixes become tickets any time.
+**How you work:** Chaky keeps a **board** (`components/tickets.md`) of tickets, each with a 1-5 priority (Chaky sets it; you can change it) and a "done when". You always choose what happens next. Say **"let me lead"** to see your top tasks and pick, or **"you drive"** to have Chaky suggest one each time. Not a waterfall: new ideas, papers, and review fixes become tickets any time.
 
 ## New to Chaky? See an example
 Look at [`examples/honest-sales-agent`](examples/honest-sales-agent) to see a project a few rounds in, and print the [cheat sheet](docs/cheatsheet.md). [How it works](docs/how-it-works.md) shows how the skills connect.
@@ -95,9 +98,9 @@ Your paper lives in the `paper/` folder (official template). To make a PDF, uplo
 |---|---|
 | `claude: command not found` | Close and reopen the terminal. Run `claude doctor` |
 | `/plugin` isn't recognized | Update Claude Code and restart it |
-| "ask Chaky" does nothing | Restart Claude. Type `/chaky` and see if skills appear. Otherwise use the fallback below |
+| "guide me" does nothing | Restart Claude. Type `/chaky` and see if skills appear. Otherwise use the fallback below |
 | `git` not found | Install Git (see the checklist above) |
-| Chaky forgot what we did | Say "ask Chaky"; it re-reads `components/current_status.md` |
+| Chaky forgot what we did | Say "guide me"; it re-reads `components/current_status.md` |
 | Hit a usage limit | Wait for the reset. Long sessions use more, so start with small pilots |
 
 **Fallback (no plugin):** download this repo, then copy every folder inside `plugins/chaky/skills/` into `~/.claude/skills/` (Windows: `%USERPROFILE%\.claude\skills\`), and restart Claude.

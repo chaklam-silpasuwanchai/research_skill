@@ -6,13 +6,14 @@
 
 | Phrase | Skill |
 |---|---|
-| "ask Chaky" | `ask-chaky` |
-| "what should I do next?" | `ask-chaky` |
-| "where am I?" | `ask-chaky` |
-| "what can you do?" | `ask-chaky` |
-| "show my progress" | `ask-chaky` |
-| "progress update for my advisor" | `ask-chaky` |
-| "retro" | `ask-chaky` |
+| "guide me" | `guide-me` |
+| "ask Chaky" | `guide-me` |
+| "what should I do next?" | `guide-me` |
+| "where am I?" | `guide-me` |
+| "what can you do?" | `guide-me` |
+| "show my progress" | `guide-me` |
+| "progress update for my advisor" | `guide-me` |
+| "retro" | `guide-me` |
 | "set up my paper repo" | `start-paper` |
 | "I want to start a new paper" | `start-paper` |
 | "organize my messy project" | `start-paper` |
@@ -57,3 +58,9 @@
 | "my results look suspicious" | `write-code` |
 | "always do X" | `teach-chaky` |
 | "add a skill for DSPy" | `teach-chaky` |
+| "clarify" | `clarify` |
+| "that was too technical, say it simply" | `clarify` |
+| "think deeply about this" | `think-deeply` |
+| "is there a better way to do this?" | `think-deeply` |
+| "clean up my tickets" | `tidy-board` |
+| "is this task still needed?" | `tidy-board` |

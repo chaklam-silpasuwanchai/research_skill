@@ -14,6 +14,6 @@ A student wants to use the Chaky skills for writing an academic paper. Follow th
    mkdir -p ~/.claude/skills && cp -r /tmp/research_skill/plugins/chaky/skills/* ~/.claude/skills/
    ```
    Then ask them to restart the tool. (For Codex, ask where its skills folder is; don't guess.)
-4. **Start.** In an empty folder for the paper, say "ask Chaky". It sets up the repo and guides the rest.
+4. **Start.** In an empty folder for the paper, say "guide me". It sets up the repo and suggests each next step; the student decides.
 
 Don't install anything else, and don't change files outside the skills folder.

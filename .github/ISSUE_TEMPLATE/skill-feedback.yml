@@ -6,7 +6,7 @@ body:
     id: skill
     attributes:
       label: Skill
-      options: [ask-chaky, start-paper, plan-tickets, shape-idea, grill-me, run-study, write-paper, review-paper, find-papers, polish-prose, analyze-results, write-code, use-llms, teach-chaky, not sure]
+      options: [guide-me, start-paper, plan-tickets, tidy-board, shape-idea, grill-me, run-study, write-paper, review-paper, find-papers, polish-prose, analyze-results, write-code, use-llms, think-deeply, clarify, teach-chaky, not sure]
     validations:
       required: true
   - type: textarea
