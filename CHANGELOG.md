@@ -4,6 +4,9 @@
 
 **Names:** lowercase hyphenated words starting with a verb (`update-paper`, `setup-writing-style`). `guide-me` is the front door.
 
+## 0.17.0
+- **`plan-method` reads how others did it first:** the method sections of the 5-15 closest papers go into a table in `experimental_design.md` (design, IV and levels, DV and measure, participants or data and n, task, analysis, baseline), with the common pattern named; every planning decision then cites a paper or says why we differ.
+
 ## 0.16.0
 - **Claude in Chrome:** before the AI reviewer check (and free-chat labeling), Chaky asks whether the student has the Claude in Chrome extension. If yes, it opens Claude, ChatGPT, and Gemini in their own browser, pastes the anonymized draft (or batches) after one confirmation, and collects the answers; if not, the student copies and pastes as before.
 
