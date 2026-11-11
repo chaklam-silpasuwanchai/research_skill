@@ -4,6 +4,9 @@
 
 **Names:** lowercase hyphenated words starting with a verb (`update-paper`, `setup-writing-style`). `guide-me` is the front door.
 
+## 0.15.0
+- **AI reviewer check in `review`:** many reviewers now use AI, so before sharing or submitting the student runs an anonymized draft through Claude, ChatGPT, and Gemini with one reviewer prompt (`review/references/ai-reviewers.md`). Pass = all three at accept or weak accept; points 2-3 AIs share become tickets; every paper they name is verified. Pasting an unpublished paper is a critical step (ask first, anonymize, no training on data). The old outside-review notes moved here from `plan-method`.
+
 ## 0.14.1
 - **Two kinds of novelty:** the introduction should make reviewers feel both idea novelty (a new question or insight) and technical novelty (a non-obvious method); `review` checks both.
 

@@ -71,7 +71,7 @@
 | "set up OpenRouter" | `plan-method` |
 | "run a local LLM" | `plan-method` |
 | "help me label data" | `plan-method` |
-| "get a second opinion from Gemini" | `plan-method` |
+| "get a second opinion from Gemini" | `review` |
 | "clarify" | `clarify` |
 | "that was too technical, say it simply" | `clarify` |
 | "think deeply about this" | `think-deeply-and-learn-from-other-papers` |
@@ -95,3 +95,5 @@
 | "clean up my repo" | `update-repo` |
 | "this doesn't sound like me" | `setup-writing-style` |
 | "I suspect someone already did this" | `read-papers` |
+| "would ChatGPT accept this paper?" | `review` |
+| "check my paper with Claude, ChatGPT, and Gemini" | `review` |
