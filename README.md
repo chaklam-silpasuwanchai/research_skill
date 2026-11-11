@@ -1,4 +1,4 @@
-# Chaky: your AI research partner (v0.8.0)
+# Chaky: your AI research partner (v0.9.0)
 
 Chaky helps you go from a rough idea to a submitted paper (CHI, ACL, NeurIPS style). **You lead. Chaky suggests, keeps you organized, and does the busy work.**
 
@@ -15,7 +15,7 @@ Windows (PowerShell):
 ```
 irm https://claude.ai/install.ps1 | iex
 ```
-Open a **new** terminal and check: `claude --version`. New to the terminal? See the [terminal guide](https://code.claude.com/docs/en/terminal-guide), or use the Claude desktop app.
+Open a **new** terminal; check with `claude --version`. New to terminals? [Guide](https://code.claude.com/docs/en/terminal-guide), or use the Claude desktop app.
 
 **2. Add Chaky.** Type `claude`, log in, then type:
 ```
@@ -30,102 +30,97 @@ mkdir my-paper
 cd my-paper
 claude
 ```
-Say **guide me**. Chaky asks a few short questions and sets up your project. Rough answers are fine.
+Say **guide me**. Rough answers are fine. **Coming back?** `cd my-paper`, `claude`, **guide me**. Chaky remembers where you are.
 
-**Coming back later?** `cd my-paper`, run `claude`, say **guide me**. Chaky remembers where you are.
-
-## How Chaky talks to you
-Short, plain, and it always ends with a choice for you:
+## How Chaky works with you
 ```
 Needs attention: your intro is out of date (you changed the question Tuesday).
-Top tasks: try two pilot versions · decide participant count · plan the analysis
 Suggested: /write intro (about 20 min). Or: /plan-method pilot
 Which one, or something else?
 ```
-- **You pick the skill.** Chaky never jumps into one on its own.
-- **Small changes just happen.** Chaky makes the change, tells you in one line, and you can say **undo**.
-- **Big things wait for your yes:** deleting or moving files, freezing your study plan, pushing to GitHub, anything with participants or ethics, spending money, pasting data into free AI chats, submitting.
-- **Everything stays in sync.** After every task Chaky closes finished tasks, adds new ones, fixes facts in the paper, and commits, then tells you in one line. About once a week, or after a pilot or reviews, it suggests a full `/update-repo`.
-- **You can aim any skill:** add a focus after the name, like `/write abstract` or `/plan-method IV`.
+- **You pick the skill.** Chaky suggests; it never jumps in on its own.
+- **Small changes just happen**, with one line of what changed. Say **undo** to reverse.
+- **Big things wait for your yes:** deleting files, freezing the plan, pushing, participants, money, free AI chats, submitting.
+- **Everything stays in sync:** tasks, files, and paper update after every task.
+- **Aim any skill:** `/write abstract`, `/plan-method IV`.
 
-## Which skill when? (by situation)
+## Stuck? Find your moment
+Not sure? Just say **guide me**. Or find the sentence that sounds like you:
 
-**"I'm starting a new paper."**
-→ `/update-repo chi` (or `nlp`). Folders, git, the venue's LaTeX template, and a to-do board.
-→ Then `/brain-dump`. Chaky asks one question at a time and writes down your idea.
-→ Have past papers? `/setup-writing-style` so drafts sound like you.
+### 🌱 Getting started
+| You're thinking... | Try |
+|---|---|
+| "I have a topic, but I don't know where to begin." | `/update-repo chi` (or `nlp`), then `/brain-dump` |
+| "It's all in my head. I can't get it onto paper." | `/brain-dump`: one question at a time, with a suggested answer each time |
+| "My drafts sound like ChatGPT, not like me." | `/setup-writing-style` with a past paper, then `/write polish` |
 
-**"I have an idea, but is it any good?"**
-→ `/validate-idea agents that admit what they don't know`
+### 📚 Ideas and papers
+| You're thinking... | Try |
+|---|---|
+| "Is my idea even new? What if someone already did it?" | `/find-papers <topic>`, then `/read-papers <idea>` |
+| "I just found a paper that looks exactly like mine. Help!" | Say **I found a paper** and paste the link. Overlap is a level, not a verdict. |
+| "How do other people run this kind of study?" | `/read-papers`: what to copy from the 10-15 closest papers, and your **one** difference |
+
 ```
-Novel ✅  closest: Smith 2024 tested trust, not admitting limits
-Valid ❓  you haven't picked a trust scale yet
+Borrow: within-subjects design · trust scale (Lee 2023) · n≈24
+One difference: we test admitting limits, not just being accurate
+Novel ✅  Valid ❓ no trust scale chosen yet
 Next: /plan-method DV
 ```
 
-**"What has been done already? Am I scooped?"**
-→ `/find-papers honest sales agents`. You get the closest papers, how you differ, and methods you can borrow. Found a paper yourself? Say **I found a paper** and paste the link.
+### 🧪 Planning and running the study
+| You're thinking... | Try |
+|---|---|
+| "What's my IV and DV? How many participants do I need?" | `/plan-method IV`, `/plan-method sample size` |
+| "I need AI models, but I don't know the setup or the cost." | `/plan-method models` (OpenRouter or a local model) |
+| "Labeling 2,000 examples by hand is impossible." | `/plan-method labeling` (free AI chats, humans only at the end) |
+| "My results don't match my hypothesis." | `/think-deeply`, or `/read-papers` to re-check. Dead ends count as progress. |
 
-**"How do I design my study?"**
-→ `/plan-method`. It covers what you change (IV), what you measure (DV), who takes part, how many, the order of conditions, and the analysis. Do one part at a time with `/plan-method IV` or `/plan-method sample size`. Then pilot, freeze the plan, and run.
+### ✍️ Writing
+| You're thinking... | Try |
+|---|---|
+| "I'm staring at a blank page." | `/write intro` (or `abstract`, `method`, `results`...) |
+| "Which statistical test? Is this figure honest?" | `/write stats`, `/write figure` |
+| "I don't know what to say in limitations." | `/write limitations`: real threats from your own notes, no filler |
 
-**"I need to use AI models in my study."**
-→ `/plan-method models` (OpenRouter or a local model) or `/plan-method labeling` (free AI chats to label data).
+### 🚀 Submitting and reviews
+| You're thinking... | Try |
+|---|---|
+| "Is this good enough to submit?" | `/review`: three reviewers, a meta-review, and every citation checked |
+| "The deadline is in 3 days." | `/review submit`: blockers first, then should-fix |
+| "The reviews came back and they hurt." | Paste them, then `/write response`. One point at a time, most important first. |
 
-**"Time to write."**
-→ `/write abstract`, `/write intro`, `/write results`, and so on. It writes in your voice, adds honest stats and figures, and removes AI-sounding phrases. Want the whole draft at once? Say **fast mode**.
 
-**"Is my paper ready?"**
-→ `/review`. Chaky reviews like a real panel at your venue (three reviewers and a meta-review) and checks every citation.
-```
-Novelty   3.5/5  ✅ closest work named   ❌ why it matters unclear
-Citations        ✅ 41 ok  ❌ 2 not found  🔧 1 wrong year
-Fix first: why it matters → /write intro
-```
-Before the deadline: `/review submit`. Got reviews back? `/write response` drafts your reply, and `/write limitations` writes honest limitations.
+### 🧭 Staying on track
+| You're thinking... | Try |
+|---|---|
+| "I'm back after two weeks and I forgot everything." | **guide me**: where you are and what's next, in about 5 lines |
+| "Too many tasks. I don't know what to do first." | `/update-board`: recap, forgotten tasks added, extras dropped, priorities set |
+| "My files and paper are behind my latest results." | `/update-repo`: everything brought in line; prose that needs rewriting is marked ⚠ |
+| "Advisor meeting tomorrow." | Say **progress update**: one page with what's done, results, and decisions needed |
 
-**"My files and paper are behind my latest work."**
-→ `/update-repo`. Chaky adds anything missing, refreshes `AGENTS.md`, brings the working files and the board in line, and updates the paper (method, numbers, results, citations). What it can't update yet is marked ⚠ stale.
+### 💬 When the AI isn't helping
+| You're thinking... | Try |
+|---|---|
+| "That was too technical. What does it mean for me?" | `/clarify`: the bottom line, what needs you, one example |
+| "I still don't get it." | `/teach-me <topic>`: small steps with a quick check after each |
+| "Please always talk simply, in my language." | `/speak-plainly Thai` (or any language), from now on |
+| "I don't like what the AI proposed. Is there a better way?" | `/think-deeply`: every angle, 2-3 paths, then one clear recommendation |
+| "I keep telling Chaky the same thing." | Say **always do X**. It becomes a permanent rule. |
 
-**"I've lost track of what to do."**
-→ `/update-board`. A short recap, then your to-do list fixed up: forgotten tasks added, unneeded ones dropped, priorities set, names made plain.
+### A typical journey
+`/update-repo` → `/brain-dump` → `/find-papers` → `/read-papers` → `/plan-method` → pilot and run → `/write` → `/review` → `/write response`. You can jump around any time; **guide me** always knows where you are.
 
-**"I'm not happy with what the AI proposed."**
-→ `/think-deeply`. Chaky looks from every side (reviewer, participant, advisor, skeptic), explores 2-3 different paths, then proposes the most sensible approach with clear first steps.
+## All 14 skills
+`guide-me` lost? start here · `update-repo` set up or bring up to date · `setup-writing-style` your voice · `brain-dump` get it out of your head · `update-board` your to-do list · `find-papers` search the field · `read-papers` closest 10-15, what to copy, your one difference · `plan-method` design and run the study · `write` any section, stats, figures · `review` tough panel plus citations · `think-deeply` a better path? · `clarify` say that simply · `teach-me` step by step · `speak-plainly` always simple, your language
 
-**"The AI is too technical. I need context or an example."**
-→ `/clarify`. You get the bottom line, what needs you, and one example from your project.
-→ Still lost? `/teach-me power analysis`. One small step at a time, with a quick check after each.
-
-**"I keep telling Chaky the same thing."**
-→ Say **always do X**. Chaky asks once, then saves it as a permanent rule in your project.
-
-## All skills: use it when...
-| Skill | Use it when... | Try |
-|---|---|---|
-| `guide-me` | you feel lost and want to know which skill is useful right now | "guide me" |
-| `update-repo` | you're at the very beginning, or your project or paper is out of date with your latest work | /update-repo |
-| `setup-writing-style` | you want drafts to sound like you, not like an AI | "learn my writing style" |
-| `brain-dump` | the idea is in your head but not on paper yet, at any stage | /brain-dump |
-| `update-board` | you've lost track of tasks, or the to-do list feels wrong or messy | /update-board |
-| `validate-idea` | you have an idea (or a draft) and want to know if it's novel, valid, and worth a paper | /validate-idea <idea> |
-| `find-papers` | you need the closest work, want to double-check novelty, or want a method to borrow | /find-papers <topic> |
-| `plan-method` | you need to decide what to change and measure, who takes part, how many, which AI models, and how to run it | /plan-method IV |
-| `write` | you need a section written or rewritten, a stats test, a figure, or less AI-sounding text | /write abstract |
-| `review` | you want a tough reviewer's opinion and every citation checked before you share or submit | /review |
-| `think-deeply` | you're not satisfied with what the AI proposed and want it to explore other paths and propose the most sensible one | /think-deeply |
-| `clarify` | the AI spoke too technically, or you want more context or an example | /clarify |
-| `teach-me` | clarify wasn't enough and you want to be walked through it step by step | /teach-me <topic> |
-
-Printable list: [cheat sheet](docs/cheatsheet.md). How the skills connect: [how it works](docs/how-it-works.md). A project a few weeks in: [`examples/honest-sales-agent`](examples/honest-sales-agent).
+More: [cheat sheet](docs/cheatsheet.md) · [how it works](docs/how-it-works.md) · [example project](examples/honest-sales-agent).
 
 ## Good habits
-- Small rounds. Rough first, polish later.
-- Keep API keys in `.env`. Chaky sets up a guard that stops secrets and participant data from being committed.
-- Never paste participant data into free AI chats.
-- CHI studies: record ethics approval before recruiting.
-- Prefer another language? Tell Chaky. Your paper stays in English.
-- Starting a new task? Type `/clear`, then **guide me**. Chaky's files remember everything.
+- Small rounds: rough first, polish later.
+- API keys go in `.env`; never paste participant data into free AI chats.
+- CHI: ethics approval before recruiting.
+- New task? Type `/clear`, then **guide me**. Chaky's files remember everything.
 
 ## Something wrong?
 | Problem | Try this |

@@ -4,6 +4,12 @@
 
 **Names:** a lowercase verb, optionally with one or two hyphenated words (`write`, `check-board`, `setup-writing-style`). `guide-me` is the front door.
 
+## 0.9.0
+- **`validate-idea` is now `read-papers`**, and it reads closely: the 10-15 closest papers (running the `find-papers` search first if needed), one table row each (question, what they change and measure, who or what data, design and analysis, finding, limitation, what we borrow, how we differ), a list of methods to borrow or copy with sources, and **the one difference** in one sentence. Then novelty, validity, significance. Principle: copy many things, differ in one.
+- **New `speak-plainly`:** changes how Chaky talks for the rest of the session (plain words, their language and terms, an example, what needs them first, short) and offers to make it permanent in `AGENTS.md`. `clarify` still rewrites a single answer.
+- **README by pain point:** "Stuck? Find your moment" groups what students actually think ("I'm back after two weeks and forgot everything", "the reviews came back and they hurt") with the skill to try, from getting started to reviews, plus a typical journey. Shorter overall.
+- **`find-papers` focuses on searching:** the field map and a ranked list of the 10-15 closest papers, plus watch and triage; it then suggests `/read-papers`.
+
 ## 0.8.0
 - **Removed `setup-llms`:** AI models now live in `plan-method` (`/plan-method models`, `/plan-method labeling`): key in `.env`, pinned models, one logged `call_model()`, local models, free-chat labeling and outside review. Its reference files moved to `plan-method/references/`.
 - **Removed `remember-this`:** "always do X" is now a rule in `AGENTS.md`. Chaky asks once, then adds a dated line under *My preferences* (or the personal `CLAUDE.md` for all projects). Adding skills stays a maintainer task (`CLAUDE.md`, `MAINTAINERS.md`).

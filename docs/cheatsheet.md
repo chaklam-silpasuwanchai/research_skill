@@ -13,8 +13,8 @@
 | recap and fix my task list | /update-board |
 | change a priority | make <task> a 5 |
 | keep my board visible beside the chat | make me a mod that shows my board |
-| check if my idea is novel and valid | /validate-idea <my idea> |
-| find the closest papers and methods to borrow | /find-papers <topic> |
+| read the closest papers: what to copy, how I'm different | /read-papers <my idea> |
+| search for papers on my topic | /find-papers <topic> |
 | plan what I change and measure | /plan-method IV (or DV, sample size, pilot) |
 | write a section | /write abstract (or intro, method, results...) |
 | make writing sound human | /write polish |
@@ -22,6 +22,7 @@
 | not happy with what the AI proposed; explore other paths | /think-deeply |
 | the AI was too technical; I need context or an example | /clarify |
 | be taught step by step | /teach-me <topic> |
+| always talk simply, in my language | /speak-plainly <language> |
 | make a rule permanent | always do X |
 | see my progress | show my progress |
 | prepare for my advisor | progress update |

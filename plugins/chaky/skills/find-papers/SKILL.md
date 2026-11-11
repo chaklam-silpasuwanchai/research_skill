@@ -1,6 +1,6 @@
 ---
 name: find-papers
-description: Finds the closest work to your idea, double-checks novelty against it, and pulls out methods, measures, and analyses you can borrow - verified papers only. Also watches for new overlapping papers and handles a paper you just found. Use for "find closest work", "what has been done on X", "what method can I borrow", "I found a paper", "am I scooped", or /find-papers [topic].
+description: Searches for papers on your topic and finds the 10-15 closest to your idea - verified papers only - so read-papers can read them closely. Also watches for new overlapping papers and handles a paper you just found. Use for "find closest work", "what has been done on X", "I found a paper", "am I scooped", or /find-papers [topic].
 ---
 
 # Find Papers
@@ -11,10 +11,10 @@ Focus: a topic. A paper in hand → **triage** (`references/triage.md`). Worried
 2. **Snowball:** what each paper cites, and what cites it (Semantic Scholar, Google Scholar, ACM DL). Two or three rounds.
 3. Stop at about 20-30 papers, or when searches return what you already have.
 
-## Report three things
-- **Closest work:** the 3-5 nearest papers, what each did and left open.
-- **Novelty check:** one line each on how we differ (problem, what we change, what we measure, method). Close or direct overlap → say so plainly; suggest `validate-idea`.
-- **Methods to borrow:** scales, measures, baselines, datasets, procedures, analyses that fit our study, with where to find them (for `plan-method`).
+## Report
+- **The map:** the key papers, the groups, what's done and what's open.
+- **Closest 10-15:** ranked by closeness to our idea. Close or direct overlap → say so plainly.
+Then suggest `/read-papers` to read the closest ones closely: what to borrow, and our one difference.
 
 ## Verify every paper
 It exists (DOI, publisher, ACL Anthology, arXiv, OpenReview); title, authors, year, venue match; preprints marked. Can't verify → leave it out and say so. BibTeX is fetched, never typed from memory.

@@ -20,7 +20,7 @@ src/
 
 ## How to work in this repo
 Use Claude Code (or Codex) in this folder, on a paid plan. Not sure what to do next? Say **"guide me"** and it will read your repo and tell you. Or say which stage you are in, for example:
-- "Let's start generating ideas" -> `validate-idea`
+- "Let's start generating ideas" -> `read-papers`
 - "Let's plan and run the study" -> `plan-method`
 - "Let's write the paper" -> `write`
 - "Review my paper like a tough reviewer" -> `review`

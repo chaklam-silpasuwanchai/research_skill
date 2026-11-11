@@ -2,7 +2,7 @@
 
 `scripts/validate.py` checks every skill named here exists. Read this list when two skills seem to overlap.
 
-**Disambiguation:** a *specific paper in hand* → `find-papers` (triage). *Unknown new papers or scoop fear* → `find-papers` (watch). *Related-work search* → `find-papers` (search). *Recap, missing tasks, priorities* → `update-board`. *Get what's in my head out* → `brain-dump`. *Is it novel or valid* → `validate-idea`; *harder 360° look* → `think-deeply`. *Answer hard to read* → `clarify`; *still lost* → `teach-me`. *Text sounds robotic, stats, figures* → `write`.
+**Disambiguation:** a *specific paper in hand* → `find-papers` (triage). *Unknown new papers or scoop fear* → `find-papers` (watch). *Related-work search* → `find-papers` (search). *Recap, missing tasks, priorities* → `update-board`. *Get what's in my head out* → `brain-dump`. *Is it novel or valid* → `read-papers`; *harder 360° look* → `think-deeply`. *Answer hard to read* → `clarify`; *still lost* → `teach-me`. *Text sounds robotic, stats, figures* → `write`.
 
 | Phrase | Skill |
 |---|---|
@@ -27,9 +27,12 @@
 | "you drive" | `update-board` |
 | "this project is too big to plan" | `update-board` |
 | "is this ticket enough?" | `update-board` |
-| "validate my idea" | `validate-idea` |
-| "is this idea novel?" | `validate-idea` |
-| "is this publishable at CHI?" | `validate-idea` |
+| "read the closest papers" | `read-papers` |
+| "how do others do this kind of study?" | `read-papers` |
+| "what can I copy from other papers?" | `read-papers` |
+| "how are we different?" | `read-papers` |
+| "is this idea novel?" | `read-papers` |
+| "is this publishable at CHI?" | `read-papers` |
 | "interview me" | `brain-dump` |
 | "grill me" | `brain-dump` |
 | "brain dump my study design" | `brain-dump` |
@@ -57,8 +60,8 @@
 | "any new papers on my topic?" | `find-papers` |
 | "am I being scooped?" | `find-papers` |
 | "find related work on X" | `find-papers` |
-| "what is the closest work to my idea?" | `find-papers` |
-| "what method can I borrow?" | `find-papers` |
+| "search for papers on my topic" | `find-papers` |
+| "what method can I borrow?" | `read-papers` |
 | "make this sound human" | `write` |
 | "remove AI slop" | `write` |
 | "polish this paragraph" | `write` |
@@ -84,3 +87,6 @@
 | "recap" | `update-board` |
 | "did we forget any tasks?" | `update-board` |
 | "is this task still needed?" | `update-board` |
+| "speak plainly" | `speak-plainly` |
+| "talk to me in Thai from now on" | `speak-plainly` |
+| "less technical from now on, with examples" | `speak-plainly` |
