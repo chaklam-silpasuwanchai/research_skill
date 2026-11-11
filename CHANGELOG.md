@@ -4,6 +4,9 @@
 
 **Names:** lowercase hyphenated words starting with a verb (`update-paper`, `setup-writing-style`). `guide-me` is the front door.
 
+## 0.13.0
+- **Say only what's necessary:** `update-paper` keeps a sentence only if the reader needs it to understand or believe the story (the rest is cut or moved to the appendix), so reviewers have less to question; `review` flags unnecessary sentences, side results, and details.
+
 ## 0.12.0
 - **`think-deeply` is now `think-deeply-and-learn-from-other-papers`**, and it does what the name says: after the 360° look, it checks how 3-5 close papers handled the same choice (from `related_work.md`, or a quick verified search) before proposing the most sensible approach. "Think deeply" still triggers it. Skill names may now be longer than three words.
 
