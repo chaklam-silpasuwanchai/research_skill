@@ -19,7 +19,7 @@ Following the lab's one-page outline:
 Unsure → offer **2-3 alternative storylines** (e.g. problem-first, surprising-finding-first, method-first), each a 4-line arc with what it gains, and recommend one. Save the agreed story in `current_status.md`; every section must follow it.
 
 ## 2. Write or update sections
-Read `voice.md` and `terms.md`; skim 3-5 recent venue papers. Follow `references/sections.md`, then `references/style.md`, then the unslop pass (`references/unslop.md`, `references/patterns.md`) keeping every claim, number, and citation. Show each section; they comment; continue. **"Fast mode"** → whole draft in one pass. Sections marked `⚠ stale` come first.
+**Say only what's necessary:** every sentence must help the reader understand or believe the story; the rest goes to the appendix or is cut (`references/style.md`). Read `voice.md` and `terms.md`; skim 3-5 recent venue papers. Follow `references/sections.md`, then `references/style.md`, then the unslop pass (`references/unslop.md`, `references/patterns.md`) keeping every claim, number, and citation. Show each section; they comment; continue. **"Fast mode"** → whole draft in one pass. Sections marked `⚠ stale` come first.
 
 ## 3. Special parts
 - **Stats and figures:** the planned test; effect sizes with intervals; numbers recomputed by script (`references/stats.md`); one message per figure (`references/figures.md`).
