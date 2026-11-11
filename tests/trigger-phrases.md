@@ -94,3 +94,4 @@
 | "I suspect someone already did this" | `update-paper` |
 | "would ChatGPT accept this paper?" | `review` |
 | "check my paper with Claude, ChatGPT, and Gemini" | `review` |
+| "here is my Google Scholar link" | `setup-writing-style` |

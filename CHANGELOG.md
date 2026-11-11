@@ -4,6 +4,9 @@
 
 **Names:** lowercase hyphenated words starting with a verb (`update-paper`, `setup-writing-style`). `guide-me` is the front door.
 
+## 0.20.0
+- **`setup-writing-style` takes a Google Scholar link:** lists your papers, suggests 2-3 recent first-author ones, and reads open copies (arXiv, ACL Anthology, open access); if Scholar blocks it, asks for PDFs or uses Claude in Chrome.
+
 ## 0.19.0
 - **`read-papers` merged into `update-paper`:** step 1 of `update-paper` finds and reads the 10-15 closest papers when there are fewer than 10 verified ones, on `/update-paper papers`, or on "is this novel?" (search, read, field in three lines, what to copy, the one difference, novelty and validity: `references/papers.md`; triage and watch moved too). The related work section uses the same field summary.
 - **`think-deeply-and-learn-from-other-papers` is `think-deeply` again**; it still learns from other papers.
