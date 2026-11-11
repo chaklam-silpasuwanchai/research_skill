@@ -4,6 +4,9 @@
 
 **Names:** a lowercase verb, optionally with one or two hyphenated words (`write`, `check-board`, `setup-writing-style`). `guide-me` is the front door.
 
+## 0.11.3
+- **Lab terms:** adds control condition, manipulation check, exclusion criteria, informed consent, pre-registration, order effect, novelty effect, and hallucination; "post-hoc test" now includes the multiple-comparison correction.
+
 ## 0.11.2
 - **Lab terms:** adds study terms (RQ, task, procedure, questionnaire, Likert scale, think-aloud, Wizard-of-Oz, simulated users, SUS, NASA-TLX, task time, accuracy, error rate, ground truth), analysis terms (effect size, p-value, post-hoc test, confidence interval, Cohen's kappa, semi-structured interview, thematic analysis, prompt, temperature, human evaluation, error analysis, benchmark), and writing terms (contribution, research gap, design implications, limitations, future work). "Avoid" adds held-out set, novel, leverage/utilize, robust, significant.
 
