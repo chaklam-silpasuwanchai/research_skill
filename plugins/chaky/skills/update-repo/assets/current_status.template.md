@@ -3,6 +3,7 @@
 *Plain English. Updated at the end of every working session.*
 
 **Paper type / venue:**  
+**Research stage:** idea generation  <!-- generation · refinement · validation · testing · storytelling -->  
 **Mindsets read:** no  <!-- change to "yes, YYYY-MM-DD" -->
 
 ## Done

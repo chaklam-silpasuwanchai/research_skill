@@ -1,6 +1,6 @@
 ---
 name: update-paper
-description: Writes and updates your paper - first agrees the story with you (background and key papers, the key problem, the key solution, the key findings), suggesting alternative storylines if you're unsure, then writes or updates sections in your voice, with honest stats and figures, limitations, replies to reviewers, and no AI-sounding phrasing. Use for "write my paper", "update the paper", "what's my story", "write my introduction", "reply to reviewers", or /update-paper [section].
+description: Writes and updates your paper (idea storytelling) - first agrees the story with you (background and key papers, problem, research question, solution, findings, contribution), suggesting alternative storylines if you're unsure, then writes or updates sections in your voice, with honest stats and figures, limitations, replies to reviewers, and no AI-sounding phrasing. Use for "write my paper", "update the paper", "what's my story", "write my introduction", "reply to reviewers", or /update-paper [section].
 ---
 
 # Update Paper
@@ -9,11 +9,13 @@ Focus: `story`, `abstract`, `intro`, `related work`, `method`, `results`, `discu
 
 ## 1. The story first
 Ask one at a time (suggest an answer from the repo each time):
-1. **Background:** the world before us, and the 2-3 key papers it rests on.
-2. **Key problem:** what's missing or broken.
-3. **Key solution:** what we do (our one difference from `read-papers`).
-4. **Key findings:** what we found, or expect to.
-5. **So what:** who cares and what changes.
+Following the lab's one-page outline:
+1. **Background:** the context, and the 2-3 key papers it rests on.
+2. **Problem:** what remains difficult or unexplained, and for whom.
+3. **Research question.**
+4. **Proposed solution:** what we do (our one difference from `read-papers`).
+5. **Evaluation and key findings:** the evidence; what we found or expect.
+6. **Contribution:** what changes because of this work.
 Unsure → offer **2-3 alternative storylines** (e.g. problem-first, surprising-finding-first, method-first), each a 4-line arc with what it gains, and recommend one. Save the agreed story in `current_status.md`; every section must follow it.
 
 ## 2. Write or update sections
