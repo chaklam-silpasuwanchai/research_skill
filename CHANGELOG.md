@@ -4,6 +4,9 @@
 
 **Names:** lowercase hyphenated words starting with a verb (`update-paper`, `setup-writing-style`). `guide-me` is the front door.
 
+## 0.21.0
+- **Every skill ends with a light `update-board`:** the quick sync closes finished tickets, adds new ones, re-checks priorities with the `update-board` rules, and shows the top 3 tasks plus the next skill. It is part of every skill, not a separate skill start; the full `/update-board` (recap, drop or merge, plain names) is suggested weekly or when the board is messy, and by `guide-me` after 7+ days.
+
 ## 0.20.0
 - **`setup-writing-style` takes a Google Scholar link:** lists your papers, suggests 2-3 recent first-author ones, and reads open copies (arXiv, ACL Anthology, open access); if Scholar blocks it, asks for PDFs or uses Claude in Chrome.
 
