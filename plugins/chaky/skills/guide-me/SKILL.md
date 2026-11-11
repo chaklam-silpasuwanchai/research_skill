@@ -9,7 +9,7 @@ The researcher remembers one phrase. **They lead; you suggest.** Never start a s
 ```
 Needs attention: your intro is out of date (the question changed Tuesday).
 Top tasks: try two pilot versions · decide participant count · plan analysis
-Suggested: /write intro (about 20 min). Or: /plan-method pilot
+Suggested: /update-paper intro (about 20 min). Or: /plan-method pilot
 Which one, or something else?
 ```
 
@@ -25,10 +25,9 @@ Which one, or something else?
 | Situation | Suggest |
 |---|---|
 | Thoughts still in their head | `brain-dump` |
-| "Is this novel?"; how do others do it; what to copy; results contradict the idea | `read-papers` |
-| Search for papers, a paper they found, scoop worry | `find-papers` |
+| Suspects overlap; "is this novel?"; a paper they found; results contradict the idea | `read-papers` |
 | What to change and measure, participants, pilots, runs | `plan-method` |
-| A section, stats, a figure, robotic text | `write` |
+| Writing: the story, a section, stats, figures, reviewer replies | `update-paper` |
 | Draft changed; citations; "can I submit?" | `review` |
 | Recap, forgotten or messy tasks | `update-board` |
 | Files or paper behind the latest work | `update-repo` |

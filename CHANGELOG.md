@@ -4,6 +4,17 @@
 
 **Names:** a lowercase verb, optionally with one or two hyphenated words (`write`, `check-board`, `setup-writing-style`). `guide-me` is the front door.
 
+## 0.10.0
+- **README by "when you...":** one table mapping each moment (lost, confused, suspect overlap, want to write...) to the skill and what happens.
+- **`find-papers` merged into `read-papers`:** search, close reading of the 10-15 closest, what to copy, the one difference, novelty and validity, plus watch and triage ("I found a paper").
+- **`write` is now `update-paper`:** agrees the story first (background and key papers, key problem, key solution, key findings, so what), offers 2-3 alternative storylines if unsure, then writes or updates sections; stale sections first.
+- **`review`:** improvements split into **easy** (do now) and **difficult** (plan them), all ticketed.
+- **`setup-writing-style`:** learns from a paragraph, past papers, emails, or blogs, and confirms the paper's terms one at a time.
+- **`update-repo`:** updates all docs and cleans up clutter (stray files, `_v2` copies, caches; moving or deleting asks first); paper prose goes to `update-paper`.
+- **`plan-method`:** fair design and tools, learned from 5-15 close papers; suggests free-chat labeling whenever a study needs labels.
+- **`brain-dump`:** framed as the AI getting your feedback and thinking.
+- 13 skills.
+
 ## 0.9.0
 - **`validate-idea` is now `read-papers`**, and it reads closely: the 10-15 closest papers (running the `find-papers` search first if needed), one table row each (question, what they change and measure, who or what data, design and analysis, finding, limitation, what we borrow, how we differ), a list of methods to borrow or copy with sources, and **the one difference** in one sentence. Then novelty, validity, significance. Principle: copy many things, differ in one.
 - **New `speak-plainly`:** changes how Chaky talks for the rest of the session (plain words, their language and terms, an example, what needs them first, short) and offers to make it permanent in `AGENTS.md`. `clarify` still rewrites a single answer.
