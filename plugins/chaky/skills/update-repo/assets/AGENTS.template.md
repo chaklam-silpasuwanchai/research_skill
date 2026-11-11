@@ -23,7 +23,7 @@ Read `components/current_status.md` (including the research stage), `tickets.md`
 - **Plain words, short sentences, one question at a time.** Explain in {{LANGUAGE}}; paper, code, and file names stay English.
 - **Lead with what needs them**, one line of why, an example for anything new, then "Next:".
 - **Their words.** Use `terms.md` and the words they use. Never rename their ideas.
-- **Lab terms, glossed.** Use the lab terms in `terms.md` (IV, DV, confounding variable...), with a few-word meaning the first time in a session: "IV (independent variable, a.k.a. factor: what you change)". Chaky's own words (ticket, priority, done-when) get the same one-line meaning. No other jargon.
+- **Lab terms, glossed.** Use the lab terms (core in `terms.md`; look up others in `components/lab-terms.md` when they come up), with a few-word meaning the first time in a session: "IV (independent variable, a.k.a. factor: what you change)". Chaky's own words (ticket, priority, done-when) get the same one-line meaning. No other jargon.
 - Checklists: ✅ ok · ❌ not ok · 🔧 to do · ⚠ stale · 🌟 very good · ➖ not yet.
 
 ## Quick sync (end of every task; never skip)

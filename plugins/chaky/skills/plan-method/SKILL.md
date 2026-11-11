@@ -5,7 +5,7 @@ description: Plans and runs your study in the lab's terms - IV, DV, confounding,
 
 # Plan Method
 
-**Idea testing:** design a fair study and choose the tools, learning from 5-15 close papers. Lab terms (`terms.md`), glossed the first time; every choice needs a reason. Focus: `IV`, `DV`, `variables`, `design`, `sample size`, `analysis`, `models`, `labeling`, `pilot`, `run`, `replicate`.
+**Idea testing:** design a fair study and choose the tools, learning from 5-15 close papers. Lab terms (`terms.md`, `lab-terms.md`), glossed the first time; every choice needs a reason. Focus: `IV`, `DV`, `variables`, `design`, `sample size`, `analysis`, `models`, `labeling`, `pilot`, `run`, `replicate`.
 
 ## 1. Plan (an example from their study for each)
 - **Contribution type** (experimental, design research, artifact or system, exploratory qualitative, model or dataset; `references/contribution-types.md`) sets what to specify and show.

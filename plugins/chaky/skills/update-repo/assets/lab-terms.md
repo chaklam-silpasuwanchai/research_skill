@@ -1,6 +1,8 @@
 # Lab terms (AIT Brain Lab)
 
-The lab maintainer edits this file once. `update-repo` copies it into every project's `components/terms.md` as **Lab terms**, above the student's own terms. Every skill uses these words. The first time a term comes up in a session, give its plain meaning in a few words, e.g. "IV (independent variable, a.k.a. factor: what you change)".
+The lab maintainer edits this file once. `update-repo` copies the **Core** part into every project's `components/terms.md` (read every session) and the whole file to `components/lab-terms.md` (looked up only when a term comes up). The first time a term comes up in a session, give its plain meaning in a few words, e.g. "IV (independent variable, a.k.a. factor: what you change)".
+
+# Core (copied into terms.md)
 
 ## Research stages
 | Stage | Main question | Skills |
@@ -21,6 +23,20 @@ The lab maintainer edits this file once. `update-repo` copies it into every proj
 | **Random variable** | Something we let vary rather than control (not the statistics meaning). | Time of day of each session |
 | **Individual differences** | How people differ (age, expertise, personality). Treat as a factor if the question is about them, otherwise as a random variable. Ask which. | Prior experience with chatbots |
 
+## Avoid, or explain in plain words
+| Don't say | Say instead |
+|---|---|
+| smoke run | quick test run (or pilot, if it's with people) |
+| fitting | training the model, or estimating the statistical model |
+| replay | re-running a saved session or log |
+| held-out set | test set |
+| novel | say what is new, specifically |
+| leverage, utilize | use |
+| robust | only if robustness was tested; say against what |
+| significant | only after a statistical test; otherwise "large" or "clear" |
+
+# Full list (in components/lab-terms.md; look up when needed)
+
 ## Design
 | Term | Plain meaning |
 |---|---|
@@ -33,6 +49,14 @@ The lab maintainer edits this file once. `update-repo` copies it into every proj
 | **Ablation** | Removing one part to see how much it matters. |
 | **Leakage** | Test information sneaking into training or design choices. |
 | **Train / validation / test** | Data to learn on / tune on / report on, kept separate. |
+
+## Analysis and validity
+| Term | Plain meaning |
+|---|---|
+| **Statistical analysis** | The test that answers the hypothesis (t-test, ANOVA, regression, mixed-effects models), with effect sizes, confidence intervals, and assumption checks. No default: choose from the design and the data. |
+| **Internal validity** | Did the IV really cause the change in the DV? (confounds, controls, randomization, counterbalancing) |
+| **Construct validity** | Did we measure the concept we claim? (operational measures, validated scales) |
+| **External validity** | Where should the result hold? (participants, tasks, settings, culture) |
 
 ## Study words we use often
 | Term | Plain meaning |
@@ -86,6 +110,7 @@ The lab maintainer edits this file once. `update-repo` copies it into every proj
 | **Thematic analysis** | Finding patterns in qualitative data: **codes** (labels on quotes) grouped into **themes**. |
 | **Prompt, temperature** | The instruction given to an LLM; how random its output is. |
 | **Hallucination** | An LLM stating things that aren't true. |
+| **Zero-shot / few-shot** | Prompting an LLM with no examples, or with a few examples. |
 | **Human evaluation** | People judging outputs, often to check an LLM judge or a metric. |
 | **Error analysis** | Looking at where and why the system fails. |
 | **Benchmark** | A standard dataset and task used to compare systems. |
@@ -95,26 +120,6 @@ The lab maintainer edits this file once. `update-repo` copies it into every proj
 
 ## Writing verbs we use
 **propose** (a new method or design) · **investigate** (test a question) · **explore** (open-ended, exploratory work) · **develop** (build a system or tool) · **hypothesize** (state a prediction).
-
-## Avoid, or explain in plain words
-| Don't say | Say instead |
-|---|---|
-| smoke run | quick test run (or pilot, if it's with people) |
-| fitting | training the model, or estimating the statistical model |
-| replay | re-running a saved session or log |
-| held-out set | test set |
-| novel | say what is new, specifically |
-| leverage, utilize | use |
-| robust | only if robustness was tested; say against what |
-| significant | only after a statistical test; otherwise "large" or "clear" |
-
-## Analysis and validity
-| Term | Plain meaning |
-|---|---|
-| **Statistical analysis** | The test that answers the hypothesis (t-test, ANOVA, regression, mixed-effects models), with effect sizes, confidence intervals, and assumption checks. No default: choose from the design and the data. |
-| **Internal validity** | Did the IV really cause the change in the DV? (confounds, controls, randomization, counterbalancing) |
-| **Construct validity** | Did we measure the concept we claim? (operational measures, validated scales) |
-| **External validity** | Where should the result hold? (participants, tasks, settings, culture) |
 
 ## Contribution types
 Experimental · Design research · Artifact or system · Exploratory qualitative · Model or dataset. What each must show: `plan-method` (contribution types).
