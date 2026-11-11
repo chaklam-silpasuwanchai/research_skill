@@ -11,7 +11,7 @@ Keep papers that match the problem, IV/DV, or method. Verify each exists (title,
 Same problem? Same IVs or DVs? Same method? Same data or setting? Results that support or conflict with ours? **None** (0) · **adjacent** (1-2) · **close** (3-4) · **direct** (problem, IV/DV, and method all match).
 
 ## 4. Report (Chaky voice)
-Show at most the 5 most relevant, each with overlap level and one line on why. 🌟 nothing close · ⚠ close or direct overlap found. Hand each ⚠ to `read-papers`; add adjacent ones to `related_work.md` after the user agrees.
+Show at most the 5 most relevant, each with overlap level and one line on why. 🌟 nothing close · ⚠ close or direct overlap found. Hand each ⚠ to `update-paper`; add adjacent ones to `related_work.md` after the user agrees.
 
 ## 5. Record
 Add a `scoop-check` entry to `log.md` (date, queries used, what was found). Suggest the next check in about two weeks, and always before submission.

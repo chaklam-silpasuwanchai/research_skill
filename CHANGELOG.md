@@ -4,6 +4,12 @@
 
 **Names:** lowercase hyphenated words starting with a verb (`update-paper`, `setup-writing-style`). `guide-me` is the front door.
 
+## 0.19.0
+- **`read-papers` merged into `update-paper`:** step 1 of `update-paper` finds and reads the 10-15 closest papers when there are fewer than 10 verified ones, on `/update-paper papers`, or on "is this novel?" (search, read, field in three lines, what to copy, the one difference, novelty and validity: `references/papers.md`; triage and watch moved too). The related work section uses the same field summary.
+- **`think-deeply-and-learn-from-other-papers` is `think-deeply` again**; it still learns from other papers.
+- **Removed `speak-plainly`:** plain talk is already the default (`AGENTS.md`); "always talk simpler, in Thai" goes into `preferences.md`.
+- 11 skills.
+
 ## 0.18.0
 - **Personal preferences in their own file:** `components/preferences.md` holds the researcher's own rules ("always", "never"), read every session and followed over defaults (except safety and critical steps). `/update-repo` never touches it and moves old *My preferences* lines out of `AGENTS.md`; `speak-plainly` saves there. Skills and lab files stay free of personal preferences.
 - **Lab terms "avoid":** dry run → practice run (nothing saved or sent); smoke run/test → quick test run; sanity check → quick check.

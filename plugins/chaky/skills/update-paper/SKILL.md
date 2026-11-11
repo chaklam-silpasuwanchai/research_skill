@@ -1,29 +1,22 @@
 ---
 name: update-paper
-description: Writes and updates your paper (idea storytelling) - first agrees the story with you (background and key papers, problem, research question, solution, findings, contribution), suggesting alternative storylines if you're unsure, then writes or updates sections in your voice, with honest stats and figures, limitations, replies to reviewers, and no AI-sounding phrasing. Use for "write my paper", "update the paper", "what's my story", "write my introduction", "reply to reviewers", or /update-paper [section].
+description: Finds and reads the closest papers and writes your paper - searches and reads the 10-15 closest papers (what to copy, your one difference, novelty and validity), agrees the story with you, then writes or updates sections in your voice with honest stats, limitations, and reviewer replies. Use for "is this novel", "find related work", "I found a paper", "write my paper", "what's my story", "reply to reviewers", or /update-paper [part].
 ---
 
 # Update Paper
 
-Focus: `story`, `abstract`, `intro`, `related work`, `method`, `results`, `discussion`, `limitations`, `response`, `figure`, `stats`, `polish`. No results yet → write the rest, mark `[TODO: results]`.
+Focus: `papers`, `story`, `abstract`, `intro`, `related work`, `method`, `results`, `discussion`, `limitations`, `response`, `figure`, `stats`, `polish`. No results yet → write the rest, mark `[TODO: results]`.
 
-## 1. The story first
-Ask one at a time (suggest an answer from the repo each time):
-Following the lab's one-page outline:
-1. **Background:** the context, and the 2-3 key papers it rests on.
-2. **Problem:** what remains difficult or unexplained, and for whom.
-3. **Research question.**
-4. **Proposed solution:** what we do (our one difference from `read-papers`).
-5. **Evaluation and key findings:** the evidence; what we found or expect.
-6. **Contribution:** what changes because of this work.
-Unsure → offer **2-3 alternative storylines** (e.g. problem-first, surprising-finding-first, method-first), each a 4-line arc with what it gains, and recommend one. Save the agreed story in `current_status.md`; every section must follow it.
+## 1. Papers first
+Fewer than 10 verified papers in `related_work.md`, focus `papers`, or "is this novel?" → follow `references/papers.md`: search, read the 10-15 closest, the field in three lines (consensus, disagreements, open questions), what to copy, **the one difference**, novelty and validity. A paper in hand → `references/triage.md`; scoop check → `references/watch.md`.
 
-## 2. Write or update sections
-Reviewers mostly decide from the **abstract and introduction**: most care there, then the **discussion**. Intro: background, problem, methodology, key findings, one clear contribution; no overpromising. **Say only what's necessary:** every sentence must help the reader understand or believe the story; the rest goes to the appendix or is cut (`references/style.md`). Read `voice.md` and `terms.md`; skim 3-5 recent venue papers. Follow `references/sections.md`, then `references/style.md`, then the unslop pass (`references/unslop.md`, `references/patterns.md`) keeping every claim, number, and citation. Show each section; they comment; continue. **"Fast mode"** → whole draft in one pass. Sections marked `⚠ stale` come first.
+## 2. The story
+Ask one at a time, suggesting an answer each time (the lab's one-page outline): **background** and 2-3 key papers · **problem** · **research question** · **proposed solution** (our one difference) · **evaluation and key findings** · **contribution**. Unsure → **2-3 alternative storylines** (problem-first, surprising-finding-first, method-first), each a 4-line arc; recommend one. Save it in `current_status.md`.
 
-## 3. Special parts
-- **Stats and figures:** the planned test; effect sizes with intervals; numbers recomputed by script (`references/stats.md`); one message per figure (`references/figures.md`).
+## 3. Write or update sections
+Reviewers mostly decide from the **abstract and introduction**: most care there, then the **discussion**. **Say only what's necessary**; the rest goes to the appendix or is cut. Read `voice.md` and `terms.md`; skim 3-5 recent venue papers. Follow `references/sections.md`, `references/style.md`, then the unslop pass (`references/unslop.md`, `references/patterns.md`), keeping every claim, number, and citation. Show each section; they comment. **"Fast mode"** → whole draft at once. `⚠ stale` sections first.
+- **Stats and figures:** `references/stats.md`, `references/figures.md`.
 - **Limitations** and **response to reviewers:** `references/sections.md`.
 
 ## Finish
-Story, terms, numbers, and claims agree across sections; the intro's promises are delivered. Citations fetched, never invented (`[CITE?]`). Clear `⚠ stale` marks. End with the quick sync in `AGENTS.md`; suggest `review`.
+Story, terms, numbers, and claims agree; the intro's promises are delivered; citations fetched, never invented (`[CITE?]`). End with the quick sync in `AGENTS.md`; suggest `review`.

@@ -20,7 +20,7 @@ src/
 
 ## How to work in this repo
 Use Claude Code (or Codex) in this folder, on a paid plan. Not sure what to do next? Say **"guide me"** and it will read your repo and tell you. Or say which stage you are in, for example:
-- "Let's start generating ideas" -> `read-papers`
+- "Let's start generating ideas" -> `update-paper`
 - "Let's plan and run the study" -> `plan-method`
 - "Let's write the paper" -> `update-paper`
 - "Review my paper like a tough reviewer" -> `review`
@@ -28,7 +28,7 @@ Use Claude Code (or Codex) in this folder, on a paid plan. Not sure what to do n
 
 The order is flexible. Things you can say at any time: **"I found a new paper"**, **"I want to try X"**, **"quick review"**, **"progress update"**, **"fast mode"** (draft the whole paper in one pass), **"I'm lost"**. Chaky keeps the paper and reviews up to date as you go; the paper is never "done after". You can jump between skills, loop back, or skip ahead. The AI reads `components/current_status.md` to see where you are.
 
-Supporting skills are called by the core skills: `read-papers`, `update-paper`, `analyze-data`.
+Chaky suggests the skill that fits; you choose. Say "guide me" if unsure.
 
 ## Rules
 - Secrets go in `.env` (ignored by git). Never commit participant-identifying data.

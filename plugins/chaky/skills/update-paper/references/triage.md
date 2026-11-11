@@ -22,8 +22,8 @@ Overlap level: **none** (0 yes) · **adjacent** (1-2) · **close** (3-4) · **di
 |---|---|---|
 | **Cite** | none or adjacent | Add to `related_work.md` under its group; plan where the paper mentions it |
 | **Borrow** | useful method, measure, baseline, theory | Add to `experimental_design.md` or `implementation.md` with rationale; consider a pilot |
-| **Differentiate** | close | State what we do that they don't; run `read-papers` to sharpen the contribution |
-| **Pivot or reframe** | direct | Log pivot options; run `read-papers`; don't hide the overlap |
+| **Differentiate** | close | State what we do that they don't; run `update-paper` to sharpen the contribution |
+| **Pivot or reframe** | direct | Log pivot options; run `update-paper`; don't hide the overlap |
 | **Park** | interesting, not now | Add to `ideas.md` |
 | **Ignore** | irrelevant | Log why in one line |
 
