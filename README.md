@@ -1,4 +1,4 @@
-# Chaky: your AI research partner (v0.8.0)
+# Chaky: your AI research partner (v0.9.0)
 
 Chaky helps you go from a rough idea to a submitted paper (CHI, ACL, NeurIPS style). **You lead. Chaky suggests, keeps you organized, and does the busy work.**
 
@@ -56,15 +56,16 @@ Which one, or something else?
 → Have past papers? `/setup-writing-style` so drafts sound like you.
 
 **"I have an idea, but is it any good?"**
-→ `/validate-idea agents that admit what they don't know`
+→ `/read-papers agents that admit what they don't know`. Chaky reads the 10-15 closest papers: how they did it, what you can copy, and the **one** thing you do differently.
 ```
-Novel ✅  closest: Smith 2024 tested trust, not admitting limits
-Valid ❓  you haven't picked a trust scale yet
+Borrow: within-subjects design · trust scale (Lee 2023) · n≈24
+One difference: we test admitting limits, not just being accurate
+Novel ✅  Valid ❓ no trust scale chosen yet
 Next: /plan-method DV
 ```
 
 **"What has been done already? Am I scooped?"**
-→ `/find-papers honest sales agents`. You get the closest papers, how you differ, and methods you can borrow. Found a paper yourself? Say **I found a paper** and paste the link.
+→ `/find-papers honest sales agents`. You get a map of the field and the 10-15 closest papers. Found a paper yourself? Say **I found a paper** and paste the link.
 
 **"How do I design my study?"**
 → `/plan-method`. It covers what you change (IV), what you measure (DV), who takes part, how many, the order of conditions, and the analysis. Do one part at a time with `/plan-method IV` or `/plan-method sample size`. Then pilot, freeze the plan, and run.
@@ -93,6 +94,9 @@ Before the deadline: `/review submit`. Got reviews back? `/write response` draft
 **"I'm not happy with what the AI proposed."**
 → `/think-deeply`. Chaky looks from every side (reviewer, participant, advisor, skeptic), explores 2-3 different paths, then proposes the most sensible approach with clear first steps.
 
+**"I want Chaky to always talk simply, in my language."**
+→ `/speak-plainly Thai` (or any language). Every answer from then on: what needs you first, everyday words, your terms, an example. Chaky can make it permanent.
+
 **"The AI is too technical. I need context or an example."**
 → `/clarify`. You get the bottom line, what needs you, and one example from your project.
 → Still lost? `/teach-me power analysis`. One small step at a time, with a quick check after each.
@@ -108,14 +112,15 @@ Before the deadline: `/review submit`. Got reviews back? `/write response` draft
 | `setup-writing-style` | you want drafts to sound like you, not like an AI | "learn my writing style" |
 | `brain-dump` | the idea is in your head but not on paper yet, at any stage | /brain-dump |
 | `update-board` | you've lost track of tasks, or the to-do list feels wrong or messy | /update-board |
-| `validate-idea` | you have an idea (or a draft) and want to know if it's novel, valid, and worth a paper | /validate-idea <idea> |
-| `find-papers` | you need the closest work, want to double-check novelty, or want a method to borrow | /find-papers <topic> |
+| `read-papers` | you have an idea and want to read the 10-15 closest papers: what to copy, your one difference, novel and valid? | /read-papers <idea> |
+| `find-papers` | you need to search the field, check a paper you found, or see if you've been scooped | /find-papers <topic> |
 | `plan-method` | you need to decide what to change and measure, who takes part, how many, which AI models, and how to run it | /plan-method IV |
 | `write` | you need a section written or rewritten, a stats test, a figure, or less AI-sounding text | /write abstract |
 | `review` | you want a tough reviewer's opinion and every citation checked before you share or submit | /review |
 | `think-deeply` | you're not satisfied with what the AI proposed and want it to explore other paths and propose the most sensible one | /think-deeply |
 | `clarify` | the AI spoke too technically, or you want more context or an example | /clarify |
 | `teach-me` | clarify wasn't enough and you want to be walked through it step by step | /teach-me <topic> |
+| `speak-plainly` | you want Chaky to always talk simply: your language, your terms, short, with examples | /speak-plainly Thai |
 
 Printable list: [cheat sheet](docs/cheatsheet.md). How the skills connect: [how it works](docs/how-it-works.md). A project a few weeks in: [`examples/honest-sales-agent`](examples/honest-sales-agent).
 

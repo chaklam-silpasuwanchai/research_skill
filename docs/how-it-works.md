@@ -9,8 +9,8 @@ flowchart TD
   G([guide-me]) -->|suggests, you choose| B[update-board: recap, tasks, priorities]
   S[update-repo · setup-writing-style] --> B
   B --> D[brain-dump: get it out of your head]
-  B --> V[validate-idea: novel? valid?]
-  B --> F[find-papers: closest work, methods to borrow]
+  B --> V[read-papers: 10-15 closest, what to copy, one difference]
+  B --> F[find-papers: search, watch, triage]
   B --> M[plan-method: IV, DV, sample size, models, pilots, runs]
   B --> W[write: sections, stats, figures, unslop]
   B --> R[review: rigorous reviewer + citations]
@@ -25,12 +25,13 @@ flowchart TD
     T[think-deeply: 360°, better solution?]
     C[clarify: say it plainly]
     E[teach-me: step by step]
+    P[speak-plainly: plain from now on]
   end
 ```
 
 **Two ways to lead:** "you drive" (Chaky suggests the top task each time) or "let me lead" (Chaky shows your top tasks and waits). Either way you pick.
 
-**Every skill takes an optional focus:** `/write abstract`, `/plan-method IV`, `/validate-idea <idea>`, `/find-papers <topic>`, `/review citations`, `/teach-me <topic>`.
+**Every skill takes an optional focus:** `/write abstract`, `/plan-method IV`, `/read-papers <idea>`, `/find-papers <topic>`, `/review citations`, `/teach-me <topic>`.
 
 **Where things live in your project**
 - `components/tickets.md`: the board (destination, fog, tickets)

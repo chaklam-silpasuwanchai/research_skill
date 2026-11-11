@@ -25,17 +25,16 @@ Which one, or something else?
 | Situation | Suggest |
 |---|---|
 | Thoughts still in their head | `brain-dump` |
-| "Is this novel or good?"; results contradict the idea | `validate-idea` |
-| Closest work, a method to borrow, a paper they found, scoop worry | `find-papers` |
+| "Is this novel?"; how do others do it; what to copy; results contradict the idea | `read-papers` |
+| Search for papers, a paper they found, scoop worry | `find-papers` |
 | What to change and measure, participants, pilots, runs | `plan-method` |
 | A section, stats, a figure, robotic text | `write` |
 | Draft changed; citations; "can I submit?" | `review` |
 | Recap, forgotten or messy tasks | `update-board` |
 | Files or paper behind the latest work | `update-repo` |
 | Not happy with what was proposed; wants other paths | `think-deeply` |
-| Too technical, needs context or an example / still lost | `clarify` / `teach-me` |
-| Their writing voice | `setup-writing-style` |
-| AI models, keys, labeling with free chats | `plan-method` (models, labeling) |
+| One answer too technical / still lost / always talk plainer | `clarify` / `teach-me` / `speak-plainly` |
+| Writing voice / AI models and labeling | `setup-writing-style` / `plan-method` |
 | Anything ⚠ stale | fix it first |
 
 ## 3. Modes (`references/modes.md`)
