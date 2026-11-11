@@ -22,7 +22,7 @@ Design, validated scales, tasks, baselines, datasets, sample sizes, analyses, fr
 
 ## 5. The one difference
 One sentence: what we do that **none** of them do, and which part (question, what we change, what we measure, who, method).
-None → say so; sharpen (`references/idea-lenses.md`, `think-deeply`). Several → lead with one.
+None → say so; sharpen (`references/idea-lenses.md`, `think-deeply-and-learn-from-other-papers`). Several → lead with one.
 
 ## 6. Check (✅ / ❌ / ❓)
 **Novel:** the difference survives all 10-15. **Valid:** borrowed methods fit; no obvious confound; we know what would prove us wrong. **Significant, fits the venue, feasible.**

@@ -2,7 +2,7 @@
 
 `scripts/validate.py` checks every skill named here exists. Read this list when two skills seem to overlap.
 
-**Disambiguation:** a *specific paper in hand* → `read-papers` (triage). *Unknown new papers or scoop fear* → `read-papers` (watch). *Related-work search* → `read-papers` (search). *Recap, missing tasks, priorities* → `update-board`. *Get what's in my head out* → `brain-dump`. *Is it novel or valid* → `read-papers`; *harder 360° look* → `think-deeply`. *Answer hard to read* → `clarify`; *still lost* → `teach-me`. *Text sounds robotic, stats, figures* → `update-paper`.
+**Disambiguation:** a *specific paper in hand* → `read-papers` (triage). *Unknown new papers or scoop fear* → `read-papers` (watch). *Related-work search* → `read-papers` (search). *Recap, missing tasks, priorities* → `update-board`. *Get what's in my head out* → `brain-dump`. *Is it novel or valid* → `read-papers`; *harder 360° look* → `think-deeply-and-learn-from-other-papers`. *Answer hard to read* → `clarify`; *still lost* → `teach-me`. *Text sounds robotic, stats, figures* → `update-paper`.
 
 | Phrase | Skill |
 |---|---|
@@ -74,9 +74,9 @@
 | "get a second opinion from Gemini" | `plan-method` |
 | "clarify" | `clarify` |
 | "that was too technical, say it simply" | `clarify` |
-| "think deeply about this" | `think-deeply` |
-| "is there a better way to do this?" | `think-deeply` |
-| "think 360 about this" | `think-deeply` |
+| "think deeply about this" | `think-deeply-and-learn-from-other-papers` |
+| "is there a better way to do this?" | `think-deeply-and-learn-from-other-papers` |
+| "think 360 about this" | `think-deeply-and-learn-from-other-papers` |
 | "give me an example" | `clarify` |
 | "teach me power analysis" | `teach-me` |
 | "I still do not get it, walk me through it" | `teach-me` |

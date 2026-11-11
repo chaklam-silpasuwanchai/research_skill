@@ -2,7 +2,10 @@
 
 **Every update bumps the version** (MINOR = a new skill or changed behavior; PATCH = wording or bug fixes; after 1.0, renaming or removing a skill is MAJOR). Change it in `plugins/chaky/.claude-plugin/plugin.json`, `.claude-plugin/marketplace.json`, `CITATION.cff`, and the README title, and add an entry here. `scripts/validate.py` checks they match; CI fails a pull request that doesn't bump it.
 
-**Names:** a lowercase verb, optionally with one or two hyphenated words (`write`, `check-board`, `setup-writing-style`). `guide-me` is the front door.
+**Names:** lowercase hyphenated words starting with a verb (`update-paper`, `setup-writing-style`). `guide-me` is the front door.
+
+## 0.12.0
+- **`think-deeply` is now `think-deeply-and-learn-from-other-papers`**, and it does what the name says: after the 360° look, it checks how 3-5 close papers handled the same choice (from `related_work.md`, or a quick verified search) before proposing the most sensible approach. "Think deeply" still triggers it. Skill names may now be longer than three words.
 
 ## 0.11.4
 - **Lean lab terms:** `lab-terms.md` is split into a short **Core** (stages, variables, words to avoid), copied into `terms.md` and read every session, and the **full list**, copied to `components/lab-terms.md` and looked up only when a term comes up. Adds zero-shot / few-shot.

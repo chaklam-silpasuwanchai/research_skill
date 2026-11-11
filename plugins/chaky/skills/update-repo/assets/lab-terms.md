@@ -8,7 +8,7 @@ The lab maintainer edits this file once. `update-repo` copies the **Core** part 
 | Stage | Main question | Skills |
 |---|---|---|
 | Idea generation | Where could a good idea come from? | `brain-dump` |
-| Idea refinement | How do we sharpen it? | `brain-dump`, `think-deeply` |
+| Idea refinement | How do we sharpen it? | `brain-dump`, `think-deeply-and-learn-from-other-papers` |
 | Idea validation | Is it new and important? | `read-papers` |
 | Idea testing | How can we test it convincingly? | `plan-method` |
 | Idea storytelling | How do we tell it? | `update-paper`, `review` |
