@@ -10,7 +10,7 @@ description: Simulates three reviewers and a meta-review at your venue, checks c
 ## Check
 1. **Novelty:** idea (new question) and technical (non-obvious method), vs. closest work.
 2. **Validity:** internal (confounds, controls, counterbalancing), construct (operational measures), external (where it holds); fair baselines; claim strength matches evidence.
-3. **Paper matches the work:** every number and table matches a script output in `results/`; every condition and method the paper claims exists in the code and logs.
+3. **Paper matches the work:** numbers and tables match `results/`; claimed conditions and methods exist in the code.
 4. **Significance:** who cares and what changes.
 5. **Writing:** intro's five parts and one contribution, no overpromising; results report only; strong discussion; only what's necessary; no AI phrasing.
 6. **Every citation:** exists (DOI, Crossref, Semantic Scholar), details match, every `\cite` has an entry and vice versa, it supports its sentence.
