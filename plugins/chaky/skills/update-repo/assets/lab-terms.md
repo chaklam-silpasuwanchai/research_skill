@@ -26,7 +26,9 @@ The lab maintainer edits this file once. `update-repo` copies the **Core** part 
 ## Avoid, or explain in plain words
 | Don't say | Say instead |
 |---|---|
-| smoke run | quick test run (or pilot, if it's with people) |
+| smoke run, smoke test | quick test run (checks nothing crashes) |
+| dry run | practice run (nothing is saved, sent, or changed) |
+| sanity check | quick check |
 | fitting | training the model, or estimating the statistical model |
 | replay | re-running a saved session or log |
 | held-out set | test set |

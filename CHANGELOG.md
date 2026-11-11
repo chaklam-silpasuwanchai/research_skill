@@ -4,6 +4,10 @@
 
 **Names:** lowercase hyphenated words starting with a verb (`update-paper`, `setup-writing-style`). `guide-me` is the front door.
 
+## 0.18.0
+- **Personal preferences in their own file:** `components/preferences.md` holds the researcher's own rules ("always", "never"), read every session and followed over defaults (except safety and critical steps). `/update-repo` never touches it and moves old *My preferences* lines out of `AGENTS.md`; `speak-plainly` saves there. Skills and lab files stay free of personal preferences.
+- **Lab terms "avoid":** dry run → practice run (nothing saved or sent); smoke run/test → quick test run; sanity check → quick check.
+
 ## 0.17.0
 - **`plan-method` reads how others did it first:** the method sections of the 5-15 closest papers go into a table in `experimental_design.md` (design, IV and levels, DV and measure, participants or data and n, task, analysis, baseline), with the common pattern named; every planning decision then cites a paper or says why we differ.
 
