@@ -1,4 +1,4 @@
-# Section by section (used by `write`)
+# Section by section (used by `update-paper`)
 
 **Title:** has the keywords; fancy but not too fancy; provokes reading; says what's novel (and the method if useful); short. Offer 3-5.
 

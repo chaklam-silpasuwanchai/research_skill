@@ -1,11 +1,11 @@
 ---
 name: brain-dump
-description: Interviews you one question at a time, in any phase, to get what is in your head onto paper - idea, terms, plan, worries, argument - with a suggested answer for each question, and saves it into the project. Use for "brain dump", "interview me", "grill me", "ask me questions", "help me think out loud", or /brain-dump [topic].
+description: For when you want the AI to get your feedback and thinking. It interviews you one question at a time, in any phase - idea, plan, worries, argument, what you think of its work - with a suggested answer each time, and saves what you say into the project. Use for "brain dump", "interview me", "grill me", "ask me questions", "help me think out loud", or /brain-dump [topic].
 ---
 
 # Brain Dump
 
-Pull out what the researcher knows but hasn't written. Focus: any topic (`/brain-dump my analysis`).
+Get the researcher's feedback and thinking: what they know, think, and want but haven't said. Focus: any topic (`/brain-dump my analysis`).
 
 ## Rules
 - **One question at a time**, each with a suggested answer ("My guess: X, because Y. Right?").
@@ -18,6 +18,7 @@ Pull out what the researcher knows but hasn't written. Focus: any topic (`/brain
 - **Terms:** the 3-5 key words, one meaning and one example each.
 - **Plan:** what you change, what you measure, who takes part, what could go wrong, what result would change your mind.
 - **Writing:** each claim → evidence → strongest counterexample → limit → why it matters.
+- **Feedback:** what do you think of the plan, draft, or last answer? What's wrong, what's missing?
 - **Stuck:** what feels off, what did you try?
 
 Every ~4 questions, show **So far** in 3-5 bullets. Stop at a clear one-sentence version, "enough", or ~12 questions.

@@ -1,32 +1,26 @@
 # Chaky cheat sheet (print me)
 
-**Start:** open the terminal → `cd my-paper` → `claude` → say **guide me** (or *ask Chaky*). You lead; Chaky suggests.
+**Start:** `cd my-paper` → `claude` → say **guide me**. You lead; Chaky suggests.
 
-| I want to... | Say |
+| When you... | Type |
 |---|---|
-| I'm lost; which skill helps now? | guide me |
-| I'm at the very beginning | /update-repo chi (or nlp) |
-| my files and paper are behind my latest work | /update-repo |
-| teach Chaky my writing style | learn my writing style |
-| set up models, a local LLM, or free AI chats | /plan-method models |
-| get my thoughts out | /brain-dump (or: interview me) |
-| recap and fix my task list | /update-board |
-| change a priority | make <task> a 5 |
-| keep my board visible beside the chat | make me a mod that shows my board |
-| read the closest papers: what to copy, how I'm different | /read-papers <my idea> |
-| search for papers on my topic | /find-papers <topic> |
-| plan what I change and measure | /plan-method IV (or DV, sample size, pilot) |
-| write a section | /write abstract (or intro, method, results...) |
-| make writing sound human | /write polish |
-| get a rigorous review | /review (or /review citations, /review submit) |
-| not happy with what the AI proposed; explore other paths | /think-deeply |
-| the AI was too technical; I need context or an example | /clarify |
-| be taught step by step | /teach-me <topic> |
-| always talk simply, in my language | /speak-plainly <language> |
-| make a rule permanent | always do X |
-| see my progress | show my progress |
-| prepare for my advisor | progress update |
-| undo the last change | undo |
+| are lost | /guide-me |
+| want to know what your tasks are | /update-board |
+| are confused by what the AI said | /clarify |
+| don't know enough to follow it | /teach-me <topic> |
+| think the AI isn't thinking in enough ways | /think-deeply |
+| want the AI to get your feedback | /brain-dump |
+| suspect someone did this, or want to check it's new | /read-papers <idea> |
+| found a paper that looks close | I found a paper <link> |
+| plan to try something | /plan-method (or IV, DV, sample size, models, labeling, pilot) |
+| want to write | /update-paper (or story, abstract, intro, results, limitations, response) |
+| want reviewers' opinions | /review (or citations, submit) |
+| feel the AI doesn't write like you | /setup-writing-style |
+| want the repo tidy and up to date | /update-repo |
+| want the AI to always talk simply | /speak-plainly <language> |
+| want a rule to stick | always do X |
+| have an advisor meeting tomorrow | progress update |
+| want to reverse the last change | undo |
 
 **Symbols:** ✅ ok · ❌ not ok · 🔧 to do · ⚠ stale · 🌟 very good · ⬜ empty · 🟡 rough
 

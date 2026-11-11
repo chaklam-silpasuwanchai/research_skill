@@ -13,7 +13,7 @@ Use Claude Code (or Codex) in this folder, on a paid plan. Not sure what to do n
 - "Get my ideas out" -> `/brain-dump`
 - "Read the closest papers: what to copy, how we differ" -> `/read-papers`
 - "Plan the method" -> `/plan-method`
-- "Write the abstract" -> `/write abstract`
+- "Write the abstract" -> `/update-paper abstract`
 - "Review my paper like a tough reviewer" -> `/review`
 - "Recap and fix the board" -> `/update-board`
 

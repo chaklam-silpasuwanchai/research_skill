@@ -2,7 +2,7 @@
 
 `scripts/validate.py` checks every skill named here exists. Read this list when two skills seem to overlap.
 
-**Disambiguation:** a *specific paper in hand* → `find-papers` (triage). *Unknown new papers or scoop fear* → `find-papers` (watch). *Related-work search* → `find-papers` (search). *Recap, missing tasks, priorities* → `update-board`. *Get what's in my head out* → `brain-dump`. *Is it novel or valid* → `read-papers`; *harder 360° look* → `think-deeply`. *Answer hard to read* → `clarify`; *still lost* → `teach-me`. *Text sounds robotic, stats, figures* → `write`.
+**Disambiguation:** a *specific paper in hand* → `read-papers` (triage). *Unknown new papers or scoop fear* → `read-papers` (watch). *Related-work search* → `read-papers` (search). *Recap, missing tasks, priorities* → `update-board`. *Get what's in my head out* → `brain-dump`. *Is it novel or valid* → `read-papers`; *harder 360° look* → `think-deeply`. *Answer hard to read* → `clarify`; *still lost* → `teach-me`. *Text sounds robotic, stats, figures* → `update-paper`.
 
 | Phrase | Skill |
 |---|---|
@@ -43,30 +43,30 @@
 | "how many participants do I need?" | `plan-method` |
 | "run a pilot" | `plan-method` |
 | "freeze my plan" | `plan-method` |
-| "write my introduction" | `write` |
-| "draft the whole paper" | `write` |
-| "plan Figure 1" | `write` |
+| "write my introduction" | `update-paper` |
+| "draft the whole paper" | `update-paper` |
+| "plan Figure 1" | `update-paper` |
 | "quick review" | `review` |
 | "would this pass at CHI?" | `review` |
 | "check my citations" | `review` |
-| "write my limitations" | `write` |
-| "reply to the reviewers" | `write` |
+| "write my limitations" | `update-paper` |
+| "reply to the reviewers" | `update-paper` |
 | "how am I doing?" | `review` |
 | "can I submit now?" | `review` |
 | "camera-ready checklist" | `review` |
 | "anonymize my paper" | `review` |
-| "I found a new paper" | `find-papers` |
-| "someone already did this" | `find-papers` |
-| "any new papers on my topic?" | `find-papers` |
-| "am I being scooped?" | `find-papers` |
-| "find related work on X" | `find-papers` |
-| "search for papers on my topic" | `find-papers` |
+| "I found a new paper" | `read-papers` |
+| "someone already did this" | `read-papers` |
+| "any new papers on my topic?" | `read-papers` |
+| "am I being scooped?" | `read-papers` |
+| "find related work on X" | `read-papers` |
+| "search for papers on my topic" | `read-papers` |
 | "what method can I borrow?" | `read-papers` |
-| "make this sound human" | `write` |
-| "remove AI slop" | `write` |
-| "polish this paragraph" | `write` |
-| "which statistical test?" | `write` |
-| "make a figure" | `write` |
+| "make this sound human" | `update-paper` |
+| "remove AI slop" | `update-paper` |
+| "polish this paragraph" | `update-paper` |
+| "which statistical test?" | `update-paper` |
+| "make a figure" | `update-paper` |
 | "what model can I use?" | `plan-method` |
 | "set up OpenRouter" | `plan-method` |
 | "run a local LLM" | `plan-method` |
@@ -90,3 +90,8 @@
 | "speak plainly" | `speak-plainly` |
 | "talk to me in Thai from now on" | `speak-plainly` |
 | "less technical from now on, with examples" | `speak-plainly` |
+| "what is my paper's story?" | `update-paper` |
+| "update the paper" | `update-paper` |
+| "clean up my repo" | `update-repo` |
+| "this doesn't sound like me" | `setup-writing-style` |
+| "I suspect someone already did this" | `read-papers` |

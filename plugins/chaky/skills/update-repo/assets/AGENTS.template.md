@@ -39,8 +39,7 @@ Then one line, e.g. `Synced: closed pilot-1 · method now 3 conditions · intro 
 {{paste from lab-defaults.md, or leave empty}}
 
 ## Supporting skills (suggest when they fit)
-- `setup-writing-style`: learn their voice into `voice.md`
-- `find-papers`: closest work, novelty check, methods to borrow
+- `setup-writing-style`: learn their voice and confirm the paper's terms
 - `think-deeply`: 360° look; is there a better solution?
 - `clarify`: say it plainly, with an example
 - `teach-me`: step by step

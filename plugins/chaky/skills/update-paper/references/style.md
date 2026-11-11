@@ -1,4 +1,4 @@
-# Style (used by `write` on every section)
+# Style (used by `update-paper` on every section)
 
 **Paragraphs:** one idea each, strong opening and ending sentence. Open with a signal ("This paper proposes...", "However, ...") that sets the tone. Make the link to the previous paragraph visible.
 
