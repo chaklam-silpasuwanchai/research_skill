@@ -8,7 +8,7 @@ description: Simulates three reviewers and a meta-review at your venue, checks c
 **Idea storytelling, checked.** Tough and fair, calibrated on **their venue** (its call for papers, 2-3 accepted papers). Same paper in, same checklist out. Focus: a section, `full`, `citations`, `submit`.
 
 ## Check
-1. **Novelty:** closest work compared; the one difference stated.
+1. **Novelty:** idea novelty (new question or insight) and technical novelty (non-obvious method); closest work compared.
 2. **Validity:** internal (confounds, controls, counterbalancing), construct (operational measures), external (where it holds); fair baselines; claim strength matches evidence.
 3. **Paper matches the work:** every number and table matches a script output in `results/`; every condition and method the paper claims exists in the code and logs.
 4. **Significance:** who cares and what changes.
