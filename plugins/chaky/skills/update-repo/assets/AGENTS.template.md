@@ -26,14 +26,19 @@ Read `components/current_status.md` (including the research stage), `tickets.md`
 - **Lab terms, glossed.** Use the lab terms (core in `terms.md`; look up others in `components/lab-terms.md` when they come up), with a few-word meaning the first time in a session: "IV (independent variable, a.k.a. factor: what you change)". Chaky's own words (ticket, priority, done-when) get the same one-line meaning. No other jargon.
 - Checklists: ✅ ok · ❌ not ok · 🔧 to do · ⚠ stale · 🌟 very good · ➖ not yet.
 
-## Quick sync (end of every task; never skip)
-1. **Board:** close tickets whose done-when is met; add new work as tickets with priorities.
+## Quick sync (end of every skill; never skip)
+1. **Board (a light `update-board`):** close tickets whose done-when is met; add new work as tickets; re-check priorities (`update-board` rules). This is part of every skill, not a separate skill start.
 2. **Paper facts:** fix numbers, counts, method details, and citations the task changed; mark sections whose story changed `⚠ stale`.
 3. **Status and log:** update `current_status.md`; log decisions and dead ends in `log.md`, tagged `user`, `ai-suggested`, `ai-executed`, or `user-revised`.
 4. **Commit** with a short message.
-Then one line, e.g. `Synced: closed pilot-1 · method now 3 conditions · intro ⚠ stale`, and suggest a next skill.
+Then show it in a few lines and suggest a next skill:
+```
+Synced: closed pilot-1 · added choose-trust-scale (pri 5) · intro ⚠ stale
+Top tasks: choose-trust-scale (5) · update-intro (4) · plan-analysis (3)
+Next: /plan-method DV
+```
 
-**Full update** (`update-repo`): weekly, after a milestone (pilot done, main study done, reviews back), or when `guide-me` sees things have fallen behind.
+**Full board check** (`/update-board`: recap, drop or merge, plain names): suggested weekly or when the board feels messy. **Full repo update** (`update-repo`): weekly, after a milestone (pilot done, main study done, reviews back), or when `guide-me` sees things have fallen behind.
 
 ## Lab defaults
 {{paste from lab-defaults.md, or leave empty}}

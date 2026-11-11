@@ -16,7 +16,7 @@ Which one, or something else?
 ## 1. Look
 - No project → suggest `update-repo`. No board → `update-board`.
 - Read `current_status.md`, the board, latest `log.md`, `terms.md`.
-- **Behind?** Suggest `update-repo` first if: no `full update` in `log.md` for 7+ days, results or reviews newer than the paper, `⚠ stale` rows, or an `AGENTS.md` without "Quick sync".
+- **Behind?** Suggest `update-repo` first if: no `full update` for 7+ days, results newer than the paper, `⚠ stale` rows, or an old `AGENTS.md`.
 - First time or "what can you do?" → show `references/skills.md`.
 
 ## 2. Suggest (one skill + up to two others, then wait)
@@ -41,4 +41,4 @@ Which one, or something else?
 **Show progress** · **Advisor update** · **Retro**.
 
 ## 4. Close the session
-Run the quick sync in `AGENTS.md` for the whole session. One mindset nudge (rotate, never nag). "Guide me" picks up here next time.
+Run the quick sync in `AGENTS.md`. No full board check for 7+ days → suggest `/update-board`. One mindset nudge (rotate, never nag). "Guide me" picks up here next time.
