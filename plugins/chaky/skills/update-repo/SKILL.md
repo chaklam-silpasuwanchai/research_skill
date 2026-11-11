@@ -33,4 +33,4 @@ Log it as `full update`.
 Moving, renaming, or deleting their files; replacing the venue template; the first GitHub push.
 
 ## Adopt
-Show a mapping ("`notes.txt` → `components/ideas.md`"), ask, then move and fill the working files.
+Show a mapping ("`notes.txt` → `components/ideas.md`"), ask, then move.
