@@ -4,6 +4,9 @@
 
 **Names:** lowercase hyphenated words starting with a verb (`update-paper`, `setup-writing-style`). `guide-me` is the front door.
 
+## 0.14.0
+- **How to write each section** (`update-paper/references/sections.md`): reviewers mostly decide from the abstract and introduction; intro in five parts (background, problem, methodology, key findings, contribution) with one clear contribution and no overpromising; related work in subsections, synthesized (agreements, disagreements, position, borrow, differ); methodology follows the venue, every decision justified, reproducible, supports internal and construct validity; results boring, report only; analyses as close papers do; discussion the strongest part, in subsections (insights, past work, explanations, what if, limitations, future work); conclusion nothing new; appendix for reproducibility details. `review` checks the intro, results, and discussion against this.
+
 ## 0.13.0
 - **Say only what's necessary:** `update-paper` keeps a sentence only if the reader needs it to understand or believe the story (the rest is cut or moved to the appendix), so reviewers have less to question; `review` flags unnecessary sentences, side results, and details.
 

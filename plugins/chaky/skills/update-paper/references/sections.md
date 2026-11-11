@@ -1,22 +1,31 @@
 # Section by section (used by `update-paper`)
 
-**Title:** has the keywords; fancy but not too fancy; provokes reading; says what's novel (and the method if useful); short. Offer 3-5.
+**Where effort goes:** reviewers usually decide accept or reject from the **abstract and introduction**. Spend the most care there. The **discussion** is the other place that makes a paper strong.
 
-**Abstract:** five connected parts: background, problem, methodology, findings, contribution/significance. Signal the gap ("However", "This paper proposes").
+**Title:** has the keywords; says what's new (and the method if useful); short; provokes reading without being cute. Offer 3-5.
 
-**Introduction:** the abstract expanded into five paragraphs, each backed by evidence. Include **Figure 1** (the problem, the insight, how our way changes it); propose three alternative designs for it.
+**Abstract:** five connected parts: background, problem, methodology, key findings, contribution. Signal the gap ("However", "This paper proposes").
 
-**Related work:** group by how each cluster positions against ours; synthesize, don't list; say how we differ, are inspired by, or extend each. Readers should feel we read widely and know what we're doing. Don't teach experts.
+**Introduction:** the same five parts as the abstract, one paragraph each: **background, problem, methodology, key findings, contribution**, each backed by evidence. After reading it, a reviewer should feel the work is **novel and non-trivial**. One clear contribution, not a list of small ones. Don't overpromise: claim only what the results support. Include **Figure 1** (the problem, the insight, how our way changes it); offer three designs.
 
-**Methodology and experiment:** follow the venue. CHI: design rationale, apparatus, participants, experimental design, measures. ACL/NeurIPS: methodology = data, simulation, the technique; experiment = comparisons, baselines. Strong rationale, enough detail to replicate, ideas over implementation.
+**Related work:** written in **subsections with clear headings**, so reviewers can find their way. **Synthesize, don't list**: for each group, say what the papers agree on and where they disagree, then how we **position** against them, what we **borrow**, and how we **differ**. Use the field summary from `read-papers` (consensus, disagreements, open questions). Don't teach experts.
 
-**Results:** by research question or insight; statistics as needed; follow how related work reports.
+**Methodology (and experiment):** learn how **this venue** writes it by reading 3-5 recent accepted papers; it usually looks the same every time, so follow that structure (CHI: design rationale, participants, apparatus, design, task and procedure, measures, analysis; ACL/NeurIPS: data, method, baselines, experimental setup). **Every decision is justified** (a citation or a reason). **Every detail is reproducible.** Everything supports **internal and construct validity**: say how confounds were controlled and why the measures capture the concept.
 
-**Analysis (ACL/NeurIPS):** the planned extras (robustness, transfer, error, feature, network, input/output analysis).
+**Results:** **boring on purpose.** Report, don't interpret: follow best practice for the test (statistic, df, p, effect size, confidence interval, n), organized by research question or hypothesis. No discussion here.
 
-**Discussion:** cover: expected vs unexpected (unexpected in depth); what you achieved vs claimed, the ultimate goal, how far away; comparison with related work; design decisions and their effect; actionable implications; significance; **limitations** (only concrete ones that threaten validity; "tested only in the US" is true of every study, skip it); **future work** (one or two concrete items).
+**Analyses (if the venue expects them, often ACL/NeurIPS):** further analyses after the main results. Check what close papers usually include (ablation, error analysis, robustness, subgroup or per-category results, qualitative examples) and do the ones that strengthen the claim.
 
-**Conclusion:** simple, nothing new, smooth end.
+**Discussion:** perhaps **the most important part**, so make it strong and **in subsections**:
+- the key insights, not a repeat of the results
+- comparison with past work (agrees, contradicts, extends)
+- possible explanations, including alternatives, for expected and unexpected results
+- "what if": when would the result change, and what it means for theory and design (implications)
+- limitations and future work (below)
+
+**Conclusion:** **nothing new.** A short summary of the problem, what we did, what we found, and why it matters.
+
+**Appendix (common for ACL; also supplements elsewhere):** the details needed for **reproducibility** that don't belong in the main text: prompts, hyperparameters, full tables, extra examples, annotation guidelines. Not a place for new claims.
 
 **Limitations (own section or in the discussion):** 3-5 concrete threats to validity: internal (confounds, order effects, leakage), construct (does the measure capture the idea), external (who or what the result may not hold for, only if it matters for the claim), and statistical (power, multiple tests). For each: the threat, how it could change the conclusion, what we did to reduce it, and what future work would settle it. Draw them from `log.md`, plan deviations, and `review.md`. Skip true-of-every-study lines.
 
