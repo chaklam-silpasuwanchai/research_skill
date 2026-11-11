@@ -4,6 +4,9 @@
 
 **Names:** a lowercase verb, optionally with one or two hyphenated words (`write`, `check-board`, `setup-writing-style`). `guide-me` is the front door.
 
+## 0.11.2
+- **Lab terms:** adds study terms (RQ, task, procedure, questionnaire, Likert scale, think-aloud, Wizard-of-Oz, simulated users, SUS, NASA-TLX, task time, accuracy, error rate, ground truth), analysis terms (effect size, p-value, post-hoc test, confidence interval, Cohen's kappa, semi-structured interview, thematic analysis, prompt, temperature, human evaluation, error analysis, benchmark), and writing terms (contribution, research gap, design implications, limitations, future work). "Avoid" adds held-out set, novel, leverage/utilize, robust, significant.
+
 ## 0.11.1
 - **Lab terms:** adds the study words the lab uses often (conditions, participants, apparatus, trials, blocks, pilot study, experiments, analyses, design rationale, study rationale, LLM judge, hypothesis, discussion), the writing verbs (propose, investigate, explore, develop, hypothesize), and words to avoid or explain (smoke run, fitting, replay).
 

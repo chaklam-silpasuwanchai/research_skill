@@ -1,4 +1,4 @@
-# Chaky: your AI research partner (v0.11.1)
+# Chaky: your AI research partner (v0.11.2)
 
 Chaky helps you go from a rough idea to a submitted paper (CHI, ACL, NeurIPS style). **You lead. Chaky suggests, keeps you organized, and does the busy work.**
 
