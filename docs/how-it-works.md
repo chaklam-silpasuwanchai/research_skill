@@ -20,7 +20,7 @@ flowchart TD
   R -->|Major fixes become tickets| B
   M -. results contradict .-> V
   subgraph anytime[Any time]
-    T[think-deeply: 360°, better solution?]
+    T[think-deeply-and-learn-from-other-papers: 360°, better solution?]
     C[clarify: say it plainly]
     E[teach-me: step by step]
     P[speak-plainly: plain from now on]

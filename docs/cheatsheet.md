@@ -8,7 +8,7 @@
 | want to know what your tasks are | /update-board |
 | are confused by what the AI said | /clarify |
 | don't know enough to follow it | /teach-me <topic> |
-| think the AI isn't thinking in enough ways | /think-deeply |
+| think the AI isn't thinking in enough ways | /think-deeply-and-learn-from-other-papers |
 | want the AI to get your feedback | /brain-dump |
 | suspect someone did this, or want to check it's new | /read-papers <idea> |
 | found a paper that looks close | I found a paper <link> |

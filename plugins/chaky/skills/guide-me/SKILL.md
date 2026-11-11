@@ -31,7 +31,7 @@ Which one, or something else?
 | Draft changed; citations; "can I submit?" | `review` |
 | Recap, forgotten or messy tasks | `update-board` |
 | Files or paper behind the latest work | `update-repo` |
-| Not happy with what was proposed; wants other paths | `think-deeply` |
+| Not happy with what was proposed; wants other paths | `think-deeply-and-learn-from-other-papers` |
 | One answer too technical / still lost / always talk plainer | `clarify` / `teach-me` / `speak-plainly` |
 | Writing voice / AI models and labeling | `setup-writing-style` / `plan-method` |
 | Anything ⚠ stale | fix it first |

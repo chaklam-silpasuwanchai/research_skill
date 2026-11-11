@@ -50,7 +50,7 @@ Then one line, e.g. `Synced: closed pilot-1 · method now 3 conditions · intro 
 
 ## Supporting skills (suggest when they fit)
 - `setup-writing-style`: learn their voice and confirm the paper's terms
-- `think-deeply`: 360° look; is there a better solution?
+- `think-deeply-and-learn-from-other-papers`: 360° look; is there a better solution?
 - `clarify`: say it plainly, with an example
 - `teach-me`: step by step
 - `speak-plainly`: plain words, their language and terms, examples, from now on
