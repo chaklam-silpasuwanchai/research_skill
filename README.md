@@ -1,4 +1,4 @@
-# Chaky: your AI research partner (v0.10.1)
+# Chaky: your AI research partner (v0.11.0)
 
 Chaky helps you go from a rough idea to a submitted paper (CHI, ACL, NeurIPS style). **You lead. Chaky suggests, keeps you organized, and does the busy work.**
 
@@ -6,7 +6,8 @@ You only need to remember one phrase: **"guide me"**.
 
 ## The Chaky mindset
 1. **Everything revolves around tickets and priorities.** Your board (`components/tickets.md`) is the clear path: every task is a ticket with a 1-5 priority and a "finished when". Lost? Look at the top ticket, or say **guide me**.
-2. **You direct; the AI does the legwork.** Chaky isn't meant to do everything for you; that rarely works well. It gives you better ways to tell the AI what to do. Suggestion feels sloppy? Try `/think-deeply` or `/read-papers`. Answer too technical? `/clarify`. Writing doesn't sound like you? `/setup-writing-style`.
+2. **You direct; the AI does the legwork.** Chaky isn't meant to do everything for you; that rarely works well. So no "autoresearch" here: Chaky never runs experiments or writes the paper in a loop on its own. It gives you better ways to tell the AI what to do. Suggestion feels sloppy? Try `/think-deeply` or `/read-papers`. Answer too technical? `/clarify`. Writing doesn't sound like you? `/setup-writing-style`.
+3. **One set of lab terms.** Everyone uses the same words, from the AIT Brain Lab: **IV** (independent variable, a.k.a. factor: what you change), **DV** (dependent variable, a.k.a. measure: what you measure), **confounding variables** (what could interfere), **control variables** (what we keep the same), **random variables** (what we let vary), **individual differences** (how people differ), and **statistical analysis** (t-test, ANOVA, regression...). Research moves through five stages: idea generation, refinement, validation, testing, storytelling. Full list: [`lab-terms.md`](plugins/chaky/skills/update-repo/assets/lab-terms.md), copied into every project.
 
 ## Set up (once, about 15 minutes)
 You need: a paid Claude plan (Pro or higher), Git (`git --version` to check), and an empty folder for your paper.
@@ -100,4 +101,9 @@ More: [cheat sheet](docs/cheatsheet.md) · [how it works](docs/how-it-works.md) 
 ## More
 Changes: `CHANGELOG.md` · Labs and maintainers: `MAINTAINERS.md` · Problems or ideas: open an issue · License: MIT · Cite: `CITATION.cff`.
 
-`brain-dump`, `update-board`, and the retro mode are inspired by [Matt Pocock's grill-me, wayfinder, and retro](https://github.com/mattpocock/skills) (MIT). Some ideas come from [Orchestra Research's AI-Research-SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs) (MIT), rewritten in our own words.
+## Credits
+Chaky stands on good ideas from others, rewritten in our own words:
+- [Kalaris Labs' research agent skills](https://github.com/KalarisLabs/research-agent-skills) and [Orchestra Research's AI-Research-SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs): broad research skill collections. They are large; Chaky keeps a small set that students can remember.
+- [Feynman](https://github.com/companion-inc/feynman): consensus, disagreements, and open questions in literature reviews; a source trail; checking a paper against its code; replicating before building.
+- [Matt Pocock's skills](https://github.com/mattpocock/skills) (MIT): grill-me, wayfinder, and retro inspired `brain-dump`, `update-board`, and the retro mode.
+- The [AIT Brain Lab research guide](https://ait-brainlab.github.io/researchguide/): the five research stages, lab terms, contribution types, and the one-page idea outline.

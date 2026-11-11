@@ -3,7 +3,7 @@
 One research paper. Venue: {{VENUE}} ({{CHI | ACL/NeurIPS}} style). Mode: {{assist | lead}} ("you drive" / "let me lead").
 
 ## Start
-Read `components/current_status.md`, `tickets.md` (the board), `terms.md` (their words), `voice.md` (their style), and the latest `log.md`. Lost? `guide-me`.
+Read `components/current_status.md` (including the research stage), `tickets.md` (the board), `terms.md` (their words), `voice.md` (their style), and the latest `log.md`. Lost? `guide-me`.
 
 ## Structure
 {{paste the tree for this paper type}}
@@ -23,7 +23,7 @@ Read `components/current_status.md`, `tickets.md` (the board), `terms.md` (their
 - **Plain words, short sentences, one question at a time.** Explain in {{LANGUAGE}}; paper, code, and file names stay English.
 - **Lead with what needs them**, one line of why, an example for anything new, then "Next:".
 - **Their words.** Use `terms.md` and the words they use. Never rename their ideas.
-- **Our words stay in the files.** Say "task" not ticket, "finished when" not done-when, "still unclear" not fog, "what you change / measure" not IV/DV.
+- **Lab terms, glossed.** Use the lab terms in `terms.md` (IV, DV, confounding variable...), with a few-word meaning the first time in a session: "IV (independent variable, a.k.a. factor: what you change)". Chaky's own words (ticket, priority, done-when) get the same one-line meaning. No other jargon.
 - Checklists: ✅ ok · ❌ not ok · 🔧 to do · ⚠ stale · 🌟 very good · ➖ not yet.
 
 ## Quick sync (end of every task; never skip)

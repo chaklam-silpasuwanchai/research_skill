@@ -21,7 +21,7 @@ Get the researcher's feedback and thinking: what they know, think, and want but 
 - **Feedback:** what do you think of the plan, draft, or last answer? What's wrong, what's missing?
 - **Stuck:** what feels off, what did you try?
 
-Every ~4 questions, show **So far** in 3-5 bullets. Stop at a clear one-sentence version, "enough", or ~12 questions.
+Every ~4 questions, show **So far** in 3-5 bullets. Early on, fill the lab's **one-page idea** in `ideas.md` (Background, Problem, Research question, Proposed solution, Evaluation, Expected contribution, Feasibility and first step); "I don't know yet" is fine. Stop at a clear one-sentence version, "enough", or ~12 questions.
 
 ## Save
 Write answers into `terms.md`, `ideas.md`, `experimental_design.md`, or the board; log decisions in `log.md`. Give the one-sentence version and a suggested next skill. End with the quick sync in `AGENTS.md`.

@@ -4,6 +4,15 @@
 
 **Names:** a lowercase verb, optionally with one or two hyphenated words (`write`, `check-board`, `setup-writing-style`). `guide-me` is the front door.
 
+## 0.11.0
+- **Lab terms (AIT Brain Lab):** new `update-repo/assets/lab-terms.md` (IV/factor, DV/measure, confounding, control, random variables, individual differences, levels, operational measure, design terms, baseline, ablation, leakage, statistical analysis, internal/construct/external validity, contribution types, five research stages). `update-repo` copies it into each project's `terms.md`; Chaky uses these terms, glossed the first time in a session. `setup-writing-style` keeps them and confirms the paper's own terms.
+- **Research stages:** idea generation, refinement, validation, testing, storytelling, shown by `guide-me` and in `current_status.md`.
+- **`plan-method`:** the lab's five contribution types, named variables, individual differences as factor or random (asks), statistical analysis chosen from the design and data (no default), validity by name, optional replication of the closest paper's key result.
+- **`read-papers`:** field summary (consensus, disagreements, open questions), a source trail (date, databases, terms, verified count), OpenAlex and alphaXiv added.
+- **`review`:** checks the paper matches the work (numbers vs `results/`, claimed conditions vs code); validity by name.
+- **`update-paper` and `brain-dump`:** the lab's one-page idea outline (Background, Problem, Research question, Proposed solution, Evaluation, Contribution).
+- **README:** mindset 2 says no "autoresearch"; mindset 3 is the lab terms; credits for Kalaris Labs, Orchestra Research, Feynman, Matt Pocock, and the AIT Brain Lab guide.
+
 ## 0.10.1
 - **README: "The Chaky mindset"**: everything revolves around tickets and priorities; you direct and the AI does the legwork (sloppy suggestion → `/think-deeply` or `/read-papers`).
 

@@ -11,7 +11,7 @@
       "name": "chaky",
       "source": "./plugins/chaky",
       "description": "Your AI research partner: sets up the project, finds a real gap, plans the study, writes with you, reviews like a tough reviewer, and checks before you submit.",
-      "version": "0.10.1",
+      "version": "0.11.0",
       "author": {
         "name": "Chaklam Silpasuwanchai"
       },

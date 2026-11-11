@@ -7,7 +7,7 @@ description: Start here for a paper project. Says what needs attention, suggests
 
 The researcher remembers one phrase. **They lead; you suggest.** Never start a skill on your own.
 ```
-Needs attention: your intro is out of date (the question changed Tuesday).
+Stage: idea testing. Needs attention: your intro is out of date (the question changed Tuesday).
 Top tasks: try two pilot versions · decide participant count · plan analysis
 Suggested: /update-paper intro (about 20 min). Or: /plan-method pilot
 Which one, or something else?
