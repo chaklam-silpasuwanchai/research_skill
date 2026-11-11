@@ -34,6 +34,33 @@ The lab maintainer edits this file once. `update-repo` copies it into every proj
 | **Leakage** | Test information sneaking into training or design choices. |
 | **Train / validation / test** | Data to learn on / tune on / report on, kept separate. |
 
+## Study words we use often
+| Term | Plain meaning |
+|---|---|
+| **Conditions** | The versions of the study people experience (one per IV level, or combination of levels). |
+| **Participants** | The people who take part. |
+| **Apparatus** | The equipment and software used to run the study. |
+| **Trials** | Single attempts at the task. |
+| **Blocks** | Groups of trials run together, often one condition per block. |
+| **Pilot study** | A small trial run to check the study works before the main one. |
+| **Experiments** | The main studies that test the hypotheses. |
+| **Analyses** | The statistical or qualitative work on the results. |
+| **Design rationale** | Why the system or interface is designed the way it is. |
+| **Study rationale** | Why the study is designed the way it is (conditions, measures, task). |
+| **LLM judge** | An LLM that scores or labels outputs; check it against humans on a sample. |
+| **Hypothesis (H1, H2...)** | A testable prediction, written before seeing results. |
+| **Discussion** | The section that explains what the results mean, their limits, and implications. |
+
+## Writing verbs we use
+**propose** (a new method or design) · **investigate** (test a question) · **explore** (open-ended, exploratory work) · **develop** (build a system or tool) · **hypothesize** (state a prediction).
+
+## Avoid, or explain in plain words
+| Don't say | Say instead |
+|---|---|
+| smoke run | quick test run (or pilot, if it's with people) |
+| fitting | training the model, or estimating the statistical model |
+| replay | re-running a saved session or log |
+
 ## Analysis and validity
 | Term | Plain meaning |
 |---|---|

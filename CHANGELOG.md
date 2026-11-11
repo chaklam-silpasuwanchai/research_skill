@@ -4,6 +4,9 @@
 
 **Names:** a lowercase verb, optionally with one or two hyphenated words (`write`, `check-board`, `setup-writing-style`). `guide-me` is the front door.
 
+## 0.11.1
+- **Lab terms:** adds the study words the lab uses often (conditions, participants, apparatus, trials, blocks, pilot study, experiments, analyses, design rationale, study rationale, LLM judge, hypothesis, discussion), the writing verbs (propose, investigate, explore, develop, hypothesize), and words to avoid or explain (smoke run, fitting, replay).
+
 ## 0.11.0
 - **Lab terms (AIT Brain Lab):** new `update-repo/assets/lab-terms.md` (IV/factor, DV/measure, confounding, control, random variables, individual differences, levels, operational measure, design terms, baseline, ablation, leakage, statistical analysis, internal/construct/external validity, contribution types, five research stages). `update-repo` copies it into each project's `terms.md`; Chaky uses these terms, glossed the first time in a session. `setup-writing-style` keeps them and confirms the paper's own terms.
 - **Research stages:** idea generation, refinement, validation, testing, storytelling, shown by `guide-me` and in `current_status.md`.
