@@ -8,7 +8,7 @@ description: Plans and runs your study by first reading how 5-15 close papers di
 **Idea testing.** Lab terms (`terms.md`, `lab-terms.md`), glossed the first time. Focus: `IV`, `DV`, `variables`, `design`, `sample size`, `analysis`, `models`, `labeling`, `pilot`, `run`, `replicate`.
 
 ## 1. Read how others did it
-Read the **method sections** of the 5-15 closest papers (`related_work.md`; too few → `read-papers`; verified only). One row each in `experimental_design.md`:
+Read the **method sections** of the 5-15 closest papers (`related_work.md`; too few → `update-paper`; verified only). One row each in `experimental_design.md`:
 `paper · design · IV and levels · DV and measure · participants or data, n · task · analysis · baseline`
 Name the common pattern ("most use within-subjects, n≈24, a validated trust scale").
 
@@ -31,4 +31,4 @@ Optional (mostly model work): reproduce one key result of the closest paper as t
 Hypotheses, success criteria, analysis, stopping rule → commit, `git tag plan-freeze-1`. Later changes are logged deviations; post-hoc analyses are exploratory.
 
 ## 5. Run and reflect
-One record per run in `experiment_logs/`; participant data never in git. Every ~5 runs: what worked, what surprised? Suggest deepen, broaden, pivot (`read-papers`), or conclude (`update-paper`). End with the quick sync in `AGENTS.md`.
+One record per run in `experiment_logs/`; participant data never in git. Every ~5 runs: what worked, what surprised? Suggest deepen, broaden, pivot (`update-paper`), or conclude (`update-paper`). End with the quick sync in `AGENTS.md`.

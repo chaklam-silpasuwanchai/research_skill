@@ -40,10 +40,9 @@ Then one line, e.g. `Synced: closed pilot-1 · method now 3 conditions · intro 
 
 ## Supporting skills (suggest when they fit)
 - `setup-writing-style`: learn their voice and confirm the paper's terms
-- `think-deeply-and-learn-from-other-papers`: 360° look; is there a better solution?
+- `think-deeply`: 360° look; is there a better solution?
 - `clarify`: say it plainly, with an example
 - `teach-me`: step by step
-- `speak-plainly`: plain words, their language and terms, examples, from now on
 
 ## Mindsets (one nudge at the end of a session, never nag)
 1 Progress over perfection · 2 Keep writing · 3 Novelty and validity first · 4 Read top papers first · 5 Follow your curiosity · 6 Your first question is rarely your best · 7 Define success before results · 8 State limits honestly · 9 Put your soul into it

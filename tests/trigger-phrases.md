@@ -2,7 +2,7 @@
 
 `scripts/validate.py` checks every skill named here exists. Read this list when two skills seem to overlap.
 
-**Disambiguation:** a *specific paper in hand* → `read-papers` (triage). *Unknown new papers or scoop fear* → `read-papers` (watch). *Related-work search* → `read-papers` (search). *Recap, missing tasks, priorities* → `update-board`. *Get what's in my head out* → `brain-dump`. *Is it novel or valid* → `read-papers`; *harder 360° look* → `think-deeply-and-learn-from-other-papers`. *Answer hard to read* → `clarify`; *still lost* → `teach-me`. *Text sounds robotic, stats, figures* → `update-paper`.
+**Disambiguation:** a *specific paper in hand* → `update-paper` (triage). *Unknown new papers or scoop fear* → `update-paper` (watch). *Related-work search* → `update-paper` (search). *Recap, missing tasks, priorities* → `update-board`. *Get what's in my head out* → `brain-dump`. *Is it novel or valid* → `update-paper`; *harder 360° look* → `think-deeply`. *Answer hard to read* → `clarify`; *still lost* → `teach-me`. *Text sounds robotic, stats, figures* → `update-paper`.
 
 | Phrase | Skill |
 |---|---|
@@ -27,12 +27,12 @@
 | "you drive" | `update-board` |
 | "this project is too big to plan" | `update-board` |
 | "is this ticket enough?" | `update-board` |
-| "read the closest papers" | `read-papers` |
-| "how do others do this kind of study?" | `read-papers` |
-| "what can I copy from other papers?" | `read-papers` |
-| "how are we different?" | `read-papers` |
-| "is this idea novel?" | `read-papers` |
-| "is this publishable at CHI?" | `read-papers` |
+| "read the closest papers" | `update-paper` |
+| "how do others do this kind of study?" | `update-paper` |
+| "what can I copy from other papers?" | `update-paper` |
+| "how are we different?" | `update-paper` |
+| "is this idea novel?" | `update-paper` |
+| "is this publishable at CHI?" | `update-paper` |
 | "interview me" | `brain-dump` |
 | "grill me" | `brain-dump` |
 | "brain dump my study design" | `brain-dump` |
@@ -55,13 +55,13 @@
 | "can I submit now?" | `review` |
 | "camera-ready checklist" | `review` |
 | "anonymize my paper" | `review` |
-| "I found a new paper" | `read-papers` |
-| "someone already did this" | `read-papers` |
-| "any new papers on my topic?" | `read-papers` |
-| "am I being scooped?" | `read-papers` |
-| "find related work on X" | `read-papers` |
-| "search for papers on my topic" | `read-papers` |
-| "what method can I borrow?" | `read-papers` |
+| "I found a new paper" | `update-paper` |
+| "someone already did this" | `update-paper` |
+| "any new papers on my topic?" | `update-paper` |
+| "am I being scooped?" | `update-paper` |
+| "find related work on X" | `update-paper` |
+| "search for papers on my topic" | `update-paper` |
+| "what method can I borrow?" | `update-paper` |
 | "make this sound human" | `update-paper` |
 | "remove AI slop" | `update-paper` |
 | "polish this paragraph" | `update-paper` |
@@ -74,9 +74,9 @@
 | "get a second opinion from Gemini" | `review` |
 | "clarify" | `clarify` |
 | "that was too technical, say it simply" | `clarify` |
-| "think deeply about this" | `think-deeply-and-learn-from-other-papers` |
-| "is there a better way to do this?" | `think-deeply-and-learn-from-other-papers` |
-| "think 360 about this" | `think-deeply-and-learn-from-other-papers` |
+| "think deeply about this" | `think-deeply` |
+| "is there a better way to do this?" | `think-deeply` |
+| "think 360 about this" | `think-deeply` |
 | "give me an example" | `clarify` |
 | "teach me power analysis" | `teach-me` |
 | "I still do not get it, walk me through it" | `teach-me` |
@@ -87,13 +87,10 @@
 | "recap" | `update-board` |
 | "did we forget any tasks?" | `update-board` |
 | "is this task still needed?" | `update-board` |
-| "speak plainly" | `speak-plainly` |
-| "talk to me in Thai from now on" | `speak-plainly` |
-| "less technical from now on, with examples" | `speak-plainly` |
 | "what is my paper's story?" | `update-paper` |
 | "update the paper" | `update-paper` |
 | "clean up my repo" | `update-repo` |
 | "this doesn't sound like me" | `setup-writing-style` |
-| "I suspect someone already did this" | `read-papers` |
+| "I suspect someone already did this" | `update-paper` |
 | "would ChatGPT accept this paper?" | `review` |
 | "check my paper with Claude, ChatGPT, and Gemini" | `review` |

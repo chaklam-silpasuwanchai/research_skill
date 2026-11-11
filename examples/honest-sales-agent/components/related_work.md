@@ -8,4 +8,4 @@
 | Persuasion and honesty | [Placeholder B et al., Year] | n/a | n/a | persuasive messages / attitude | contrasts: persuasion, not honesty | no (placeholder) |
 
 ## Key papers (about 1-5 closest)
-- (to fill after the first real search with `read-papers`)
+- (to fill after the first real search with `update-paper`)

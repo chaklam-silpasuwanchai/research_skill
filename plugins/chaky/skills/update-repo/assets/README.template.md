@@ -11,7 +11,7 @@ The working repo for one research paper: notes, code, data, results, and the man
 ## How to work in this repo
 Use Claude Code (or Codex) in this folder, on a paid plan. Not sure what to do next? Say **"guide me"** and it will read your repo and tell you. You lead; Chaky suggests. Or name a skill, with an optional focus:
 - "Get my ideas out" -> `/brain-dump`
-- "Read the closest papers: what to copy, how we differ" -> `/read-papers`
+- "Read the closest papers: what to copy, how we differ" -> `/update-paper papers`
 - "Plan the method" -> `/plan-method`
 - "Write the abstract" -> `/update-paper abstract`
 - "Review my paper like a tough reviewer" -> `/review`
