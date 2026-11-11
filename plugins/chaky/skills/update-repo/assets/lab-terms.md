@@ -51,6 +51,40 @@ The lab maintainer edits this file once. `update-repo` copies it into every proj
 | **Hypothesis (H1, H2...)** | A testable prediction, written before seeing results. |
 | **Discussion** | The section that explains what the results mean, their limits, and implications. |
 
+## More study terms
+| Term | Plain meaning |
+|---|---|
+| **Research question (RQ1, RQ2...)** | The specific question the study answers. |
+| **Task** | What participants (or the model) are asked to do. |
+| **Procedure** | The steps of a session, in order. |
+| **Questionnaire** | A set of written questions participants answer. |
+| **Likert scale** | A rating scale, e.g. 1 (strongly disagree) to 7 (strongly agree). |
+| **Think-aloud** | Participants say their thoughts while doing the task. |
+| **Wizard-of-Oz** | A person secretly plays the system's role to test an idea before it is built. |
+| **Simulated users / personas** | AI-generated or described users that stand in for real ones. |
+| **Usability (SUS)** | How easy a system is to use, measured with the System Usability Scale. |
+| **Workload (NASA-TLX)** | How demanding a task feels, measured with the NASA Task Load Index. |
+| **Task time, accuracy, error rate** | How long, how correct, and how often wrong. |
+| **Ground truth / gold labels** | The correct answers we compare against. |
+
+## More analysis terms
+| Term | Plain meaning |
+|---|---|
+| **Effect size** | How big the difference is, not just whether it exists (e.g. Cohen's d). |
+| **p-value / significance** | How surprising the result would be if there were no real effect. Say "significant" only after a statistical test. |
+| **Post-hoc test** | Follow-up comparisons after a main test (e.g. which conditions differ). |
+| **Confidence interval** | The range the true value likely falls in. |
+| **Inter-rater agreement (Cohen's kappa)** | How much two labelers (people or LLM judges) agree. |
+| **Semi-structured interview** | An interview with planned questions plus follow-ups. |
+| **Thematic analysis** | Finding patterns in qualitative data: **codes** (labels on quotes) grouped into **themes**. |
+| **Prompt, temperature** | The instruction given to an LLM; how random its output is. |
+| **Human evaluation** | People judging outputs, often to check an LLM judge or a metric. |
+| **Error analysis** | Looking at where and why the system fails. |
+| **Benchmark** | A standard dataset and task used to compare systems. |
+
+## Writing terms
+**contribution** (what the paper adds) · **research gap** (an open question in the field, not just in our reading) · **design implications** (what designers should do, given the results) · **limitations** · **future work**.
+
 ## Writing verbs we use
 **propose** (a new method or design) · **investigate** (test a question) · **explore** (open-ended, exploratory work) · **develop** (build a system or tool) · **hypothesize** (state a prediction).
 
@@ -60,6 +94,11 @@ The lab maintainer edits this file once. `update-repo` copies it into every proj
 | smoke run | quick test run (or pilot, if it's with people) |
 | fitting | training the model, or estimating the statistical model |
 | replay | re-running a saved session or log |
+| held-out set | test set |
+| novel | say what is new, specifically |
+| leverage, utilize | use |
+| robust | only if robustness was tested; say against what |
+| significant | only after a statistical test; otherwise "large" or "clear" |
 
 ## Analysis and validity
 | Term | Plain meaning |
