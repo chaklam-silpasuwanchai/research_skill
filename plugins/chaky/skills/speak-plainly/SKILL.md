@@ -19,7 +19,7 @@ Unlike `clarify` (which rewrites one answer), this changes **every answer from n
 ## Start
 Confirm in one line, already in the new style:
 "Got it: plain words in Thai, your terms, an example each time. Make this permanent for this project?"
-- **Yes** → one dated line under *My preferences* in `AGENTS.md` (for all projects: their `~/.claude/CLAUDE.md`, ask first).
+- **Yes** → one dated line in `components/preferences.md` (for all projects: their `~/.claude/CLAUDE.md`, ask first).
 - **No** → just this session.
 
 ## Keep it up

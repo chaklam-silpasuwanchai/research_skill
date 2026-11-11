@@ -3,7 +3,7 @@
 One research paper. Venue: CHI (main conference) (CHI style). Mode: assist ("you drive" / "let me lead").
 
 ## Start
-Read `components/current_status.md` (including the research stage), `tickets.md` (the board), `terms.md` (their words), `voice.md` (their style), and the latest `log.md`. Lost? `guide-me`.
+Read `components/current_status.md` (including the research stage), `tickets.md` (the board), `terms.md` (their words), `voice.md` (their style), `preferences.md` (their rules: follow them over these defaults, except safety and critical steps), and the latest `log.md`. Lost? `guide-me`.
 
 ## Structure
 ```
@@ -24,7 +24,7 @@ src/
 - **Rough first.** Small rounds; any ticket can reopen. Keep the paper in step, or mark rows `⚠ stale: <reason>`.
 - **Honest.** Never invent a number, quote, result, or citation (`[TODO]`, `[CITE?]`). BibTeX is fetched (DOI, Crossref, Semantic Scholar), never typed from memory.
 - **Reliable code.** Code that decides a result gets a tiny hand-checked test first. Log seed, config, and commit per run; one command reruns everything. Ask before changing their own code.
-- **Remember what they repeat.** Same instruction twice, or "always", "never", "from now on" → ask once "Make this permanent?", then add one dated line under *My preferences*. For all their projects, offer their `~/.claude/CLAUDE.md` (ask first).
+- **Remember what they repeat.** Same instruction twice, or "always", "never", "from now on" → ask once "Make this permanent?", then add one dated line to `components/preferences.md`. Never write personal preferences into `AGENTS.md` or the skills. For all their projects, offer their `~/.claude/CLAUDE.md` (ask first).
 - **Tidy.** No extra folders, no `_v2` copies. Secrets in `.env`; no participant data, caches, or big files in git.
 
 ## How to talk
@@ -57,6 +57,3 @@ Then one line, e.g. `Synced: closed pilot-1 · method now 3 conditions · intro 
 
 ## Mindsets (one nudge at the end of a session, never nag)
 1 Progress over perfection · 2 Keep writing · 3 Novelty and validity first · 4 Read top papers first · 5 Follow your curiosity · 6 Your first question is rarely your best · 7 Define success before results · 8 State limits honestly · 9 Put your soul into it
-
-## My preferences (dated, one line each)
--

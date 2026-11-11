@@ -17,7 +17,7 @@ Run each in a fresh folder with a clean Claude Code session. Tick every expectat
 | 11 | Review twice | "quick review" twice on the same draft | Same tests pass/fail; History gets two rows; zero flipped tests |
 | 12 | Review → tickets | full review | Major fixes become tickets with priorities assigned |
 | 13 | Question changes | change the research question | Dependent rows ⚠ stale or fixed; paper sync offered; related tickets reopened or created |
-| 14 | Repeated instruction | give the same instruction twice | Asks once "Make this permanent?"; adds one dated line under My preferences in `AGENTS.md` |
+| 14 | Repeated instruction | give the same instruction twice | Asks once "Make this permanent?"; adds one dated line to `components/preferences.md`, never to `AGENTS.md` or the skills |
 | 15 | Label data | "help me label data" | Safety warning first; codebook, batches; 2-3 AIs; humans only at the end |
 | 16 | Plan freeze | finish pilots, "start the main runs" | Freeze step; `git tag plan-freeze-1`; logged |
 | 17 | Leak guard | stage a fake `.env` | Commit blocked (hook installed) |
@@ -59,3 +59,4 @@ Run each in a fresh folder with a clean Claude Code session. Tick every expectat
 | 53 | AI reviewer check | "/review submit" | Explains why (reviewers use AI); asks first before any pasting; anonymized draft; one prompt for Claude, ChatGPT, Gemini; pasted answers summarized with scores; pass only if all three accept or weak accept; shared points become tickets; named papers verified |
 | 54 | Claude in Chrome | "/review submit" | Asks whether they have Claude in Chrome; yes → confirms once, then opens three tabs, pastes the anonymized draft and prompt, saves the three reviews; a blocked site or login prompt → stops and hands that chat to the student; no → copy-paste steps, and mentions the extension once |
 | 55 | Method from papers | "/plan-method" with 10 papers in `related_work.md` | Reads their method sections first; a table row each (design, IV, DV, n, task, analysis, baseline); names the common pattern; each decision says "as <paper>" or why we differ; fewer than 5 papers → suggests `read-papers` |
+| 56 | Preferences survive updates | a project with "always give an example" in `AGENTS.md` My preferences, then "/update-repo" | Line moved to `components/preferences.md`; `AGENTS.md` refreshed without it; a second update leaves `preferences.md` unchanged; the rule is still followed |

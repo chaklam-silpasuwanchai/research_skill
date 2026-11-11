@@ -9,6 +9,7 @@
 | `related_work.md` | Table of **verified** citations grouped by relation to our work. |
 | `current_status.md` | Plain-English done / in progress / blocked / next, plus the stage map. |
 | `voice.md` | The researcher's writing style (sentence rhythm, voice and tense, favorite signal words, paragraph and hedging habits, recurring English slips they want fixed, keep / change). Learned by reading their past papers; write about 25 lines, never copy passages. |
+| `preferences.md` | The researcher's own rules ("always", "never"), one dated line each. Read every session; never overwritten by updates. |
 | `log.md` | Append-only story of the project: decisions, dead ends (what, why it failed, lesson), pivots, reflections, each tagged by who (`user` / `ai-suggested` / `ai-executed` / `user-revised`). |
 
 `AGENTS.md` (repo root, where tools look) is the AI entry point and holds the working agreements; `README.md` explains the skill set and says order is flexible.

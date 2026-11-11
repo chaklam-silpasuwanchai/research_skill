@@ -12,7 +12,7 @@ extra = {"chi": [], "nlp": ["src/prompts", "src/tests"]}[kind]
 allowed_top = {"paper", "components", "src", ".git", ".gitignore", "README.md", "AGENTS.md", "CLAUDE.md"}
 for d in common + extra:
     if not (root / d).is_dir(): errs.append(f"missing folder {d}")
-for f in ["tickets", "terms", "experimental_design", "implementation", "ideas", "related_work", "current_status", "log", "voice"]:
+for f in ["tickets", "terms", "experimental_design", "implementation", "ideas", "related_work", "current_status", "log", "voice", "preferences"]:
     if not (root / "components" / f"{f}.md").is_file(): errs.append(f"missing components/{f}.md")
 for t in root.iterdir():
     if t.name not in allowed_top and not t.name.startswith("."): warns.append(f"unexpected top-level item {t.name}")

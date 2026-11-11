@@ -15,11 +15,11 @@ Focus: `chi`/`nlp` (new), or `docs`, `agents`, `cleanup`. No `AGENTS.md` or `com
 
 ## Update (existing project)
 1. **Structure:** add any missing folder, working file, or root file from the templates. Never overwrite their content.
-2. **AGENTS.md and lab terms:** refresh `AGENTS.md` from the template (keeping venue, mode, language, lab defaults, *My preferences*) both lab-terms copies from `assets/lab-terms.md`.
+2. **AGENTS.md and lab terms:** refresh `AGENTS.md` (keep venue, mode, language, lab defaults) and both lab-terms copies. **Never touch `preferences.md`**; move any old *My preferences* lines from `AGENTS.md` into it.
 3. **Working files:** read `log.md`, `review.md`, `experiment_logs/`, and `results/` since the last update; bring `current_status.md`, `experimental_design.md`, `implementation.md`, `related_work.md`, `terms.md`, and the board in line (`update-board` rules).
 4. **Cleanup:** stray files in the root, `_v2` or `final_final` copies, empty folders, caches, big files that belong outside git. List them with a suggested home or removal; moving or deleting is critical (ask first).
 5. **Paper:** mark sections behind the new work `⚠ stale: <why>` and suggest `/update-paper <section>`.
-6. **Venue:** flag a newer template or page limit.
+6. **Venue:** flag a newer template.
 7. Commit and show what changed:
 ```
 Updated: AGENTS.md · current_status · related_work · board
@@ -33,4 +33,4 @@ Log it as `full update`.
 Moving, renaming, or deleting their files; replacing the venue template; the first GitHub push.
 
 ## Adopt
-Show a mapping ("`notes.txt` → `components/ideas.md`"), ask, then move.
+Show a mapping, ask, then move.
