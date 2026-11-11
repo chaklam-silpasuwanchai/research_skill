@@ -66,18 +66,26 @@ The lab maintainer edits this file once. `update-repo` copies it into every proj
 | **Workload (NASA-TLX)** | How demanding a task feels, measured with the NASA Task Load Index. |
 | **Task time, accuracy, error rate** | How long, how correct, and how often wrong. |
 | **Ground truth / gold labels** | The correct answers we compare against. |
+| **Control condition** | The "no change" or standard version we compare against. |
+| **Manipulation check** | A quick check that the conditions really felt different to participants. |
+| **Exclusion criteria** | Rules, set before the study, for which data we drop (e.g. failed attention checks). |
+| **Informed consent** | Participants agree, knowing what the study involves. |
+| **Pre-registration** | Writing down hypotheses and analysis publicly before collecting data. |
+| **Order effect** | Results change because of the order of conditions, not the conditions; counterbalancing fixes it. |
+| **Novelty effect** | People like something just because it's new. |
 
 ## More analysis terms
 | Term | Plain meaning |
 |---|---|
 | **Effect size** | How big the difference is, not just whether it exists (e.g. Cohen's d). |
 | **p-value / significance** | How surprising the result would be if there were no real effect. Say "significant" only after a statistical test. |
-| **Post-hoc test** | Follow-up comparisons after a main test (e.g. which conditions differ). |
+| **Post-hoc test** | Follow-up comparisons after a main test (which conditions differ), with a correction for running many comparisons (e.g. Holm, Tukey). |
 | **Confidence interval** | The range the true value likely falls in. |
 | **Inter-rater agreement (Cohen's kappa)** | How much two labelers (people or LLM judges) agree. |
 | **Semi-structured interview** | An interview with planned questions plus follow-ups. |
 | **Thematic analysis** | Finding patterns in qualitative data: **codes** (labels on quotes) grouped into **themes**. |
 | **Prompt, temperature** | The instruction given to an LLM; how random its output is. |
+| **Hallucination** | An LLM stating things that aren't true. |
 | **Human evaluation** | People judging outputs, often to check an LLM judge or a metric. |
 | **Error analysis** | Looking at where and why the system fails. |
 | **Benchmark** | A standard dataset and task used to compare systems. |
