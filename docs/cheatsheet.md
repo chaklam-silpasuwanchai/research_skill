@@ -8,7 +8,7 @@
 | I'm at the very beginning | /update-repo chi (or nlp) |
 | my files and paper are behind my latest work | /update-repo |
 | teach Chaky my writing style | learn my writing style |
-| set up models, a local LLM, or free AI chats | /setup-llms |
+| set up models, a local LLM, or free AI chats | /plan-method models |
 | get my thoughts out | /brain-dump (or: interview me) |
 | recap and fix my task list | /update-board |
 | change a priority | make <task> a 5 |

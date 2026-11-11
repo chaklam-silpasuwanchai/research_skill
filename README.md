@@ -1,4 +1,4 @@
-# Chaky: your AI research partner (v0.7.0)
+# Chaky: your AI research partner (v0.8.0)
 
 Chaky helps you go from a rough idea to a submitted paper (CHI, ACL, NeurIPS style). **You lead. Chaky suggests, keeps you organized, and does the busy work.**
 
@@ -70,7 +70,7 @@ Next: /plan-method DV
 → `/plan-method`. It covers what you change (IV), what you measure (DV), who takes part, how many, the order of conditions, and the analysis. Do one part at a time with `/plan-method IV` or `/plan-method sample size`. Then pilot, freeze the plan, and run.
 
 **"I need to use AI models in my study."**
-→ `/setup-llms openrouter`, `/setup-llms local`, or `/setup-llms labeling` (free AI chats to label data).
+→ `/plan-method models` (OpenRouter or a local model) or `/plan-method labeling` (free AI chats to label data).
 
 **"Time to write."**
 → `/write abstract`, `/write intro`, `/write results`, and so on. It writes in your voice, adds honest stats and figures, and removes AI-sounding phrases. Want the whole draft at once? Say **fast mode**.
@@ -98,7 +98,7 @@ Before the deadline: `/review submit`. Got reviews back? `/write response` draft
 → Still lost? `/teach-me power analysis`. One small step at a time, with a quick check after each.
 
 **"I keep telling Chaky the same thing."**
-→ Say **always do X**. `remember-this` makes it a permanent rule.
+→ Say **always do X**. Chaky asks once, then saves it as a permanent rule in your project.
 
 ## All skills: use it when...
 | Skill | Use it when... | Try |
@@ -106,18 +106,16 @@ Before the deadline: `/review submit`. Got reviews back? `/write response` draft
 | `guide-me` | you feel lost and want to know which skill is useful right now | "guide me" |
 | `update-repo` | you're at the very beginning, or your project or paper is out of date with your latest work | /update-repo |
 | `setup-writing-style` | you want drafts to sound like you, not like an AI | "learn my writing style" |
-| `setup-llms` | your study needs AI models: OpenRouter, a local model, or free AI chats for labeling | /setup-llms local |
 | `brain-dump` | the idea is in your head but not on paper yet, at any stage | /brain-dump |
 | `update-board` | you've lost track of tasks, or the to-do list feels wrong or messy | /update-board |
 | `validate-idea` | you have an idea (or a draft) and want to know if it's novel, valid, and worth a paper | /validate-idea <idea> |
 | `find-papers` | you need the closest work, want to double-check novelty, or want a method to borrow | /find-papers <topic> |
-| `plan-method` | you need to decide what to change and measure, who takes part, how many, and how to run it | /plan-method IV |
+| `plan-method` | you need to decide what to change and measure, who takes part, how many, which AI models, and how to run it | /plan-method IV |
 | `write` | you need a section written or rewritten, a stats test, a figure, or less AI-sounding text | /write abstract |
 | `review` | you want a tough reviewer's opinion and every citation checked before you share or submit | /review |
 | `think-deeply` | you're not satisfied with what the AI proposed and want it to explore other paths and propose the most sensible one | /think-deeply |
 | `clarify` | the AI spoke too technically, or you want more context or an example | /clarify |
 | `teach-me` | clarify wasn't enough and you want to be walked through it step by step | /teach-me <topic> |
-| `remember-this` | you keep telling Chaky the same thing and want it to stick | "always do X" |
 
 Printable list: [cheat sheet](docs/cheatsheet.md). How the skills connect: [how it works](docs/how-it-works.md). A project a few weeks in: [`examples/honest-sales-agent`](examples/honest-sales-agent).
 

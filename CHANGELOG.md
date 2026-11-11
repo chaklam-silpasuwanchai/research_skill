@@ -4,6 +4,11 @@
 
 **Names:** a lowercase verb, optionally with one or two hyphenated words (`write`, `check-board`, `setup-writing-style`). `guide-me` is the front door.
 
+## 0.8.0
+- **Removed `setup-llms`:** AI models now live in `plan-method` (`/plan-method models`, `/plan-method labeling`): key in `.env`, pinned models, one logged `call_model()`, local models, free-chat labeling and outside review. Its reference files moved to `plan-method/references/`.
+- **Removed `remember-this`:** "always do X" is now a rule in `AGENTS.md`. Chaky asks once, then adds a dated line under *My preferences* (or the personal `CLAUDE.md` for all projects). Adding skills stays a maintainer task (`CLAUDE.md`, `MAINTAINERS.md`).
+- 13 skills.
+
 ## 0.7.0
 - **`think-deeply` proposes the most sensible approach.** After the 360° look, it compares 2-3 paths on the real goal, evidence, validity risk, time and cost, and deadline fit, then ends with one clear recommendation: why it's most sensible, the steps, the first step now (with the skill to use), and what evidence would change its mind.
 

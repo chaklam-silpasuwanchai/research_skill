@@ -9,7 +9,7 @@
 ## 2. Write a tiered plan (in `implementation.md`, Setup needs; plain English per choice)
 - **Pilot tier:** cheap, fast, or small local model; run first.
 - **Main tier:** the models the paper compares.
-- **Labeling tier:** free web chats through `setup-llms`, or a cheap API.
+- **Labeling tier:** free web chats (`labeling-review.md`), or a cheap API.
 - **Final-run tier:** only after pilots pass.
 
 ## 3. Set up

@@ -1,12 +1,12 @@
 name: Skill feedback
-description: A skill did something unhelpful, or could do better. (remember-this drafts this for you.)
+description: A skill did something unhelpful, or could do better. (Chaky can draft this for you.)
 labels: ["skill-feedback"]
 body:
   - type: dropdown
     id: skill
     attributes:
       label: Skill
-      options: [guide-me, update-repo, setup-writing-style, setup-llms, brain-dump, update-board, validate-idea, find-papers, plan-method, write, review, think-deeply, clarify, teach-me, remember-this, not sure]
+      options: [guide-me, update-repo, setup-writing-style, brain-dump, update-board, validate-idea, find-papers, plan-method, write, review, think-deeply, clarify, teach-me, not sure]
     validations:
       required: true
   - type: textarea

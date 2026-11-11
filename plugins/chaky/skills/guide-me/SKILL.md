@@ -34,8 +34,8 @@ Which one, or something else?
 | Files or paper behind the latest work | `update-repo` |
 | Not happy with what was proposed; wants other paths | `think-deeply` |
 | Too technical, needs context or an example / still lost | `clarify` / `teach-me` |
-| Voice, models, keys, free AI chats | `setup-writing-style`, `setup-llms` |
-| Same instruction twice | `remember-this` |
+| Their writing voice | `setup-writing-style` |
+| AI models, keys, labeling with free chats | `plan-method` (models, labeling) |
 | Anything ⚠ stale | fix it first |
 
 ## 3. Modes (`references/modes.md`)

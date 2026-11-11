@@ -64,13 +64,11 @@
 | "polish this paragraph" | `write` |
 | "which statistical test?" | `write` |
 | "make a figure" | `write` |
-| "what model can I use?" | `setup-llms` |
-| "set up OpenRouter" | `setup-llms` |
-| "run a local LLM" | `setup-llms` |
-| "help me label data" | `setup-llms` |
-| "get a second opinion from Gemini" | `setup-llms` |
-| "always do X" | `remember-this` |
-| "add a skill for DSPy" | `remember-this` |
+| "what model can I use?" | `plan-method` |
+| "set up OpenRouter" | `plan-method` |
+| "run a local LLM" | `plan-method` |
+| "help me label data" | `plan-method` |
+| "get a second opinion from Gemini" | `plan-method` |
 | "clarify" | `clarify` |
 | "that was too technical, say it simply" | `clarify` |
 | "think deeply about this" | `think-deeply` |
@@ -81,7 +79,6 @@
 | "I still do not get it, walk me through it" | `teach-me` |
 | "learn my writing style" | `setup-writing-style` |
 | "here are my past papers" | `setup-writing-style` |
-| "remember this" | `remember-this` |
 | "clean up my tickets" | `update-board` |
 | "update the board" | `update-board` |
 | "recap" | `update-board` |
