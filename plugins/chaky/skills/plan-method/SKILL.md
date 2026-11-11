@@ -10,14 +10,14 @@ Design a **fair** experiment and choose the tools, learning from 5-15 close pape
 ## 1. Plan (plain words, an example from their study for each)
 - **Learn from 5-15 close papers:** designs, measures, tools, baselines, sample sizes (`related_work.md` or `read-papers`); copy what fits, with the source. The contribution type (`references/contribution-types.md`) sets what the method must show.
 - **What you change (IV):** conditions, levels, baseline.
-- **What you measure (DV):** validated scales where they exist; when measured.
+- **What you measure (DV):** validated scales where they exist.
 - **Who or what:** participants (CHI), or data and splits (NLP).
 - **Tools and AI models:** apparatus, software, platforms with versions; models with pinned names, key in `.env`, one logged `call_model()` (`references/models.md`). Paid runs over the estimate: ask first.
 - **Labels needed?** Free AI chats do the bulk; humans check a sample at the end (`references/labeling-review.md`).
-- **Fair design:** between or within; random assignment; counterbalance order (e.g. Latin square); block on a factor that matters; baselines given the same data and tuning budget.
+- **Fair design:** between or within; random assignment; counterbalanced order (Latin square); blocking; baselines get the same data and tuning.
 - **Sample size:** power analysis before recruiting (effect from close papers), or seeds and test size for ML.
 - **Analysis:** each hypothesis → its test → what counts as success.
-- **CHI ethics (critical):** approval, consent, and data handling recorded before any recruiting.
+- **CHI ethics (critical):** approval and consent recorded before recruiting.
 Write it into `experimental_design.md`, `implementation.md`, and the method section.
 
 ## 2. Pilot
