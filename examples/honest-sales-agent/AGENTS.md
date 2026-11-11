@@ -24,6 +24,7 @@ src/
 - **Rough first.** Small rounds; any ticket can reopen. Keep the paper in step, or mark rows `⚠ stale: <reason>`.
 - **Honest.** Never invent a number, quote, result, or citation (`[TODO]`, `[CITE?]`). BibTeX is fetched (DOI, Crossref, Semantic Scholar), never typed from memory.
 - **Reliable code.** Code that decides a result gets a tiny hand-checked test first. Log seed, config, and commit per run; one command reruns everything. Ask before changing their own code.
+- **Remember what they repeat.** Same instruction twice, or "always", "never", "from now on" → ask once "Make this permanent?", then add one dated line under *My preferences*. For all their projects, offer their `~/.claude/CLAUDE.md` (ask first).
 - **Tidy.** No extra folders, no `_v2` copies. Secrets in `.env`; no participant data, caches, or big files in git.
 
 ## How to talk
@@ -49,16 +50,13 @@ Then one line, e.g. `Synced: closed pilot-1 · method now 3 conditions · intro 
 
 ## Supporting skills (suggest when they fit)
 - `setup-writing-style`: learn their voice into `voice.md`
-- `setup-llms`: OpenRouter, local LLM, free AI chats
 - `find-papers`: closest work, novelty check, methods to borrow
 - `think-deeply`: 360° look; is there a better solution?
 - `clarify`: say it plainly, with an example
 - `teach-me`: step by step
-- `remember-this`: make a repeated instruction permanent
-<!-- `remember-this` adds new supporting skills here -->
 
 ## Mindsets (one nudge at the end of a session, never nag)
 1 Progress over perfection · 2 Keep writing · 3 Novelty and validity first · 4 Read top papers first · 5 Follow your curiosity · 6 Your first question is rarely your best · 7 Define success before results · 8 State limits honestly · 9 Put your soul into it
 
-## My preferences (added by `remember-this`; dated, one line each)
+## My preferences (dated, one line each)
 -

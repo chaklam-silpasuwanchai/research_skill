@@ -17,7 +17,7 @@ OLD_NAMES = ["research-guide", "research-start", "research-ideation", "research-
              "elegant-writing", "paper-statistics", "find-related-work", "write-elegantly", "run-stats",
              "plan-llm-access", "ask-outside-ai", "code-reproducibly"]
 OLD_BARE = ["setup", "ideate", "implement", "storytell"]
-OLD_NAMES += ["check-board", "setup-repo", "start-paper", "plan-tickets", "tidy-board", "shape-idea", "run-study", "write-paper", "review-paper", "polish-prose", "analyze-results", "use-llms", "teach-chaky", "grill-me", "write-code"]
+OLD_NAMES += ["setup-llms", "remember-this", "check-board", "setup-repo", "start-paper", "plan-tickets", "tidy-board", "shape-idea", "run-study", "write-paper", "review-paper", "polish-prose", "analyze-results", "use-llms", "teach-chaky", "grill-me", "write-code"]
 OLD_NAMES += ["ask-chaky", "map-research", "watch-scoops", "triage-paper", "unslop-prose", "pick-models", "ask-chatbots", "analyze-data", "make-figures", "check-submission"]
 errors, warns = [], []
 def err(m): errors.append(m)

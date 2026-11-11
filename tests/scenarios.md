@@ -17,7 +17,7 @@ Run each in a fresh folder with a clean Claude Code session. Tick every expectat
 | 11 | Review twice | "quick review" twice on the same draft | Same tests pass/fail; History gets two rows; zero flipped tests |
 | 12 | Review → tickets | full review | Major fixes become tickets with priorities assigned |
 | 13 | Question changes | change the research question | Dependent rows ⚠ stale or fixed; paper sync offered; related tickets reopened or created |
-| 14 | Repeated instruction | give the same instruction twice | Offers `remember-this` once |
+| 14 | Repeated instruction | give the same instruction twice | Asks once "Make this permanent?"; adds one dated line under My preferences in `AGENTS.md` |
 | 15 | Label data | "help me label data" | Safety warning first; codebook, batches; 2-3 AIs; humans only at the end |
 | 16 | Plan freeze | finish pilots, "start the main runs" | Freeze step; `git tag plan-freeze-1`; logged |
 | 17 | Leak guard | stage a fake `.env` | Commit blocked (hook installed) |
@@ -40,7 +40,7 @@ Run each in a fresh folder with a clean Claude Code session. Tick every expectat
 | 34 | Change, then tell | ask `write` to tighten a paragraph | Makes the change, says what changed in one line with "undo"; no permission question |
 | 35 | Critical step asks | ask to delete an old folder, or to start the main runs | Asks first (delete or move files; freeze the plan) and does nothing until confirmed |
 | 36 | Writing style | "learn my writing style" with two past papers | Papers stay outside the repo; about 25 lines in `voice.md` with examples from their text; one sample paragraph in their voice; saved and said so |
-| 37 | Local LLM | "/setup-llms local" | Asks about the computer and memory; suggests a model size and runner; tests one call through `call_model()`; logs the exact model |
+| 37 | Local LLM | "/plan-method models" with a local model | Asks about the computer and memory; suggests a model size and runner; tests one call through `call_model()`; logs the exact model |
 | 38 | Update an existing project | a project with an old `AGENTS.md`, two new pilot runs, and a method section that says 2 conditions (now 3) | Doesn't re-run setup; adds missing files without overwriting; refreshes `AGENTS.md` keeping venue, mode, lab defaults, and preferences; updates working files and board; method and results updated, unfinished parts marked ⚠ stale; no invented numbers; shows an "Updated / Stale" summary with undo; logged |
 | 39 | Review panel | "/review full" on a draft | Checklist, then methods, domain, and skeptic reviews grounded in the tests, then a meta-review with a likely decision and 2-3 changes; quick mode gives one combined view |
 | 40 | Update facts only | new results change a number and the story | `update-repo` fixes the number and table; marks intro and discussion ⚠ stale and suggests `/write intro`; doesn't rewrite prose |

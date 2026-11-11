@@ -11,7 +11,7 @@
 - Bump in `plugin.json`, `marketplace.json`, `CITATION.cff`, and the README title; add a `CHANGELOG.md` entry; push. `scripts/validate.py` checks they match, and CI fails a pull request without a bump. Students run `/plugin marketplace update ask-chaky` and `/plugin update chaky@ask-chaky`.
 
 ## Add or improve skills
-- Students can say "add a skill" or "always do X" to Chaky (`remember-this`). Choosing "improve Chaky for everyone" produces a short note for you.
+- Students say "always do X" and Chaky saves it in their project's `AGENTS.md`. Ideas for everyone come in through the Skill feedback issue form.
 - New skills: a verb-noun name (two hyphenated words; a single verb like `clarify` is allowed), lean `SKILL.md`, register under *Supporting skills* in `update-repo/assets/AGENTS.template.md`, update the README table and changelog.
 - Plugin skills are overwritten on update. Per-student preferences live in each project's `AGENTS.md`, not in the skills.
 
