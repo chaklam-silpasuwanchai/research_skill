@@ -1,4 +1,4 @@
-# Chaky: your AI research partner (v0.11.3)
+# Chaky: your AI research partner (v0.11.4)
 
 Chaky helps you go from a rough idea to a submitted paper (CHI, ACL, NeurIPS style). **You lead. Chaky suggests, keeps you organized, and does the busy work.**
 
@@ -7,7 +7,7 @@ You only need to remember one phrase: **"guide me"**.
 ## The Chaky mindset
 1. **Everything revolves around tickets and priorities.** Your board (`components/tickets.md`) is the clear path: every task is a ticket with a 1-5 priority and a "finished when". Lost? Look at the top ticket, or say **guide me**.
 2. **You direct; the AI does the legwork.** Chaky isn't meant to do everything for you; that rarely works well. So no "autoresearch" here: Chaky never runs experiments or writes the paper in a loop on its own. It gives you better ways to tell the AI what to do. Suggestion feels sloppy? Try `/think-deeply` or `/read-papers`. Answer too technical? `/clarify`. Writing doesn't sound like you? `/setup-writing-style`.
-3. **One set of lab terms.** Everyone uses the same words, from the AIT Brain Lab: **IV** (independent variable, a.k.a. factor: what you change), **DV** (dependent variable, a.k.a. measure: what you measure), **confounding variables** (what could interfere), **control variables** (what we keep the same), **random variables** (what we let vary), **individual differences** (how people differ), and **statistical analysis** (t-test, ANOVA, regression...). Research moves through five stages: idea generation, refinement, validation, testing, storytelling. Full list: [`lab-terms.md`](plugins/chaky/skills/update-repo/assets/lab-terms.md), copied into every project.
+3. **One set of lab terms.** Everyone uses the same words, from the AIT Brain Lab: **IV** (independent variable, a.k.a. factor: what you change), **DV** (dependent variable, a.k.a. measure: what you measure), **confounding variables** (what could interfere), **control variables** (what we keep the same), **random variables** (what we let vary), **individual differences** (how people differ), and **statistical analysis** (t-test, ANOVA, regression...). Research moves through five stages: idea generation, refinement, validation, testing, storytelling. Full list: [`lab-terms.md`](plugins/chaky/skills/update-repo/assets/lab-terms.md). Every project gets the core in `terms.md` and the full list in `components/lab-terms.md`.
 
 ## Set up (once, about 15 minutes)
 You need: a paid Claude plan (Pro or higher), Git (`git --version` to check), and an empty folder for your paper.

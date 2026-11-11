@@ -4,6 +4,9 @@
 
 **Names:** a lowercase verb, optionally with one or two hyphenated words (`write`, `check-board`, `setup-writing-style`). `guide-me` is the front door.
 
+## 0.11.4
+- **Lean lab terms:** `lab-terms.md` is split into a short **Core** (stages, variables, words to avoid), copied into `terms.md` and read every session, and the **full list**, copied to `components/lab-terms.md` and looked up only when a term comes up. Adds zero-shot / few-shot.
+
 ## 0.11.3
 - **Lab terms:** adds control condition, manipulation check, exclusion criteria, informed consent, pre-registration, order effect, novelty effect, and hallucination; "post-hoc test" now includes the multiple-comparison correction.
 
