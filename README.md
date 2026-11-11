@@ -1,4 +1,4 @@
-# Chaky: your AI research partner (v0.14.1)
+# Chaky: your AI research partner (v0.15.0)
 
 Chaky helps you go from a rough idea to a submitted paper (CHI, ACL, NeurIPS style). **You lead. Chaky suggests, keeps you organized, and does the busy work.**
 
@@ -63,7 +63,7 @@ Not sure? Just say **guide me**.
 | suspect something (has someone done this? is it new?) | `/read-papers <idea>` | Reads the 10-15 closest papers: what to copy, your one difference, novel and valid? |
 | plan to try something | `/plan-method` | A fair experiment and the right tools, learned from 5-15 close papers; then pilot and run |
 | want to write | `/update-paper` | First your story (background and key papers, problem, solution, findings), with alternative storylines if you're unsure; then the sections |
-| want reviewers' opinions | `/review` | Three reviewers and a meta-review, every citation checked, improvements split into easy and difficult |
+| want reviewers' opinions | `/review` | Three reviewers and a meta-review, every citation checked, a Claude/ChatGPT/Gemini check (many reviewers use AI), improvements split into easy and difficult |
 | feel the AI doesn't write like you | `/setup-writing-style` | Learns from a paragraph, past papers, emails, or blogs, and confirms the terms you'll use |
 | want your repo tidy and up to date | `/update-repo` | Updates all the docs and cleans up clutter (asks before moving or deleting) |
 | want the AI to always talk simply, in your language | `/speak-plainly Thai` | Every answer from then on: what needs you first, plain words, your terms, examples |
