@@ -4,6 +4,9 @@
 
 **Names:** a lowercase verb, optionally with one or two hyphenated words (`write`, `check-board`, `setup-writing-style`). `guide-me` is the front door.
 
+## 0.10.1
+- **README: "The Chaky mindset"**: everything revolves around tickets and priorities; you direct and the AI does the legwork (sloppy suggestion → `/think-deeply` or `/read-papers`).
+
 ## 0.10.0
 - **README by "when you...":** one table mapping each moment (lost, confused, suspect overlap, want to write...) to the skill and what happens.
 - **`find-papers` merged into `read-papers`:** search, close reading of the 10-15 closest, what to copy, the one difference, novelty and validity, plus watch and triage ("I found a paper").
