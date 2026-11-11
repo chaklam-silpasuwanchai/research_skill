@@ -20,7 +20,7 @@ A test passes only with a quote or location; fixed tests, fixed order; unwritten
 Three short reviews from the tests (strengths, weaknesses, score): **methods expert**, **domain expert**, **skeptic**. Then a **meta-review**: likely decision and what would move it most.
 
 ## AI reviewer check (before sharing or submitting)
-Many reviewers use AI. The student runs an anonymized draft through Claude, ChatGPT, and Gemini with the prompt in `references/ai-reviewers.md` (pasting is critical: ask first). **Pass** = all three at accept or weak accept; points 2-3 AIs share become tickets.
+Many reviewers use AI. Ask whether they have **Claude in Chrome** (then Chaky runs the chats; otherwise they paste). Steps: `references/ai-reviewers.md`; pasting is critical. **Pass** = all three at accept or weak accept; points 2-3 AIs share become tickets.
 
 ## Checklist back
 ```
@@ -32,4 +32,4 @@ AI reviewers     Claude ✅ · ChatGPT ❌ · Gemini ✅ → not yet
 Easy: fix 2 citations · add leakage check sentence
 Difficult: explain why it matters → /update-paper intro
 ```
-**Easy** (< 1 hour: wording, a citation, a caption) and **difficult** (plan them: a new baseline, more participants, a reframed contribution, each with its effect and skill). Report and a History row go in `components/review.md`; every fix becomes a ticket. Don't rewrite the paper here. End with the quick sync in `AGENTS.md`.
+**Easy** (< 1 hour: wording, a citation) and **difficult** (plan them: a new baseline, a reframed contribution, each with its skill). Report and a History row go in `components/review.md`; every fix becomes a ticket. Don't rewrite the paper here. End with the quick sync in `AGENTS.md`.

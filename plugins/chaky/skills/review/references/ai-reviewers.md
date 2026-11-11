@@ -5,7 +5,12 @@ Many reviewers now paste papers into an AI before writing their review. If Claud
 ## Safety first (critical: ask first)
 An unpublished paper is confidential. Use an **anonymized** draft, turn off "use my data for training" (or use a paid or institutional account with that guarantee), and follow the lab's AI-use policy. Unsure → don't paste.
 
-## Run it
+## Ask first: do you have Claude in Chrome?
+Claude in Chrome is a browser extension that lets Claude use the student's own browser, where they are already logged in to Claude, ChatGPT, and Gemini.
+- **Yes:** Chaky opens a new tab for each chat, pastes the anonymized draft and the prompt, waits for each answer, and saves all three to `components/ai_reviews.md`. Confirm once before pasting (critical). If a site blocks it or asks for a login, stop and let the student do that chat by hand.
+- **No, or not sure:** do it by hand (below). Mention once that the extension can save this copy-paste work next time.
+
+## Run it (by hand)
 The student pastes the same anonymized PDF or text into **three fresh chats** (Claude, ChatGPT, Gemini) with this prompt, then pastes each answer back (or saves to `components/ai_reviews.md`, overwritten each time):
 
 > You are a rigorous reviewer for [venue]. Review this paper as you would for the real conference. Give: a summary; strengths; weaknesses (quote the sentences you criticize); idea novelty and technical novelty against the closest work you know (name papers); validity (confounds, unfair baselines, wrong measures, over-claiming); clarity; a score on the venue's scale; accept or reject, with the 3 changes that would most change your decision.

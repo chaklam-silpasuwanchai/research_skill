@@ -1,6 +1,6 @@
 {
   "name": "chaky",
-  "version": "0.15.0",
+  "version": "0.16.0",
   "description": "Chaky, your AI research partner: from a rough idea to a submitted paper (CHI, ACL, NeurIPS style). Say \"guide me\" to start; you lead, Chaky suggests.",
   "author": {
     "name": "Chaklam Silpasuwanchai"
