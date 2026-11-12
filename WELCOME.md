@@ -6,7 +6,7 @@ A student wants to use the Chaky skills for writing an academic paper. Follow th
 2. **Install, preferred way.** You can't run slash commands yourself, so ask the user to run these two in Claude Code, then restart it:
    ```
    /plugin marketplace add chaklam-silpasuwanchai/research_skill
-   /plugin install chaky@ask-chaky
+   /plugin install chaky@research_skill
    ```
 3. **Install, if they'd rather you do it.** Ask permission first, then:
    ```

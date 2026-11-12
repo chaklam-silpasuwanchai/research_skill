@@ -1,4 +1,4 @@
-# Chaky: your AI research partner (v0.21.1)
+# Chaky: your AI research partner (v0.22.0)
 
 Chaky helps you go from a rough idea to a submitted paper (CHI, ACL, NeurIPS style). **You lead. Chaky suggests, keeps you organized, and does the busy work.**
 
@@ -25,7 +25,7 @@ Open a **new** terminal; check with `claude --version`. New to terminals? [Guide
 **2. Add Chaky.** Type `claude`, log in, then type:
 ```
 /plugin marketplace add chaklam-silpasuwanchai/research_skill
-/plugin install chaky@ask-chaky
+/plugin install chaky@research_skill
 ```
 Restart Claude.
 
@@ -94,7 +94,8 @@ More: [cheat sheet](docs/cheatsheet.md) · [how it works](docs/how-it-works.md).
 | Chaky forgot what we did | Say **guide me**; it re-reads your project files |
 | Hit a usage limit | Wait for the reset; work in smaller rounds |
 
-**Update Chaky:** `/plugin marketplace update ask-chaky`, then `/plugin update chaky@ask-chaky`, then restart.
+**Update Chaky:** `/plugin marketplace update research_skill`, then `/plugin update chaky@research_skill`, then restart.
+**Installed an older version as `chaky@ask-chaky`?** Run `/plugin uninstall chaky@ask-chaky` and `/plugin marketplace remove ask-chaky`, then install again with the two commands above. Your projects are not affected.
 **No plugin support?** Copy the folders in `plugins/chaky/skills/` into `~/.claude/skills/` and restart. Codex works the same way with its own skills folder.
 **Your paper as a PDF:** upload `paper/` to [Overleaf](https://www.overleaf.com).
 

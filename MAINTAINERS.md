@@ -2,13 +2,13 @@
 
 ## Publish (once)
 1. Replace `Chaklam Silpasuwanchai` and `chaklam-silpasuwanchai` in `README.md`, `WELCOME.md`, `plugins/chaky/.claude-plugin/plugin.json`, and `.claude-plugin/marketplace.json`.
-2. Make the GitHub repo **public** (it is `chaklam-silpasuwanchai/research_skill`; the marketplace inside is named `ask-chaky`, so install commands use `@ask-chaky`). If you rename the repo, update `README.md`, `WELCOME.md`, `CITATION.cff`, and both JSON files.
+2. Make the GitHub repo **public** (`chaklam-silpasuwanchai/research_skill`). The marketplace inside is also named `research_skill`, so install commands use `chaky@research_skill`. If you rename either, update `README.md`, `WELCOME.md`, `CITATION.cff`, and both JSON files.
 3. On a clean machine, follow the README exactly. Fix anything that confuses you first.
 4. Run one real paper through `guide-me` (start, idea, a pilot, a review).
 
 ## Release
 - **Every update bumps the version.** `0.MINOR.PATCH` until tested with real students, then `1.0.0`. MINOR = new skill or changed behavior. PATCH = wording or bug fixes.
-- Bump in `plugin.json`, `marketplace.json`, `CITATION.cff`, and the README title; add a `CHANGELOG.md` entry; push. `scripts/validate.py` checks they match, and CI fails a pull request without a bump. Students run `/plugin marketplace update ask-chaky` and `/plugin update chaky@ask-chaky`.
+- Bump in `plugin.json`, `marketplace.json`, `CITATION.cff`, and the README title; add a `CHANGELOG.md` entry; push. `scripts/validate.py` checks they match, and CI fails a pull request without a bump. Students run `/plugin marketplace update research_skill` and `/plugin update chaky@research_skill`.
 
 ## Add or improve skills
 - Students say "always do X" and Chaky saves it in their project's `AGENTS.md`. Ideas for everyone come in through the Skill feedback issue form.

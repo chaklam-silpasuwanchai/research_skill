@@ -4,6 +4,9 @@
 
 **Names:** lowercase hyphenated words starting with a verb (`update-paper`, `setup-writing-style`). `guide-me` is the front door.
 
+## 0.22.0
+- **Marketplace renamed `ask-chaky` → `research_skill`**, matching the GitHub repo. Install with `/plugin install chaky@research_skill`. Older installs: uninstall `chaky@ask-chaky`, remove the `ask-chaky` marketplace, and install again (README).
+
 ## 0.21.1
 - **Removed the example project** (`examples/honest-sales-agent`) and its README link.
 
