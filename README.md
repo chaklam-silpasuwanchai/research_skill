@@ -1,4 +1,4 @@
-# Chaky: your AI research partner (v0.21.0)
+# Chaky: your AI research partner (v0.21.1)
 
 Chaky helps you go from a rough idea to a submitted paper (CHI, ACL, NeurIPS style). **You lead. Chaky suggests, keeps you organized, and does the busy work.**
 
@@ -78,7 +78,7 @@ Next: /plan-method DV
 
 **A typical journey:** `/update-repo` → `/brain-dump` → `/update-paper papers` → `/plan-method` → pilot and run → `/update-paper` → `/review` → `/update-paper response`. Jump around any time.
 
-More: [cheat sheet](docs/cheatsheet.md) · [how it works](docs/how-it-works.md) · [example project](examples/honest-sales-agent).
+More: [cheat sheet](docs/cheatsheet.md) · [how it works](docs/how-it-works.md).
 
 ## Good habits
 - Small rounds: rough first, polish later.
