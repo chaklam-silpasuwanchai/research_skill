@@ -14,7 +14,8 @@ Fewer than 10 verified papers in `related_work.md`, focus `papers`, or "is this 
 Ask one at a time, suggesting an answer each time (the lab's one-page outline): **background** and 2-3 key papers · **problem** · **research question** · **proposed solution** (our one difference) · **evaluation and key findings** · **contribution**. Unsure → **2-3 alternative storylines** (problem-first, surprising-finding-first, method-first), each a 4-line arc; recommend one. Save it in `current_status.md`.
 
 ## 3. Write or update sections
-Reviewers mostly decide from the **abstract and introduction**: most care there, then the **discussion**. **Say only what's necessary**; the rest goes to the appendix or is cut. Read `voice.md` and `terms.md`; skim 3-5 recent venue papers. Follow `references/sections.md`, `references/style.md`, then the unslop pass (`references/unslop.md`, `references/patterns.md`), keeping every claim, number, and citation. Show each section; they comment. **"Fast mode"** → whole draft at once. `⚠ stale` sections first.
+**First read `voice.md` (their style) and `terms.md` (their words)**; every sentence follows them. `voice.md` empty or still the template → suggest `/setup-writing-style` first (or write plainly now and offer it after).
+Reviewers mostly decide from the **abstract and introduction**: most care there, then the **discussion**. **Say only what's necessary**; the rest goes to the appendix or is cut. Skim 3-5 recent venue papers. Follow `references/sections.md`, `references/style.md`, then the unslop pass (`references/unslop.md`, `references/patterns.md`), keeping every claim, number, and citation. Show each section; they comment. **"Fast mode"** → whole draft at once. `⚠ stale` sections first.
 - **Stats and figures:** `references/stats.md`, `references/figures.md`.
 - **Limitations** and **response to reviewers:** `references/sections.md`.
 

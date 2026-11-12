@@ -1,5 +1,7 @@
 # Style (used by `update-paper` on every section)
 
+**Their voice first.** Match `components/voice.md` (sentence length, tense, signal words, hedging, what to keep) and use `terms.md` words exactly. These rules below never override their voice; they fix only what voice.md says to fix.
+
 **Say only what's necessary.** Writing everything is not the best way. Every extra detail is one more thing a reviewer must think about, question, or attack. Keep a sentence only if the reader needs it to understand or believe the story. Each detail must support the contribution, the method's validity, or replication; otherwise cut it, or move it to the appendix or supplement. No side results that don't serve the story, no listing everything you tried, no defending against objections nobody raised, no tutorials for experts. When in doubt, cut, then check the story still holds.
 
 **Paragraphs:** one idea each, strong opening and ending sentence. Open with a signal ("This paper proposes...", "However, ...") that sets the tone. Make the link to the previous paragraph visible.

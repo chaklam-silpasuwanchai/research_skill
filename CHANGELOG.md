@@ -4,6 +4,9 @@
 
 **Names:** lowercase hyphenated words starting with a verb (`update-paper`, `setup-writing-style`). `guide-me` is the front door.
 
+## 0.22.1
+- **`update-paper` reads `voice.md` first:** a clear first step before writing any section (with `terms.md`); an empty or template `voice.md` → suggests `/setup-writing-style`. The style guide now puts the researcher's voice above its own rules.
+
 ## 0.22.0
 - **Marketplace renamed `ask-chaky` → `research_skill`**, matching the GitHub repo. Install with `/plugin install chaky@research_skill`. Older installs: uninstall `chaky@ask-chaky`, remove the `ask-chaky` marketplace, and install again (README).
 - **README rewritten** by the maintainer (personal overview, mindset, cheat-sheet table, mods, credits); grammar fixes only. The older update and migration notes are no longer in the README.
