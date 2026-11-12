@@ -1,15 +1,13 @@
-# Chaky: your AI research partner (v0.22.0)
+# My personal research skill (v0.22.0)
 
-Chaky helps you go from a rough idea to a submitted paper (CHI, ACL, NeurIPS style). **You lead. Chaky suggests, keeps you organized, and does the busy work.**
+I have recently tried out Claude Code for my research, and developed several key skills after many months of trial and error.   Hopefully this skill can help you as well in your research journey.   For your information, I have published in top venues like CHI and ACL, so you can trust me a little bit :P
 
-You only need to remember one phrase: **"guide me"**.
+## The skill mindset
+1. **Everything revolves around tickets and priorities.** I found it extremely difficult to keep track of all the things I need to do, especially when AI keeps throwing information at you.   So the first idea revolves around tickets and priorities which can be found in `components/tickets.md`.  It is inspired by agile practices.   You can use `/update-board` to ask AI to check all tasks, reprioritize stuff, so you don't get lost.
+2. **You are the main researcher, not AI.** I found AI loves to confuse me when doing research, so I built my skill around the idea that I am the one who drives. For those who know,  there is a very popular skill out there named `autoresearch` which does not suit me very much.   My favorite skill, for example, is `/think-deeply`, which I use when I think AI is not thinking multi-dimensionally or has not read enough papers.   Another favorite skill is a simple `/clarify` which asks AI to speak in plain English, provide enough context, and always give at least one example.   Another one is `/brain-dump` which allows me to tell AI what I am thinking via interviewing.
+3. **Define terms early.** It can get very confusing after a few days of talking to AI;  one thing I found extremely useful is agreeing with AI on a set of terms that we work with.  This results in better collaboration with AI,  better writing, and just overall better research.  You can take a look at the initial terms I define for myself:  [`lab-terms.md`](plugins/chaky/skills/update-repo/assets/lab-terms.md). Every project gets the core in `terms.md` and the full list in `components/lab-terms.md`.
 
-## The Chaky mindset
-1. **Everything revolves around tickets and priorities.** Your board (`components/tickets.md`) is the clear path: every task is a ticket with a 1-5 priority and a "finished when". Lost? Look at the top ticket, or say **guide me**.
-2. **You direct; the AI does the legwork.** Chaky isn't meant to do everything for you; that rarely works well. So no "autoresearch" here: Chaky never runs experiments or writes the paper in a loop on its own. It gives you better ways to tell the AI what to do. Suggestion feels sloppy? Try `/think-deeply` or `/update-paper papers`. Answer too technical? `/clarify`. Writing doesn't sound like you? `/setup-writing-style`.
-3. **One set of lab terms.** Everyone uses the same words, from the AIT Brain Lab: **IV** (independent variable, a.k.a. factor: what you change), **DV** (dependent variable, a.k.a. measure: what you measure), **confounding variables** (what could interfere), **control variables** (what we keep the same), **random variables** (what we let vary), **individual differences** (how people differ), and **statistical analysis** (t-test, ANOVA, regression...). Research moves through five stages: idea generation, refinement, validation, testing, storytelling. Full list: [`lab-terms.md`](plugins/chaky/skills/update-repo/assets/lab-terms.md). Every project gets the core in `terms.md` and the full list in `components/lab-terms.md`.
-
-## Set up (once, about 15 minutes)
+## How to set up
 You need: a paid Claude plan (Pro or higher), Git (`git --version` to check), and an empty folder for your paper.
 
 **1. Install Claude Code.** Mac, Linux, or WSL:
@@ -22,88 +20,46 @@ irm https://claude.ai/install.ps1 | iex
 ```
 Open a **new** terminal; check with `claude --version`. New to terminals? [Guide](https://code.claude.com/docs/en/terminal-guide), or use the Claude desktop app.
 
-**2. Add Chaky.** Type `claude`, log in, then type:
+**2. Install the skill.** Type `claude`, log in, then type:
 ```
 /plugin marketplace add chaklam-silpasuwanchai/research_skill
 /plugin install chaky@research_skill
 ```
 Restart Claude.
 
-**3. Start.**
+**3. Inside your terminal, go to your folder and call Claude.**
 ```
 mkdir my-paper
 cd my-paper
 claude
 ```
-Say **guide me**. Rough answers are fine. **Coming back?** `cd my-paper`, `claude`, **guide me**. Chaky remembers where you are.
-
-## How Chaky works with you
-```
-Needs attention: your intro is out of date (you changed the question Tuesday).
-Suggested: /update-paper intro (about 20 min). Or: /plan-method pilot
-Which one, or something else?
-```
-- **You pick the skill.** Chaky suggests; it never jumps in on its own.
-- **Small changes just happen**, with one line of what changed. Say **undo** to reverse.
-- **Big things wait for your yes:** deleting files, freezing the plan, pushing, participants, money, free AI chats, submitting.
-- **Everything stays in sync:** every skill ends with a light `/update-board`: finished tasks closed, new ones added, priorities re-checked, paper facts fixed, committed, and your top 3 tasks shown.
-- **Your rules stay yours.** Say "always do X" and it goes in `components/preferences.md`, which updates never touch.
-- **Aim any skill:** `/update-paper abstract`, `/plan-method IV`.
-
 ## Which skill when?
-Not sure? Just say **guide me**.
+
+This is a cheat sheet.
 
 | When you... | Use | What happens |
 |---|---|---|
 | are lost | `/guide-me` | Where you are, what needs you, and which skill helps now |
-| want to know what your tasks are | `/update-board` | A recap, then your to-do list: missing tasks added, extras dropped, priorities set |
-| are confused by what the AI said | `/clarify` | The bottom line, what needs you, and one example from your project |
-| don't know enough to follow what the AI said | `/teach-me <topic>` | Small steps, a quick check after each, then you do it for real |
-| think the AI isn't thinking in enough ways | `/think-deeply` | Every angle, 2-3 different paths, then one clear recommendation |
-| want the AI to get your feedback | `/brain-dump` | It asks you one question at a time and saves your answers |
-| suspect something (has someone done this? is it new?) | `/update-paper papers <idea>` | Reads the 10-15 closest papers: what to copy, your one difference, novel and valid? |
-| plan to try something | `/plan-method` | A fair experiment and the right tools, learned from 5-15 close papers; then pilot and run |
-| want to write | `/update-paper` | First your story (background and key papers, problem, solution, findings), with alternative storylines if you're unsure; then the sections |
-| want reviewers' opinions | `/review` | Three reviewers and a meta-review, every citation checked, a Claude/ChatGPT/Gemini check (many reviewers use AI), improvements split into easy and difficult |
+| want to know what your tasks are | `/update-board` | Updates your to-do list |
+| are confused by what the AI said | `/clarify` | Explain plainly, with enough context and examples |
+| don't know enough to follow what the AI said | `/teach-me <topic>` | Teaches you when `/clarify` does not work, likely due to a knowledge gap |
+| think the AI isn't thinking in enough ways | `/think-deeply` | Tries to think differently, and also consults papers |
+| want the AI to get your feedback | `/brain-dump` | Asks you one question at a time and saves your answers |
+| want to organize your idea (has someone done this? is it new?) | `/update-paper` | Updates your paper, and also consults the 10-15 closest papers: what to copy, your one difference, novel and valid? |
+| want to experiment with something | `/plan-method` | Lets AI help plan a fair experiment and the right tools, learned from 5-15 close papers; then pilot and run |
+| want reviewers' opinions | `/review` | Three reviewers and a meta-review, every citation checked, a Claude/ChatGPT/Gemini check, improvements split into easy and difficult |
 | feel the AI doesn't write like you | `/setup-writing-style` | Learns from your Google Scholar link, past papers, a paragraph, emails, or blogs, and confirms the terms you'll use |
 | want your repo tidy and up to date | `/update-repo` | Updates all the docs and cleans up clutter (asks before moving or deleting) |
 
-```
-Read: 12 closest papers
-Borrow: within-subjects design · trust scale (Lee 2023) · n≈24
-One difference: we test admitting limits, not just being accurate
-Novel ✅  Valid ❓ no trust scale yet
-Next: /plan-method DV
-```
+## Claude mod
 
-**A typical journey:** `/update-repo` → `/brain-dump` → `/update-paper papers` → `/plan-method` → pilot and run → `/update-paper` → `/review` → `/update-paper response`. Jump around any time.
+I highly recommend installing Claude mods in your terminal or desktop app:
 
-More: [cheat sheet](docs/cheatsheet.md) · [how it works](docs/how-it-works.md).
-
-## Good habits
-- Small rounds: rough first, polish later.
-- API keys go in `.env`; never paste participant data into free AI chats.
-- CHI: ethics approval before recruiting.
-- New task? Type `/clear`, then **guide me**. Chaky's files remember everything.
-
-## Something wrong?
-| Problem | Try this |
-|---|---|
-| `claude: command not found` | Open a new terminal; run `claude doctor` |
-| "guide me" does nothing | Restart Claude; type `/` and look for the skills |
-| Chaky forgot what we did | Say **guide me**; it re-reads your project files |
-| Hit a usage limit | Wait for the reset; work in smaller rounds |
-
-**Update Chaky:** `/plugin marketplace update research_skill`, then `/plugin update chaky@research_skill`, then restart.
-**Installed an older version as `chaky@ask-chaky`?** Run `/plugin uninstall chaky@ask-chaky` and `/plugin marketplace remove ask-chaky`, then install again with the two commands above. Your projects are not affected.
-**No plugin support?** Copy the folders in `plugins/chaky/skills/` into `~/.claude/skills/` and restart. Codex works the same way with its own skills folder.
-**Your paper as a PDF:** upload `paper/` to [Overleaf](https://www.overleaf.com).
-
-## More
-Changes: `CHANGELOG.md` · Labs and maintainers: `MAINTAINERS.md` · Problems or ideas: open an issue · License: MIT · Cite: `CITATION.cff`.
+**Simple ticket boards:** Ask your Claude to set up a ticket board in the right pane.
+**Cheatsheet skill:** Ask your Claude to list all the available skills you can use, to remind you of the tools you have.
 
 ## Credits
-Chaky stands on good ideas from others, rewritten in our own words:
+This skill stands on good ideas from others:
 - [Kalaris Labs' research agent skills](https://github.com/KalarisLabs/research-agent-skills) and [Orchestra Research's AI-Research-SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs): broad research skill collections. They are large; Chaky keeps a small set that students can remember.
 - [Feynman](https://github.com/companion-inc/feynman): consensus, disagreements, and open questions in literature reviews; a source trail; checking a paper against its code; replicating before building.
 - [Matt Pocock's skills](https://github.com/mattpocock/skills) (MIT): grill-me, wayfinder, and retro inspired `brain-dump`, `update-board`, and the retro mode.

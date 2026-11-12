@@ -6,6 +6,8 @@
 
 ## 0.22.0
 - **Marketplace renamed `ask-chaky` → `research_skill`**, matching the GitHub repo. Install with `/plugin install chaky@research_skill`. Older installs: uninstall `chaky@ask-chaky`, remove the `ask-chaky` marketplace, and install again (README).
+- **README rewritten** by the maintainer (personal overview, mindset, cheat-sheet table, mods, credits); grammar fixes only. The older update and migration notes are no longer in the README.
+- **Removed `docs/`** (cheat sheet, how-it-works): no longer linked; the README table is the cheat sheet.
 
 ## 0.21.1
 - **Removed the example project** (`examples/honest-sales-agent`) and its README link.
