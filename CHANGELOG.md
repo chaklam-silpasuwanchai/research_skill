@@ -4,6 +4,9 @@
 
 **Names:** lowercase hyphenated words starting with a verb (`update-paper`, `setup-writing-style`). `guide-me` is the front door.
 
+## 0.25.1
+- **`think-deeply` always consults papers:** step 8 is marked never-skip; it asks how papers usually fix this root cause, and no recommendation is made until papers are checked. The answer line is now `How papers fix it:`.
+
 ## 0.25.0
 - **`think-deeply` finds the root cause first:** step 2 asks "why?" until the cause of the problem, and checks whether the proposal fixes the cause or only a symptom; a symptom fix is never the recommendation. The answer starts with `Root cause:`.
 
