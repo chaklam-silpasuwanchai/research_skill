@@ -4,6 +4,9 @@
 
 **Names:** lowercase hyphenated words starting with a verb (`update-paper`, `setup-writing-style`). `guide-me` is the front door.
 
+## 0.25.0
+- **`think-deeply` finds the root cause first:** step 2 asks "why?" until the cause of the problem, and checks whether the proposal fixes the cause or only a symptom; a symptom fix is never the recommendation. The answer starts with `Root cause:`.
+
 ## 0.24.0
 - **Root cause, not patches:** a new `AGENTS.md` rule for every skill. When something fails, ask "why?" until the cause, fix that, say it in one line, and log it; never patch the symptom (rewording an overclaim, tuning until numbers look good, hiding failed runs, defensive sentences). `review` fixes target the root cause; `plan-method` finds the cause before changing a pilot.
 
