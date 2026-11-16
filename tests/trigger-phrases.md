@@ -95,3 +95,4 @@
 | "would ChatGPT accept this paper?" | `review` |
 | "check my paper with Claude, ChatGPT, and Gemini" | `review` |
 | "here is my Google Scholar link" | `setup-writing-style` |
+| "what is the root cause here?" | `think-deeply` |
