@@ -4,6 +4,9 @@
 
 **Names:** lowercase hyphenated words starting with a verb (`update-paper`, `setup-writing-style`). `guide-me` is the front door.
 
+## 0.25.2
+- **Recent related work:** paper search and related work use mostly the last 5 years, at most 6-7, so the work doesn't look dated; older papers only for 1-2 classics (a theory, a scale, the original method). `review` flags older citations.
+
 ## 0.25.1
 - **`think-deeply` always consults papers:** step 8 is marked never-skip; it asks how papers usually fix this root cause, and no recommendation is made until papers are checked. The answer line is now `How papers fix it:`.
 
