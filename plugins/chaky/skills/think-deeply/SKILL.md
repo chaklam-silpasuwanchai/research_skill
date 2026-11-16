@@ -14,7 +14,7 @@ Use when the researcher isn't satisfied with what was proposed. One question: **
 5. **Assumptions:** 2-4 the solution rests on; true here? Pick the one that matters most.
 6. **Go deep** on it: ask "why?" until it is checkable, then check (repo, paper, number).
 7. **Systems:** what else it touches; what happens next, and after that.
-8. **Learn from other papers:** how did 3-5 close papers handle this choice, and what happened? `related_work.md`, or a quick verified search (`update-paper` papers).
+8. **Learn from other papers (always; never skip):** how do papers usually fix this root cause or handle this choice, and did it work? 3-5 papers from `related_work.md`, or a quick verified search (`update-paper` papers). No papers checked yet → do that before recommending.
 9. **Propose the most sensible approach.** Compare 2-3 genuinely different paths on: the real goal · evidence (including other papers) · validity risk · time and cost · deadline and venue. Pick the overall winner, which may be a mix or the current plan.
 
 ## Answer
@@ -23,7 +23,7 @@ Root cause: ... (the proposal fixes it / only a symptom)
 Goal underneath: ...
 Worried views: reviewer (...), skeptic (...)
 Weakest assumption: ... → checked: ...
-Other papers: Lee 2023 did ... (worked) · Kim 2024 did ... (failed because ...)
+How papers fix it: Lee 2023 did ... (worked) · Kim 2024 did ... (failed because ...)
 Knock-on effects: ...
 Paths: A (current) gains ... costs ... · B ... · C ...
 
