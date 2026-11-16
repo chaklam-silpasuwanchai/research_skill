@@ -5,7 +5,7 @@ description: Simulates three reviewers and a meta-review at your venue, checks c
 
 # Review
 
-**Idea storytelling, checked.** Tough and fair, calibrated on **their venue** (call for papers, 2-3 accepted papers). Same paper in, same checklist out. Focus: a section, `full`, `citations`, `submit`.
+**Idea storytelling, checked.** Tough and fair, calibrated on **their venue**. Same paper in, same checklist out. Focus: a section, `full`, `citations`, `submit`.
 
 ## Check
 1. **Novelty:** idea (new question) and technical (non-obvious method), vs. closest work.
