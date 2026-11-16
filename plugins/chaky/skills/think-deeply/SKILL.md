@@ -25,7 +25,7 @@ Worried views: reviewer (...), skeptic (...)
 Weakest assumption: ... → checked: ...
 How papers fix it: Lee 2023 did ... (worked) · Kim 2024 did ... (failed because ...)
 Knock-on effects: ...
-Paths: A (current) gains ... costs ... · B ... · C ...
+Paths: A (current) ... · B ... · C ...
 
 ✅ Recommended approach: <one sentence>
 Why: <2-3 reasons>
@@ -34,4 +34,4 @@ First step now: <an action, e.g. /plan-method DV>
 Would change my mind: <evidence>
 Go with this, or another path?
 ```
-End with one clear recommendation; keeping the current plan is fine. Never present a guess as a finding. If they choose a new path, end with the quick sync in `AGENTS.md`.
+One clear recommendation; never a guess presented as a finding. New path chosen → quick sync (`AGENTS.md`).
