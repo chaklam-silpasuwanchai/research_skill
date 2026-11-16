@@ -10,7 +10,7 @@ description: Plans and runs your study by first reading how 5-15 close papers di
 ## 1. Read how others did it
 Read the **method sections** of the 5-15 closest papers (`related_work.md`; too few → `update-paper`; verified only). One row each in `experimental_design.md`:
 `paper · design · IV and levels · DV and measure · participants or data, n · task · analysis · baseline`
-Name the common pattern ("most use within-subjects, n≈24, a validated trust scale").
+Name the common pattern ("most use within-subjects, n≈24").
 
 ## 2. Plan
 Each decision cites a paper ("as Lee 2023") or says why we differ, with an example from their study.
@@ -25,7 +25,7 @@ Each decision cites a paper ("as Lee 2023") or says why we differ, with an examp
 Write it into `experimental_design.md` and `implementation.md`.
 
 ## 3. Replicate, then pilot
-Optional (mostly model work): reproduce one key result of the closest paper as the baseline. Pilot with 2-3 people or a small sample: does it run, does the DV move, any confounds?
+Optional (model work): reproduce the closest paper's key result as the baseline. Pilot with 2-3 people or a small sample: does it run, does the DV move, any confounds? Something off → find the cause before changing anything.
 
 ## 4. Freeze (critical: ask first)
 Hypotheses, success criteria, analysis, stopping rule → commit, `git tag plan-freeze-1`. Later changes are logged deviations; post-hoc analyses are exploratory.

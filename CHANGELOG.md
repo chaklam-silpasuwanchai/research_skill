@@ -4,6 +4,9 @@
 
 **Names:** lowercase hyphenated words starting with a verb (`update-paper`, `setup-writing-style`). `guide-me` is the front door.
 
+## 0.24.0
+- **Root cause, not patches:** a new `AGENTS.md` rule for every skill. When something fails, ask "why?" until the cause, fix that, say it in one line, and log it; never patch the symptom (rewording an overclaim, tuning until numbers look good, hiding failed runs, defensive sentences). `review` fixes target the root cause; `plan-method` finds the cause before changing a pilot.
+
 ## 0.23.0
 - **Elements of style:** `update-paper`'s style guide adds the core rules of Strunk and White's *The Elements of Style*, in our own words with research examples: omit needless words, active voice, positive form, definite and concrete language, parallel form, related words together, emphatic words at the end, one tense per section, no over-qualifying. The researcher's voice still comes first. `review` checks them; README credits the book.
 
