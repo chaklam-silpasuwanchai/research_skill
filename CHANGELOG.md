@@ -4,6 +4,9 @@
 
 **Names:** lowercase hyphenated words starting with a verb (`update-paper`, `setup-writing-style`). `guide-me` is the front door.
 
+## 0.23.0
+- **Elements of style:** `update-paper`'s style guide adds the core rules of Strunk and White's *The Elements of Style*, in our own words with research examples: omit needless words, active voice, positive form, definite and concrete language, parallel form, related words together, emphatic words at the end, one tense per section, no over-qualifying. The researcher's voice still comes first. `review` checks them; README credits the book.
+
 ## 0.22.1
 - **`update-paper` reads `voice.md` first:** a clear first step before writing any section (with `terms.md`); an empty or template `voice.md` → suggests `/setup-writing-style`. The style guide now puts the researcher's voice above its own rules.
 
