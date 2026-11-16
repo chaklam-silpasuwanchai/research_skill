@@ -3,7 +3,7 @@
 **Idea validation.** Copy many things; differ in **one**. A paper in hand or a suspicion ("someone did this") → `triage.md`. Scoop check → `watch.md`.
 
 ## 1. Search
-Recent top-venue papers plus 1-2 classics; synonyms; citations both ways (Semantic Scholar, OpenAlex, Google Scholar, ACM DL, arXiv, alphaXiv). **Verify every paper** (DOI or publisher); unverifiable → left out. BibTeX fetched, never typed. Rank the closest 10-15. Keep a **source trail** at the top of `related_work.md`: date, databases, search terms, how many found and verified.
+**Recent:** mostly the last 5 years, at most 6-7, or the work looks dated; older only for 1-2 classics everyone cites (a theory, a scale, the original method). Top venues; synonyms; citations both ways (Semantic Scholar, OpenAlex, Google Scholar, ACM DL, arXiv, alphaXiv). **Verify every paper** (DOI or publisher); unverifiable → left out. BibTeX fetched, never typed. Rank the closest 10-15. Keep a **source trail** at the top of `related_work.md`: date, databases, search terms, how many found and verified.
 
 ## 2. Read each closely
 One row per paper in `related_work.md`:

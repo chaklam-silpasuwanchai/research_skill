@@ -5,7 +5,7 @@ description: Simulates three reviewers and a meta-review at your venue, checks c
 
 # Review
 
-**Idea storytelling, checked.** Tough and fair, calibrated on **their venue** (call for papers, 2-3 accepted papers). Same paper in, same checklist out. Focus: a section, `full`, `citations`, `submit`.
+**Idea storytelling, checked.** Tough and fair, calibrated on **their venue**. Same paper in, same checklist out. Focus: a section, `full`, `citations`, `submit`.
 
 ## Check
 1. **Novelty:** idea (new question) and technical (non-obvious method), vs. closest work.
@@ -13,7 +13,7 @@ description: Simulates three reviewers and a meta-review at your venue, checks c
 3. **Paper matches the work:** numbers match `results/`; claimed conditions exist in the code.
 4. **Significance:** who cares and what changes.
 5. **Writing:** intro's five parts, one contribution, no overpromising; results report only; strong discussion; only what's necessary; elements of style; no AI phrasing.
-6. **Every citation:** exists (DOI, Crossref, Semantic Scholar), details match, every `\cite` has an entry, it supports its sentence.
+6. **Every citation:** recent (mostly ≤ 5 years; older only for classics); exists (DOI, Crossref); details match; every `\cite` has an entry; it supports its sentence.
 A test passes only with a quote or location; fixed tests, fixed order; unwritten parts are ➖. Tests and scores: `references/rubric.md`. **Submit** mode: `references/submission.md`.
 
 ## Panel
