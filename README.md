@@ -1,4 +1,4 @@
-# My personal research skill (v0.22.1)
+# My personal research skill (v0.23.0)
 
 I have recently tried out Claude Code for my research, and developed several key skills after many months of trial and error.   Hopefully this skill can help you as well in your research journey.   For your information, I have published in top venues like CHI and ACL, so you can trust me a little bit :P
 
@@ -64,3 +64,4 @@ This skill stands on good ideas from others:
 - [Feynman](https://github.com/companion-inc/feynman): consensus, disagreements, and open questions in literature reviews; a source trail; checking a paper against its code; replicating before building.
 - [Matt Pocock's skills](https://github.com/mattpocock/skills) (MIT): grill-me, wayfinder, and retro inspired `brain-dump`, `update-board`, and the retro mode.
 - The [AIT Brain Lab research guide](https://ait-brainlab.github.io/researchguide/): the five research stages, lab terms, contribution types, and the one-page idea outline.
+- Strunk and White's *The Elements of Style*: the core writing rules (omit needless words, active voice, positive form, concrete language) in `update-paper`'s style guide.

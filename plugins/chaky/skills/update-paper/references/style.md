@@ -8,6 +8,17 @@
 
 **Sentences and words:** strong verbs ("shows", "rules out", not "is related to"); neither too short nor too long, split when a sentence carries two ideas; words with one meaning ("good" → better on what, by how much); the same term for the same concept (`components/terms.md`); define terms and abbreviations before use; no empty sentences like "Our work is new."
 
+**Elements of style** (after Strunk and White, *The Elements of Style*):
+- **Omit needless words.** "the fact that", "it is important to note that", "in order to" → cut. A sentence has no unnecessary words, a paragraph no unnecessary sentences.
+- **Active voice** by default: "We measured trust", not "Trust was measured". Use passive only when the actor doesn't matter (methods details), or when `voice.md` says so.
+- **Positive form:** "rarely", not "not often"; "ignored", not "did not pay attention to". Say what is, not what isn't.
+- **Definite, specific, concrete:** "accuracy rose from 71% to 84%", not "performance improved considerably".
+- **Parallel form** for parallel ideas: "we measure trust, recall, and purchase intention", not "we measure trust, how well they recall, and whether they intend to buy".
+- **Keep related words together:** put the subject near its verb and a modifier next to the word it modifies.
+- **Emphatic words at the end** of the sentence: end on the finding, not on the citation or the hedge.
+- **One tense per section:** present for what the paper shows and claims; past for what we did and found in the study.
+- **Don't overstate, don't over-qualify:** one hedge per claim is enough ("suggests"), not "may possibly suggest".
+
 **Evidence:** every sentence backed by a citation, result, or argument; no claim without it. Say which results are **surprising** and which **expected**; don't mix them. Verb strength matches evidence strength ("shows" / "suggests" / "is consistent with"). Numbers with units, sample sizes, uncertainty.
 
 **Final pass:** cut empty words (very, quite, in order to). Read the first sentence of each paragraph in a row; they should tell the story. Captions make sense alone. Read aloud and fix what you trip on.
