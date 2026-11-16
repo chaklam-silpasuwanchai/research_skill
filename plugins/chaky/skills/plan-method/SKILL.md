@@ -25,7 +25,7 @@ Each decision cites a paper ("as Lee 2023") or says why we differ, with an examp
 Write it into `experimental_design.md` and `implementation.md`.
 
 ## 3. Replicate, then pilot
-Optional (model work): reproduce the closest paper's key result as the baseline. Pilot with 2-3 people or a small sample: does it run, does the DV move, any confounds? Something off → find the cause before changing anything.
+Optional (model work): reproduce the closest paper's key result as the baseline. Pilot with 2-3 people or a small sample: does it run, does the DV move, any confounds? Something off → find the cause first.
 
 ## 4. Freeze (critical: ask first)
 Hypotheses, success criteria, analysis, stopping rule → commit, `git tag plan-freeze-1`. Later changes are logged deviations; post-hoc analyses are exploratory.
