@@ -4,6 +4,9 @@
 
 **Names:** lowercase hyphenated words starting with a verb (`update-paper`, `setup-writing-style`). `guide-me` is the front door.
 
+## 0.29.0
+- **`plan-method` five musts:** before the pilot and before freezing, the plan must pass novelty (tests the one difference), validity (internal, construct, external), papers consulted, justified (every major decision in a decision table with why and source), and reproducible (versions, seeds, configs, prompts, materials, procedure, one command). Any ❌ → fix the root cause first; freezing needs all ✅.
+
 ## 0.28.0
 - **Title check in `update-paper`:** after every update it checks whether the title still fits the story and the one difference; if a better one exists, it suggests 2-3 with reasons next to the current one, and the researcher chooses. Title guidance adds keywords from close papers and no overpromising.
 
