@@ -4,6 +4,9 @@
 
 **Names:** lowercase hyphenated words starting with a verb (`update-paper`, `setup-writing-style`). `guide-me` is the front door.
 
+## 0.29.1
+- **Recent citations everywhere:** the "mostly ≤ 5 years, at most 6-7" rule now covers every section (intro, method, discussion), not only related work, and defines a **classic** (foundational theory, the scale or instrument used, the original method or dataset, a field landmark), paired with recent work that uses it.
+
 ## 0.29.0
 - **`plan-method` five musts:** before the pilot and before freezing, the plan must pass novelty (tests the one difference), validity (internal, construct, external), papers consulted, justified (every major decision in a decision table with why and source), and reproducible (versions, seeds, configs, prompts, materials, procedure, one command). Any ❌ → fix the root cause first; freezing needs all ✅.
 
