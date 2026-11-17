@@ -8,7 +8,7 @@ description: Plans and runs a study that is novel, valid, justified, and reprodu
 **Idea testing**, in lab terms. Focus: `IV`, `DV`, `design`, `sample size`, `analysis`, `models`, `labeling`, `pilot`, `run`.
 
 ## 1. Read how others did it
-Read the **method sections** of the 5-15 closest papers (`related_work.md`; too few → `update-paper`). One row each in `experimental_design.md`:
+Read the **method sections** of the 5-15 closest papers (too few → `update-paper`). One row each in `experimental_design.md`:
 `paper · design · IV and levels · DV and measure · participants or data, n · task · analysis · baseline`
 Name the common pattern.
 
@@ -18,15 +18,16 @@ Name the common pattern.
 - **Confounding, control, random variables:** name each. **Individual differences:** factor or random? Ask.
 - **Design:** between, within, or mixed; randomization; counterbalancing; several strong baselines and ablations.
 - **Sample size:** power analysis, or seeds and test size for ML. **Analysis:** ask about design and data first; no default.
-- **Tools, AI models, labeling:** `references/models.md`, `references/labeling-review.md`; paid runs over the estimate: ask first.
+- **Tools, models, labeling:** `references/models.md`, `references/labeling-review.md`; paid runs: ask first.
 - **CHI ethics (critical):** approval and consent before recruiting.
 Every major decision goes in a **decision table** in `experimental_design.md`: `decision · choice · why · source (paper or reason)`.
 
 ## 3. The five musts (check before the pilot and before freezing)
 - **Novelty:** the method tests our one difference (idea and technical novelty hold).
-- **Validity and rigor:** internal (no confounds), construct (measures fit), external; many comparisons and analyses, all fair (`references/rigor.md`).
-- **Papers and justification:** each choice matches common practice or says why not; every decision-table row has a why and a source.
-- **Reproducible:** another lab could rerun it (versions, seeds, configs, prompts, materials, procedure, one command).
+- **Valid and rigorous:** internal, construct, external validity; many fair comparisons and analyses (`references/rigor.md`).
+- **Papers consulted:** choices match common practice, or say why not.
+- **Justified:** every decision-table row has a why and a source.
+- **Reproducible:** another lab could rerun it (versions, seeds, configs, materials, one command).
 Any ❌ → fix its root cause first.
 
 ## 4. Replicate, then pilot
