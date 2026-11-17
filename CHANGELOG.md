@@ -4,6 +4,12 @@
 
 **Names:** lowercase hyphenated words starting with a verb (`update-paper`, `setup-writing-style`). `guide-me` is the front door.
 
+## 0.32.0
+- **Skeptical-reviewer pass before any edit is shown:** write only what a skeptical reviewer needs; cut anything that invites a question (defensive filler, side justifications, borrowed terms, a second sentence when one is enough).
+- **One name per thing:** each condition, variant, measure, and component has one name, identical in every table, caption, figure, and section and matching `terms.md`; no internal codes; the whole paper is searched for mismatches before an edit is shown; descriptions use the same words as the names they explain.
+- **Results tables:** baselines cited as (Author et al., VENUE YEAR) from verified top venues in the last five years; our method last, uncited, with its variants indented under it in the same order in every table; no "compared with" or "what changes" columns; each description names the one component it adds; fairness stated once in a short paragraph (same inputs, same participants or items, same effort, same grading).
+- `review` checks both rules.
+
 ## 0.31.3
 - **Results tables:** baselines from top-tier venues in the last 5 years, each with citation and venue; our method last, labeled "Ours", no citation; the caption shows the comparison is fair by saying how each condition was treated the same ("For each condition, we use the same X and Y; only Z differs").
 
