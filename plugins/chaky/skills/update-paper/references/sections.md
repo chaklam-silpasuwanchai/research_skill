@@ -2,7 +2,7 @@
 
 **Where effort goes:** reviewers usually decide accept or reject from the **abstract and introduction**. Spend the most care there. The **discussion** is the other place that makes a paper strong.
 
-**Title:** has the keywords; says what's new (and the method if useful); short; provokes reading without being cute. Offer 3-5.
+**Title:** has the keywords readers search for (check titles of close recent papers); says what's new (and the method if useful); short; provokes reading without being cute; promises no more than the results show. Offer 3-5. **Re-check it after every update:** when the story, the one difference, or the findings change, suggest 2-3 better titles next to the current one, each with a reason; the researcher chooses.
 
 **Abstract:** five connected parts: background, problem, methodology, key findings, contribution. Signal the gap ("However", "This paper proposes").
 

@@ -20,4 +20,4 @@ Reviewers mostly decide from the **abstract and introduction**: most care there,
 - **Limitations** and **response to reviewers:** `references/sections.md`.
 
 ## Finish
-Story, terms, numbers, and claims agree; the intro's promises are delivered; citations fetched, never invented (`[CITE?]`). End with the quick sync in `AGENTS.md`; suggest `review`.
+**Title check:** does the title still fit the story and the one difference? If a better one exists, suggest 2-3 with a reason each next to the current one; they choose (keeping it is fine). Story, terms, numbers, and claims agree; the intro's promises are delivered; citations fetched, never invented (`[CITE?]`). End with the quick sync in `AGENTS.md`; suggest `review`.
