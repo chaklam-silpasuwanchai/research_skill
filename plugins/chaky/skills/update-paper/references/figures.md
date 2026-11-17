@@ -7,16 +7,19 @@ Ask: **what should the reader conclude from this figure?** One figure, one messa
 **Chart guide:** two groups, one measure → dots or bars with intervals · many groups → sorted dot plot · over time or steps → lines · spread → box, violin, or CDF · relationship → scatter · parts of a whole → a table is often better than a pie · process or system → diagram.
 
 **Results tables:**
-- **Baselines:** each row names its source and venue: "Honest agent (Xxx et al., ACL 2025)" (preprints as "arXiv 2025"). Prefer top-tier venues from the last 5 years.
-- **Our method:** the last row, labeled "Ours", with no citation.
-- **Show it is fair:** the caption (or the sentence before the table) makes clear that every factor is isolated and every condition is treated the same, so readers see the comparison is fair without asking. Say how: "For each condition, we use the same 200 test dialogues, the same prompt template, and the same tuning budget (20 trials); only the disclosure strategy differs."
+- **Baselines:** cite the work each follows as (Author et al., VENUE YEAR), e.g. "Honest agent (Xxx et al., ACL 2025)". Prefer top venues (ACL, TACL, EMNLP, NeurIPS, ICLR) from the last five years; **verify the venue** (citation check) before citing; preprints as "arXiv 2025".
+- **Our method:** last, labeled with its name, no citation. Its **variants indented under it**, in the same order in every table.
+- **No extra columns** such as "compared with" or "what changes".
+- **Descriptions name the one component each adds** (or removes), so isolation is obvious from reading; same words as the row names.
+- **Fairness, stated once,** in a short paragraph before the first results table, not in every caption: same inputs, same participants or test items, same effort (tuning budget), same grading.
 ```
-Table 2. All conditions use the same 200 test dialogues, prompt template, and model; only the disclosure strategy differs.
 Method                                   Accuracy   Trust
 Honest agent (Xxx et al., ACL 2025)      71.2       4.1
-Persuasive agent (Lee et al., CHI 2024)  68.5       3.6
+Persuasive agent (Lee et al., EMNLP 2024) 68.5      3.6
 No disclosure                            66.0       3.4
-Ours                                     78.9       4.8
+Look-ahead disclosure (ours)             78.9       4.8
+   No look-ahead                         73.1       4.3
+   No calibration                        75.4       4.5
 ```
 Cite borrowed datasets, metrics, and scales in the header or caption; every cited row must exist in the `.bib` and pass the citation check.
 

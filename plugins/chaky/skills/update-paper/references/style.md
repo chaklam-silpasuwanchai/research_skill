@@ -2,6 +2,14 @@
 
 **Their voice first.** Match `components/voice.md` (sentence length, tense, signal words, hedging, what to keep) and use `terms.md` words exactly. These rules below never override their voice; they fix only what voice.md says to fix.
 
+**Skeptical-reviewer pass (before showing any edit).** Write only what a skeptical reviewer needs to be convinced. Reread every sentence, table, and caption as that reviewer and cut anything that invites a question instead of answering one:
+- no defensive filler ("Nothing else.", "Nothing else changes.")
+- no side justifications ("as regulations require")
+- no borrowed terms the reader would have to ask about ("positive control")
+- no second sentence when one is enough
+
+**One name per thing.** Each condition, variant, measure, and component has exactly one name, identical in every table, caption, figure, and section, and matching `terms.md`. No internal codes (variant letters, file names). Before showing an edit, search the whole paper for each name and fix every mismatch. A description uses the same words as the names it explains: if a variant is "No look-ahead", the main method's description mentions look-ahead.
+
 **Say only what's necessary.** Writing everything is not the best way. Every extra detail is one more thing a reviewer must think about, question, or attack. Keep a sentence only if the reader needs it to understand or believe the story. Each detail must support the contribution, the method's validity, or replication; otherwise cut it, or move it to the appendix or supplement. No side results that don't serve the story, no listing everything you tried, no defending against objections nobody raised, no tutorials for experts. When in doubt, cut, then check the story still holds.
 
 **Paragraphs:** one idea each, strong opening and ending sentence. Open with a signal ("This paper proposes...", "However, ...") that sets the tone. Make the link to the previous paragraph visible.
