@@ -4,6 +4,9 @@
 
 **Names:** lowercase hyphenated words starting with a verb (`update-paper`, `setup-writing-style`). `guide-me` is the front door.
 
+## 0.31.0
+- **Rigor above all:** a new `AGENTS.md` rule and `plan-method/references/rigor.md`: compare many things (several strong baselines, ablations, settings, variations), analyze many ways (planned tests with effect sizes, robustness, sensitivity, subgroups, error analysis, qualitative support), protect internal validity (every confound named and controlled, conditions differ only in the IV, no leakage) and construct validity (validated measures, a second measure, manipulation check), and keep the analysis fair (same data, tuning, and compute for every method; plan fixed first; corrections; report everything). Part of `plan-method`'s five musts; `update-paper` analyses point to it.
+
 ## 0.30.0
 - **Rigorous citation check in `review`** (`review/references/citations.md`): every `.bib` entry and every `\cite`, not a sample. Each entry is found at a real source (DOI, Crossref, Semantic Scholar, OpenAlex, DBLP, Anthology, arXiv...), every detail matched, the published version used, retractions checked, the cited sentence checked against the paper itself, recency checked, BibTeX re-fetched if hand-made; plus missing or unused keys and duplicates. One row per entry with an evidence link; never ✅ without one; unreachable sources are reported as unchecked. Every ❌ and 🔧 becomes a ticket.
 

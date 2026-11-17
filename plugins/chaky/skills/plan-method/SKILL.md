@@ -16,7 +16,7 @@ Name the common pattern.
 - **Contribution type** (`references/contribution-types.md`) sets what to specify and show.
 - **IV** and levels; **DV** and operational measure (validated scales where they exist).
 - **Confounding, control, random variables:** name each. **Individual differences:** factor or random? Ask.
-- **Design:** between, within, or mixed; randomization; counterbalancing; fair baselines.
+- **Design:** between, within, or mixed; randomization; counterbalancing; several strong baselines and ablations.
 - **Sample size:** power analysis, or seeds and test size for ML. **Analysis:** ask about design and data first; no default.
 - **Tools, AI models, labeling:** `references/models.md`, `references/labeling-review.md`; paid runs over the estimate: ask first.
 - **CHI ethics (critical):** approval and consent before recruiting.
@@ -24,9 +24,8 @@ Every major decision goes in a **decision table** in `experimental_design.md`: `
 
 ## 3. The five musts (check before the pilot and before freezing)
 - **Novelty:** the method tests our one difference (idea and technical novelty hold).
-- **Validity:** internal, construct, external, one line each.
-- **Papers consulted:** each choice matches common practice or says why not.
-- **Justified:** every row of the decision table has a why and a source.
+- **Validity and rigor:** internal (no confounds), construct (measures fit), external; many comparisons and analyses, all fair (`references/rigor.md`).
+- **Papers and justification:** each choice matches common practice or says why not; every decision-table row has a why and a source.
 - **Reproducible:** another lab could rerun it (versions, seeds, configs, prompts, materials, procedure, one command).
 Any ❌ → fix its root cause first.
 

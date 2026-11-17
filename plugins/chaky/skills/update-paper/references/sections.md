@@ -16,7 +16,7 @@
 
 **Results:** **boring on purpose.** Report, don't interpret: follow best practice for the test (statistic, df, p, effect size, confidence interval, n), organized by research question or hypothesis. No discussion here.
 
-**Analyses (if the venue expects them, often ACL/NeurIPS):** further analyses after the main results. Check what close papers usually include (ablation, error analysis, robustness, subgroup or per-category results, qualitative examples) and do the ones that strengthen the claim.
+**Analyses:** rigor means many: robustness, sensitivity, subgroups, ablations, error analysis (`plan-method`'s rigor notes). Further analyses after the main results. Check what close papers usually include (ablation, error analysis, robustness, subgroup or per-category results, qualitative examples) and do the ones that strengthen the claim.
 
 **Discussion:** perhaps **the most important part**, so make it strong and **in subsections**:
 - the key insights, not a repeat of the results
