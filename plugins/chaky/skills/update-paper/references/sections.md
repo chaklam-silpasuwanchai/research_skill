@@ -1,5 +1,7 @@
 # Section by section (used by `update-paper`)
 
+**Before drafting any section,** read how 2-3 recent accepted papers at the target venue write that same section, and follow their structure.
+
 **Where effort goes:** reviewers usually decide accept or reject from the **abstract and introduction**. Spend the most care there. The **discussion** is the other place that makes a paper strong.
 
 **Citations, everywhere in the paper:** mostly the last 5 years, at most 6-7, or the work looks dated. Older only for a **classic**: the foundational theory, the validated scale or instrument you use, the original method or dataset you build on, or a landmark nearly every paper in the field cites. Each classic is there for a reason; pair it with recent work that uses it.
@@ -12,7 +14,7 @@
 
 **Related work:** written in **subsections with clear headings**, so reviewers can find their way. **Synthesize, don't list**: for each group, say what the papers agree on and where they disagree, then how we **position** against them, what we **borrow**, and how we **differ**. Use the field summary from `references/papers.md` (consensus, disagreements, open questions). Cite **recent** work (rule above). Don't teach experts.
 
-**Methodology (and experiment):** learn how **this venue** writes it by reading 3-5 recent accepted papers; it usually looks the same every time, so follow that structure (CHI: design rationale, participants, apparatus, design, task and procedure, measures, analysis; ACL/NeurIPS: data, method, baselines, experimental setup). **Every decision is justified** (a citation or a reason). **Every detail is reproducible.** Everything supports **internal and construct validity**: say how confounds were controlled and why the measures capture the concept.
+**Methodology (and experiment):** open with a short walk-through of one interaction or trial from this study, introducing each term as it appears (`style.md`). Learn how **this venue** writes it by reading 2-3 recent accepted papers; it usually looks the same every time, so follow that structure (CHI: design rationale, participants, apparatus, design, task and procedure, measures, analysis; ACL/NeurIPS: data, method, baselines, experimental setup). **Every decision is justified** (a citation or a reason). **Every detail is reproducible.** Everything supports **internal and construct validity**: say how confounds were controlled and why the measures capture the concept.
 
 **Results:** **boring on purpose.** Report, don't interpret: follow best practice for the test (statistic, df, p, effect size, confidence interval, n), organized by research question or hypothesis. Tables follow `references/figures.md`: cited baselines, ours last with its variants indented, fairness stated once before the first table. No discussion here.
 

@@ -1,6 +1,6 @@
 ---
 name: update-paper
-description: Finds and reads the closest papers and writes your paper - searches and reads the 10-15 closest papers (what to copy, your one difference, novelty and validity), agrees the story with you, then writes or updates sections in your voice with honest stats, limitations, and reviewer replies. Use for "is this novel", "find related work", "I found a paper", "write my paper", "what's my story", "reply to reviewers", or /update-paper [part].
+description: Reads the 10-15 closest papers (what to copy, your one difference), agrees the story with you, then writes or updates the paper in plain English like your venue. Use for "is this novel", "I found a paper", "write my paper", "reply to reviewers", or /update-paper [part].
 ---
 
 # Update Paper
@@ -11,11 +11,11 @@ Focus: `papers`, `story`, `abstract`, `intro`, `related work`, `method`, `result
 Fewer than 10 verified papers in `related_work.md`, focus `papers`, or "is this novel?" → follow `references/papers.md`: search, read the 10-15 closest, the field in three lines (consensus, disagreements, open questions), what to copy, **the one difference**, novelty and validity. A paper in hand → `references/triage.md`; scoop check → `references/watch.md`.
 
 ## 2. The story
-Ask one at a time, suggesting an answer each time (the lab's one-page outline): **background** and 2-3 key papers · **problem** · **research question** · **proposed solution** (our one difference) · **evaluation and key findings** · **contribution**. Unsure → **2-3 alternative storylines** (problem-first, surprising-finding-first, method-first), each a 4-line arc; recommend one. Save it in `current_status.md`.
+Ask one at a time, suggesting an answer each time (the lab's one-page outline): **background** and 2-3 key papers · **problem** · **research question** · **proposed solution** (our one difference) · **evaluation and key findings** · **contribution**. Unsure → **2-3 alternative storylines**, each a 4-line arc; recommend one. Save it in `current_status.md`.
 
 ## 3. Write or update sections
 **First read `voice.md` (their style) and `terms.md` (their words)**; every sentence follows them. Empty `voice.md` → suggest `/setup-writing-style`.
-Reviewers mostly decide from the **abstract and introduction**: most care there, then the **discussion**. **Say only what's necessary**; the rest goes to the appendix or is cut. Skim 3-5 recent venue papers. Follow `references/sections.md`, `references/style.md`, then the unslop pass (`references/unslop.md`, `references/patterns.md`), keeping every claim, number, and citation. Show each section; they comment. **"Fast mode"** → whole draft at once. `⚠ stale` sections first. **Before showing any edit:** the skeptical-reviewer pass and the one-name search across the whole paper (`references/style.md`).
+Reviewers mostly decide from the **abstract and introduction**: most care there, then the **discussion**. **Say only what's necessary**; the rest goes to the appendix or is cut. Before each section, read how 2-3 recent accepted venue papers write it and follow their structure; plain English, terms introduced where first needed, never a glossary. Follow `references/sections.md`, `references/style.md`, then the unslop pass (`references/unslop.md`, `references/patterns.md`), keeping every claim, number, and citation. Show each section; they comment. **"Fast mode"** → whole draft at once. `⚠ stale` sections first. **Before showing any edit:** the skeptical-reviewer pass, and every term defined before first use and named the same everywhere (`references/style.md`).
 - **Stats and figures:** `references/stats.md`, `references/figures.md`.
 - **Limitations** and **response to reviewers:** `references/sections.md`.
 
