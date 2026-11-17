@@ -34,8 +34,10 @@ outputs_large/
 *.fls
 *.fdb_latexmk
 *.blg
+*.bbl
 
 # OS / editor
 .DS_Store
+Thumbs.db
 .vscode/
 .idea/

@@ -1,6 +1,6 @@
 ---
 name: update-repo
-description: Sets up your paper project if it doesn't exist, or updates all the docs in an existing one (working files, AGENTS.md, README, the board) to match your latest work, and cleans up clutter. Use for "set up my paper", "update my repo", "sync everything", "clean up my repo", "organize my project", or /update-repo chi or nlp.
+description: Sets up your paper project, or updates all its docs to match your latest work and cleans up clutter. Use for "set up my paper", "update my repo", "clean up my repo", "remove clutter", or /update-repo chi or nlp.
 ---
 
 # Update Repo
@@ -17,13 +17,14 @@ Focus: `chi`/`nlp` (new), or `docs`, `agents`, `cleanup`. No `AGENTS.md` or `com
 1. **Structure:** add any missing folder, working file, or root file from the templates. Never overwrite their content.
 2. **AGENTS.md and lab terms:** refresh `AGENTS.md` (keep venue, mode, language, lab defaults) and both lab-terms copies. **Never touch `preferences.md`**; move any old *My preferences* lines from `AGENTS.md` into it.
 3. **Working files:** read `log.md`, `review.md`, `experiment_logs/`, and `results/` since the last update; bring `current_status.md`, `experimental_design.md`, `implementation.md`, `related_work.md`, `terms.md`, and the board in line (`update-board` rules).
-4. **Cleanup:** stray files in the root, `_v2` or `final_final` copies, empty folders, caches, big files that belong outside git. List them with a suggested home or removal; moving or deleting is critical (ask first).
+4. **Cleanup** (`references/cleanup.md`): **safe junk** (caches, LaTeX build files, `.DS_Store`, empty folders) → clean it and tell; **their work** (stray files, `_v2`/`final` copies, unused or big files) → suggest and ask first; tidy duplicate rows in the working files.
 5. **Paper:** mark sections behind the new work `⚠ stale: <why>` and suggest `/update-paper <section>`.
 6. **Venue:** flag a newer template.
 7. Commit and show what changed:
 ```
 Updated: AGENTS.md · current_status · related_work · board
-Cleaned: 3 stray notebooks → src/scripts/ (you approved)
+Cleaned: 14 LaTeX build files · 3 caches · 2 empty folders
+Asks: method_v2.tex → keep the newest?
 Stale: method, results → /update-paper method
 Say "undo" to reverse any line.
 ```

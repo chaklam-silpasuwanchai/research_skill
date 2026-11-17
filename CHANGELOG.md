@@ -4,6 +4,9 @@
 
 **Names:** lowercase hyphenated words starting with a verb (`update-paper`, `setup-writing-style`). `guide-me` is the front door.
 
+## 0.27.0
+- **`update-repo` cleans for real** (`references/cleanup.md`): safe junk (caches, LaTeX build files, `.DS_Store`, empty folders) is removed and `.gitignore` updated without asking; the student's work (stray files, `_v2`/`final` copies, unused or big files) gets a suggested action and waits for a yes; secrets or participant data in git → stop and ask; duplicate rows and old Done tickets in the working files are tidied.
+
 ## 0.26.0
 - **Check how papers do it, at any stage:** a new `AGENTS.md` rule for every skill. Before deciding how to do anything (design, measure, analysis, figure, section structure, fix), look at how recent close papers did it (`related_work.md`, else a quick verified search), follow common practice unless there's a reason to differ, and name the paper. Never invent a "standard way".
 
