@@ -4,6 +4,9 @@
 
 **Names:** lowercase hyphenated words starting with a verb (`update-paper`, `setup-writing-style`). `guide-me` is the front door.
 
+## 0.30.0
+- **Rigorous citation check in `review`** (`review/references/citations.md`): every `.bib` entry and every `\cite`, not a sample. Each entry is found at a real source (DOI, Crossref, Semantic Scholar, OpenAlex, DBLP, Anthology, arXiv...), every detail matched, the published version used, retractions checked, the cited sentence checked against the paper itself, recency checked, BibTeX re-fetched if hand-made; plus missing or unused keys and duplicates. One row per entry with an evidence link; never ✅ without one; unreachable sources are reported as unchecked. Every ❌ and 🔧 becomes a ticket.
+
 ## 0.29.1
 - **Recent citations everywhere:** the "mostly ≤ 5 years, at most 6-7" rule now covers every section (intro, method, discussion), not only related work, and defines a **classic** (foundational theory, the scale or instrument used, the original method or dataset, a field landmark), paired with recent work that uses it.
 

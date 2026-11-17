@@ -1,4 +1,4 @@
-# My personal research skill (v0.29.1)
+# My personal research skill (v0.30.0)
 
 I have recently tried out Claude Code for my research, and developed several key skills after many months of trial and error.   Hopefully this skill can help you as well in your research journey.   For your information, I have published in top venues like CHI and ACL, so you can trust me a little bit :P
 
