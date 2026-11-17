@@ -14,7 +14,7 @@
 
 **Methodology (and experiment):** learn how **this venue** writes it by reading 3-5 recent accepted papers; it usually looks the same every time, so follow that structure (CHI: design rationale, participants, apparatus, design, task and procedure, measures, analysis; ACL/NeurIPS: data, method, baselines, experimental setup). **Every decision is justified** (a citation or a reason). **Every detail is reproducible.** Everything supports **internal and construct validity**: say how confounds were controlled and why the measures capture the concept.
 
-**Results:** **boring on purpose.** Report, don't interpret: follow best practice for the test (statistic, df, p, effect size, confidence interval, n), organized by research question or hypothesis. No discussion here.
+**Results:** **boring on purpose.** Report, don't interpret: follow best practice for the test (statistic, df, p, effect size, confidence interval, n), organized by research question or hypothesis. In tables, each baseline row carries its citation ("Honest agent (Xxx et al., 2025)"; `references/figures.md`). No discussion here.
 
 **Analyses:** rigor means many: robustness, sensitivity, subgroups, ablations, error analysis (`plan-method`'s rigor notes). Further analyses after the main results. Check what close papers usually include (ablation, error analysis, robustness, subgroup or per-category results, qualitative examples) and do the ones that strengthen the claim.
 

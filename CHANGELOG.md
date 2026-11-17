@@ -4,6 +4,9 @@
 
 **Names:** lowercase hyphenated words starting with a verb (`update-paper`, `setup-writing-style`). `guide-me` is the front door.
 
+## 0.31.1
+- **Cited baselines in results tables:** every baseline or borrowed method row names its source, e.g. "Honest agent (Xxx et al., 2025)"; borrowed datasets, metrics, and scales are cited in the header or caption; our method is marked "Ours".
+
 ## 0.31.0
 - **Rigor above all:** a new `AGENTS.md` rule and `plan-method/references/rigor.md`: compare many things (several strong baselines, ablations, settings, variations), analyze many ways (planned tests with effect sizes, robustness, sensitivity, subgroups, error analysis, qualitative support), protect internal validity (every confound named and controlled, conditions differ only in the IV, no leakage) and construct validity (validated measures, a second measure, manipulation check), and keep the analysis fair (same data, tuning, and compute for every method; plan fixed first; corrections; report everything). Part of `plan-method`'s five musts; `update-paper` analyses point to it.
 
