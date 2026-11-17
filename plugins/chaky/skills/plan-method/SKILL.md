@@ -1,34 +1,40 @@
 ---
 name: plan-method
-description: Plans and runs your study by first reading how 5-15 close papers did it - IV, DV, confounding, control, and random variables, design, sample size, analysis, tools, AI models, labeling, pilots, and runs, in the lab's terms. Use for "plan my method", "what is my IV or DV", "how many participants", "run the pilot", "help me label data", or /plan-method [part].
+description: Plans and runs a study that is novel, valid, justified, and reproducible, learning from how 5-15 close papers did it. Use for "plan my method", "what is my IV or DV", "how many participants", "help me label data", or /plan-method [part].
 ---
 
 # Plan Method
 
-**Idea testing.** Lab terms (`terms.md`, `lab-terms.md`), glossed the first time. Focus: `IV`, `DV`, `variables`, `design`, `sample size`, `analysis`, `models`, `labeling`, `pilot`, `run`, `replicate`.
+**Idea testing**, in lab terms. Focus: `IV`, `DV`, `design`, `sample size`, `analysis`, `models`, `labeling`, `pilot`, `run`.
 
 ## 1. Read how others did it
-Read the **method sections** of the 5-15 closest papers (`related_work.md`; too few → `update-paper`; verified only). One row each in `experimental_design.md`:
+Read the **method sections** of the 5-15 closest papers (`related_work.md`; too few → `update-paper`). One row each in `experimental_design.md`:
 `paper · design · IV and levels · DV and measure · participants or data, n · task · analysis · baseline`
-Name the common pattern ("most use within-subjects, n≈24").
+Name the common pattern.
 
 ## 2. Plan
-Each decision cites a paper ("as Lee 2023") or says why we differ, with an example from their study.
 - **Contribution type** (`references/contribution-types.md`) sets what to specify and show.
 - **IV** and levels; **DV** and operational measure (validated scales where they exist).
-- **Confounding, control, random variables:** name each. **Individual differences:** ask, factor or random?
-- **Design:** between, within, or mixed; randomization; counterbalancing; fair baselines; internal, construct, external validity.
-- **Sample size:** power analysis, or seeds and test size for ML.
-- **Statistical analysis:** ask about design and data first; no default.
-- **Tools and AI models:** versions; pinned models, key in `.env`, one logged `call_model()` (`references/models.md`); paid runs over the estimate: ask first. **Labels?** Free AI chats, humans check a sample at the end (`references/labeling-review.md`).
+- **Confounding, control, random variables:** name each. **Individual differences:** factor or random? Ask.
+- **Design:** between, within, or mixed; randomization; counterbalancing; fair baselines.
+- **Sample size:** power analysis, or seeds and test size for ML. **Analysis:** ask about design and data first; no default.
+- **Tools, AI models, labeling:** `references/models.md`, `references/labeling-review.md`; paid runs over the estimate: ask first.
 - **CHI ethics (critical):** approval and consent before recruiting.
-Write it into `experimental_design.md` and `implementation.md`.
+Every major decision goes in a **decision table** in `experimental_design.md`: `decision · choice · why · source (paper or reason)`.
 
-## 3. Replicate, then pilot
-Optional (model work): reproduce the closest paper's key result as the baseline. Pilot with 2-3 people or a small sample: does it run, does the DV move, any confounds? Something off → find the cause first.
+## 3. The five musts (check before the pilot and before freezing)
+- **Novelty:** the method tests our one difference (idea and technical novelty hold).
+- **Validity:** internal, construct, external, one line each.
+- **Papers consulted:** each choice matches common practice or says why not.
+- **Justified:** every row of the decision table has a why and a source.
+- **Reproducible:** another lab could rerun it (versions, seeds, configs, prompts, materials, procedure, one command).
+Any ❌ → fix its root cause first.
 
-## 4. Freeze (critical: ask first)
-Hypotheses, success criteria, analysis, stopping rule → commit, `git tag plan-freeze-1`. Later changes are logged deviations; post-hoc analyses are exploratory.
+## 4. Replicate, then pilot
+Optional: reproduce the closest paper's key result as the baseline. Pilot with 2-3 people or a small sample: does it run, does the DV move? Something off → find the cause.
 
-## 5. Run and reflect
-One record per run in `experiment_logs/`; participant data never in git. Every ~5 runs: what worked, what surprised? Suggest deepen, broaden, pivot (`update-paper`), or conclude (`update-paper`). End with the quick sync in `AGENTS.md`.
+## 5. Freeze (critical: ask first)
+Five musts ✅; hypotheses, analysis, stopping rule → commit, `git tag plan-freeze-1`. Later changes are logged deviations.
+
+## 6. Run and reflect
+One record per run in `experiment_logs/`; participant data never in git. Every ~5 runs reflect; suggest deepen, pivot, or conclude (`update-paper`). Quick sync (`AGENTS.md`).
