@@ -2,7 +2,7 @@
 
 The lab maintainer edits this file once. `update-repo` copies it into each student's `AGENTS.md` under *Lab defaults*. Leave a line blank to skip it.
 
-- **Preferred venues (offered as options):**
+- **Preferred venues (offered as options):** NLP and ML: ACL, EMNLP, NAACL, TACL, NeurIPS, ICLR, ICML. HCI: CHI, UIST, CSCW, TOCHI.
 - **Advisor meeting rhythm and update format:**
 - **Advisor sign-off before submission? (yes/no, how):**
 - **Authorship and acknowledgement norms:**
