@@ -4,6 +4,12 @@
 
 **Names:** lowercase hyphenated words starting with a verb (`update-paper`, `setup-writing-style`). `guide-me` is the front door.
 
+## 0.33.0
+- **Plain English like the venue:** before drafting any section, `update-paper` reads how 2-3 recent accepted papers at the target venue write that section and follows their structure.
+- **Terms where they're needed, never a glossary:** no separate "Terms" section; each term is introduced in a natural sentence where first needed, ideally in a short walk-through of one interaction at the start of the method, with a concrete example; then used and spelled the same everywhere; no new labels, abbreviations, codes, or jargon.
+- **Answer "what?" and "why?" on the spot:** one short example or reason wherever a skeptical reviewer would stop; a definition must answer a question, not raise one.
+- Before an edit is shown: every term defined before first use and used the same way everywhere. `review` checks it.
+
 ## 0.32.0
 - **Skeptical-reviewer pass before any edit is shown:** write only what a skeptical reviewer needs; cut anything that invites a question (defensive filler, side justifications, borrowed terms, a second sentence when one is enough).
 - **One name per thing:** each condition, variant, measure, and component has one name, identical in every table, caption, figure, and section and matching `terms.md`; no internal codes; the whole paper is searched for mismatches before an edit is shown; descriptions use the same words as the names they explain.
