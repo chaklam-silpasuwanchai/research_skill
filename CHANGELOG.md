@@ -4,6 +4,9 @@
 
 **Names:** lowercase hyphenated words starting with a verb (`update-paper`, `setup-writing-style`). `guide-me` is the front door.
 
+## 0.31.3
+- **Results tables:** baselines from top-tier venues in the last 5 years, each with citation and venue; our method last, labeled "Ours", no citation; the caption shows the comparison is fair by saying how each condition was treated the same ("For each condition, we use the same X and Y; only Z differs").
+
 ## 0.31.2
 - **Venues in table labels and top venues first:** baseline rows read "Honest agent (Xxx et al., ACL 2025)" (preprints as "arXiv 2025"); paper searches and baseline choices prefer top venues (NLP and ML: ACL, EMNLP, NAACL, TACL, NeurIPS, ICLR, ICML; HCI: CHI, UIST, CSCW, TOCHI), now the lab's default preferred venues in `lab-defaults.md`.
 
