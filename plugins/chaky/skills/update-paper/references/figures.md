@@ -6,15 +6,19 @@ Ask: **what should the reader conclude from this figure?** One figure, one messa
 
 **Chart guide:** two groups, one measure → dots or bars with intervals · many groups → sorted dot plot · over time or steps → lines · spread → box, violin, or CDF · relationship → scatter · parts of a whole → a table is often better than a pie · process or system → diagram.
 
-**Results tables:** every baseline or borrowed method row names its source and venue ("Xxx et al., ACL 2025"; preprints as "arXiv 2025"), so readers see who we compare with, what we copied, and that it's strong work:
+**Results tables:**
+- **Baselines:** each row names its source and venue: "Honest agent (Xxx et al., ACL 2025)" (preprints as "arXiv 2025"). Prefer top-tier venues from the last 5 years.
+- **Our method:** the last row, labeled "Ours", with no citation.
+- **Show it is fair:** the caption (or the sentence before the table) makes clear that every factor is isolated and every condition is treated the same, so readers see the comparison is fair without asking. Say how: "For each condition, we use the same 200 test dialogues, the same prompt template, and the same tuning budget (20 trials); only the disclosure strategy differs."
 ```
+Table 2. All conditions use the same 200 test dialogues, prompt template, and model; only the disclosure strategy differs.
 Method                                   Accuracy   Trust
 Honest agent (Xxx et al., ACL 2025)      71.2       4.1
 Persuasive agent (Lee et al., CHI 2024)  68.5       3.6
-No disclosure (baseline)                 66.0       3.4
+No disclosure                            66.0       3.4
 Ours                                     78.9       4.8
 ```
-Cite borrowed datasets, metrics, and scales in the header or caption too; mark our method clearly ("Ours"); every cited row must exist in the `.bib` and pass the citation check.
+Cite borrowed datasets, metrics, and scales in the header or caption; every cited row must exist in the `.bib` and pass the citation check.
 
 **Honesty rules (never break):**
 - Never alter, hide, or invent data to improve a figure. Keep raw data and every transformation (filtering, binning, smoothing, normalization) in the script.
