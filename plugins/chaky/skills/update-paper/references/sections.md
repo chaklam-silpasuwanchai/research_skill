@@ -2,13 +2,15 @@
 
 **Where effort goes:** reviewers usually decide accept or reject from the **abstract and introduction**. Spend the most care there. The **discussion** is the other place that makes a paper strong.
 
+**Citations, everywhere in the paper:** mostly the last 5 years, at most 6-7, or the work looks dated. Older only for a **classic**: the foundational theory, the validated scale or instrument you use, the original method or dataset you build on, or a landmark nearly every paper in the field cites. Each classic is there for a reason; pair it with recent work that uses it.
+
 **Title:** has the keywords readers search for (check titles of close recent papers); says what's new (and the method if useful); short; provokes reading without being cute; promises no more than the results show. Offer 3-5. **Re-check it after every update:** when the story, the one difference, or the findings change, suggest 2-3 better titles next to the current one, each with a reason; the researcher chooses.
 
 **Abstract:** five connected parts: background, problem, methodology, key findings, contribution. Signal the gap ("However", "This paper proposes").
 
 **Introduction:** the same five parts as the abstract, one paragraph each: **background, problem, methodology, key findings, contribution**, each backed by evidence. After reading it, a reviewer should feel **both kinds of novelty**: **idea novelty** (a new question or insight) and **technical novelty** (a method that isn't obvious or easy). One clear contribution, not a list of small ones. Don't overpromise: claim only what the results support. Include **Figure 1** (the problem, the insight, how our way changes it); offer three designs.
 
-**Related work:** written in **subsections with clear headings**, so reviewers can find their way. **Synthesize, don't list**: for each group, say what the papers agree on and where they disagree, then how we **position** against them, what we **borrow**, and how we **differ**. Use the field summary from `references/papers.md` (consensus, disagreements, open questions). Cite **recent** work: mostly the last 5 years, at most 6-7; older only for a few classics. Don't teach experts.
+**Related work:** written in **subsections with clear headings**, so reviewers can find their way. **Synthesize, don't list**: for each group, say what the papers agree on and where they disagree, then how we **position** against them, what we **borrow**, and how we **differ**. Use the field summary from `references/papers.md` (consensus, disagreements, open questions). Cite **recent** work (rule above). Don't teach experts.
 
 **Methodology (and experiment):** learn how **this venue** writes it by reading 3-5 recent accepted papers; it usually looks the same every time, so follow that structure (CHI: design rationale, participants, apparatus, design, task and procedure, measures, analysis; ACL/NeurIPS: data, method, baselines, experimental setup). **Every decision is justified** (a citation or a reason). **Every detail is reproducible.** Everything supports **internal and construct validity**: say how confounds were controlled and why the measures capture the concept.
 
