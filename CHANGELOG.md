@@ -4,6 +4,9 @@
 
 **Names:** lowercase hyphenated words starting with a verb (`update-paper`, `setup-writing-style`). `guide-me` is the front door.
 
+## 0.26.0
+- **Check how papers do it, at any stage:** a new `AGENTS.md` rule for every skill. Before deciding how to do anything (design, measure, analysis, figure, section structure, fix), look at how recent close papers did it (`related_work.md`, else a quick verified search), follow common practice unless there's a reason to differ, and name the paper. Never invent a "standard way".
+
 ## 0.25.2
 - **Recent related work:** paper search and related work use mostly the last 5 years, at most 6-7, so the work doesn't look dated; older papers only for 1-2 classics (a theory, a scale, the original method). `review` flags older citations.
 
