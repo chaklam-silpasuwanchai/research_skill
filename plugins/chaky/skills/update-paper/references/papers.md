@@ -4,6 +4,7 @@
 
 ## 1. Search
 **Recent:** mostly the last 5 years, at most 6-7, or the work looks dated; older only for a **classic** (the foundational theory, the scale you use, the original method or dataset, a landmark everyone cites). Top venues; synonyms; citations both ways (Semantic Scholar, OpenAlex, Google Scholar, ACM DL, arXiv, alphaXiv). **Verify every paper** (DOI or publisher); unverifiable → left out. BibTeX fetched, never typed. Rank the closest 10-15. Keep a **source trail** at the top of `related_work.md`: date, databases, search terms, how many found and verified.
+**Top venues first:** prefer papers from the venues in *Lab defaults* (NLP and ML: ACL, EMNLP, NAACL, TACL, NeurIPS, ICLR, ICML; HCI: CHI, UIST, CSCW, TOCHI). Then other peer-reviewed venues; preprints last, marked as preprints. Baselines to compare against come from top venues when one exists.
 
 ## 2. Read each closely
 One row per paper in `related_work.md`:

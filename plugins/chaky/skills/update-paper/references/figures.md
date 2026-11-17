@@ -6,11 +6,11 @@ Ask: **what should the reader conclude from this figure?** One figure, one messa
 
 **Chart guide:** two groups, one measure → dots or bars with intervals · many groups → sorted dot plot · over time or steps → lines · spread → box, violin, or CDF · relationship → scatter · parts of a whole → a table is often better than a pie · process or system → diagram.
 
-**Results tables:** every baseline or borrowed method row names its source, so readers see who we compare with and what we copied:
+**Results tables:** every baseline or borrowed method row names its source and venue ("Xxx et al., ACL 2025"; preprints as "arXiv 2025"), so readers see who we compare with, what we copied, and that it's strong work:
 ```
 Method                                   Accuracy   Trust
-Honest agent (Xxx et al., 2025)          71.2       4.1
-Persuasive agent (Lee et al., 2024)      68.5       3.6
+Honest agent (Xxx et al., ACL 2025)      71.2       4.1
+Persuasive agent (Lee et al., CHI 2024)  68.5       3.6
 No disclosure (baseline)                 66.0       3.4
 Ours                                     78.9       4.8
 ```

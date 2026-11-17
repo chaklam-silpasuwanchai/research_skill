@@ -4,6 +4,9 @@
 
 **Names:** lowercase hyphenated words starting with a verb (`update-paper`, `setup-writing-style`). `guide-me` is the front door.
 
+## 0.31.2
+- **Venues in table labels and top venues first:** baseline rows read "Honest agent (Xxx et al., ACL 2025)" (preprints as "arXiv 2025"); paper searches and baseline choices prefer top venues (NLP and ML: ACL, EMNLP, NAACL, TACL, NeurIPS, ICLR, ICML; HCI: CHI, UIST, CSCW, TOCHI), now the lab's default preferred venues in `lab-defaults.md`.
+
 ## 0.31.1
 - **Cited baselines in results tables:** every baseline or borrowed method row names its source, e.g. "Honest agent (Xxx et al., 2025)"; borrowed datasets, metrics, and scales are cited in the header or caption; our method is marked "Ours".
 
