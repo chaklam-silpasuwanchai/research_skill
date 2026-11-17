@@ -4,6 +4,9 @@
 
 **Names:** lowercase hyphenated words starting with a verb (`update-paper`, `setup-writing-style`). `guide-me` is the front door.
 
+## 0.28.0
+- **Title check in `update-paper`:** after every update it checks whether the title still fits the story and the one difference; if a better one exists, it suggests 2-3 with reasons next to the current one, and the researcher chooses. Title guidance adds keywords from close papers and no overpromising.
+
 ## 0.27.0
 - **`update-repo` cleans for real** (`references/cleanup.md`): safe junk (caches, LaTeX build files, `.DS_Store`, empty folders) is removed and `.gitignore` updated without asking; the student's work (stray files, `_v2`/`final` copies, unused or big files) gets a suggested action and waits for a yes; secrets or participant data in git → stop and ask; duplicate rows and old Done tickets in the working files are tidied.
 
