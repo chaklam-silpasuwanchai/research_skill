@@ -23,6 +23,7 @@ Each rule lives in exactly one file; everything else points to it. Add a new rul
 | Finding and reading papers, recency, top venues, the one difference | `update-paper/references/papers.md` |
 | Writing: plain English, coherence, consistent terms, don't invite questions, elements of style | `update-paper/references/writing.md` |
 | What goes in each section | `update-paper/references/sections.md` |
+| Learning how close papers argue (intro, method, discussion) | `update-paper/references/argument.md` |
 | Framing and novelty claims | `update-paper/references/framing.md` |
 | Tables and figures | `update-paper/references/figures.md` |
 | Rigor, validity, fairness | `plan-method/references/rigor.md` |

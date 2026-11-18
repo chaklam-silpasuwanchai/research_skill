@@ -1,6 +1,6 @@
 # Section by section (used by `update-paper`)
 
-**Before drafting any section,** read how 2-3 recent accepted papers at the target venue write that same section, and follow their structure. Writing rules: `writing.md`. Citations: recent, top venues (`papers.md`).
+**Before drafting any section,** read how 2-3 recent accepted papers at the target venue write that same section, and follow their structure. Writing rules: `writing.md`. How close papers argue in the intro, method, and discussion: `argument.md`. Citations: recent, top venues (`papers.md`).
 
 **Where effort goes:** reviewers usually decide accept or reject from the **abstract and introduction**. Spend the most care there. The **discussion** is the other place that makes a paper strong.
 

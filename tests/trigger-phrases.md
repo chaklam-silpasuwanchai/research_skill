@@ -97,3 +97,4 @@
 | "here is my Google Scholar link" | `setup-writing-style` |
 | "what is the root cause here?" | `think-deeply` |
 | "remove clutter from my project" | `update-repo` |
+| "make my intro argue like the top papers" | `update-paper` |
