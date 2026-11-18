@@ -4,6 +4,9 @@
 
 **Names:** lowercase hyphenated words starting with a verb (`update-paper`, `setup-writing-style`). `guide-me` is the front door.
 
+## 0.36.0
+- **Learn how close papers argue** (`update-paper/references/argument.md`, `/update-paper argue`): for the intro, method, and discussion, map the argument of 3-5 recent close top-venue papers one line per paragraph (how they state the gap, show novelty, justify decisions, show fairness, explain results, frame limitations), find the common moves, compare ours, and rewrite our sections to make those moves in our own words and voice. Maps saved under *How they argue* in `related_work.md`; never copies their sentences.
+
 ## 0.35.0
 - **One rule, one home.** Every rule now lives in exactly one file; other files point to it. The rule map is in the repo's `CLAUDE.md`.
 - **`AGENTS.md` template: 906 → under 600 words**, as ten one-line principles: they lead · **don't just agree** (new: say so once with evidence, then they decide) · tickets and priorities · learn from papers at any stage · root cause, not patches · strong novelty, validity, rigor · honest and reproducible · write so no one has to ask · remember what they repeat · rough first, tidy always.
