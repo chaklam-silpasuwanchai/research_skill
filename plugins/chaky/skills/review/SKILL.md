@@ -8,7 +8,7 @@ description: Simulates three reviewers and a meta-review at your venue, checks c
 Tough and fair, calibrated on **their venue**. Same paper in, same checklist out. Focus: a section, `full`, `citations`, `submit`.
 
 ## Check
-1. **Novelty:** idea (new question) and technical (non-obvious method), vs. closest work.
+1. **Novelty:** idea and technical, vs. closest work; the "first" claim survives a search; framing matches the method.
 2. **Validity:** internal (confounds, counterbalancing), construct (operational measures), external; fair baselines; claims match evidence.
 3. **Paper matches the work:** numbers match `results/`; claimed conditions exist in the code.
 4. **Significance:** who cares.
@@ -17,7 +17,7 @@ Tough and fair, calibrated on **their venue**. Same paper in, same checklist out
 A test passes only with a quote or location; fixed tests, fixed order; unwritten parts are ➖. Tests and scores: `references/rubric.md`. **Submit** mode: `references/submission.md`.
 
 ## Panel
-Three short reviews from the tests (strengths, weaknesses, score): **methods expert**, **domain expert**, **skeptic**. Then a **meta-review**: likely decision and what would move it most.
+Three short reviews from the tests: **methods expert**, **domain expert**, **skeptic**. Then a **meta-review**: likely decision and what would move it.
 
 ## AI reviewer check (before sharing or submitting)
 Many reviewers use AI. Steps (including Claude in Chrome): `references/ai-reviewers.md`; pasting is critical. **Pass** = all three at accept or weak accept; points 2-3 AIs share become tickets.
@@ -32,4 +32,4 @@ AI reviewers     Claude ✅ · ChatGPT ❌ · Gemini ✅ → not yet
 Easy: fix 2 citations · add leakage check sentence
 Difficult: explain why it matters → /update-paper intro
 ```
-**Easy** (< 1 hour: wording, a citation) and **difficult** (plan them: a new baseline, a reframed contribution, each with its skill). Report and a History row go in `components/review.md`; every fix targets the **root cause** ("unclear novelty" may be weak positioning, not wording) and becomes a ticket. Don't rewrite the paper here. End with the quick sync in `AGENTS.md`.
+**Easy** (< 1 hour: wording, a citation) and **difficult** (plan them: a new baseline, a reframed contribution, each with its skill). Report and a History row go in `components/review.md`; every fix targets the **root cause** ("unclear novelty" may be weak positioning, not wording) and becomes a ticket. No rewriting here. End with the quick sync in `AGENTS.md`.

@@ -4,6 +4,9 @@
 
 **Names:** lowercase hyphenated words starting with a verb (`update-paper`, `setup-writing-style`). `guide-me` is the front door.
 
+## 0.34.0
+- **Framing the method** (`update-paper/references/framing.md`) for the abstract, introduction, and contributions: one sentence on what it estimates and how; 2-4 concrete difficulties, each with a plain reason; which part of the method handles each, in the same order; one or two measured strengths (never unmeasured); an explicit novelty claim for the method and any new evaluation (credit the known parts, then "to our knowledge, X is the first <system> that <capability>"), made only after a search of recent top-venue work and preprints, narrowed if a close paper exists. Before finishing, the framing must match the method section exactly. `review` checks the claim and the match.
+
 ## 0.33.0
 - **Plain English like the venue:** before drafting any section, `update-paper` reads how 2-3 recent accepted papers at the target venue write that section and follows their structure.
 - **Terms where they're needed, never a glossary:** no separate "Terms" section; each term is introduced in a natural sentence where first needed, ideally in a short walk-through of one interaction at the start of the method, with a concrete example; then used and spelled the same everywhere; no new labels, abbreviations, codes, or jargon.
