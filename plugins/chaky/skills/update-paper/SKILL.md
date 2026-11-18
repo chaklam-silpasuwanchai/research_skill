@@ -14,10 +14,11 @@ Fewer than 10 verified papers in `related_work.md`, focus `papers`, or "is this 
 Ask one at a time, suggesting an answer each time (the lab's one-page outline): **background** and 2-3 key papers · **problem** · **research question** · **proposed solution** (our one difference) · **evaluation and key findings** · **contribution**. Unsure → **2-3 alternative storylines**, each a 4-line arc; recommend one. Save it in `current_status.md`.
 
 ## 3. Write or update sections
-**First read `voice.md` (their style) and `terms.md` (their words)**; every sentence follows them. Empty `voice.md` → suggest `/setup-writing-style`.
-Reviewers mostly decide from the **abstract and introduction**: most care there, then the **discussion**. **Say only what's necessary**; the rest goes to the appendix or is cut. Before each section, read how 2-3 recent accepted venue papers write it and follow their structure; plain English, terms introduced where first needed, never a glossary. Follow `references/sections.md`, `references/style.md`, then the unslop pass (`references/unslop.md`, `references/patterns.md`), keeping every claim, number, and citation. Show each section; they comment. **"Fast mode"** → whole draft at once. `⚠ stale` sections first. **Before showing any edit:** the skeptical-reviewer pass, and every term defined before first use and named the same everywhere (`references/style.md`).
-- **Framing** (abstract, intro, contributions): `references/framing.md`; novelty searched first, framing matches the method.
-- **Stats, figures, limitations, reviewer replies:** `references/stats.md`, `figures.md`, `sections.md`.
+1. Read `voice.md` and `terms.md` (empty `voice.md` → suggest `/setup-writing-style`).
+2. Read how 2-3 recent accepted venue papers write this section; follow `references/sections.md` (per section) and `references/writing.md` (all writing rules).
+3. Before showing the edit, run the checks at the end of `writing.md`. Show each section; they comment. **"Fast mode"** → whole draft at once. `⚠ stale` sections first.
+- **Framing** (abstract, intro, contributions): `references/framing.md`.
+- **Stats, tables, figures:** `references/stats.md`, `references/figures.md`.
 
 ## Finish
-**Title check:** does the title still fit the story and the one difference? If a better one exists, suggest 2-3 with a reason each next to the current one; they choose (keeping it is fine). Story, terms, numbers, and claims agree; the intro's promises are delivered; citations fetched, never invented (`[CITE?]`). End with the quick sync in `AGENTS.md`; suggest `review`.
+**Title check:** does the title still fit the story and the one difference? If a better one exists, suggest 2-3 with a reason each; they choose. Citations fetched, never invented (`[CITE?]`). Quick sync (`AGENTS.md`); suggest `review`.

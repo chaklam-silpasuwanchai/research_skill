@@ -8,7 +8,7 @@ A wrong or invented reference can sink a paper. Check **every** entry in the `.b
 3. **Right version:** a preprint that has since been published → cite the published version. Mark preprints as preprints.
 4. **Retracted or corrected?** Check the publisher page or Crossref; retracted → ❌.
 5. **Supports its sentence:** open the paper (abstract, the relevant section) and check the sentence that cites it says what the paper actually shows. Not supported or overstated → ❌ with a short quote from the paper.
-6. **Recent:** mostly ≤ 5 years, at most 6-7; older only for a classic (foundational theory, the scale used, the original method or dataset, a field landmark).
+6. **Recent:** per `update-paper/references/papers.md` (recent, or a classic).
 7. **BibTeX fetched,** never typed from memory: re-fetch from the DOI or the source if fields look hand-made.
 
 ## Across the paper

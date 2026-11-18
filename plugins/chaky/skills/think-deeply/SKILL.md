@@ -14,7 +14,7 @@ Use when the researcher isn't satisfied with what was proposed. One question: **
 5. **Assumptions:** 2-4 the solution rests on; true here? Pick the one that matters most.
 6. **Go deep** on it: ask "why?" until it is checkable, then check (repo, paper, number).
 7. **Systems:** what else it touches; what happens next, and after that.
-8. **Learn from other papers (always; never skip):** how do papers usually fix this root cause or handle this choice, and did it work? 3-5 papers from `related_work.md`, or a quick verified search (`update-paper` papers). No papers checked yet → do that before recommending.
+8. **Learn from other papers (always; never skip):** how do papers usually fix this root cause or handle this choice, and did it work? 3-5 recent top-venue papers (`related_work.md`, or a quick search per `update-paper/references/papers.md`). No papers checked yet → do that before recommending.
 9. **Propose the most sensible approach.** Compare 2-3 different paths on: goal · evidence from papers · validity risk · time and cost · deadline. Pick the winner (a mix or the current plan is fine).
 
 ## Answer

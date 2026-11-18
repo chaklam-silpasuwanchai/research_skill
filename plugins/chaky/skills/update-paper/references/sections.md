@@ -1,10 +1,8 @@
 # Section by section (used by `update-paper`)
 
-**Before drafting any section,** read how 2-3 recent accepted papers at the target venue write that same section, and follow their structure.
+**Before drafting any section,** read how 2-3 recent accepted papers at the target venue write that same section, and follow their structure. Writing rules: `writing.md`. Citations: recent, top venues (`papers.md`).
 
 **Where effort goes:** reviewers usually decide accept or reject from the **abstract and introduction**. Spend the most care there. The **discussion** is the other place that makes a paper strong.
-
-**Citations, everywhere in the paper:** mostly the last 5 years, at most 6-7, or the work looks dated. Older only for a **classic**: the foundational theory, the validated scale or instrument you use, the original method or dataset you build on, or a landmark nearly every paper in the field cites. Each classic is there for a reason; pair it with recent work that uses it.
 
 **Title:** has the keywords readers search for (check titles of close recent papers); says what's new (and the method if useful); short; provokes reading without being cute; promises no more than the results show. Offer 3-5. **Re-check it after every update:** when the story, the one difference, or the findings change, suggest 2-3 better titles next to the current one, each with a reason; the researcher chooses.
 
@@ -14,13 +12,13 @@
 
 **Introduction:** the same five parts as the abstract, one paragraph each: **background, problem, methodology, key findings, contribution**, each backed by evidence. After reading it, a reviewer should feel **both kinds of novelty**: **idea novelty** (a new question or insight) and **technical novelty** (a method that isn't obvious or easy). One clear contribution, not a list of small ones. Don't overpromise: claim only what the results support. Include **Figure 1** (the problem, the insight, how our way changes it); offer three designs.
 
-**Related work:** written in **subsections with clear headings**, so reviewers can find their way. **Synthesize, don't list**: for each group, say what the papers agree on and where they disagree, then how we **position** against them, what we **borrow**, and how we **differ**. Use the field summary from `references/papers.md` (consensus, disagreements, open questions). Cite **recent** work (rule above). Don't teach experts.
+**Related work:** written in **subsections with clear headings**, so reviewers can find their way. **Synthesize, don't list**: for each group, say what the papers agree on and where they disagree, then how we **position** against them, what we **borrow**, and how we **differ**. Use the field summary from `references/papers.md` (consensus, disagreements, open questions). Don't teach experts.
 
-**Methodology (and experiment):** open with a short walk-through of one interaction or trial from this study, introducing each term as it appears (`style.md`). Learn how **this venue** writes it by reading 2-3 recent accepted papers; it usually looks the same every time, so follow that structure (CHI: design rationale, participants, apparatus, design, task and procedure, measures, analysis; ACL/NeurIPS: data, method, baselines, experimental setup). **Every decision is justified** (a citation or a reason). **Every detail is reproducible.** Everything supports **internal and construct validity**: say how confounds were controlled and why the measures capture the concept.
+**Methodology (and experiment):** open with a short walk-through of one interaction or trial from this study, introducing each term as it appears (`writing.md`). Learn how **this venue** writes it by reading 2-3 recent accepted papers; it usually looks the same every time, so follow that structure (CHI: design rationale, participants, apparatus, design, task and procedure, measures, analysis; ACL/NeurIPS: data, method, baselines, experimental setup). Write up the plan's decision table (`plan-method`): every decision justified, every detail reproducible, confounds and measures explained.
 
 **Results:** **boring on purpose.** Report, don't interpret: follow best practice for the test (statistic, df, p, effect size, confidence interval, n), organized by research question or hypothesis. Tables follow `references/figures.md`: cited baselines, ours last with its variants indented, fairness stated once before the first table. No discussion here.
 
-**Analyses:** rigor means many: robustness, sensitivity, subgroups, ablations, error analysis (`plan-method`'s rigor notes). Further analyses after the main results. Check what close papers usually include (ablation, error analysis, robustness, subgroup or per-category results, qualitative examples) and do the ones that strengthen the claim.
+**Analyses:** further analyses after the main results, as close papers include them (ablation, robustness, sensitivity, subgroups, error analysis, qualitative examples; `plan-method/references/rigor.md`).
 
 **Discussion:** perhaps **the most important part**, so make it strong and **in subsections**:
 - the key insights, not a repeat of the results
