@@ -1,4 +1,4 @@
-# Papers: find, read, copy, differ (used by `update-paper`)
+# Papers: find, read, copy, differ (the one home for recency and venues; used by every skill)
 
 **Idea validation.** Copy many things; differ in **one**. A paper in hand or a suspicion ("someone did this") → `triage.md`. Scoop check → `watch.md`.
 

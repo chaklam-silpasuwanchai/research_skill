@@ -7,11 +7,11 @@ Ask: **what should the reader conclude from this figure?** One figure, one messa
 **Chart guide:** two groups, one measure → dots or bars with intervals · many groups → sorted dot plot · over time or steps → lines · spread → box, violin, or CDF · relationship → scatter · parts of a whole → a table is often better than a pie · process or system → diagram.
 
 **Results tables:**
-- **Baselines:** cite the work each follows as (Author et al., VENUE YEAR), e.g. "Honest agent (Xxx et al., ACL 2025)". Prefer top venues (ACL, TACL, EMNLP, NeurIPS, ICLR) from the last five years; **verify the venue** (citation check) before citing; preprints as "arXiv 2025".
+- **Baselines:** cite the work each follows as (Author et al., VENUE YEAR), e.g. "Honest agent (Xxx et al., ACL 2025)". Recent top venues (`papers.md`); venue verified by the citation check; preprints as "arXiv 2025".
 - **Our method:** last, labeled with its name, no citation. Its **variants indented under it**, in the same order in every table.
 - **No extra columns** such as "compared with" or "what changes".
 - **Descriptions name the one component each adds** (or removes), so isolation is obvious from reading; same words as the row names.
-- **Fairness, stated once,** in a short paragraph before the first results table, not in every caption: same inputs, same participants or test items, same effort (tuning budget), same grading.
+- **Fairness, stated once,** in a short paragraph before the first results table (what to state: `plan-method/references/rigor.md`).
 ```
 Method                                   Accuracy   Trust
 Honest agent (Xxx et al., ACL 2025)      71.2       4.1

@@ -4,6 +4,13 @@
 
 **Names:** lowercase hyphenated words starting with a verb (`update-paper`, `setup-writing-style`). `guide-me` is the front door.
 
+## 0.35.0
+- **One rule, one home.** Every rule now lives in exactly one file; other files point to it. The rule map is in the repo's `CLAUDE.md`.
+- **`AGENTS.md` template: 906 → under 600 words**, as ten one-line principles: they lead · **don't just agree** (new: say so once with evidence, then they decide) · tickets and priorities · learn from papers at any stage · root cause, not patches · strong novelty, validity, rigor · honest and reproducible · write so no one has to ask · remember what they repeat · rough first, tidy always.
+- **`writing.md` replaces `style.md`:** one home for plain English, coherence (new section), consistent terms, don't invite questions, elements of style, and the checks before any edit is shown.
+- Duplicates removed from `update-paper`, `sections.md`, `figures.md`, `review`, `think-deeply`, and `citations.md`: recency and venues live only in `papers.md`, fairness only in `rigor.md`, writing rules only in `writing.md`.
+- Validator: enforces the size budgets (AGENTS template under 600 words, references under 900) and resolves cross-skill reference paths.
+
 ## 0.34.0
 - **Framing the method** (`update-paper/references/framing.md`) for the abstract, introduction, and contributions: one sentence on what it estimates and how; 2-4 concrete difficulties, each with a plain reason; which part of the method handles each, in the same order; one or two measured strengths (never unmeasured); an explicit novelty claim for the method and any new evaluation (credit the known parts, then "to our knowledge, X is the first <system> that <capability>"), made only after a search of recent top-venue work and preprints, narrowed if a close paper exists. Before finishing, the framing must match the method section exactly. `review` checks the claim and the match.
 

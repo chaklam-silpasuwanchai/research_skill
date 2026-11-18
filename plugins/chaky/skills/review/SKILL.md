@@ -9,11 +9,11 @@ Tough and fair, calibrated on **their venue**. Same paper in, same checklist out
 
 ## Check
 1. **Novelty:** idea and technical, vs. closest work; the "first" claim survives a search; framing matches the method.
-2. **Validity:** internal (confounds, counterbalancing), construct (operational measures), external; fair baselines; claims match evidence.
+2. **Validity and rigor:** internal, construct, external; many fair comparisons and analyses (`plan-method/references/rigor.md`); claims match evidence.
 3. **Paper matches the work:** numbers match `results/`; claimed conditions exist in the code.
 4. **Significance:** who cares.
-5. **Writing:** intro's five parts, one contribution, no overpromising; results report only; strong discussion; nothing that invites a question; terms defined at first use, no glossary; one name per thing; no AI phrasing.
-6. **Every citation, rigorously** (`references/citations.md`): each entry found and linked, details matched, not retracted, supports its sentence, recent. Never ✅ without a link.
+5. **Writing:** follows `update-paper/references/writing.md` (coherent, plain English, consistent terms, nothing that invites a question) and `sections.md` (intro's five parts, one contribution, no overpromising).
+6. **Every citation, rigorously** (`references/citations.md`): each entry found and linked, details matched, not retracted, supports its sentence, recent (`update-paper/references/papers.md`). Never ✅ without a link.
 A test passes only with a quote or location; fixed tests, fixed order; unwritten parts are ➖. Tests and scores: `references/rubric.md`. **Submit** mode: `references/submission.md`.
 
 ## Panel

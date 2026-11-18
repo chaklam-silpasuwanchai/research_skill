@@ -27,7 +27,8 @@ Label which analyses were planned and which were exploratory.
 - the operational measure truly captures the concept; add a second measure of the same concept if possible
 - check that the manipulation worked (participants noticed the difference)
 
-## Fair analysis
+## Fair analysis (the one home for fairness)
+State it once in the paper, in a short paragraph before the first results table: same inputs, same participants or test items, same effort (tuning budget), same grading.
 - every method gets the **same data, tuning budget, compute, and care**; no tuning only our own
 - the analysis plan is fixed before the main study (`git tag plan-freeze-1`); no trying tests until one is significant
 - correct for multiple comparisons; report **all** conditions and measures, including the ones that didn't work
