@@ -18,7 +18,7 @@ Ask one at a time, suggesting an answer each time (the lab's one-page outline): 
 2. Read how 2-3 recent accepted venue papers write this section; follow `references/sections.md` (per section) and `references/writing.md` (all writing rules). For the intro, method, and discussion, also learn how close papers **argue** and update ours to match (`references/argument.md`).
 3. Before showing the edit, run the checks at the end of `writing.md`. Show each section; they comment. **"Fast mode"** → whole draft at once. `⚠ stale` sections first.
 - **Framing** (abstract, intro, contributions): `references/framing.md`.
-- **Stats, tables, figures:** `references/stats.md`, `references/figures.md`.
+- **Stats, tables, figures:** `references/stats.md`, `references/figures.md`. **Reviewer replies:** `references/response.md`.
 
 ## Finish
 **Title check:** does the title still fit the story and the one difference? If a better one exists, suggest 2-3 with a reason each; they choose. Citations fetched, never invented (`[CITE?]`). Quick sync (`AGENTS.md`); suggest `review`.

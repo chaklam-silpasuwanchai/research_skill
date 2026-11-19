@@ -24,6 +24,7 @@ Each rule lives in exactly one file; everything else points to it. Add a new rul
 | Writing: plain English, coherence, consistent terms, don't invite questions, elements of style | `update-paper/references/writing.md` |
 | What goes in each section | `update-paper/references/sections.md` |
 | Learning how close papers argue (intro, method, discussion) | `update-paper/references/argument.md` |
+| Response to reviewers | `update-paper/references/response.md` |
 | Framing and novelty claims | `update-paper/references/framing.md` |
 | Tables and figures | `update-paper/references/figures.md` |
 | Rigor, validity, fairness | `plan-method/references/rigor.md` |

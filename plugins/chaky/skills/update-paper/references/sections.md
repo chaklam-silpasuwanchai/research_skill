@@ -20,17 +20,22 @@
 
 **Analyses:** further analyses after the main results, as close papers include them (ablation, robustness, sensitivity, subgroups, error analysis, qualitative examples; `plan-method/references/rigor.md`).
 
-**Discussion:** perhaps **the most important part**, so make it strong and **in subsections**:
-- the key insights, not a repeat of the results
-- comparison with past work (agrees, contradicts, extends)
-- possible explanations, including alternatives, for expected and unexpected results
-- "what if": when would the result change, and what it means for theory and design (implications)
-- limitations and future work (below)
+**Discussion:** perhaps **the most important part**. Students often don't know what to discuss, so cover these, one subsection or paragraph each, in this order. Each one starts from the research questions or hypotheses stated at the beginning (no clear question → suggest `/brain-dump` first).
+1. **Did you find what you expected?** Go back to each question or hypothesis. Discuss **in depth** anything you did not expect: possible explanations, including alternatives.
+2. **Did you achieve what you claimed?** What did you not yet achieve? What is the ultimate goal, and how far are you from it?
+3. **How does it compare with related work?** Consistent, contradicting, or surprising? Name the papers.
+4. **Why these design decisions** (experimental or device), and how did they affect the results?
+5. **Design implications or guidelines:** if someone built an application, how would these results guide them?
+6. **Significance:** in the big picture, why is this work valuable?
+7. **Limitations** (below).
+8. **Future work:** one or two really concrete items, no more.
 
 **Conclusion:** **nothing new.** A short summary of the problem, what we did, what we found, and why it matters.
 
 **Appendix (common for ACL; also supplements elsewhere):** the details needed for **reproducibility** that don't belong in the main text: prompts, hyperparameters, full tables, extra examples, annotation guidelines. Not a place for new claims.
 
-**Limitations (own section or in the discussion):** 3-5 concrete threats to validity: internal (confounds, order effects, leakage), construct (does the measure capture the idea), external (who or what the result may not hold for, only if it matters for the claim), and statistical (power, multiple tests). For each: the threat, how it could change the conclusion, what we did to reduce it, and what future work would settle it. Draw them from `log.md`, plan deviations, and `review.md`. Skip true-of-every-study lines.
+**Limitations (own section or in the discussion):** only the **core, concrete, real** limitations that could affect the validity of **this** result: internal (confounds, order effects, leakage), construct (does the measure capture the idea), statistical (power, multiple tests), or external only when it matters for the claim. For each: the threat, how it could change the conclusion, what we did to reduce it, and why it does not matter too much. Draw them from `log.md`, plan deviations, and `review.md`.
+- **Skip limitations true of almost any study** ("we tested in the US, not the UK").
+- **Never a limitation that makes the work look good** ("our method is so thorough it is slow", "our sample was only experts"). This is a very common mistake.
 
-**Response to reviewers (rebuttal or revision letter):** open with thanks and a 2-3 line summary of the main changes. Group duplicate points; quote each concern briefly, then answer: **changed** (what and where, with page or section) / **clarified** (the misunderstanding and the new text) / **respectfully disagree** (evidence and citation) / **out of scope** (why, and where it is now acknowledged). Never promise what the paper won't contain. Keep within the venue's word limit; most important concerns first.
+**Response to reviewers:** `response.md`.
