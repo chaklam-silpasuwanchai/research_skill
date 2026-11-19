@@ -8,7 +8,7 @@ description: For when you're not satisfied with what the AI proposed. Finds the 
 Use when the researcher isn't satisfied with what was proposed. One question: **is there a better path than this?** "This" = the latest message, or what they name.
 
 1. **Restate** the problem and the solution in one sentence each.
-2. **Root cause:** why does the problem exist? Ask "why?" until you reach the cause. Does the proposal fix the **cause** or only a **symptom**? A symptom fix is never the recommendation.
+2. **Root cause:** why does the problem exist? Ask "why?" until you reach the cause. Does the proposal fix the **cause** or only a **symptom**? A symptom fix is never the recommendation. If the problem is in a measuring tool, classify it: software bug, design of the measure, or model limit (record and stop).
 3. **360° views** (a line each): reviewer · participant or data · advisor · skeptic · practitioner · ethics.
 4. **First principles:** the real goal underneath; the simplest thing that meets it.
 5. **Assumptions:** 2-4 the solution rests on; true here? Pick the one that matters most.
