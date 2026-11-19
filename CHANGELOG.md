@@ -4,6 +4,11 @@
 
 **Names:** lowercase hyphenated words starting with a verb (`update-paper`, `setup-writing-style`). `guide-me` is the front door.
 
+## 0.38.0
+- **Validating AI-based measures** (`plan-method/references/ai-measures.md`): when a study measures with an AI tool (simulated user, LLM judge, tracker, checker), validate it first: a fixed gate against committed labels; three blinded labellers; MT-Bench-style agreement reporting (Zheng et al., NeurIPS 2023); every error traced to a software bug, a measurement design problem, or a model limit; probes before adopting a change; code decides what code can; a fresh held-out check with a fixed seed; every round kept and reported.
+- `think-deeply` step 2: classify a problem in a measuring tool (software bug, design of the measure, or model limit).
+- `update-paper` method guidance: report the gate, the rounds, and the fresh check in the appendix.
+
 ## 0.37.0
 - **What to discuss:** the discussion guide (`update-paper/references/sections.md`) lists eight points, one subsection or paragraph each, all anchored to the research questions: what you expected and the unexpected (in depth) · what you achieved and how far from the ultimate goal · comparison with related work · why the design decisions and their effect · design implications · significance · limitations · one or two concrete future work items. Limitations: only core, concrete, real ones that could affect validity, each with why it does not matter too much; never ones true of any study, and never ones that make the work look good.
 

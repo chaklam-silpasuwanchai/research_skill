@@ -18,7 +18,7 @@ Name the common pattern.
 - **Confounding, control, random variables:** name each. **Individual differences:** factor or random? Ask.
 - **Design:** between, within, or mixed; randomization; counterbalancing; several strong baselines and ablations.
 - **Sample size:** power analysis, or seeds and test size for ML. **Analysis:** ask about design and data first; no default.
-- **Tools, models, labeling:** `references/models.md`, `references/labeling-review.md`; paid runs: ask first.
+- **Tools, models, labeling:** `references/models.md`, `references/labeling-review.md`; paid runs: ask first. AI-based measures: `references/ai-measures.md`.
 - **CHI ethics (critical):** approval and consent before recruiting.
 Every major decision goes in a **decision table** in `experimental_design.md`: `decision · choice · why · source (paper or reason)`.
 
