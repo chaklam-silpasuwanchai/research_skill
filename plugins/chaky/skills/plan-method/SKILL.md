@@ -13,6 +13,7 @@ Read the **method sections** of the 5-15 closest papers (too few → `update-pap
 Name the common pattern.
 
 ## 2. Plan
+- **Research questions and hypotheses** (3-5, in `experimental_design.md`): each hypothesis testable, with the result that would challenge it. Define success before any data.
 - **Contribution type** (`references/contribution-types.md`) sets what to specify and show.
 - **IV** and levels; **DV** and operational measure (validated scales where they exist).
 - **Confounding, control, random variables:** name each. **Individual differences:** factor or random? Ask.
