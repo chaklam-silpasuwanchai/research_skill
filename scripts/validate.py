@@ -42,9 +42,6 @@ for d in sorted(p for p in SKILLS.iterdir() if p.is_dir()):
     if not re.fullmatch(r"[a-z]+(-[a-z]+)*", d.name): err(f"{d.name}: name must be lowercase hyphenated words starting with a verb (update-paper, setup-writing-style)")
     if not desc or len(desc) > 1024: err(f"{d.name}: description missing or over 1024 chars")
     if "Use " not in desc: warn(f"{d.name}: description has no 'Use ...' trigger phrase")
-    words = len(text.split())
-    if words > 500: err(f"{d.name}: {words} words (limit 500; move detail to references/)")
-    elif words > 400: warn(f"{d.name}: {words} words (getting long)")
     for owner, ref in re.findall(r"(?:([a-z]+(?:-[a-z]+)*)/)?(references/[\w\-]+\.md)", text):
         base = SKILLS / owner if owner and (SKILLS / owner).is_dir() else d
         if not (base / ref).exists(): err(f"{d.name}: mentions missing file {(owner + '/') if owner else ''}{ref}")
@@ -52,14 +49,6 @@ for d in sorted(p for p in SKILLS.iterdir() if p.is_dir()):
         if f"`{old}`" in text: err(f"{d.name}: stale skill name `{old}`")
     for old in OLD_BARE:
         if f"`{old}`" in text: err(f"{d.name}: stale skill name `{old}`")
-
-# size budgets: AGENTS template (read every session) and reference files
-agents_words = len((SKILLS / "update-repo" / "assets" / "AGENTS.template.md").read_text().split())
-if agents_words > 600: err(f"AGENTS.template.md: {agents_words} words (limit 600)")
-for ref in sorted(SKILLS.glob("*/references/*.md")):
-    w = len(ref.read_text().split())
-    if w > 900: err(f"{ref.parent.parent.name}/references/{ref.name}: {w} words (limit 900)")
-    elif w > 800: warn(f"{ref.parent.parent.name}/references/{ref.name}: {w} words (getting long)")
 
 # README and AGENTS template list every skill
 readme = (ROOT / "README.md").read_text()

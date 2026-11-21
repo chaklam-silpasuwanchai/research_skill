@@ -4,6 +4,14 @@
 
 **Names:** lowercase hyphenated words starting with a verb (`update-paper`, `setup-writing-style`). `guide-me` is the front door.
 
+## 0.40.0
+- **No word limits.** The validator no longer checks the length of skills, references, or the `AGENTS.md` template. Skills stay lean by trimming only when the meaning stays (`CLAUDE.md`).
+- Reviewed every skill:
+  - `plan-method` now asks for the research questions and hypotheses, each with the result that would challenge it, and defines success before any data. Before, the freeze needed hypotheses but the plan never asked for them.
+  - `think-deeply`: the assumption check and "go deep" are merged into one step (same meaning, one step fewer), and a line repeating the description is removed.
+  - `guide-me` suggests `status` for a catch-up after a break.
+  - The other skills were already right-sized and are unchanged.
+
 ## 0.39.0
 - **New skill `status`:** a read-only catch-up, especially after time away. Five lines at most: when you were last here, what changed since, what is happening now, what needs your attention (at most three), and one suggested skill. After 14+ days away it also suggests `/update-board`. Added to the README, `guide-me`'s skill list, the `AGENTS.md` supporting skills, trigger phrases, and the issue form.
 
