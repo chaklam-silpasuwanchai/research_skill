@@ -2,7 +2,7 @@
 
 `scripts/validate.py` checks every skill named here exists. Read this list when two skills seem to overlap.
 
-**Disambiguation:** a *specific paper in hand* → `update-paper` (triage). *Unknown new papers or scoop fear* → `update-paper` (watch). *Related-work search* → `update-paper` (search). *Recap, missing tasks, priorities* → `update-board`. *Get what's in my head out* → `brain-dump`. *Is it novel or valid* → `update-paper`; *harder 360° look* → `think-deeply`. *Answer hard to read* → `clarify`; *still lost* → `teach-me`. *Text sounds robotic, stats, figures* → `update-paper`.
+**Disambiguation:** a *specific paper in hand* → `update-paper` (triage). *Unknown new papers or scoop fear* → `update-paper` (watch). *Related-work search* → `update-paper` (search). *Catch up after time away, quick read-only summary* → `status`; *recap, missing tasks, priorities* → `update-board`. *Get what's in my head out* → `brain-dump`. *Is it novel or valid* → `update-paper`; *harder 360° look* → `think-deeply`. *Answer hard to read* → `clarify`; *still lost* → `teach-me`. *Text sounds robotic, stats, figures* → `update-paper`.
 
 | Phrase | Skill |
 |---|---|
@@ -14,6 +14,9 @@
 | "show my progress" | `guide-me` |
 | "progress update for my advisor" | `guide-me` |
 | "retro" | `guide-me` |
+| "status" | `status` |
+| "catch me up" | `status` |
+| "it's been a while, what's going on?" | `status` |
 | "set up my paper repo" | `update-repo` |
 | "I want to start a new paper" | `update-repo` |
 | "organize my messy project" | `update-repo` |

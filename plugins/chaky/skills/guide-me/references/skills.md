@@ -5,6 +5,7 @@ Say "guide me" and Chaky suggests a skill; you choose. Or type `/<skill> <focus>
 | When you... | Use | What happens |
 |---|---|---|
 | are lost | `guide-me` | Where you are, what needs you, which skill helps now |
+| have been away a while | `status` | What happened since, what's happening now, what needs you, one skill to try |
 | want to know what your tasks are | `update-board` | Recap, then your to-do list fixed and prioritized |
 | are confused by what the AI said | `clarify` | Bottom line, what needs you, one example |
 | don't know enough to follow what the AI said | `teach-me` | Small steps with a check after each |

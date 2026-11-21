@@ -1,4 +1,4 @@
-# My personal research skill (v0.38.0)
+# My personal research skill (v0.39.0)
 
 I have recently tried out Claude Code for my research, and developed several key skills after many months of trial and error.   Hopefully this skill can help you as well in your research journey.   For your information, I have published in top venues like CHI and ACL, so you can trust me a little bit :P
 
@@ -40,6 +40,7 @@ This is a cheat sheet.
 | When you... | Use | What happens |
 |---|---|---|
 | are lost | `/guide-me` | Where you are, what needs you, and which skill helps now |
+| have been away for a while | `/status` | What happened since you were last here, what's happening now, what needs your attention, and one skill to try |
 | want to know what your tasks are | `/update-board` | Updates your to-do list |
 | are confused by what the AI said | `/clarify` | Explain plainly, with enough context and examples |
 | don't know enough to follow what the AI said | `/teach-me <topic>` | Teaches you when `/clarify` does not work, likely due to a knowledge gap |
