@@ -34,5 +34,15 @@ State it once in the paper, in a short paragraph before the first results table:
 - correct for multiple comparisons; report **all** conditions and measures, including the ones that didn't work
 - numbers recomputed by a script from raw data
 
+## When results are unexpected (the one home)
+A surprising result is usually a bug first. Before calling it surprising, rule out each of these, in order, and log every check in `log.md`:
+1. **Code:** rerun on a tiny case where you know the answer. Check the right condition, config, model, and prompt actually ran (logs, not memory).
+2. **Data:** leakage, wrong split, flipped or misaligned labels, missing or duplicated rows, exclusions applied as planned.
+3. **Measure:** the measure works (manipulation check; for AI-based measures, the gate in `ai-measures.md`); reverse-coded items and scale direction are right.
+4. **Analysis:** the planned test, the right grouping, numbers recomputed by a script from raw data.
+5. **Chance:** other seeds, another subset, or more participants; look at the confidence interval, not just the mean.
+6. **Papers:** did close papers see something similar, and how did they explain it?
+Only when all six pass is the result really surprising. Then it is a finding: keep it, report it, and discuss it in depth (`update-paper/references/sections.md`). Never change the plan or drop data to make it go away. Give expected results the code and data checks too; a bug can also produce the answer you hoped for.
+
 ## Check
 Before freezing, one line each: baselines and ablations chosen · analyses listed · confounds and controls · measures validated · fairness (same budget, plan fixed). Any gap → its root cause, then fix.

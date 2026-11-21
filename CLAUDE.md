@@ -28,6 +28,8 @@ Each rule lives in exactly one file; everything else points to it. Add a new rul
 | Framing and novelty claims | `update-paper/references/framing.md` |
 | Tables and figures | `update-paper/references/figures.md` |
 | Rigor, validity, fairness | `plan-method/references/rigor.md` |
+| Checking unexpected results before calling them surprising | `plan-method/references/rigor.md` |
+| Confirming the researcher's hypothesis | `plan-method/SKILL.md` |
 | Validating AI-based measures (simulated users, LLM judges, trackers, checkers) | `plan-method/references/ai-measures.md` |
 | Citation checking | `review/references/citations.md` |
 | Root cause in depth, 360° look | `think-deeply/SKILL.md` |

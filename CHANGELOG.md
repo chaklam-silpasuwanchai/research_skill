@@ -4,6 +4,10 @@
 
 **Names:** lowercase hyphenated words starting with a verb (`update-paper`, `setup-writing-style`). `guide-me` is the front door.
 
+## 0.41.0
+- **Confirm their hypothesis** (`plan-method`, critical): state each hypothesis back in the researcher's words and get a yes before designing around it.
+- **When results are unexpected** (`plan-method/references/rigor.md`): before calling a result surprising, rule out code, data, measure, analysis, and chance, and check what close papers saw; log every check. Only then is it a finding to keep and discuss in depth. Expected results get the code and data checks too. `plan-method` step 6 and the discussion guide point to it.
+
 ## 0.40.0
 - **No word limits.** The validator no longer checks the length of skills, references, or the `AGENTS.md` template. Skills stay lean by trimming only when the meaning stays (`CLAUDE.md`).
 - Reviewed every skill:
