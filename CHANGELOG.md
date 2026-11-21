@@ -4,6 +4,13 @@
 
 **Names:** lowercase hyphenated words starting with a verb (`update-paper`, `setup-writing-style`). `guide-me` is the front door.
 
+## 0.41.1
+Fixes from a full double-check:
+- `status` said "change no file", but the `AGENTS.md` template said to run the quick sync at the end of every skill. The quick sync now runs only after skills that changed something.
+- Confirming their hypothesis is now in the critical list in the `AGENTS.md` template (`plan-method` already marked it critical).
+- `review` gives the full path to `update-paper/references/sections.md`, and its validity check now asks whether a surprising result passed the checks in `rigor.md`.
+- Tests: walkthrough 8 (back after two weeks) now uses `status`; new scenarios 72-74 cover the catch-up, confirming the hypothesis, and an unexpected result.
+
 ## 0.41.0
 - **Confirm their hypothesis** (`plan-method`, critical): state each hypothesis back in the researcher's words and get a yes before designing around it.
 - **When results are unexpected** (`plan-method/references/rigor.md`): before calling a result surprising, rule out code, data, measure, analysis, and chance, and check what close papers saw; log every check. Only then is it a finding to keep and discuss in depth. Expected results get the code and data checks too. `plan-method` step 6 and the discussion guide point to it.
