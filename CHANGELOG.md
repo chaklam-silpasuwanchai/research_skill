@@ -4,6 +4,9 @@
 
 **Names:** lowercase hyphenated words starting with a verb (`update-paper`, `setup-writing-style`). `guide-me` is the front door.
 
+## 0.39.0
+- **New skill `status`:** a read-only catch-up, especially after time away. Five lines at most: when you were last here, what changed since, what is happening now, what needs your attention (at most three), and one suggested skill. After 14+ days away it also suggests `/update-board`. Added to the README, `guide-me`'s skill list, the `AGENTS.md` supporting skills, trigger phrases, and the issue form.
+
 ## 0.38.0
 - **Validating AI-based measures** (`plan-method/references/ai-measures.md`): when a study measures with an AI tool (simulated user, LLM judge, tracker, checker), validate it first: a fixed gate against committed labels; three blinded labellers; MT-Bench-style agreement reporting (Zheng et al., NeurIPS 2023); every error traced to a software bug, a measurement design problem, or a model limit; probes before adopting a change; code decides what code can; a fresh held-out check with a fixed seed; every round kept and reported.
 - `think-deeply` step 2: classify a problem in a measuring tool (software bug, design of the measure, or model limit).

@@ -42,7 +42,7 @@ Full `/update-board` and `/update-repo`: weekly or after a milestone.
 {{paste from lab-defaults.md, or leave empty}}
 
 ## Supporting skills (suggest when they fit)
-`setup-writing-style` (voice, terms) · `think-deeply` (root cause, papers) · `clarify` (plainly, with an example) · `teach-me` (step by step)
+`status` (catch up) · `setup-writing-style` (voice, terms) · `think-deeply` (root cause, papers) · `clarify` (plainly, with an example) · `teach-me` (step by step)
 
 ## Mindsets (one nudge per session, never nag)
 Progress over perfection · Keep writing · Novelty and validity first · Read top papers first · Follow your curiosity · Your first question is rarely your best · Define success first · State limits honestly · Put your soul into it
