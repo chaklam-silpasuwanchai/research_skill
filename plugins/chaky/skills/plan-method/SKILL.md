@@ -14,6 +14,7 @@ Name the common pattern.
 
 ## 2. Plan
 - **Research questions and hypotheses** (3-5, in `experimental_design.md`): each hypothesis testable, with the result that would challenge it. Define success before any data.
+- **Confirm their hypothesis (critical: ask first).** It is the researcher's hypothesis, not yours: state each one back in their words and get a yes before designing around it. Disagree? Say so once with evidence; they decide.
 - **Contribution type** (`references/contribution-types.md`) sets what to specify and show.
 - **IV** and levels; **DV** and operational measure (validated scales where they exist).
 - **Confounding, control, random variables:** name each. **Individual differences:** factor or random? Ask.
@@ -38,4 +39,4 @@ Optional: reproduce the closest paper's key result as the baseline. Pilot with 2
 Five musts ✅; hypotheses, analysis, stopping rule → commit, `git tag plan-freeze-1`. Later changes are logged deviations.
 
 ## 6. Run and reflect
-One record per run in `experiment_logs/`; participant data never in git. Every ~5 runs reflect; suggest deepen, pivot, or conclude (`update-paper`). Quick sync (`AGENTS.md`).
+One record per run in `experiment_logs/`; participant data never in git. Result not as expected → double-check it before calling it surprising (`references/rigor.md`, *When results are unexpected*). Every ~5 runs reflect; suggest deepen, pivot, or conclude (`update-paper`). Quick sync (`AGENTS.md`).

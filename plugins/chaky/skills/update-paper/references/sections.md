@@ -21,7 +21,7 @@
 **Analyses:** further analyses after the main results, as close papers include them (ablation, robustness, sensitivity, subgroups, error analysis, qualitative examples; `plan-method/references/rigor.md`).
 
 **Discussion:** perhaps **the most important part**. Students often don't know what to discuss, so cover these, one subsection or paragraph each, in this order. Each one starts from the research questions or hypotheses stated at the beginning (no clear question → suggest `/brain-dump` first).
-1. **Did you find what you expected?** Go back to each question or hypothesis. Discuss **in depth** anything you did not expect: possible explanations, including alternatives.
+1. **Did you find what you expected?** Go back to each question or hypothesis. Discuss **in depth** anything you did not expect, once it has passed the checks in `plan-method/references/rigor.md` (*When results are unexpected*): possible explanations, including alternatives.
 2. **Did you achieve what you claimed?** What did you not yet achieve? What is the ultimate goal, and how far are you from it?
 3. **How does it compare with related work?** Consistent, contradicting, or surprising? Name the papers.
 4. **Why these design decisions** (experimental or device), and how did they affect the results?
