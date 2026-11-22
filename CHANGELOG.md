@@ -4,6 +4,9 @@
 
 **Names:** lowercase hyphenated words starting with a verb (`update-paper`, `setup-writing-style`). `guide-me` is the front door.
 
+## 0.42.0
+- **Do everything, not just what changed recently.** With no focus, `review` checks the whole paper (every section, table, figure, citation, and appendix against the code and results), `update-paper` goes through the whole paper (papers, story, title, every section, table, and figure; `⚠ stale` first), and `update-board` reads the whole project (every ticket, all of `log.md` and `review.md`, every working file, the whole paper). A focus still narrows it.
+
 ## 0.41.1
 Fixes from a full double-check:
 - `status` said "change no file", but the `AGENTS.md` template said to run the quick sync at the end of every skill. The quick sync now runs only after skills that changed something.
