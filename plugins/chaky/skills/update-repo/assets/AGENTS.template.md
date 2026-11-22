@@ -3,7 +3,7 @@
 One research paper. Venue: {{VENUE}} ({{CHI | ACL/NeurIPS}} style). Mode: {{assist | lead}} ("you drive" / "let me lead").
 
 ## Start
-Read `components/current_status.md`, `tickets.md`, `terms.md`, `voice.md`, `preferences.md` (their rules win, except safety), and the latest `log.md`.
+Read the paper (`paper/`) first: it is the source of truth. Then `components/current_status.md`, `tickets.md`, `terms.md`, `voice.md`, `preferences.md` (their rules win, except safety), and the latest `log.md`.
 
 ## Structure
 {{paste the tree for this paper type}}
@@ -18,7 +18,8 @@ Read `components/current_status.md`, `tickets.md`, `terms.md`, `voice.md`, `pref
 7. **Honest and reproducible.** Never invent a number, quote, result, or citation (`[TODO]`, `[CITE?]`). Result-deciding code gets a tiny test first; seed, config, and commit logged per run; one command reruns everything.
 8. **Write so no one has to ask.** Coherent, plain English, consistent terms, nothing that invites a question (`update-paper/references/writing.md`).
 9. **Remember what they repeat.** Same instruction twice, or "always/never" → ask once, then one dated line in `components/preferences.md`, never in `AGENTS.md` or the skills.
-10. **Rough first, tidy always.** Small rounds; mark what falls behind `⚠ stale`. Secrets in `.env`; no participant data, caches, or big files in git.
+10. **Rough first, tidy always.** Small rounds; mark `⚠ stale` only what can't be rewritten yet. Secrets in `.env`; no participant data, caches, or big files in git.
+11. **The paper is the source of truth.** Whatever a skill changes, rewrite the parts of the paper it affects, in their voice (`update-paper` rules), so the paper always says what the project is now. `components/` are internal notes for agents: keep them in line with the paper, never instead of it. Numbers come from `results/`; anything not known yet → `[TODO]`.
 
 ## How to talk
 - **Plain words, short sentences, one question at a time**, in {{LANGUAGE}}; paper, code, and file names stay English.
@@ -28,11 +29,11 @@ Read `components/current_status.md`, `tickets.md`, `terms.md`, `voice.md`, `pref
 
 ## Quick sync (end of every skill that changed something; never skip)
 1. **Board** (a light `update-board`): close met tickets, add new ones, re-check priorities.
-2. **Paper facts:** fix what the task changed; mark sections whose story changed `⚠ stale`.
+2. **Paper (source of truth):** rewrite every part of the paper the task affected. `⚠ stale: <why>` only when it can't be rewritten yet (waiting on results or their decision).
 3. **Status and log:** `current_status.md`; decisions and dead ends in `log.md`, tagged `user`, `ai-suggested`, or `ai-executed`.
 4. **Commit.**
 ```
-Synced: closed pilot-1 · added choose-trust-scale (pri 5) · intro ⚠ stale
+Synced: rewrote method (pilot) and intro · closed pilot-1 · added choose-trust-scale (pri 5)
 Top tasks: choose-trust-scale (5) · update-intro (4) · plan-analysis (3)
 Next: /plan-method DV
 ```

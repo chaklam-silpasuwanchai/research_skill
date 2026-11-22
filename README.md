@@ -1,4 +1,4 @@
-# My personal research skill (v0.43.0)
+# My personal research skill (v0.44.0)
 
 I have recently tried out Claude Code for my research, and developed several key skills after many months of trial and error.   Hopefully this skill can help you as well in your research journey.   For your information, I have published in top venues like CHI and ACL, so you can trust me a little bit :P
 
@@ -50,7 +50,7 @@ This is a cheat sheet.
 | want to experiment with something | `/plan-method` | Lets AI help plan a fair experiment and the right tools, learned from 5-15 close papers; then pilot and run |
 | want reviewers' opinions | `/review` | Three reviewers and a meta-review, every citation checked, a Claude/ChatGPT/Gemini check, improvements split into easy and difficult |
 | feel the AI doesn't write like you | `/setup-writing-style` | Learns from your Google Scholar link, past papers, a paragraph, emails, or blogs, and confirms the terms you'll use |
-| want your repo tidy and up to date | `/update-repo` | Updates all the docs and cleans up clutter (asks before moving or deleting) |
+| want your repo tidy and up to date | `/update-repo` | Brings the paper and the AI's internal notes up to date, and cleans up clutter (asks before moving or deleting) |
 
 ## Claude mod
 

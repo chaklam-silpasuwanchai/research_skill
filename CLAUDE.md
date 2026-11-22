@@ -19,7 +19,7 @@ Each rule lives in exactly one file; everything else points to it. Add a new rul
 
 | Rule | Home |
 |---|---|
-| Principles (they lead, don't just agree, tickets, learn from papers, root cause, novelty and rigor, honest and reproducible, write so no one asks, remember, tidy) | `update-repo/assets/AGENTS.template.md` (one line each) |
+| Principles (they lead, don't just agree, tickets, learn from papers, root cause, novelty and rigor, honest and reproducible, write so no one asks, remember, tidy, the paper is the source of truth) | `update-repo/assets/AGENTS.template.md` (one line each) |
 | Finding and reading papers, recency, top venues, the one difference | `update-paper/references/papers.md` |
 | Writing: plain English, coherence, consistent terms, don't invite questions, elements of style | `update-paper/references/writing.md` |
 | What goes in each section | `update-paper/references/sections.md` |

@@ -32,4 +32,4 @@ AI reviewers     Claude ✅ · ChatGPT ❌ · Gemini ✅ → not yet
 Easy: fix 2 citations · add leakage check sentence
 Difficult: explain why it matters → /update-paper intro
 ```
-**Easy** (< 1 hour: wording, a citation) and **difficult** (plan them: a new baseline, a reframed contribution, each with its skill). Report and a History row go in `components/review.md`; every fix targets the **root cause** ("unclear novelty" may be weak positioning, not wording) and becomes a ticket. No rewriting here. End with the quick sync in `AGENTS.md`.
+**Easy** (< 1 hour: wording, a citation) and **difficult** (plan them: a new baseline, a reframed contribution, each with its skill). Report and a History row go in `components/review.md`; every fix targets the **root cause** ("unclear novelty" may be weak positioning, not wording) and becomes a ticket. After the report, apply the easy fixes to the paper and say so (the paper is the source of truth); difficult ones stay as tickets. End with the quick sync in `AGENTS.md`.

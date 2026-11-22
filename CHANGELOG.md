@@ -4,6 +4,11 @@
 
 **Names:** lowercase hyphenated words starting with a verb (`update-paper`, `setup-writing-style`). `guide-me` is the front door.
 
+## 0.44.0
+- **The paper is the source of truth** (new principle 11 in the `AGENTS.md` template). Whatever a skill changes, it rewrites the parts of the paper that change affects, in the researcher's voice, so the paper always says what the project is now. The quick sync rewrites every part a task affected, instead of marking it `⚠ stale`; `⚠ stale` is only for what can't be rewritten yet (waiting on results or a decision).
+- **`components/` are internal notes for the AI agents**, kept in line with the paper and never used instead of it. Agents read the paper first.
+- `update-repo` rewrites the sections behind the new work. `review` applies its easy fixes to the paper after the report; difficult ones stay as tickets. `status` reads the paper. Scenarios 40 and 42 are updated, and scenario 76 is new.
+
 ## 0.43.0
 - **`update-repo` covers the whole repo too:** every folder, working file, log, result, and paper section, not just what changed since the last update.
 

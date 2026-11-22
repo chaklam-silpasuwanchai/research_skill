@@ -1,4 +1,7 @@
 # Component files (copy from `assets/`, CHI or NLP variant)
+
+These are internal notes for the AI agents. The paper is the source of truth; keep these in line with it.
+
 | File | Holds |
 |---|---|
 | `tickets.md` | The board: destination, mode, fog, tickets with type, 1-5 priority, size, status, done-when. Seeded by `update-board` and rated with the researcher. |
