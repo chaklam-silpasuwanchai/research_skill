@@ -4,6 +4,10 @@
 
 **Names:** lowercase hyphenated words starting with a verb (`update-paper`, `setup-writing-style`). `guide-me` is the front door.
 
+## 0.45.0
+- **New skill `double-check`:** checks the whole project from the ground up, in order (code, numbers, plan, paper, notes and repo, board), and fixes what is off so everything agrees with the latest work. It follows each skill's own rules instead of repeating them. Full or paid reruns and fixes to code behind a result are critical (ask first). It ends with one report (Checked, Fixed, Needs you, Next). Listed in the README, `guide-me`, the `AGENTS.md` template, trigger phrases, the issue form, and scenario 77.
+- README: fourth mindset, "The paper is the source of truth."
+
 ## 0.44.0
 - **The paper is the source of truth** (new principle 11 in the `AGENTS.md` template). Whatever a skill changes, it rewrites the parts of the paper that change affects, in the researcher's voice, so the paper always says what the project is now. The quick sync rewrites every part a task affected, instead of marking it `⚠ stale`; `⚠ stale` is only for what can't be rewritten yet (waiting on results or a decision).
 - **`components/` are internal notes for the AI agents**, kept in line with the paper and never used instead of it. Agents read the paper first.

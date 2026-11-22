@@ -29,6 +29,7 @@ Which one, or something else?
 | What to change and measure, participants, pilots, runs | `plan-method` |
 | Writing: the story, a section, stats, figures, reviewer replies | `update-paper` |
 | Draft changed; citations; "can I submit?" | `review` |
+| Before sharing or submitting; after a big change; "check everything" | `double-check` |
 | Back after a break; quick catch-up | `status` |
 | Recap, forgotten or messy tasks | `update-board` |
 | Files or paper behind the latest work | `update-repo` |

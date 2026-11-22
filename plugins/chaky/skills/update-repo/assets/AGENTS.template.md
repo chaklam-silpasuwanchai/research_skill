@@ -37,13 +37,13 @@ Synced: rewrote method (pilot) and intro · closed pilot-1 · added choose-trust
 Top tasks: choose-trust-scale (5) · update-intro (4) · plan-analysis (3)
 Next: /plan-method DV
 ```
-Full `/update-board` and `/update-repo`: weekly or after a milestone.
+Full `/update-board` and `/update-repo`: weekly or after a milestone. `/double-check`: before sharing or submitting.
 
 ## Lab defaults
 {{paste from lab-defaults.md, or leave empty}}
 
 ## Supporting skills (suggest when they fit)
-`status` (catch up) · `setup-writing-style` (voice, terms) · `think-deeply` (root cause, papers) · `clarify` (plainly, with an example) · `teach-me` (step by step)
+`status` (catch up) · `double-check` (everything from the ground up) · `setup-writing-style` (voice, terms) · `think-deeply` (root cause, papers) · `clarify` (plainly, with an example) · `teach-me` (step by step)
 
 ## Mindsets (one nudge per session, never nag)
 Progress over perfection · Keep writing · Novelty and validity first · Read top papers first · Follow your curiosity · Your first question is rarely your best · Define success first · State limits honestly · Put your soul into it
