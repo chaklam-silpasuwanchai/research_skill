@@ -14,9 +14,10 @@ Focus: `chi`/`nlp` (new), or `docs`, `agents`, `cleanup`. No `AGENTS.md` or `com
 4. Commit. Seed the board (`update-board` seed list), show the top 3, mention once that a Claude Code mod can keep it beside the chat, show `references/mindsets.md`, suggest `brain-dump`.
 
 ## Update (existing project)
+**Always the whole repo,** not just what changed since the last update: every folder, working file, log, result, and paper section.
 1. **Structure:** add any missing folder, working file, or root file from the templates. Never overwrite their content.
 2. **AGENTS.md and lab terms:** refresh `AGENTS.md` (keep venue, mode, language, lab defaults) and both lab-terms copies. **Never touch `preferences.md`**; move any old *My preferences* lines from `AGENTS.md` into it.
-3. **Working files:** read `log.md`, `review.md`, `experiment_logs/`, and `results/` since the last update; bring `current_status.md`, `experimental_design.md`, `implementation.md`, `related_work.md`, `terms.md`, and the board in line (`update-board` rules).
+3. **Working files:** read all of `log.md`, `review.md`, `experiment_logs/`, and `results/`; bring `current_status.md`, `experimental_design.md`, `implementation.md`, `related_work.md`, `terms.md`, and the board in line (`update-board` rules).
 4. **Cleanup** (`references/cleanup.md`): **safe junk** (caches, LaTeX build files, `.DS_Store`, empty folders) → clean it and tell; **their work** (stray files, `_v2`/`final` copies, unused or big files) → suggest and ask first; tidy duplicate rows in the working files.
 5. **Paper:** mark sections behind the new work `⚠ stale: <why>` and suggest `/update-paper <section>`.
 6. **Venue:** flag a newer template.
