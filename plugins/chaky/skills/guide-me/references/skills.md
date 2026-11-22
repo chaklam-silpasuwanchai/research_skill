@@ -16,4 +16,5 @@ Say "guide me" and Chaky suggests a skill; you choose. Or type `/<skill> <focus>
 | want to write | `update-paper` | Your story first (with alternative storylines), then sections |
 | want reviewers' opinions | `review` | Three reviewers, a meta-review, citations, easy and difficult fixes |
 | feel the AI doesn't write like you | `setup-writing-style` | Learns from a paragraph, papers, emails, blogs; confirms your terms |
+| want everything checked from the ground up | `double-check` | Code, numbers, plan, paper, citations, notes, and board; fixes what is off |
 | want the repo tidy and up to date | `update-repo` | Brings the paper and the AI's notes up to date, cleans up clutter |

@@ -1,4 +1,4 @@
-# My personal research skill (v0.44.0)
+# My personal research skill (v0.45.0)
 
 I have recently tried out Claude Code for my research, and developed several key skills after many months of trial and error.   Hopefully this skill can help you as well in your research journey.   For your information, I have published in top venues like CHI and ACL, so you can trust me a little bit :P
 
@@ -6,6 +6,7 @@ I have recently tried out Claude Code for my research, and developed several key
 1. **Everything revolves around tickets and priorities.** I found it extremely difficult to keep track of all the things I need to do, especially when AI keeps throwing information at you.   So the first idea revolves around tickets and priorities which can be found in `components/tickets.md`.  It is inspired by agile practices.   You can use `/update-board` to ask AI to check all tasks, reprioritize stuff, so you don't get lost.
 2. **You are the main researcher, not AI.** I found AI loves to confuse me when doing research, so I built my skill around the idea that I am the one who drives. For those who know,  there is a very popular skill out there named `autoresearch` which does not suit me very much.   My favorite skill, for example, is `/think-deeply`, which I use when I think AI is not thinking multi-dimensionally or has not read enough papers.   Another favorite skill is a simple `/clarify` which asks AI to speak in plain English, provide enough context, and always give at least one example.   Another one is `/brain-dump` which allows me to tell AI what I am thinking via interviewing.
 3. **Define terms early.** It can get very confusing after a few days of talking to AI;  one thing I found extremely useful is agreeing with AI on a set of terms that we work with.  This results in better collaboration with AI,  better writing, and just overall better research.  You can take a look at the initial terms I define for myself:  [`lab-terms.md`](plugins/chaky/skills/update-repo/assets/lab-terms.md). Every project gets the core in `terms.md` and the full list in `components/lab-terms.md`.
+4. **The paper is the source of truth.** Whatever the AI does, it rewrites the paper, so the paper always says what the project is now. The files in `components/` are just internal notes for the AI.
 
 ## How to set up
 You need: a paid Claude plan (Pro or higher), Git (`git --version` to check), and an empty folder for your paper.
@@ -50,6 +51,7 @@ This is a cheat sheet.
 | want to experiment with something | `/plan-method` | Lets AI help plan a fair experiment and the right tools, learned from 5-15 close papers; then pilot and run |
 | want reviewers' opinions | `/review` | Three reviewers and a meta-review, every citation checked, a Claude/ChatGPT/Gemini check, improvements split into easy and difficult |
 | feel the AI doesn't write like you | `/setup-writing-style` | Learns from your Google Scholar link, past papers, a paragraph, emails, or blogs, and confirms the terms you'll use |
+| want everything checked from the ground up (code, numbers, paper, board) | `/double-check` | Rechecks the code and every number, rewrites the paper where it is off, checks citations, and updates the notes and board; asks before costly reruns or code fixes behind a result |
 | want your repo tidy and up to date | `/update-repo` | Brings the paper and the AI's internal notes up to date, and cleans up clutter (asks before moving or deleting) |
 
 ## Claude mod
