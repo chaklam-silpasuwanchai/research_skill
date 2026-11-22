@@ -15,7 +15,7 @@ Suggested: /update-board to re-sort tasks after the break. Or: /update-paper int
 ```
 
 ## 1. Read
-- `current_status.md`, the board (`tickets.md`), the latest entries in `log.md`, and `git log` since the last log date.
+- The paper (`paper/`, the source of truth), `current_status.md`, the board (`tickets.md`), the latest entries in `log.md`, and `git log` since the last log date.
 - No project → suggest `update-repo`. Nothing else.
 
 ## 2. Say (five lines at most, plain words, their terms)
