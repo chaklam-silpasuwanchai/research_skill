@@ -5,7 +5,7 @@ description: Reads the 10-15 closest papers (what to copy, your one difference),
 
 # Update Paper
 
-Focus: `papers`, `story`, `argue`, `abstract`, `intro`, `related work`, `method`, `results`, `discussion`, `limitations`, `response`, `figure`, `stats`, `polish`. No results yet → write the rest, mark `[TODO: results]`.
+**No focus → the whole paper,** not just what changed recently: the papers, the story, the title, and every section, table, and figure, checked against the latest work and every rule here; `⚠ stale` sections first. A focus narrows it: `papers`, `story`, `argue`, `abstract`, `intro`, `related work`, `method`, `results`, `discussion`, `limitations`, `response`, `figure`, `stats`, `polish`. No results yet → write the rest, mark `[TODO: results]`.
 
 ## 1. Papers first
 Fewer than 10 verified papers in `related_work.md`, focus `papers`, or "is this novel?" → follow `references/papers.md`: search, read the 10-15 closest, the field in three lines (consensus, disagreements, open questions), what to copy, **the one difference**, novelty and validity. A paper in hand → `references/triage.md`; scoop check → `references/watch.md`.

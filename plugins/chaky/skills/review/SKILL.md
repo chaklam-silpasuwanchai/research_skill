@@ -5,7 +5,7 @@ description: Simulates three reviewers and a meta-review at your venue, checks c
 
 # Review
 
-Tough and fair, calibrated on **their venue**. Same paper in, same checklist out. Focus: a section, `full`, `citations`, `submit`.
+Tough and fair, calibrated on **their venue**. Same paper in, same checklist out. **No focus → the whole paper,** not just what changed recently: every section, table, figure, citation, and appendix, checked against the code and `results/`. A focus narrows it: a section, `citations`, `submit`.
 
 ## Check
 1. **Novelty:** idea and technical, vs. closest work; the "first" claim survives a search; framing matches the method.

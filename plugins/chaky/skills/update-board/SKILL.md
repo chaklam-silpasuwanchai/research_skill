@@ -7,6 +7,8 @@ description: Recaps the project and fixes the board - adds forgotten tickets, dr
 
 The board is `components/tickets.md`: header (Destination, Mode, Out of scope), Fog, a Tickets table (Ticket · Type · Pri · Size · Status · Done when), and Done. Keep this format. New project → seed from `references/seed-board.md`; done-when defaults in `references/done-when.md`.
 
+**Always the whole project,** not just what changed recently: every ticket on the board, all of `log.md` and `review.md`, every working file in `components/`, and the whole paper.
+
 ## 1. Recap (≤ 5 lines)
 What was done since last time, where the paper is, what is blocked.
 

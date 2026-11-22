@@ -31,6 +31,7 @@ Each rule lives in exactly one file; everything else points to it. Add a new rul
 | Checking unexpected results before calling them surprising | `plan-method/references/rigor.md` |
 | Confirming the researcher's hypothesis | `plan-method/SKILL.md` |
 | Validating AI-based measures (simulated users, LLM judges, trackers, checkers) | `plan-method/references/ai-measures.md` |
+| Default scope: no focus → everything, not just recent (`review`, `update-paper`, `update-board`) | each skill's own `SKILL.md` |
 | Citation checking | `review/references/citations.md` |
 | Root cause in depth, 360° look | `think-deeply/SKILL.md` |
 | Lab vocabulary | `update-repo/assets/lab-terms.md` |
