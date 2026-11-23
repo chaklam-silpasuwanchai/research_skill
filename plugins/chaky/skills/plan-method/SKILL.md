@@ -34,6 +34,8 @@ Any ❌ → fix its root cause first.
 
 ## 4. Replicate, then pilot
 Optional: reproduce the closest paper's key result as the baseline. Pilot with 2-3 people or a small sample: does it run, does the DV move? Something off → find the cause.
+- Write the stopping rule for practice and pilot rounds before round 1: with a randomised simulator every small round can find a new rare bug, so "until clean" may never come. *E.g. "stop when a round finds no new kind of failure; count rare one-offs in the main run with a software-health check that reads logs, not outcomes."*
+- Fixed what a check failed? Those cases are now development data; test the fix on a fresh, committed set (`references/rigor.md`).
 
 ## 5. Freeze (critical: ask first)
 Five musts ✅; hypotheses, analysis, stopping rule → commit, `git tag plan-freeze-1`. Later changes are logged deviations.

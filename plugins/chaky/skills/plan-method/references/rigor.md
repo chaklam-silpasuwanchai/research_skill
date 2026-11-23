@@ -33,6 +33,7 @@ State it once in the paper, in a short paragraph before the first results table:
 - the analysis plan is fixed before the main study (`git tag plan-freeze-1`); no trying tests until one is significant
 - correct for multiple comparisons; report **all** conditions and measures, including the ones that didn't work
 - numbers recomputed by a script from raw data
+- **A failed test set becomes development data.** Once you have read a check's failures and fixed them, rerunning those cases shows the fix works on them, but it is no longer fresh evidence. Before rerunning, write a new set of the same kinds with the same pass rules, commit it, then run the fix on it. *E.g. a fact checker failed 7 of 12 cases; a fresh 24-case set, written before the rerun, became the real test; the old 12 are reported as development only.*
 
 ## When results are unexpected (the one home)
 A surprising result is usually a bug first. Before calling it surprising, rule out each of these, in order, and log every check in `log.md`:

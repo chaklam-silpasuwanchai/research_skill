@@ -11,6 +11,9 @@ Everything, from the ground up, in this order: each layer is checked against the
 - Result-deciding code has a tiny test, and the tests pass.
 - What ran matches the plan: conditions, configs, models, prompts, seeds (`experimental_design.md`, `experiment_logs/`). Plan deviations are logged.
 - No leakage between train and test, or between conditions (`plan-method/references/rigor.md`).
+- **Changed a detector, parser, or rule?** Run the old and new versions over every past input and read every case whose result changes. Accept only if each change is a fix. *E.g. a new "current age" pattern would have dropped real ages like "current age is 40"; the diff caught it before any run.*
+- **Version labels match the code.** After changing a component, bump its version string; confirm the version recorded in each output matches the code that produced it. *E.g. v9 code ran under a "v8c" label, so every output would have been filed under the wrong version.*
+- **Edited a shared prompt?** Compare output-format error rates before and after. *E.g. one wording change took format failures from 4% to 48%.*
 - The one command reruns everything. Rerun on a small case; a full or paid rerun is **critical: ask first**.
 - A bug in code behind a result is **critical**: show the cause and the fix, then ask.
 

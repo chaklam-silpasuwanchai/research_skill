@@ -4,6 +4,15 @@
 
 **Names:** lowercase hyphenated words starting with a verb (`update-paper`, `setup-writing-style`). `guide-me` is the front door.
 
+## 0.46.0
+Five lessons from real runs, each with an example:
+- **A failed test set becomes development data** (`rigor.md`; pointers from the `plan-method` pilot step and `ai-measures.md` rule 7): after fixing what a check failed, test the fix on a fresh, committed set.
+- **Diff old against new before accepting a rule change** (`double-check` step 1; pointer in `think-deeply` step 6): read every past input whose result changes.
+- **Version labels match the code that ran** (`double-check` step 1).
+- **Decide when practice and pilot rounds stop before round 1** (`plan-method` pilot step).
+- **Two root-cause habits** (`think-deeply` step 2): the component that complains may be right, so trace upstream first; prefer a rule for what valid input looks like over a list of exceptions.
+- Also: after editing a shared prompt, compare output-format error rates before and after (`double-check` step 1).
+
 ## 0.45.0
 - **New skill `double-check`:** checks the whole project from the ground up, in order (code, numbers, plan, paper, notes and repo, board), and fixes what is off so everything agrees with the latest work. It follows each skill's own rules instead of repeating them. Full or paid reruns and fixes to code behind a result are critical (ask first). It ends with one report (Checked, Fixed, Needs you, Next). Listed in the README, `guide-me`, the `AGENTS.md` template, trigger phrases, the issue form, and scenario 77.
 - README: fourth mindset, "The paper is the source of truth."
