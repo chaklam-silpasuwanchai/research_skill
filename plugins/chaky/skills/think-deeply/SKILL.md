@@ -9,10 +9,12 @@ One question: **is there a better path than this?** "This" = the latest message,
 
 1. **Restate** the problem and the solution in one sentence each.
 2. **Root cause:** why does the problem exist? Ask "why?" until you reach the cause. Does the proposal fix the **cause** or only a **symptom**? A symptom fix is never the recommendation. If the problem is in a measuring tool, classify it: software bug, design of the measure, or model limit (record and stop).
+   - **The one that complains may be right:** trace upstream before blaming it. *E.g. a checker kept rejecting "does not meet your requirement"; an upstream parser had read 1,500,000 baht as a percent.*
+   - **Say what valid input looks like rather than listing exceptions.** *E.g. a list of end-age phrases kept missing new wordings ("lapse at age 55"); "a current age is a present-tense statement" fixed the whole class.*
 3. **360° views** (a line each): reviewer · participant or data · advisor · skeptic · practitioner · ethics.
 4. **First principles:** the real goal underneath; the simplest thing that meets it.
 5. **Assumptions:** 2-4 the solution rests on; true here? Take the one that matters most, ask "why?" until it is checkable, then check it (repo, paper, number).
-6. **Systems:** what else it touches; what happens next, and after that.
+6. **Systems:** what else it touches; what happens next, and after that. Changing a rule? Diff old against new over all past inputs first (`double-check`).
 7. **Learn from other papers (always; never skip):** how do papers usually fix this root cause or handle this choice, and did it work? 3-5 recent top-venue papers (`related_work.md`, or a quick search per `update-paper/references/papers.md`). No papers checked yet → do that before recommending.
 8. **Propose the most sensible approach.** Compare 2-3 different paths on: goal · evidence from papers · validity risk · time and cost · deadline. Pick the winner (a mix or the current plan is fine).
 
