@@ -4,6 +4,9 @@
 
 **Names:** lowercase hyphenated words starting with a verb (`update-paper`, `setup-writing-style`). `guide-me` is the front door.
 
+## 0.46.1
+- **New separate plugin `teach`** in this marketplace (Chaky itself is unchanged). Its first skill, `make-lecture-deck`, builds and revises lecture and workshop decks the way Chaklam wants them, and works through his slide comments one by one. Its references hold the rules learned from many rounds of his feedback (`rules.md`), how to pick interesting case studies (`cases.md`), the comment workflow (`comments.md`), and the content decisions from the GenAI lecture (`genai-content.md`). Install with `/plugin install teach@research_skill`.
+
 ## 0.46.0
 Five lessons from real runs, each with an example:
 - **A failed test set becomes development data** (`rigor.md`; pointers from the `plan-method` pilot step and `ai-measures.md` rule 7): after fixing what a check failed, test the fix on a fresh, committed set.

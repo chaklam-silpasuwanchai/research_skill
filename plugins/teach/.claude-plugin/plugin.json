@@ -1,0 +1,12 @@
+{
+  "name": "teach",
+  "version": "0.1.0",
+  "description": "Teaching skills: build and revise lecture and workshop decks the way Chaklam wants them, and work through his slide comments.",
+  "author": {
+    "name": "Chaklam Silpasuwanchai"
+  },
+  "homepage": "https://github.com/chaklam-silpasuwanchai/research_skill",
+  "repository": "https://github.com/chaklam-silpasuwanchai/research_skill",
+  "license": "MIT",
+  "keywords": ["teaching", "lecture", "slides", "workshop", "presentation"]
+}
